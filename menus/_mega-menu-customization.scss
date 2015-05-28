@@ -32,8 +32,7 @@
   .flexnav {
     margin: 0;
     padding: 0;
-
-/* First level */
+    /* First level */
     > li {
       margin-bottom: 0;
       a {
@@ -109,7 +108,7 @@
       }
     }
     li {
-/* second level */
+      /* second level */
       ul.flexnav-show {
         margin: 0;
         //background-color: transparent;
@@ -152,20 +151,66 @@
 
 @media (max-width: 767px) {
   #main-menu .container {
-    width: 97%;
-      nav.mainmenu {
+    width: 100%;
+    margin: 0 11px; 
+    nav.mainmenu {
         width: 100%;
-      }
-  }
+      } 
+    li.item-with-ul ul {
+      padding: 0 11px;
+      margin-right: 0;
+      margin-left: 0;
 
+      div.sub {
+        background-color: inherit;
+      }
+      div.columns {
+        background-color: inherit;
+
+        h3 {
+         font-size: 1.1em;
+          color: #FFF;
+          font-weight: bold;
+          margin-bottom: 2px;
+          line-height: 1.4em; 
+          p, a {
+            padding: 5px 0;
+            background-color: inherit;
+            height: 0;
+            line-height: 0;
+          }
+        }
+      }
+      p {
+        background-color: inherit;
+        height: 0;
+        line-height: 0;
+        a {
+          background-color: inherit;
+          height: 0;
+          line-height: 0;
+        }
+      }
+    }
+  }
   #main-menu .flexnav > li {
     position: relative;
 
     ul.flexnav-show {
       padding: 0 11px;
+
+      div.columns {
+        p {
+          height: 21px;
+          line-height: 11;
+          a {
+            height: 11px;
+            line-height: 11px;
+          }
+        }
+      }
     }
   }
-
 } 
 @media (min-width: 768px) and (max-width: 959px) {
   #main-menu {
@@ -456,35 +501,3 @@
     }
   }
 }
-
-
-/* Khaled's add to overcome the mobile white flash on close */
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-/*  #Mobile (Portrait)
-================================================== */
-/* Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-  .container {
-    wdith: 100%;
-    margin: 0 11px; } 
-    .item-with-ul ul div.sub, .item-with-ul ul div.sub p, .item-with-ul ul div.sub p a {
-      background-color: inherit;
-    }
-    .item-with-ul ul div.sub p, .item-with-ul ul div.sub p a {
-      height: 0;
-      line-height: 0;
-    }
-    .item-with-ul ul.flexnav-show div.sub p {
-      height: 21px;
-      line-height: 11;
-    }
-    .item-with-ul ul.flexnav-show div.sub p a {
-      height: 11px;
-      line-height: 11px;
-    }
-}
-/* #Mobile (Landscape)
-================================================== */
-/* Note: Design for a width of 480px */
-
-/*# sourceMappingURL=style.css.map */

@@ -1538,14 +1538,48 @@ NEW:
 
 @media (max-width: 767px) {
   #main-menu .container {
-    width: 97%; }
+    width: 100%;
+    margin: 0 11px; }
     #main-menu .container nav.mainmenu {
       width: 100%; }
+    #main-menu .container li.item-with-ul ul {
+      padding: 0 11px;
+      margin-right: 0;
+      margin-left: 0; }
+      #main-menu .container li.item-with-ul ul div.sub {
+        background-color: inherit; }
+      #main-menu .container li.item-with-ul ul div.columns {
+        background-color: inherit; }
+        #main-menu .container li.item-with-ul ul div.columns h3 {
+          font-size: 1.1em;
+          color: #FFF;
+          font-weight: bold;
+          margin-bottom: 2px;
+          line-height: 1.4em; }
+          #main-menu .container li.item-with-ul ul div.columns h3 p, #main-menu .container li.item-with-ul ul div.columns h3 a {
+            padding: 5px 0;
+            background-color: inherit;
+            height: 0;
+            line-height: 0; }
+      #main-menu .container li.item-with-ul ul p {
+        background-color: inherit;
+        height: 0;
+        line-height: 0; }
+        #main-menu .container li.item-with-ul ul p a {
+          background-color: inherit;
+          height: 0;
+          line-height: 0; }
 
   #main-menu .flexnav > li {
     position: relative; }
     #main-menu .flexnav > li ul.flexnav-show {
-      padding: 0 11px; } }
+      padding: 0 11px; }
+      #main-menu .flexnav > li ul.flexnav-show div.columns p {
+        height: 21px;
+        line-height: 11; }
+        #main-menu .flexnav > li ul.flexnav-show div.columns p a {
+          height: 11px;
+          line-height: 11px; } }
 @media (min-width: 768px) and (max-width: 959px) {
   #main-menu {
     width: 100%; }
@@ -3133,10 +3167,6 @@ ul.flex-direction-nav {
 /*  #Mobile (Portrait)
 ================================================== */
 /* Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-  .container {
-    wdith: 100%;
-    margin: 0 11px; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
