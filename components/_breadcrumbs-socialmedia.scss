@@ -1,0 +1,127 @@
+#breadcrumbs {
+    height: 30px;
+    width: 100%; /* TOTAL height: 40px; */
+    padding-top: 8px;
+    padding-bottom: 2px;
+    margin-bottom: 25px;
+    font-size: .9em;
+    color: #6d6e70;
+    /*border-bottom: 1.5px solid #FCFCFC;
+    -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
+    box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
+    background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x;
+}
+
+#breadcrumbs a {
+    text-decoration: none;
+    color: #698cc7;
+}
+
+#breadcrumbs .crumbs {
+    float: left;
+    /*margin-left: 10px;*/
+    padding-top: 2px;
+}
+
+#breadcrumbs .social-media {
+    float: right;
+    margin-bottom: 0;
+    padding-top: 4px;
+}
+
+#breadcrumbs .social-media li a#print-page {
+    background: transparent url(../../images/icon-print.png) left 1px no-repeat;
+}
+
+#breadcrumbs .social-media li a#print-page span {
+    display: block;
+    text-indent: -9999px;
+}
+
+#breadcrumbs .social-media li a#interC {
+    background: transparent url("../../images/icon_info.png") left 1px no-repeat;
+}
+
+#breadcrumbs .social-media li a#interC span {
+    display: block;
+    text-indent: -9999px;
+}
+
+#breadcrumbs .social-media .chicklets {
+    text-indent: -9999px;
+}
+
+/*			#breadcrumbs .social-media a {
+				width: 16px; height: 16px;
+				background: url("../images/icon-share-google-plus.png") no-repeat scroll 50% 50% transparent;
+			}
+				#breadcrumbs .social-media a.social_facebook {
+					background: url("../images/icon-share-facebook.png") no-repeat scroll 50% 50% transparent;
+				}
+				#breadcrumbs .social-media a.social_twitter {
+					background: url("../images/icon-share-twitter.png") no-repeat scroll 50% 50% transparent;
+				}
+				#breadcrumbs .social-media a.social_linkedin {
+					background: url("../images/icon-share-linkedin.png") no-repeat scroll 50% 50% transparent;
+				}
+				#breadcrumbs .social-media a.social_youtube {
+					background: url("../images/icon-share-youtube.png") no-repeat scroll 50% 50% transparent;
+				}
+				#breadcrumbs .social-media a.social_email {
+					background: url("../images/icon-share-social-email.png") no-repeat scroll 50% 50% transparent;
+				}
+				#breadcrumbs .social-media a.social_rss {
+					background: url("../images/icon-share-social-rss.png") no-repeat scroll 50% 50% transparent;
+					margin-right: 0;
+				}*/
+
+@media only screen and (max-width: 767px) {
+
+    #breadcrumbs  {
+        display: none;
+    }
+}
+
+/* - - - - - - - - Footer Social Media - - - - - - - - */
+
+.social-media {
+    float: left;
+}
+
+.social-media li {
+    float: left;
+}
+
+.social-media li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../images/icon-facebook.png) 50% 50% no-repeat;
+    transition: none;
+}
+
+.social-media li a:hover,
+.social-media li a:focus {
+    transition: none;
+}
+
+.social-media li a.social_twitter {
+    background: url(../../images/icon-twitter.png) 50% 50% no-repeat;
+}
+
+.social-media li a.social_linkedin {
+    background: url(../../images/icon-linkedin.png) 50% 50% no-repeat;
+}
+
+.social-media li a.social_youtube {
+    background: url(../../images/icon-youtube.png) 50% 50% no-repeat;
+}
+
+.social-media li a.social_rss {
+    background: url(../../images/icon-rss.png) 50% 50% no-repeat;
+}
+
+.social-media li div {
+    display: none;
+}

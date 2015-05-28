@@ -1,0 +1,24 @@
+/*   - - - - - - - .custom program specific - - - - - - -   */
+
+.custom #page-banner {
+    background: none;
+    background: #c6cf62;
+    height: 100px;
+}
+
+.custom.landing #page-banner {
+    height: 250px;
+}
+
+.custom #page-banner .container {
+    background: none;
+    height: 100px;
+}
+
+.custom.landing #page-banner .container {
+    height: 250px;
+}
+
+.custom h2.page-title {
+    color: #fff;
+}

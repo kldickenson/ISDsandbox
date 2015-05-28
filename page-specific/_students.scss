@@ -1,0 +1,41 @@
+#student-feature h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#student-feature img {
+    width: 90px;
+    height: 90px;
+    border: #fff 5px solid;
+}
+
+#student-feature a {
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+
+
+/*   - - - - - - - .students Current Student specific - - - - - - -   */
+.students #page-banner {
+    background-image: none;
+    background-color: #2f63a2;
+}
+
+.students h2.page-title {
+    color: #fff;
+    padding-top: 55px;
+}
+
+.students.landing h2.page-title {
+    padding-top: 100px;
+    margin-right: 480px;
+}
+
+/*
+.students.landing #page-banner .container.currentstudents	{
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-current-students-title.jpg") top right no-repeat;
+}
+*/

@@ -1,0 +1,50 @@
+#footer {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background: #5c5c5c url(../../images/footer-ribbon-bg.gif) left top repeat-x;
+}
+
+#footer .columns {
+    height: 25px;
+}
+
+#footer li {
+    line-height: 1.2em;
+}
+
+#footer .siteinfo {
+    color: #fff;
+    font-size: 70%;
+    text-align: center;
+}
+
+#footer .siteinfo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .siteinfo a:focus,
+#footer .siteinfo a:hover {
+    text-decoration: underline;
+}
+
+#footer-nav {
+    float: right;
+}
+
+#footer-nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+#footer-nav a {
+    color: #fff;
+    font: 400 85% 'Open Sans', sans-serif;
+}
+
+#footer-nav a:hover,
+#footer-nav a:focus {
+    text-decoration: none;
+    color: #fdeb72;
+}

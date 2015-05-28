@@ -1,0 +1,82 @@
+#teasers {
+    /*height: 160px;*/
+    /* Total height: 180px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffe466 url(../../images/branding-ribbon-bg.gif) left top repeat-x;
+}
+
+#teasers .teasers {
+    margin-left: 0;
+    margin-right: 0;
+    /*width:972px;*/
+}
+
+#teasers a {
+    display: block;
+    padding: 0;
+}
+
+/* bottom image with overlay */
+#teasers a.bottom-img {
+    height: 140px;
+    position: relative;
+    max-width: 225px;
+}
+
+#teasers a.bottom-img div.plus {
+    color: white;
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 110px;
+    font-size: 2em;
+}
+
+#teasers a.bottom-img img {
+    z-index: 5;
+}
+
+#teasers a.bottom-img div.overlay {
+    /*background: rgba(0, 100, 200, 0.5);*/
+    background: rgba(0, 100, 200, 0.7);
+    /*background: url(../../images/branding-image-overlay.png) left bottom no-repeat;*/
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+#teasers a.bottom-img div.overlay span {
+    bottom: 15px;
+    /*color: #bbd7e5;*/
+    color: #fff;
+    position: absolute;
+    /*left: 10px;*/
+    width: 100%;
+    text-align: center;
+}
+
+#teasers .thinking,
+#teasers .leadership,
+#teasers .disciplines,
+#teasers .technology {
+    height: 140px;
+}
+
+#teasers .thinking {
+    background: url("//confluence.engin.umich.edu/download/attachments/21103180/integrative-thinking.jpg") 50% 50% no-repeat;
+}
+
+#teasers .leadership {
+    background: url("//confluence.engin.umich.edu/download/attachments/21103180/leadership.jpg") 50% 50% no-repeat;
+}
+
+#teasers .disciplines {
+    background: url("//confluence.engin.umich.edu/download/attachments/21103180/acrossdisciplines.jpg") 50% 50% no-repeat;
+}
+
+#teasers .technology {
+    background: url("//confluence.engin.umich.edu/download/attachments/21103180/designtech.jpg") 50% 50% no-repeat;
+}

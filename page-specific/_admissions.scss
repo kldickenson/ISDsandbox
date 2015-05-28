@@ -1,0 +1,36 @@
+/*   - - - - - - - .admissions program specific - - - - - - -   */
+
+.admissions #page-banner {
+    background: none;
+    background: #933da6;
+    height: 100px;
+}
+
+.admissions.landing #page-banner {
+    height: 250px;
+}
+
+.admissions #page-banner .container {
+    background: none;
+    height: 100px;
+}
+
+.landing.admissions #page-banner .container {
+    height: 250px;
+}
+
+.admissions h2.page-title {
+    color: #fff;
+}
+
+.admissions.landing h2.page-title {
+    padding-top: 100px;
+    margin-right: 480px;
+}
+
+/*
+	.admissions.landing #page-banner .container.admissionsaid	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-admissions-aid-title.jpg") top right no-repeat;
+	}	
+
+*/

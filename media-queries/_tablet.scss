@@ -1,0 +1,32 @@
+/*  #Tablet
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+    /* to move search out of the menu bar and up into the header */
+    #audience-menu {
+        padding-top: 5px;
+    }
+
+
+    /*  Homepage specific */
+    #action .buttons a.actions h4 {
+        font-size: 1.4em;
+        padding-top: 9px;
+        padding-bottom: 5px;
+    }
+
+    #action .tagline {
+        font-size: 1.75em;
+    }
+
+    #teasers {
+        display: none;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}

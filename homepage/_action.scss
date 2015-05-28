@@ -1,0 +1,184 @@
+#action {
+    /*height: 240px;*/
+    /* Total height: 280px; */
+    padding-top: 30px; /* need this for homepage WITHOUT #ribbon */
+    background: #f3f2f1 url("../../images/rule-embossed.gif") repeat-x scroll left top;
+}
+
+#action .mini-feature {
+    height: 180px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    /*border: #fff solid 5px;*/
+    background: url(../../images/mini-feature-background.jpg) left top no-repeat; /*32113: ../images/lean-pd-mini-feature.jpg*/
+}
+
+#action .mini-feature .overlay {
+    height: 140px;
+    /*background: url(../../images/mini-feature-overlay.png) 50% 50% no-repeat;*/
+}
+
+#action h3 {
+    padding-top: 13px;
+    padding-left: 30px; /*changed from 100px 03/25/13 for Online Grad Courses Mini Feature*/
+    line-height: 1em; /*added 03/25/13 for Online Grad Courses Mini Feature*/
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    /*added 5/29/13*/
+}
+
+#action h3 span {
+    color: #ffcc33; /*online grad course spring green #A9B84E...32113:#efb500*/
+    font-weight: bold; /*added 03/25/13 for Online Grad Courses Mini Feature*/
+}
+
+#action h3 a:link {
+    text-decoration: none;
+}
+
+#action h3 a:visited {
+    text-decoration: none;
+}
+
+#action h3 a:hover {
+    text-decoration: none;
+}
+
+#action h3 a:active {
+    text-decoration: none;
+}
+
+#action .mini-feature img {
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#action p {
+    width: 110px;
+    color: #ffffff;
+    float: left;
+    margin-left: 30px;
+    display: block;
+    margin-top: 35px;
+    line-height: 1.1em;
+    font-size: 13px;
+}
+
+#action p a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#action p a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#action p a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+#action p a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#action .buttons {
+    height: 160px;
+    /*width: 560px;*/
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+#action .buttons a.actions {
+    display: block;
+    float: left;
+    height: 40px; /* TOTAL height: 50px; */
+    width: 80%;
+    padding: 10px 5%;
+    margin-bottom: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    border: #fff solid 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#action .buttons a.actions:hover,
+#action .buttons a.actions:focus {
+    text-decoration: none;
+}
+
+#action .buttons a.actions h4 {
+    font-size: 1.7em;
+    color: #fff;
+}
+
+#action .buttons a.actions h4 span {
+    font-size: 65%;
+}
+
+#action .buttons a.actions.first {
+    /* programs of study */
+    background: url(../../images/button-bg-programs-off.gif) left top repeat
+}
+
+#action .buttons a.actions.first:hover,
+#action .buttons a.actions.first:focus {
+    /* programs of study */
+    background: url(../../images/button-bg-programs-hover.gif) left top repeat
+}
+
+#action .buttons a.actions.second {
+    /* get started */
+    margin-right: 0;
+    background: url(../../images/button-bg-getstarted-off.gif) left top repeat
+}
+
+#action .buttons a.actions.second:hover,
+#action .buttons a.actions.second:focus {
+    /* get started */
+    background: url(../../images/button-bg-getstarted-hover.gif) left top repeat
+}
+
+#action .buttons a.actions.third {
+    /* events */
+    /*margin-bottom: 0;*/
+    background: url(../../images/button-bg-events-off.gif) left top repeat
+}
+
+#action .buttons a.actions.third:hover,
+#action .buttons a.actions.third:focus {
+    /* events */
+    background: url(../../images/button-bg-events-hover.gif) left top repeat
+}
+
+#action .buttons a.actions.fourth {
+    /* upcoming programs */
+    margin-right: 0;
+    margin-bottom: 0;
+    background: url(../../images/button-bg-upcoming-off.gif) left top repeat
+}
+
+#action .buttons a.actions.fourth:hover,
+#action .buttons a.actions.fourth:focus {
+    /* upcoming programs */
+    background: url(../../images/button-bg-upcoming-hover.gif) left top repeat
+}
+
+#action .tagline {
+    padding-top: 15px;
+    border-top: 1.5px solid #e7e6e3;
+    box-shadow: inset 0 1px 0 #fcfcfc;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.3em;
+    color: #5082b9;
+    letter-spacing: 3px;
+}

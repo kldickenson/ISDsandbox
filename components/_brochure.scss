@@ -1,0 +1,37 @@
+/*
+NEW:
+<div class="brochure">
+	<div class="caption left">
+		<a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank">
+			<img src="http://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure-thumbnail.jpg" alt="Lean Leadership Brochure" border="0">
+		</a>
+	</div>
+	<p><a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank"><strong>Digital Brochure</strong></a></p>
+	<p>Detailed information in a shareable format.</p>
+	<p><a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank">Download now...</a></p>
+</div>
+*/
+
+.brochure {
+	height: 137px;
+	padding: 10px 10px 0 10px; 
+	background: #176eb5;
+	font-size: .9em; 
+
+	div.caption {
+		margin-bottom: 0;
+	}
+	p {
+		margin-top: 10px;
+		margin-bottom: 2px; 
+		color: #fff; 
+		font-size: 1.2em;
+	}
+	a {
+		text-decoration: none;
+		color: #ffcc33;
+	}
+	strong {
+		color: #fff;
+	}
+}

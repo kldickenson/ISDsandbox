@@ -1,0 +1,72 @@
+/*   - - - - - - - Print specific styles - - - - - - -   */
+
+@media print {
+
+    body {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: arial, verdana, sans-serif;
+    }
+
+    #main-menu,
+    #audience-menu,
+    #footer-nav,
+    #breadcrumbs .social-media,
+    #footer .social-media,
+    #footer div.five, #footer div.eleven {
+        display: none;
+    }
+
+    #page-banner,
+    #page-banner .container,
+    .about #page-banner,
+    .about #page-banner .container
+    .about.landing #page-banner,
+    .about.landing #page-banner .container,
+    .admissions #page-banner,
+    .admissions #page-banner .container,
+    .admissions.landing #page-banner,
+    .admissions.landing #page-banner .container.admissionsaid,
+    .grad#page-banner,
+    .grad #page-banner .container,
+    .grad #page-banner .container.degproglanding,
+    .grad.landing #page-banner,
+    .grad.landing #page-banner .container.degproglanding,
+    #footer {
+        background: none;
+    }
+
+    #page-banner,
+    #page-banner .container,
+    .about #page-banner,
+    .about #page-banner .container
+    .about.landing #page-banner,
+    .about.landing #page-banner .container,
+    .admissions #page-banner,
+    .admissions #page-banner .container,
+    .admissions.landing #page-banner,
+    .admissions.landing #page-banner .container.admissionsaid,
+    .grad#page-banner,
+    .grad #page-banner .container,
+    .grad #page-banner .container.degproglanding,
+    .grad.landing #page-banner,
+    .grad.landing #page-banner .container.degproglanding {
+        height: 100px;
+    }
+
+    h2.page-title {
+        padding-top: 20px;
+    }
+
+    .about #sidebar,
+    .admissions #sidebar {
+        display: none;
+    }
+
+    .about.landing #page-banner,
+    .admissions.landing #page-banner {
+        height: 100px;
+    }
+}

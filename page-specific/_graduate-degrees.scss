@@ -1,0 +1,174 @@
+/*   - - - - - - - .grad program specific - - - - - - -   */
+
+.grad #page-banner {
+    background: none;
+    background: #ffa609;
+    height: 100px;
+}
+
+.grad.landing #page-banner {
+    height: 250px;
+}
+
+.grad #page-banner .container {
+    background: none;
+    height: 100px;
+}
+
+.grad.landing #page-banner .container {
+    height: 250px;
+}
+
+.grad h2.page-title {
+    color: #fff;
+}
+.grad #page-content h4.course-title {
+    color: #58585a;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.grad .credits {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.grad #sidebar {
+    margin-top: 0;
+}
+
+#grad-menu {
+    width: 100%;
+    background: transparent url(../../images/rule-embossed.gif) left top repeat-x;
+}
+
+#grad-menu li {
+    /*list-style-position: inside;
+    list-style-image: url(../../images/icon-menuarrow-resting.png);*/
+
+    padding: 10px 0 10px 20px;
+    margin-bottom: 0;
+    background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x;
+}
+
+#grad-menu li:hover,
+#grad-menu li.current {
+    background-color: #fff;
+}
+
+#grad-menu a {
+    display: block;
+    padding: 5px 10px 5px 25px;
+    background: transparent url(../../images/icon-menuarrow-resting.png) 5px 50% no-repeat;
+    color: #6d6e70;
+    text-decoration: none;
+}
+
+#grad-menu a:hover,
+#grad-menu a:focus,
+#grad-menu li.current a {
+    background: transparent url(../../images/icon-menuarrow-active.png) 5px 50% no-repeat;
+    color: #1f6db4;
+    background-color: #fff;
+}
+
+
+/*LANDING STYLE PAGE BANNERS*/
+/*
+	.landing #page-banner .container.professionalprograms	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-professional-programs.jpg") top right no-repeat;
+	}
+	
+	.landing #page-banner .container.onlineproprograms	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-online-professional-programs.jpg") top right no-repeat;
+	}
+	
+	.landing #page-banner .container.sixsigma-landing	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-sixsigma-landingpg.jpg") top right no-repeat;
+	}
+*/
+/*GRAD STYLE PROGRAM BANNERS*/
+/*
+	.grad.landing #page-banner .container.onlinelearning	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-online-graduate-courses-ss13.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.onlinecourses-f13	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-online-graduate-courses-f13.jpg") top right no-repeat;
+	}
+	
+		.grad.landing #page-banner .container.onlinecourses-ss13	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-online-graduate-courses-ss13.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.mengmba	{
+		background: transparent url(https://confluence.engin.umich.edu/download/attachments/21103180/banner-meng-mba-title.jpg
+) top right no-repeat;
+	}
+	
+	
+	.grad.landing #page-banner .container.degproglanding	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-degree-programs-title.jpg") top right no-repeat;
+	}
+	
+		
+	.grad.landing #page-banner .container.proed	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-professional-programs-title.jpg") top right no-repeat;
+	}
+	
+	
+	.grad.landing #page-banner .container.custom-programs	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-customprograms-title.jpg ") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.auto	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/auto-banner.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.ceat	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/ceat-banner.jpg") top right no-repeat;
+	}	
+
+	.grad.landing #page-banner .container.fineng	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-financial-eng-title.jpg") top right no-repeat;
+	}	
+	
+	.grad.landing #page-banner .container.ds	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/ds-banner.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.ese	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/ese-banner.jpg") top right no-repeat;
+	}	
+	
+	.grad.landing #page-banner .container.fin	{
+		background: transparent url(../degree-programs/financial-engineering/images/fin-banner.jpg) top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.mfg	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/mfg-banner.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.mfgdoc	{
+		background: transparent url(../degree-programs/manufacturing-engineering-doctorate/images/mfgdoc-banner.jpg) top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.mfgmba	{
+		background: transparent url(../degree-programs/manufacturing-engineering-mba/images/mfgmba-banner.jpg) top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.game	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/game-banner.jpg") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.pharma	{
+		background: transparent url(../degree-programs/pharmaceutical-engineering/images/pharma-banner.jpg) top right no-repeat;
+	}
+	.grad.landing #page-banner .container.pharmeng	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-pharm-eng-title.jpg ") top right no-repeat;
+	}
+	
+	.grad.landing #page-banner .container.rav	{
+		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/rav-banner.jpg") top right no-repeat;
+	}
+*/

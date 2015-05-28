@@ -1,0 +1,72 @@
+#sidebar #upcoming div,
+.sidebar #upcoming div {
+    margin-bottom: 0;
+}
+
+#upcoming li.item {
+    float: left; /* to set up opposing floats */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: $color-mobile-blue;
+    font-size: .9em;
+    line-height: 1.3em;
+    h5 {
+        color: #fff;
+        margin-bottom: 0;
+    }
+    div {
+        color: #fff;
+        width: 50%;
+        float: left;
+        margin-left: 0;
+        span {
+            color: yellow !important;
+        }
+        &.class-name {
+            display: none;
+        }
+    }
+    a {
+        display: block;
+        float: right;
+        clear: none;
+        width: 40%;
+        vertical-align: top;
+        text-align: right;
+        padding-right: 0;
+        margin-right: 0;
+
+        .status {
+            float: right;
+            margin-right: 0;
+            padding: 2px 20px 0 0;
+            background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
+            text-align: right;
+            //height: 20px;
+            color: #fff;
+            font-weight: bold;
+
+            &:hover, &:focus {
+                color: $color-alert-yellow;
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png)
+            }
+        }
+    }
+    &.soldout {
+        background-color: rgb(231,231,231);
+        h5 {
+            color: rgb(150,150,150);
+              }
+        div {
+            color: rgb(150,150,150);
+
+        }
+        a {
+            .soldout   {
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png);
+                color: rgb(150,150,150);
+            }
+        }
+    }
+}

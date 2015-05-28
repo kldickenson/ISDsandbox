@@ -1,0 +1,55 @@
+// Pulling in all the Sass partials together
+
+
+@import "base";
+@import "colors";
+@import "layout-grid";
+
+// Adding page components
+@import "components/header";
+@import "components/search";
+@import "components/page-banner";
+@import "components/footer";
+@import "components/breadcrumbs-socialmedia";
+// sidebar components
+@import "components/sidebar";
+@import "components/upcoming";
+@import "components/pricing";
+// main content components
+@import "components/course-overview";
+@import "components/promos";
+@import "components/brochure";
+@import "components/tabs-tables";
+
+// Adding Menus
+@import "menus/audience";
+@import "menus/flexnav";
+@import "menus/mega-menu-customization";
+// menu components
+@import "menus/admissions";
+@import "menus/custom-features";
+
+// Page Specific
+@import "page-specific/about";
+@import "page-specific/how-to";
+@import "page-specific/students";
+@import "page-specific/events-calendar";
+@import "page-specific/news-archive";
+@import "page-specific/admissions";
+@import "page-specific/graduate-degrees";
+@import "page-specific/professionals";
+@import "page-specific/custom-programs";
+@import "page-specific/people";
+@import "page-specific/faculty-staff";
+
+// Homepage Specific
+@import "homepage/homepage-specific";
+@import "homepage/slider";
+@import "homepage/ribbon";
+@import "homepage/action";
+@import "homepage/teasers";
+
+// Adding Media Queries for Print, Table & Mobile
+@import "media-queries/print";
+@import "media-queries/tablet";
+@import "media-queries/mobile";

@@ -1,0 +1,277 @@
+#slider {
+    position: relative;
+    height: 390px; /* header + main-menu + slider = 80+50+260   */
+    width: 100%;
+    background-color: #fff;
+}
+
+.homeslider {
+    margin-bottom: 0;
+    border: none;
+}
+
+#slider .slide {
+    width: 100%;
+    height: 80px; /* header + main-menu + slider = 80+50+260=390 minus 300 padding  */
+    padding-top: 310px;
+    background: #fff url(../../images/slider-bg-blue.gif) 50% bottom repeat-x;
+}
+
+#slider .slide.first {
+    /*background: #fff url(../../images/) 50% bottom no-repeat;
+    background-color: pink;	*/
+}
+
+#slider .slide.second {
+    /*background: #fff url(../../images/) 50% bottom no-repeat;
+    background-color: pink;	*/
+}
+
+#slider .slide.third {
+    /*background: #fff url(../../images/) 50% bottom no-repeat;
+    background-color: pink;	*/
+}
+
+#slider .slide.fourth {
+    /*background: #fff url(../../images/) 50% bottom no-repeat;
+    background-color: pink;	*/
+}
+
+#slider .slide.fifth {
+    /*background: #fff url(../images/) 50% bottom no-repeat;
+    background-color: pink;	*/
+}
+
+#slider .slide h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#slider .slide h2 a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    color: #13477d;
+    text-decoration: none;
+}
+
+#slider .slide a:hover,
+#slider .slide a:focus {
+    text-decoration: none;
+}
+
+#slider .slide p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+
+#slider .slide p a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+/* SLIDER2 BUTTON
+================================================================ */
+.slider2button {
+    display: inline-block;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 5px 5px 0;
+    *float: left;
+    -webkit-box-shadow: inset 1px 0px 0px rgba(255, 255, 255, .3);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .3);
+}
+
+.slider2button:active {
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.slider2button.large i {
+    float: left;
+    margin: 3px 5px 0px -7px;
+}
+
+.slider2button.medium i {
+    float: left;
+    margin: 2px 5px 0px -5px;
+}
+
+.slider2button.small i {
+    float: left;
+    margin: 1px 5px 0px -3px;
+}
+
+.slider2button.large {
+    padding: 10px 20px 8px 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.slider2button.medium {
+    padding: 7px 14px;
+    font-size: 14px;
+}
+
+.slider2button.small {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    line-height: 16px;
+}
+
+.slider2button.yellow {
+    border: 1px solid #e6bd4c;
+    background-image: linear-gradient(bottom, #FCCC73 0%, #FAE198 100%);
+    background-image: -o-linear-gradient(bottom, #FCCC73 0%, #FAE198 100%);
+    background-image: -moz-linear-gradient(bottom, #FCCC73 0%, #FAE198 100%);
+    background-image: -webkit-linear-gradient(bottom, #FCCC73 0%, #FAE198 100%);
+    background-image: -ms-linear-gradient(bottom, #FCCC73 0%, #FAE198 100%);
+    background-color: #fdeb52;
+    color: #0c3054;
+
+}
+
+.slider2button.yellow:link {
+    text-decoration: none;
+}
+
+.slider2button.yellow:visited {
+    text-decoration: none;
+}
+
+.slider2button.yellow:active {
+    text-decoration: none;
+}
+
+.slider2button.yellow:hover {
+    background: #fbe41f;
+    text-decoration: none;
+}
+
+.slider2button.blue {
+    background-image: linear-gradient(bottom, #0280e1 0%, #1799fe 100%);
+    background-image: -o-linear-gradient(bottom, #0280e1 0%, #1799fe 100%);
+    background-image: -moz-linear-gradient(bottom, #0280e1 0%, #1799fe 100%);
+    background-image: -webkit-linear-gradient(bottom, #0280e1 0%, #1799fe 100%);
+    background-image: -ms-linear-gradient(bottom, #0280e1 0%, #1799fe 100%);
+    background-color: #0280e1;
+    color: #FFFFFF;
+
+}
+
+.slider2button.blue:link {
+    text-decoration: none;
+}
+
+.slider2button.blue:visited {
+    text-decoration: none;
+}
+
+.slider2button.blue:active {
+    text-decoration: none;
+}
+
+.slider2button.blue:hover {
+    background: #1799fe;
+    text-decoration: none;
+}
+
+.slider2button.dk-blue {
+    background-image: linear-gradient(bottom, #1e5086 0%, #1e5086 100%);
+    background-image: -o-linear-gradient(bottom, #1e5086 0%, #1e5086 100%);
+    background-image: -moz-linear-gradient(bottom, #1e5086 0%, #1e5086 100%);
+    background-image: -webkit-linear-gradient(bottom, #1e5086 0%, #1e5086 100%);
+    background-image: -ms-linear-gradient(bottom, #0280e1 0%, #1e5086 100%);
+    background-color: #1e5086;
+    color: #FFFFFF;
+}
+
+.slider2button.dk-blue:link {
+    text-decoration: none;
+}
+
+.slider2button.dk-blue:visited {
+    text-decoration: none;
+}
+
+.slider2button.dk-blue:active {
+    text-decoration: none;
+}
+
+.slider2button.dk-blue:hover {
+    background: #0280e1;
+    text-decoration: none;
+}
+
+/* SLIDER2 BUTTON
+================================================================ */
+
+.flexslider .slides > li,
+.slide,
+.slide img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slide img {
+    /* forces slider image to fill entire space. May distort image */
+    width: 100%;
+    height: 100%;
+}
+
+.flexslider {
+    /* position: absolute;
+     left: 200px;*/
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /* change margin-bottom in screen.css line 105 to push the caption away from the bottom.
+       using bottom:50px messes things up */
+}
+
+ul.flex-direction-nav {
+    background: #f3f2f1;
+    top: 370px;
+    right: 50px;
+    height: 8px;
+    width: 84px; /* TOTAL height:20px; width: 48px; 3 buttons= 48px */
+    /* 4 buttons=60px, 5 buttons=72px, 6 buttons=84px, 7 buttons=96px  */
+    padding: 6px 0 6px 6px;
+    z-index: 9;
+}
+
+.flex-direction-nav li {
+    float: left;
+    margin-right: 6px;
+    display: block;
+    width: 8px;
+    height: 8px;
+}
+
+.flex-direction-nav li a {
+    width: 8px;
+    height: 8px;
+    background: transparent url(../../images/slider-indicator.gif) 50% 50% no-repeat;
+}
+
+.flex-direction-nav li a.current {
+    background: transparent url(../../images/slider-indicator-current.gif) 50% 50% no-repeat;
+}
+
+.flex-direction-nav .flex-caption {
+    background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0;
+}

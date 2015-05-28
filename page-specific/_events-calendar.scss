@@ -1,0 +1,157 @@
+/*   - - - - - - - .calendar specific - - - - - - -   */
+.calendar #page-banner {
+    background: none;
+    background: rgb(195, 93, 41);
+    background: rgb(245, 131, 69);
+    height: 100px;
+}
+
+.calendar #page-banner .container {
+    background: none;
+    height: 100px;
+}
+
+.calendar #page-banner h2.page-title {
+    color: #fff;
+    padding-top: 35px;
+}
+
+.calendar #tabs {
+    margin-bottom: 0;
+}
+
+.calendar #tabsinput::-webkit-input-placeholder {
+    color: #555;
+}
+
+.calendar #tabsinput:-moz-placeholder {
+    color: #555;
+}
+
+.calendar #tabsinput:-ms-input-placeholder {
+    color: #555;
+}
+
+.calendar #page-content {
+    margin-left: 0;
+}
+
+.calendar #eventList {
+    background-color: inherit;
+    float: none;
+}
+
+.calendar #page-content p {
+    margin-bottom: 5px;
+}
+
+.calendar #page-content p.price {
+    text-align: center;
+}
+
+.calendar #page-content a {
+    color: rgb(218, 121, 57);
+}
+
+.calendar #page-content .monthLinks a {
+    color: #176EB5;
+}
+
+.calendar .monthLinks ul {
+    margin-bottom: 0;
+}
+
+.calendar .event,
+.calendar .event .eleven.columns {
+    width: 620px;
+    background: #FFF url(../../images/rule-embossed.gif) left bottom repeat-x;
+    padding: 10px;
+    float: none;
+    display: block;
+}
+
+.calendar #eventList .seven {
+    margin-left: 10px;
+}
+
+.calendar h3.titleBg,
+.calendar .date {
+    font-size: 1.2em;
+    color: rgb(31, 110, 180);
+    margin-bottom: 5px;
+}
+
+.calendar .date {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.calendar .dateBg {
+    display: block;
+    font-size: 2em;
+    color: rgb(31, 110, 180);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.calendar h4.subtitlebg {
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.calendar h4.subtitlebg,
+.calendar .location,
+.calendar .seats,
+.calendar .price,
+.calendar .sold-out {
+    font-size: .9em;
+}
+
+.calendar .overview p {
+    font-size: .9em;
+}
+
+.calendar .event .seven
+.calendar .event .one {
+    margin-right: 0;
+}
+
+.calendar .event .one.column.status {
+    float: right;
+    width: 70px;
+}
+
+.calendar .event .status a {
+    display: block;
+    width: 70px;
+    font-size: .7em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(218, 121, 57);
+}
+
+.calendar .event .status .register a {
+    display: block;
+    width: 70px;
+    min-height: 30px;
+    padding: 20px 5px 0 5px;
+    background: transparent url(../../images/icon-register-orange.png) 50% top no-repeat;
+}
+
+.calendar .event .sold-out {
+    min-height: 30px;
+    width: 70px;
+    padding: 20px 5px 0 5px;
+    background: transparent url(../../images/icon-soldout.png) 50% top no-repeat;
+    font-size: .7em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(230, 32, 49);
+}
+
+.calendar .event .status .seats a {
+    display: block;
+    width: 70px;
+    padding: 0 5px;
+}

@@ -1,0 +1,49 @@
+/* - - - - - - #sidebar - - - - - - */
+#sidebar, .columns.sidebar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 0;
+}
+.columns.sidebar.registration	{
+	margin-top: 0;
+}
+
+#sidebar h4,
+.sidebar h4 {
+    text-transform: uppercase;
+    line-height: 1em;
+    color: #176eb5;
+}
+
+#sidebar div,
+.sidebar div {
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.container {
+		margin: 0 11px;
+		float: none;
+	}
+
+	.container .columns.sidebar {
+		float: none;
+		width: 100%;
+
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+
+
+}

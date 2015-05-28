@@ -1,0 +1,122 @@
+/*   - - - - - - - .people People specific - - - - - - -   */
+.people #page-banner {
+    background-image: none;
+    background-color: rgb(145, 145, 149);
+    background-color: rgba(145, 145, 149, .7);
+}
+
+.people #page-banner .container {
+}
+
+.people h2.page-title {
+    color: #fff;
+}
+
+.people.landing h2.page-title {
+    padding-top: 100px;
+    margin-right: 480px;
+}
+
+/*
+.people.landing #page-banner .container.people	{
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-people-title.jpg") top right no-repeat;
+}
+*/
+
+/*   - - - - - - - .directory Specific - - - - - - -   */
+
+div.directory img {
+    border: 5px solid #fff;
+    margin-bottom: 5px;
+}
+
+div.directory dl {
+    display: block;
+    width: 160px;
+    list-style: none;
+}
+
+div.directory dt {
+    color: #176eb5;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+div.directory dd {
+    color: #4c4c4c;
+    font-size: .9em;
+    margin-bottom: 1px;
+    text-indent: 0;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 1.2em;
+}
+
+div.directory dd a:link, a:active, a:visited {
+    color: #176eb5;
+    text-decoration: none;
+}
+
+div.directory dd a:hover {
+    color: #176eb5;
+    text-decoration: underline;
+}
+
+div.directory .row {
+    min-height: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* People pages specific */
+    .people #page-banner .container {
+        /* this can be generalized for all pages */
+        height: 100px;
+    }
+
+    .people h2.page-title {
+        /* this can be generalized for all pages */
+        padding-top: 20px;
+    }
+
+    .people #page-content {
+        margin-top: 200px;
+    }
+
+    .people #sidebar {
+        float: none;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        margin-top: 0;
+    }
+
+    .people #content table {
+        width: 100%;
+    }
+
+    .people #content table thead {
+        display: none;
+    }
+
+    .people #content table td {
+        border: none;
+        display: block;
+    }
+
+    .people #content table tr {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .people #content table tr > :first-child {
+        font-weight: bold;
+    }
+
+    .people #content ul.alpha-in-page {
+        display: none;
+    }
+}

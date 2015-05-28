@@ -1,0 +1,490 @@
+/* - - - - - - - Customization of Flexnav Main Menu for ISD - - - - - - - - - */
+  #main-menu  {
+    background-color: $color-menu-dark;
+    height: 50px !important;
+  }
+
+  .mainmenu   {
+    float: left;
+    margin-top: 0;
+    color: #fff;
+    font: 85% $font-family;
+    margin-top: 0;
+  }
+
+  .menu-button {
+    padding: 15px 11px 5px;
+    height: 30px;
+    background: $color-menu-dark;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    
+    .touch-button {
+      padding-top: 5px;
+      i.navicon {
+        color: #fff;
+        font-size: 12px;
+      }
+    }    
+  }
+  
+  .flexnav {
+    margin: 0;
+    padding: 0;
+
+/* First level */
+    > li {
+      margin-bottom: 0;
+      a {
+          font-weight: bold;
+          font-size: 1em;
+          padding: 11px;
+      }
+     .touch-button   {
+       background: rgba(255,255,255,.2);
+       height: 40px;
+
+        .navicon  {
+          color: #fff;
+          top: 1.1em;
+        }
+      }
+      &.about   {
+        background-color: $color-about-dark;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+      }
+      &.admissions   {
+        background-color: $color-admissions;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+        div.boxed   {
+          background: transparent;
+
+          .sub  {
+            width: 100%;
+            float: none;
+            border: none;
+          }
+        }
+      }
+      &.degrees   {
+        background-color: $color-degree;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+      }
+      &.certificates   {
+        background-color: $color-pro-certs-dark;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+      }
+      &.programs   {
+        background-color: $color-custom-program-dark;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+      }
+      &.people   {
+        background-color: $color-people-dark;
+        opacity: 100;
+        > a   {
+          background: transparent;
+          color: #fff
+        }
+      }
+    }
+    li {
+/* second level */
+      ul.flexnav-show {
+        margin: 0;
+        //background-color: transparent;
+
+        li {
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          h3  {
+            margin-bottom: 2px;
+            padding-left: 0;
+            color: #fff;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-transform: uppercase;
+              a   {
+                padding-left: 0;
+                font-size: 1em;
+              }
+          }
+          p   {
+            padding: 0;
+            margin: 0;
+            line-height: 1em;
+          }
+          a {
+            background: transparent;
+            border: none;
+            padding: 5px 0;
+            color: #fff;
+            //font-size: .9em;
+          }
+          div.columns {
+            margin: 5px 0;
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 767px) {
+  #main-menu .container {
+    width: 97%;
+      nav.mainmenu {
+        width: 100%;
+      }
+  }
+
+  #main-menu .flexnav > li {
+    position: relative;
+
+    ul.flexnav-show {
+      padding: 0 11px;
+    }
+  }
+
+} 
+@media (min-width: 768px) and (max-width: 959px) {
+  #main-menu {
+    width: 100%;
+    .container  {
+      width: 100%;
+    }
+  }
+  .container .mainmenu.columns.twelve {
+    width: 90%;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  #main-menu  {
+    height: 50px;
+    background-color: $color-menu;
+  }
+  nav.mainmenu  {
+    height: 50px;
+    margin: 0;
+    background: none;
+
+    .flexnav  {  
+      .touch-button {
+        display: none; 
+      }
+  // First level
+      > li  { 
+        > a {
+          height: 28px; /* Total height: 50px; alternate: 28px; */
+          padding: 16px 10px 6px;
+          border: none;
+          background: none;
+          font: bold 100% $font-family;
+          color: #fff;
+          
+          &:hover,
+          &:focus   {
+            text-decoration: none;
+          }
+        }
+        &.about   {
+          & > a   {
+            background-color: rgb(19, 71, 145);
+            background-color: rgba(19, 71, 145, .7);
+            color: #fff;
+          }  
+          h3,
+          h3 > a  {
+            color: rgb(19, 71, 145);
+          }
+          &:hover,
+          &:hover > a
+          {
+            background-color: #fff;
+            color: rgb(19, 71, 145);
+          }
+          & > a:hover,
+          & > a:focus {
+            color: rgb(19, 71, 145);
+          }
+        }
+        &.admissions {
+          & > a   {
+            background-color: rgb(108, 32, 126);
+            background-color: rgba(108, 32, 126, .7);
+          }
+          h3,
+          h3 > a   {
+            color: rgb(108, 32, 126);
+          }
+          &:hover,
+          &:hover > a {
+            background-color: #fff;
+            color: rgb(108, 32, 126);
+          }
+          &.active a,
+          & > a:hover,
+          & > a:focus {
+            color: rgb(108, 32, 126);
+          }
+          //SECOND LEVEL div.boxed div.sub
+
+          div.boxed   {
+            background: transparent;
+
+            h3 {
+              margin-top: 5px;
+            }
+            div.sub  {
+              width: 47%;
+              float: left;
+              border-left: 1px solid $color-admissions;
+              
+              &.right {
+                float: right;
+              }
+              &.left {
+                border: none;
+              }
+            }
+            &.des-sci {
+               border-color: $color-des-sci;
+              div.sub {
+                border-color: $color-des-sci;
+              }
+              h3 {
+                color: $color-des-sci;
+                a {
+                  color: $color-des-sci;
+                }
+              }
+            }
+          }
+
+          .sub {
+          }
+        }    
+        &.degrees {
+          & > a   {
+            background-color: rgb(213, 159, 13);
+            background-color: rgba(213, 159, 13, .9);
+          }
+          h3,
+          h3 > a  {
+            color: rgb(213, 159, 13);
+          }
+          &:hover,
+          &:hover > a {
+            background-color: #fff;
+            color: rgb(213, 159, 13);
+          }
+          & > a:hover,
+          & > a:focus {
+            color: rgb(213, 159, 13);
+          }
+        }    
+        &.certificates {
+          & > a   {
+            background-color: rgb(86, 160, 211);
+            background-color: rgba(86, 160, 211, .7);
+          }
+          h3,
+          h3 > a   {
+            color: rgb(86, 160, 211);
+          }
+          &:hover,
+          &:hover > a {
+            background-color: #fff;
+            color: rgb(86, 160, 211);
+          }
+
+          & > a:hover,
+          & > a:focus {
+            color: rgb(86, 160, 211);
+          }
+        }    
+        &.programs {
+          & > a   {
+            background-color: rgb(176, 188, 34);
+            background-color: rgba(176, 188, 34, .7);
+          }
+          h3,
+          h3 > a    {
+            color: rgb(176, 188, 34);
+          }
+          &:hover,
+          &:hover > a {
+            background-color: #fff;
+            color: rgb(176, 188, 34);
+          }
+          & > a:hover,
+          & > a:focus {
+            color: rgb(176, 188, 34);
+          }
+        }
+        &.careers {
+          & > a   {
+            background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
+            background-color: rgba(184, 110, 35, .7);
+          }    
+          h3,
+          h3 > a   {
+            color: rgb(184, 110, 35);
+          }
+          &:hover,
+          &:hover > a  {
+            background-color: #fff;
+            color: rgb(184, 110, 35);
+          }
+          & > a:hover,
+          & > a:focus {
+            color: rgb(184, 110, 35);
+          }
+        }
+        &.people {
+          & > a   {
+            background-color: rgb(145, 145, 149);
+            background-color: rgba(145, 145, 149, .7);
+            color: #fff;        
+          }
+          h3,
+          h3 > a   {
+            color: rgb(145, 145, 149);
+          }
+          &:hover,
+          &:hover > a{
+            background-color: #fff;
+            color: rgb(145, 145, 149);
+          }
+          & > a:hover,
+          & > a:focus {
+            color: rgb(145, 145, 149);
+          }
+        }
+  // second level
+         > ul {
+          position: absolute;
+          top: 50px; 
+          left: 0;
+          width: 960px;
+          margin: 0; 
+          padding: 10px 0;
+          background-color: #fff;
+          -webkit-box-shadow: 0px 5px 5px 0px #999;
+          box-shadow: 0px 5px 5px 0px #999;
+
+          li {
+            background: #fff;
+            margin-bottom: 0;
+            padding: 0;
+          }
+          div.columns {
+            margin: 0 10px;
+          }
+
+          h3  {
+            margin: 0;
+            margin-bottom: 0.5em;
+            padding: 0;
+            font-weight: bold;
+            font-size: 1.3em;
+            line-height: 1.3em;
+
+            a   {
+              margin: 0;
+              padding: 0;
+              color: $color-font;
+              background: transparent;
+              border: none;
+            }
+          }
+          p   {
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 0;
+            line-height: 1.2em;
+            font-size: .95em;
+            font-weigth: normal;
+
+            a   {
+              margin: 0;
+              padding: 0;
+              color: $color-font;
+              font-weight: normal;
+              background: transparent;
+              border: none;
+
+              &:hover,
+              &:focus   {
+                //color: ;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 960px) {
+  #main-menu  {
+    height: 50px;
+    .container  {
+      padding: 0;
+      margin: 0 auto;
+      height: 50px;
+    }
+  }
+}
+
+
+/* Khaled's add to overcome the mobile white flash on close */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+  .container {
+    wdith: 100%;
+    margin: 0 11px; } 
+    .item-with-ul ul div.sub, .item-with-ul ul div.sub p, .item-with-ul ul div.sub p a {
+      background-color: inherit;
+    }
+    .item-with-ul ul div.sub p, .item-with-ul ul div.sub p a {
+      height: 0;
+      line-height: 0;
+    }
+    .item-with-ul ul.flexnav-show div.sub p {
+      height: 21px;
+      line-height: 11;
+    }
+    .item-with-ul ul.flexnav-show div.sub p a {
+      height: 11px;
+      line-height: 11px;
+    }
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+/*# sourceMappingURL=style.css.map */

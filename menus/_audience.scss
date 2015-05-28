@@ -1,0 +1,33 @@
+#audience-menu {
+    float: right;
+    /*height: 40px;*/
+    margin: 0;
+    padding: 0;
+    padding-top: 35px;
+}
+
+#audience-menu li {
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#audience-menu li a {
+    display: block;
+    color: #bbd7e5;
+    text-transform: capitalize;
+    font-size: .9em;
+}
+
+#audience-menu li a:hover,
+#audience-menu li a:focus {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #audience-menu {
+        display: none;
+    }
+
+}

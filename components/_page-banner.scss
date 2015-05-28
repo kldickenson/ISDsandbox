@@ -1,0 +1,103 @@
+#page-banner {
+    /*height: 150px;*/
+    margin: 0;
+    padding: 0;
+    background: #a6bee0 url(../../images/title-ribbon-bg.jpg) 50% 50% no-repeat;
+    z-index: 10;
+}
+
+#page-banner.img-embed {
+    background-image: none;
+}
+
+.landing #page-banner {
+    background-image: none;
+}
+
+.custom-programs #page-banner {
+    background-color: rgba(176, 188, 34, 0.7);
+}
+
+#page-banner .container {
+    /*height: 150px;*/
+    /*background: transparent url(../../images/banner-kata-title.png) right top no-repeat;*/
+}
+
+
+#page-banner img {
+    position: relative !important;
+    float: right !important;
+    z-index: 15;
+}
+
+h2.page-title {
+    padding: 20px;
+    /* padding-top: 100px;  SEE MEDIA QUERIES */
+    color: #176eb5;
+    line-height: 1.2em;
+    margin-right: 0;
+    width: 48%;
+    z-index: 12;
+}
+
+.custom-programs h2.page-title {
+    color: #fff;
+}
+
+h2.page-title span {
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #top-wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    #page-banner .container {
+        margin: 0;
+        width: 100%;
+        img {
+            display: none;
+        }
+    }
+
+    h2.page-title {
+        width: 100%;
+        font-size: 1.6em;
+        padding: 20px 11px;
+        background: $color-mobile-blue;
+        color: #fff;
+         clear: both;
+   } 
+
+}
+@media only screen and (min-width: 767px) {
+
+    #page-banner {
+        height: 150px;
+        clear: both;
+    }
+  
+    #page-banner.img-embed .container {
+        height: 250px;
+        /*background-image: none;*/
+    }
+
+    .landing #page-banner,
+    .landing #page-banner .container {
+        height: 250px; /* TOTAL height: 250px; */
+    } 
+
+    h2.page-title {
+        padding-top: 100px;
+        
+    }
+
+    .landing h2.page-title {
+        padding-top: 10%;
+        margin-right: 50%;
+    }
+
+}

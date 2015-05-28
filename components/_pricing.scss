@@ -1,0 +1,59 @@
+/*
+NEW Format:
+<div id="pricing">
+	<div class="left">
+		<p>PROGRAM PRICE</p>
+		<p class="price"><strong>$3,100</strong></p>
+		<p>Four-Day Course</p>
+	</div>
+	<div class="right">
+		<p class="discount"><strong>Save 10%</strong></p>
+		<p>Register 5 or more for a group discount. Restrictions apply.</p>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+*/
+
+#pricing {
+	background: #fff; 
+	padding: 10px 10px 0px 10px;
+	color: #176eb5;
+	padding-bottom: 5px;
+
+	div {
+		margin: 0;
+		&.left {
+			width: 40%; 
+			float: left;
+			margin-right: 7px;
+		}
+		&.right {
+			float: right;
+			width: 55%;
+		}
+	}
+	p {
+		margin-bottom: 10px;
+	
+		&.price {
+			margin-bottom: 9px; 
+			font-size: 1.8em;
+		}
+		&.discount {
+			margin-bottom: 2px; 
+			font-size: 1.2em;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+
+	#pricing {
+		div.left {
+			width: 35%;
+		}		
+		div.right {
+			width: 60%;
+		}
+	}
+}

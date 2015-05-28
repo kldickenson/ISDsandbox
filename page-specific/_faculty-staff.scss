@@ -1,0 +1,16 @@
+/* Specific to A-Z in-page links on faculty and staff pages */
+ul.alpha-in-page {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+ul.alpha-in-page li {
+    float: left;
+}
+
+ul.alpha-in-page li a {
+    display: block;
+    width: 14px;
+    padding: 5px;
+}

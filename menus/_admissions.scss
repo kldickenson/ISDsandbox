@@ -1,0 +1,73 @@
+/* - - - - - - - - CSS for Admissions menu boxes - - - - - - - - */
+       div.boxed   {
+//           height: 150px;
+        width: 90%;
+            border: $color-admissions 1px solid; /*Admissions Purple */
+            background: #efefef;
+            padding: 0 10px 10px;
+            margin: 0 0 20px 0;
+            position: relative;
+//            display: inline-block;
+            vertical-align: text-top;
+        }
+        .boxed .sub   {
+            width: 48%;
+            padding: 0;
+            margin: 0;
+            border-left: $color-admissions 1px solid; /*Admissions Purple */
+            color: $color-font;
+        }
+        .boxed .des-sci, .des-sci .sub   {
+            border-color: $color-des-sci; 
+        }
+        .mainmenu > li.admissions .des-sci .sub h3     {
+            color: $color-des-sci;
+        }
+        .boxed .des-sci p a:hover, .boxed .des-sci p a:focus    {
+            color: $color-des-sci;
+        }
+
+/* - - - - -  Specifically for Admissions + Aid Mega Menu - - - - - */
+
+@media (min-width: 800px) {
+    div.boxed {
+//        float: left;
+        background: #efefef;
+        border: #933da6 1px solid; /*Admissions Purple */
+        padding: 0 10px 10px;
+        margin: 0 0 20px 0;
+        position: relative;
+        /*height: 220px;*/
+        div.sub    {
+            /*height: 147px;*/
+            width: 45%;
+            margin: 0;
+            padding: 0;
+            border-left: #933da6 1px solid; /*Admissions Purple */
+            &.right  {
+              float: right;
+              border-left: 1px solid #000;
+              padding-left: 10px;
+              margin-left: 5px;
+            }
+            &.left   {
+              float: left;
+            }
+            h3   {
+                height: 15px;
+                padding: 5px 0;
+                margin: 10px 0 15px;
+                font-size: 1.3em;
+                line-height: 1.3em;
+                color: #933da6;
+                background: #efefef;
+            }
+            a   {
+              &:hover,
+              &:focus   {
+                color: $color-admissions;
+              }
+            }
+        }        
+    }
+}

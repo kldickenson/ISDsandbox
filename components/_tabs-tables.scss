@@ -1,0 +1,282 @@
+/* Specific to course-description tabs */
+#course-description {
+    padding: 0 0 10px;
+    margin: 0 0 25px 0;
+    position: relative;
+}
+
+.isd-organic-tabs .nav,
+.calendar #tabs .ul-tabs-nav {
+    overflow: hidden;
+    margin: 0;
+}
+
+.isd-organic-tabs .nav li,
+.calendar #tabs .ui-tabs-nav li {
+    float: left;
+    margin: 0;
+}
+
+.isd-organic-tabs div.tab-widget .nav li.tab-title-item:hover {
+    background-color: #FFF !important;
+}
+
+.isd-organic-tabs .nav li.last {
+    margin-right: 0;
+}
+
+.isd-organic-tabs .nav li a,
+.calendar #tabs .ui-tabs-nav li.ui-state-default a {
+    display: block;
+    float: left;
+    padding: .9em 1.5em .5em;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    border: 0;
+    color: #818285;
+    text-transform: uppercase;
+}
+
+.calendar #tabs .ui-tabs-nav li.ui-state-default a {
+    margin-top: 15px;
+}
+
+/*
+		.calendar li div#filterbox input["input"] {
+			margin-bottom: 0;
+		}
+*/
+.isd-organic-tabs .nav li a:hover,
+.isd-organic-tabs .nav li a:focus,
+.isd-organic-tabs .nav a.current,
+.calendar #tabs .ui-tabs-nav li a:hover,
+.calendar #tabs .ui-tabs-nav li a:focus,
+.calendar #tabs .ui-tabs-nav li.ui-tabs-active a {
+    /*border: #ccc 1px solid; border-bottom: none;*/
+    color: #176eb5;
+    background: #fff;
+}
+
+.isd-organic-tabs ul {
+    list-style: none;
+}
+
+.isd-organic-tabs .editable ul {
+    list-style: disc;
+}
+
+.isd-organic-tabs .list-wrap {
+    padding: 10px;
+    /*border: #ccc 1px solid;*/
+    margin-top: -1px;
+    margin-bottom: 20px;
+    background: #fff;
+    font-size: .95em;
+}
+
+.isd-organic-tabs p.no-space + ul {
+    list-style: disc;
+    margin-bottom: 20px;
+}
+
+.isd-organic-tabs .list-wrap ul.disc {
+    list-style: disc;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.isd-organic-tabs blockquote,
+.isd-organic-tabs blockquote p {
+    color: #58585A;
+}
+#content table {
+    color: #176eb5;
+    margin-bottom: 20px;
+    background: #fff;
+    position: relative;
+}
+
+#content table th,
+#content table td {
+    border: #ccc 1px solid;
+    padding: 5px 10px;
+    font-size: .95em;
+    position: relative;
+}
+
+#content #main-content #login-page table, #content #main-content #login-page table tr, #content #main-content #login-page table tr td {
+    border: none;
+}
+
+#content .fc-content table th,
+#content .fc-content table td {
+    position: static;
+}
+
+#content table td.blank {
+    border: none;
+}
+
+.isd-organic-tabs table th {
+    text-align: center;
+}
+
+.isd-organic-tabs .over-table {
+    position: absolute;
+    top: 95px;
+    right: 30px;
+}
+
+.hybird .tab-widget .over-table,
+.isd-organic-tabs.hybird .over-table {
+    /* hybrid */
+    top: 140px;
+}
+
+.isd-organic-tabs .over-table2 {
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+}
+
+.isd-organic-tabs table#class-comparison th {
+    text-align: left;
+}
+
+#content table.faculty tbody td {
+    color: #58585a;
+}
+
+#content table.faculty .name {
+    width: 35%;
+}
+
+#content table.faculty .title {
+    width: 50%;
+}
+
+#content table.faculty .email,
+#content table.faculty .phone {
+    width: 15%;
+}
+
+#content table.staff .name {
+    width: 25%;
+}
+
+#content table.staff .title {
+    width: 40%;
+}
+
+#content table.curriculum th {
+    font-weight: bold;
+    text-align: left;
+}
+
+#content table.curriculum h4 {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#content table.curriculum h5 {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#content table.curriculum .number {
+    width: 15%;
+}
+
+#content table.curriculum .title {
+    width: 55%;
+}
+
+#content table.curriculum .offering {
+    width: 20%;
+}
+
+#content table.curriculum .credits {
+    width: 10%;
+    font-style: normal;
+    text-align: center;
+}
+
+#content table.curriculum.three-col .number {
+    width: 25%;
+}
+
+#content table.curriculum.three-col .title {
+    width: 65%;
+}
+
+#content table.curriculum.three-col .credits {
+    width: 10%;
+    white-space: nowrap;
+}
+
+#content table.curriculum.three-col-2 .number {
+    width: 25%;
+}
+
+#content table.curriculum.three-col-2 .title {
+    width: 55%;
+}
+
+#content table.curriculum.three-col-2 .offering {
+    width: 20%;
+}
+
+#content table.curriculum.pharmeng .number {
+    width: 20%;
+}
+
+#content table.curriculum.pharmeng .credits {
+    width: 10%;
+    text-align: center;
+}
+
+#content table.curriculum.pharmeng .offering {
+    width: 15%;
+    text-align: center;
+}
+
+#content table.curriculum.pharmeng .title {
+    width: 55%;
+}
+
+#content table.curriculum.mfgeng {
+    font-size: .9em;
+}
+
+#content table.curriculum.mfgeng th {
+    vertical-align: bottom;
+}
+
+#content table.curriculum.mfgeng p.note,
+#content table.curriculum.mfgeng ul li {
+    font-size: .9em;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#content table.curriculum.mfgeng .title {
+    width: 35%;
+}
+
+#content table.curriculum.mfgeng .number {
+    /* both for regular class number and mfg specific class number */
+    width: 20%;
+}
+
+#content table.curriculum.mfgeng .credits,
+#content table.curriculum.mfgeng .credit {
+    width: 10%;
+    text-align: center;
+}
+
+#content table.curriculum.mfgeng .offering {
+    width: 15%;
+    text-align: center;
+}

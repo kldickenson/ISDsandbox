@@ -1,0 +1,25 @@
+/* - - - For Course Overview / Introduction including embedded video - - - */
+#course-overview {
+	margin-top: 0px; 
+	margin-bottom: 10px; 
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	h3 {
+		margin-bottom: 5px;
+	}
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+

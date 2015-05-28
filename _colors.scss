@@ -1,0 +1,68 @@
+// Colors as variables
+$color-primary: #176EB5;
+$color-secondary: #f3f2f1;
+$color-pg-bkgd: #f3f2f1;
+$color-font: #58585a;
+$color-header: rgba(0, 43, 92, 0.8);
+$color-menu: rgba(97, 181, 218, .8);
+$color-menu-dark: rgb(97, 181, 218);
+$color-about: #597eb2;
+$color-about-dark: #134791;
+$color-admissions: #933da6;
+$color-degree: #ffa609;
+$color-pro-certs: rgba(86, 160, 211, 0.7);
+$color-pro-certs-dark: rgba(86, 160, 211, 1);
+$color-custom-program: rgba(176, 188, 34, .7);
+$color-custom-program-dark: rgba(180,175,10, 1);
+$color-people: rgba(145, 145, 149, .7);
+$color-people-dark: rgba(145, 145, 149, 1);
+$color-des-sci: #0075bc;
+$color-mobile-blue: rgb(11, 102, 188);
+$color-mobile-bkgd: rgb(241,242,242);
+$color-alert-yellow: rgb(255,255,0);
+
+.color-tile {
+    display: block;
+    width: 100px; height: 55px;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 40px;
+    color: #000;
+}
+.color-primary  {
+    background: $color-primary;
+}
+.color-secondary    {
+    background: $color-secondary;
+}
+.color-pg-bkgd  {
+    background: $color-pg-bkgd;
+}
+.color-font {
+    background: $color-font ;
+}
+.color-about    {
+    background: $color-about;
+    /*background-color: rgba(19, 71, 145, .7);*/
+}
+.color-admissions, .purple   {
+    background: $color-admissions;
+    /*background-color: rgba(108, 32, 126, .7);*/
+}
+.purple {
+    color: $color-admissions;
+}
+.color-degree   {
+    background: $color-degree;
+    /*background-color: rgba(213, 159, 13, .9);*/
+}
+.color-pro-certs  {
+    background: $color-pro-certs;
+    /*background-color: rgba(86, 160, 211, .7);*/
+}
+.color-custom   {
+   background-color: $color-custom-program;
+}
+.color-people   {
+    background-color: $color-people;
+}
