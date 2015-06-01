@@ -1554,23 +1554,31 @@ NEW:
           font-size: 1.1em;
           color: #FFF;
           font-weight: bold;
-          margin-bottom: 2px;
-          line-height: 1.4em; }
+          margin-bottom: 5px;
+          line-height: 1.4em;
+          text-transform: uppercase; }
           #main-menu .container li.item-with-ul ul div.columns h3 p, #main-menu .container li.item-with-ul ul div.columns h3 a {
             padding: 5px 0;
             background-color: inherit;
             height: 0;
             line-height: 0;
-            border: none; }
+            border: none;
+            margin-left: 0;
+            padding-left: 0; }
       #main-menu .container li.item-with-ul ul p {
         background-color: inherit;
         height: 0;
-        line-height: 0; }
+        line-height: 0;
+        border: none;
+        margin-left: 0;
+        padding-left: 0; }
         #main-menu .container li.item-with-ul ul p a {
           background-color: inherit;
           height: 0;
           line-height: 0;
-          border: none; }
+          border: none;
+          margin-left: 0;
+          padding-left: 0; }
 
   #main-menu .flexnav > li {
     position: relative; }
@@ -1578,10 +1586,12 @@ NEW:
       padding: 0 11px; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
         height: 22px;
-        line-height: 11px; }
+        line-height: 11px;
+        border: none; }
         #main-menu .flexnav > li ul.flexnav-show div.columns p a {
           height: 11px;
-          line-height: 11px; } }
+          line-height: 11px;
+          border: none; } }
 @media (min-width: 768px) and (max-width: 959px) {
   #main-menu {
     width: 100%; }
