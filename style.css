@@ -1560,7 +1560,8 @@ NEW:
             padding: 5px 0;
             background-color: inherit;
             height: 0;
-            line-height: 0; }
+            line-height: 0;
+            border: none; }
       #main-menu .container li.item-with-ul ul p {
         background-color: inherit;
         height: 0;
@@ -1568,7 +1569,8 @@ NEW:
         #main-menu .container li.item-with-ul ul p a {
           background-color: inherit;
           height: 0;
-          line-height: 0; }
+          line-height: 0;
+          border: none; }
 
   #main-menu .flexnav > li {
     position: relative; }
