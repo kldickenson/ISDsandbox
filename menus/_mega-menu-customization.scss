@@ -443,6 +443,7 @@
             background: #fff;
             margin-bottom: 0;
             padding: 0;
+            padding-top: 5px;
           }
           div.columns {
             margin: 0 10px;
@@ -451,6 +452,7 @@
           h3  {
             margin: 0;
             margin-bottom: 0.5em;
+            margin-left: 10px;
             padding: 0;
             font-weight: bold;
             font-size: 1.3em;
@@ -467,14 +469,16 @@
           p   {
             margin: 0;
             margin-bottom: 5px;
+            margin-left: 10px;
             padding: 0;
-            line-height: 1.2em;
-            font-size: .95em;
+            line-height: 1.5em;
+            font-size: 1em;
             font-weigth: normal;
 
             a   {
               margin: 0;
               padding: 0;
+              padding-bottom: 5px;
               color: $color-font;
               font-weight: normal;
               background: transparent;
