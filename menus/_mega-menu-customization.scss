@@ -171,14 +171,17 @@
          font-size: 1.1em;
           color: #FFF;
           font-weight: bold;
-          margin-bottom: 2px;
-          line-height: 1.4em; 
+          margin-bottom: 5px;
+          line-height: 1.4em;
+          text-transform: uppercase;
           p, a {
             padding: 5px 0;
             background-color: inherit;
             height: 0;
             line-height: 0;
             border: none;
+            margin-left: 0;
+            padding-left: 0;
           }
         }
       }
@@ -186,11 +189,16 @@
         background-color: inherit;
         height: 0;
         line-height: 0;
+        border: none;
+        margin-left: 0;
+        padding-left: 0;
         a {
           background-color: inherit;
           height: 0;
           line-height: 0;
           border: none;
+          margin-left: 0;
+          padding-left: 0;
         }
       }
     }
@@ -205,9 +213,11 @@
         p {
           height: 22px;
           line-height: 11px;
+          border: none;
           a {
             height: 11px;
             line-height: 11px;
+            border: none;
           }
         }
       }
