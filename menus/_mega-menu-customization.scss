@@ -201,8 +201,8 @@
 
       div.columns {
         p {
-          height: 21px;
-          line-height: 11;
+          height: 22px;
+          line-height: 11px;
           a {
             height: 11px;
             line-height: 11px;
@@ -296,16 +296,18 @@
           //SECOND LEVEL div.boxed div.sub
 
           div.boxed   {
-            background: transparent;
+            //background: transparent;
+            background: #efefef;
 
             h3 {
               margin-top: 5px;
+              margin-bottom: 10px;
             }
             div.sub  {
               width: 47%;
               float: left;
               border-left: 1px solid $color-admissions;
-              
+
               &.right {
                 float: right;
               }

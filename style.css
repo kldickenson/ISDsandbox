@@ -1575,8 +1575,8 @@ NEW:
     #main-menu .flexnav > li ul.flexnav-show {
       padding: 0 11px; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
-        height: 21px;
-        line-height: 11; }
+        height: 22px;
+        line-height: 11px; }
         #main-menu .flexnav > li ul.flexnav-show div.columns p a {
           height: 11px;
           line-height: 11px; } }
@@ -1634,9 +1634,10 @@ NEW:
     nav.mainmenu .flexnav > li.admissions.active a, nav.mainmenu .flexnav > li.admissions > a:hover, nav.mainmenu .flexnav > li.admissions > a:focus {
       color: #6c207e; }
     nav.mainmenu .flexnav > li.admissions div.boxed {
-      background: transparent; }
+      background: #efefef; }
       nav.mainmenu .flexnav > li.admissions div.boxed h3 {
-        margin-top: 5px; }
+        margin-top: 5px;
+        margin-bottom: 10px; }
       nav.mainmenu .flexnav > li.admissions div.boxed div.sub {
         width: 47%;
         float: left;
