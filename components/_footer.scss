@@ -52,6 +52,8 @@
 @media (max-width: 767px) { 
     #footer {
         width: 100%;
+        background-image: none;
+        background: #555;
         padding-top: 10px;
         .container {
             width: 100%;

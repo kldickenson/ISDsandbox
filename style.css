@@ -474,6 +474,8 @@ h2.page-title span {
 @media (max-width: 767px) {
   #footer {
     width: 100%;
+    background-image: none;
+    background: #555;
     padding-top: 10px; }
     #footer .container {
       width: 100%; }
@@ -633,6 +635,7 @@ h2.page-title span {
 #upcoming li.item {
   float: left;
   /* to set up opposing floats */
+  width: 93%;
   padding: 10px;
   margin-bottom: 5px;
   background-color: #0b66bc;
