@@ -56,6 +56,7 @@
         .container {
             width: 100%;
             div.columns {
+                display: block;
                 width: 100%;
                 float: none;
             }
@@ -65,11 +66,15 @@
             }
             #footer-nav {
                 float: none;
+                width: 50%;
+                margin: 0 auto;
+                li {
+                    float: none;
+                    display: block;
+                    margin-left: 0;
+                    text-align: center;
+                }
             }
         }
     }
-
-
-
-
 }

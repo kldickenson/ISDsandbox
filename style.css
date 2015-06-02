@@ -478,13 +478,21 @@ h2.page-title span {
     #footer .container {
       width: 100%; }
       #footer .container div.columns {
+        display: block;
         width: 100%;
         float: none; }
       #footer .container ul.social-media {
         width: inherit;
         margin: 0 auto; }
       #footer .container #footer-nav {
-        float: none; } }
+        float: none;
+        width: 50%;
+        margin: 0 auto; }
+        #footer .container #footer-nav li {
+          float: none;
+          display: block;
+          margin-left: 0;
+          text-align: center; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
