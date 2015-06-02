@@ -471,6 +471,20 @@ h2.page-title span {
   text-decoration: none;
   color: #fdeb72; }
 
+@media (max-width: 767px) {
+  #footer {
+    width: 100%;
+    padding-top: 10px; }
+    #footer .container {
+      width: 100%; }
+      #footer .container div.columns {
+        width: 100%;
+        float: none; }
+      #footer .container ul.social-media {
+        width: inherit;
+        margin: 0 auto; }
+      #footer .container #footer-nav {
+        float: none; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
@@ -611,7 +625,6 @@ h2.page-title span {
 #upcoming li.item {
   float: left;
   /* to set up opposing floats */
-  width: 100%;
   padding: 10px;
   margin-bottom: 5px;
   background-color: #0b66bc;
@@ -820,16 +833,19 @@ NEW:
   .promo.custom-programs {
     background-image: none;
     background-color: #7c8703;
-    padding: 20px 10px 0 10px; }
+    padding: 0;
+    padding-top: 20px; }
     .promo.custom-programs h4 {
       color: #ffcc00;
       font-size: 1.5em;
       font-weight: normal;
       margin-bottom: 10px;
+      margin-left: 10px;
       text-transform: uppercase; }
     .promo.custom-programs p {
       font-size: 14px;
       line-height: 18px;
+      margin-left: 10px;
       color: #ffffff; }
     .promo.custom-programs a {
       font-weight: bold;
@@ -849,8 +865,7 @@ NEW:
     .promo.learning-objectives h3 {
       margin-top: 20px;
       margin-bottom: 10px;
-      font-weight: bold;
-      font-size: 22px; }
+      font-weight: bold; }
     .promo.learning-objectives div.columns.five {
       margin-left: 0; }
 
@@ -878,7 +893,21 @@ NEW:
     .promo.attendees {
       padding-top: 10px; }
       .promo.attendees div.six.alpha {
-        display: none; } }
+        display: none; }
+    .promo.custom-programs {
+      width: 95%; }
+      .promo.custom-programs .caption {
+        display: none;
+        width: 100%; }
+        .promo.custom-programs .caption img {
+          width: 100%;
+          height: inherit; }
+      .promo.custom-programs h4 {
+        clear: left;
+        padding: 0; }
+      .promo.custom-programs p {
+        padding-right: 0;
+        padding-left: 0; } }
 @media (min-width: 768px) {
   .promo {
     background: #fff url("") left top no-repeat;
@@ -904,7 +933,8 @@ NEW:
         color: #ffcc00;
         font-weight: bold;
         margin-top: 20px;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        font-size: 22px; }
       .promo.learning-objectives p {
         color: #fff; }
       .promo.learning-objectives li {
@@ -1699,6 +1729,9 @@ NEW:
       color: #b0bc22; }
     nav.mainmenu .flexnav > li.programs > a:hover, nav.mainmenu .flexnav > li.programs > a:focus {
       color: #b0bc22; }
+    nav.mainmenu .flexnav > li.programs div.feature p {
+      width: 96%;
+      padding: 0 10px; }
     nav.mainmenu .flexnav > li.careers > a {
       background-color: #b86e23;
       /*#b86e23, 70% opaque*/
@@ -1756,10 +1789,10 @@ NEW:
           border: none; }
       nav.mainmenu .flexnav > li > ul p {
         margin: 0;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
         margin-left: 10px;
         padding: 0;
-        line-height: 1.5em;
+        line-height: 1.2em;
         font-size: 1em;
         font-weigth: normal; }
         nav.mainmenu .flexnav > li > ul p a {
@@ -3184,6 +3217,9 @@ ul.flex-direction-nav {
 /*  #Mobile (Portrait)
 ================================================== */
 /* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+  .mobile-hide {
+    display: none; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */

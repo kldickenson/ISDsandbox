@@ -48,3 +48,28 @@
     text-decoration: none;
     color: #fdeb72;
 }
+
+@media (max-width: 767px) { 
+    #footer {
+        width: 100%;
+        padding-top: 10px;
+        .container {
+            width: 100%;
+            div.columns {
+                width: 100%;
+                float: none;
+            }
+            ul.social-media {
+                width: inherit;
+                margin: 0 auto;
+            }
+            #footer-nav {
+                float: none;
+            }
+        }
+    }
+
+
+
+
+}
