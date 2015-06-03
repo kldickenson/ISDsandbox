@@ -848,7 +848,8 @@ NEW:
     background-image: none;
     background-color: #7c8703;
     padding: 0;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-size: .85em; }
     .promo.custom-programs h4 {
       color: #ffcc00;
       font-size: 1.5em;
@@ -857,7 +858,7 @@ NEW:
       margin-left: 10px;
       text-transform: uppercase; }
     .promo.custom-programs p {
-      font-size: 14px;
+      font-size: 1.2em;
       line-height: 18px;
       margin-left: 10px;
       color: #ffffff; }
