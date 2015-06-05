@@ -2,7 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   color: #58585a;
-  background: #f3f2f1; }
+  background: #f3f2f1;
+  font-size: .95em; }
 
 .container {
   /*border: 1px solid red;*/ }
