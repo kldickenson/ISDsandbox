@@ -4374,10 +4374,6 @@ ul.flex-direction-nav {
 ================================================== */
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-  /* to move search out of the menu bar and up into the header */
-  #audience-menu {
-    padding-top: 5px; }
-
   /*  Homepage specific */
   #action .buttons a.actions h4 {
     font-size: 1.4em;
