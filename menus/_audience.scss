@@ -31,3 +31,13 @@
     }
 
 }
+@media (min-width: 768px) and (max-width: 959px) {
+    #audience-menu {
+        width: 50%;
+        padding-top: 15px;
+        li {
+            margin-bottom: 5px;
+        }
+
+    }
+}
