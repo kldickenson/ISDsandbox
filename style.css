@@ -1893,6 +1893,7 @@ button[disabled],
   outline-width: 1px;
   outline-style: auto; }
 
+/* - - - - - - - ISD customization of jQuery Collapse/Accordion - - - -  */
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
   margin-top: 0px;

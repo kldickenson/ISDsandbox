@@ -16,7 +16,8 @@
 @import "components/upcoming";
 @import "components/pricing";
 // main content components
-@import "components/jquery-mobile";
+@import "components/jquery-mobile-base";
+@import "components/jquery-mobile-custom";
 @import "components/course-overview";
 @import "components/promos";
 @import "components/brochure";
