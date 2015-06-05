@@ -5,10 +5,18 @@
 
 
 @media only screen and (max-width: 767px) {
- 
+ 	
+ 	.container {
+ 		width: 100%;
+ 		div.columns {
+ 			width: 100%;
+ 		}
+ 	}
+
 	.mobile-hide {
 		display: none;
 	}
+
 
 }
 /* #Mobile (Landscape)

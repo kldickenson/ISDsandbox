@@ -101,14 +101,24 @@ NEW:
     &.image {
         padding-top: 0;
     }
+    &.attendees {
+        background-image: none;
+        h3 {
+            margin-top: 20px; 
+            margin-bottom: 10px; 
+            font-weight: bold;
+        }
+        p {
+            padding-bottom: 10px;
+            
+        }
+    }
     &.custom-programs {
         background-image: none;
         background-color: #7c8703;
         padding: 0;
         padding-top: 20px;
 		font-size: .85em;
-        .caption {
-        }
         h4 {
             color: #ffcc00; 
             font-size: 1.5em;
@@ -128,18 +138,6 @@ NEW:
             font-weight: bold; 
            color: #ffcc00;
            text-decoration: none;
-        }
-    }
-    &.attendees {
-        background-image: none;
-        h3 {
-            margin-top: 20px; 
-            margin-bottom: 10px; 
-            font-weight: bold;
-        }
-        p {
-            padding-bottom: 10px;
-            
         }
     }
     &.learning-objectives {
@@ -190,7 +188,7 @@ NEW:
             }
         }
         &.custom-programs {
-            width: 95%;
+            width: 100%;
             .caption {
                 display: none;
                 width: 100%;
@@ -216,15 +214,23 @@ NEW:
         background: #fff url("") left top no-repeat;
         width: 280px;
         
+        div.banner {
+            position: absolute;
+            top: 0; left: 0;
+            margin-bottom: 0;
+            width: 280px;
+            height: 45px;
+        }
         &.image {
             padding-top: 180px;
        
         }
         &.attendees {
-            background-image: none;
+            background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg');
             padding-top: 0;
         }
         &.custom-programs {
+        	width: 95%;
             div.caption {
                 float: none;
                 width: 215px;
@@ -235,6 +241,21 @@ NEW:
         &.dine-out {
             background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/downtown-ann-arbor-dineout_280x187.jpg');
             padding-top:  200px;
+        }
+        &.img-embed {
+            background: #FFF none;
+            padding: 0 0 20px 0;
+            overflow: hidden;
+            img {
+                margin-bottom: -4px;
+            }
+        }
+        &.kata-facebook {
+            text-align: center;
+        }
+        &.leanhealthcare {
+            background-iamge:url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
+            padding-top: 210px;
         }
         &.learning-objectives {
             margin: 0; 
@@ -253,31 +274,6 @@ NEW:
             li {
                 color: #fff;
             }
-        }
-        &.attendees {
-            background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg');
-        }
-        &.leanhealthcare {
-            background-iamge:url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
-            padding-top: 210px;
-        }
-        &.img-embed {
-            background: #FFF none;
-            padding: 0 0 20px 0;
-            overflow: hidden;
-            img {
-                margin-bottom: -4px;
-            }
-        }
-        &.kata-facebook {
-            text-align: center;
-        }
-        div.banner {
-            position: absolute;
-            top: 0; left: 0;
-            margin-bottom: 0;
-            width: 280px;
-            height: 45px;
         }
     }
 }

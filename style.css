@@ -2010,6 +2010,14 @@ NEW:
     color: #ffffff; }
   .promo.image {
     padding-top: 0; }
+  .promo.attendees {
+    background-image: none; }
+    .promo.attendees h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: bold; }
+    .promo.attendees p {
+      padding-bottom: 10px; }
   .promo.custom-programs {
     background-image: none;
     background-color: #7c8703;
@@ -2032,14 +2040,6 @@ NEW:
       font-weight: bold;
       color: #ffcc00;
       text-decoration: none; }
-  .promo.attendees {
-    background-image: none; }
-    .promo.attendees h3 {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-weight: bold; }
-    .promo.attendees p {
-      padding-bottom: 10px; }
   .promo.learning-objectives {
     background-image: none;
     padding-top: 10px; }
@@ -2076,7 +2076,7 @@ NEW:
       .promo.attendees div.six.alpha {
         display: none; }
     .promo.custom-programs {
-      width: 95%; }
+      width: 100%; }
       .promo.custom-programs .caption {
         display: none;
         width: 100%; }
@@ -2093,19 +2093,39 @@ NEW:
   .promo {
     background: #fff url("") left top no-repeat;
     width: 280px; }
+    .promo div.banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-bottom: 0;
+      width: 280px;
+      height: 45px; }
     .promo.image {
       padding-top: 180px; }
     .promo.attendees {
-      background-image: none;
+      background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg");
       padding-top: 0; }
-    .promo.custom-programs div.caption {
-      float: none;
-      width: 215px;
-      margin: 0 auto;
-      margin-bottom: 10px; }
+    .promo.custom-programs {
+      width: 95%; }
+      .promo.custom-programs div.caption {
+        float: none;
+        width: 215px;
+        margin: 0 auto;
+        margin-bottom: 10px; }
     .promo.dine-out {
       background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/downtown-ann-arbor-dineout_280x187.jpg");
       padding-top: 200px; }
+    .promo.img-embed {
+      background: #FFF none;
+      padding: 0 0 20px 0;
+      overflow: hidden; }
+      .promo.img-embed img {
+        margin-bottom: -4px; }
+    .promo.kata-facebook {
+      text-align: center; }
+    .promo.leanhealthcare {
+      background-iamge: url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
+      padding-top: 210px; }
     .promo.learning-objectives {
       margin: 0;
       padding: 0;
@@ -2119,27 +2139,7 @@ NEW:
       .promo.learning-objectives p {
         color: #fff; }
       .promo.learning-objectives li {
-        color: #fff; }
-    .promo.attendees {
-      background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg"); }
-    .promo.leanhealthcare {
-      background-iamge: url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
-      padding-top: 210px; }
-    .promo.img-embed {
-      background: #FFF none;
-      padding: 0 0 20px 0;
-      overflow: hidden; }
-      .promo.img-embed img {
-        margin-bottom: -4px; }
-    .promo.kata-facebook {
-      text-align: center; }
-    .promo div.banner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-bottom: 0;
-      width: 280px;
-      height: 45px; } }
+        color: #fff; } }
 /*
 NEW:
 <div class="brochure">
@@ -4399,6 +4399,11 @@ ul.flex-direction-nav {
 ================================================== */
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
+  .container {
+    width: 100%; }
+    .container div.columns {
+      width: 100%; }
+
   .mobile-hide {
     display: none; } }
 /* #Mobile (Landscape)
