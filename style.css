@@ -2199,13 +2199,15 @@ button[disabled],
   .instructors h3 {
     line-height: 24px;
     margin-bottom: 5px; }
+  .instructors .captioned img {
+    margin-bottom: 0; }
 
 @media only screen and (max-width: 767px) {
-  .instructors .caption.left {
+  .instructors .captioned.left {
     float: none;
     margin-right: 0;
     width: 100%; }
-    .instructors .caption.left img {
+    .instructors .captioned.left img {
       width: 100%; } }
 /* Specific to course-description tabs */
 #course-description {

@@ -6,12 +6,15 @@
 		line-height: 24px;
 		margin-bottom: 5px;
 	}
+	.captioned img {
+		margin-bottom: 0;
+	}
 }
 
 @media only screen and (max-width: 767px) {
 	.instructors {
 	
-		.caption.left {
+		.captioned.left {
 			float: none;
 			margin-right: 0;
 			width: 100%;
