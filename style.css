@@ -2213,9 +2213,6 @@ button[disabled],
   .instructors h3 {
     line-height: 24px;
     margin-bottom: 5px; }
-  .instructors p {
-    font-size: 14px;
-    line-height: 18px; }
 
 /* Specific to course-description tabs */
 #course-description {
