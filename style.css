@@ -2956,7 +2956,11 @@ button[disabled],
       color: #b0bc22; }
     nav.mainmenu .flexnav > li.programs div.feature p {
       width: 96%;
-      padding: 0 10px; }
+      padding: 0 10px;
+      font-weight: bold;
+      line-height: 1.3em; }
+      nav.mainmenu .flexnav > li.programs div.feature p a {
+        color: #e6b028; }
     nav.mainmenu .flexnav > li.careers > a {
       background-color: #b86e23;
       /*#b86e23, 70% opaque*/
@@ -2987,7 +2991,7 @@ button[disabled],
       left: 0;
       width: 960px;
       margin: 0;
-      padding: 10px 0;
+      padding: 20px 0;
       background-color: #fff;
       -webkit-box-shadow: 0px 5px 5px 0px #999;
       box-shadow: 0px 5px 5px 0px #999; }
@@ -3001,11 +3005,12 @@ button[disabled],
       nav.mainmenu .flexnav > li > ul h3 {
         margin: 0;
         margin-bottom: 0.5em;
-        margin-left: 10px;
+        margin-left: 20px;
         padding: 0;
+        text-transform: uppercase;
         font-weight: bold;
-        font-size: 1.3em;
-        line-height: 1.3em; }
+        font-size: 1.1em;
+        line-height: 100%; }
         nav.mainmenu .flexnav > li > ul h3 a {
           margin: 0;
           padding: 0;
@@ -3015,7 +3020,7 @@ button[disabled],
       nav.mainmenu .flexnav > li > ul p {
         margin: 0;
         margin-bottom: 3px;
-        margin-left: 10px;
+        margin-left: 20px;
         padding: 0;
         line-height: 1.2em;
         font-size: 1em;
