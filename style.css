@@ -2181,9 +2181,10 @@ button[disabled],
     margin-top: 5px;
     margin-bottom: 5px; }
   #agenda h6 {
+    margin-bottom: 0px;
+    font-weight: normal;
     font-size: 1em;
-    color: #176eb5;
-    margin-bottom: 0px; }
+    color: #176eb5; }
   #agenda p {
     color: #176eb5;
     margin-bottom: 0px; }
@@ -2205,6 +2206,16 @@ button[disabled],
     margin-bottom: 10px; }
     #agenda .disc li {
       margin-bottom: 0; }
+
+.instructors {
+  margin-bottom: 10px;
+  padding-top: 30px; }
+  .instructors h3 {
+    line-height: 24px;
+    margin-bottom: 5px; }
+  .instructors p {
+    font-size: 14px;
+    line-height: 18px; }
 
 /* Specific to course-description tabs */
 #course-description {
