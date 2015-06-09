@@ -46,6 +46,12 @@ NEW:
 @media (min-width: 768px) {
 	.quotes {
 
+	.column.one {
+		width: 15%;
+	}
+	.columns.three {
+		width: 70%;
+	}
 
 	}
 }

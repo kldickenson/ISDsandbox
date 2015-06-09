@@ -1008,6 +1008,11 @@ NEW:
     line-height: 21px;
     margin-bottom: 5px; }
 
+@media (min-width: 768px) {
+  .quotes .column.one {
+    width: 15%; }
+  .quotes .columns.three {
+    width: 70%; } }
 /*
 * jQuery Mobile v1.4.5
 * http://jquerymobile.com
