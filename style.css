@@ -687,21 +687,6 @@ h2.page-title span {
 @media (max-width: 767px) {
   #upcoming li.item {
     width: 95%; } }
-/*
-NEW Format:
-<div id="pricing">
-	<div class="left">
-		<p>PROGRAM PRICE</p>
-		<p class="price"><strong>$3,100</strong></p>
-		<p>Four-Day Course</p>
-	</div>
-	<div class="right">
-		<p class="discount"><strong>Save 10%</strong></p>
-		<p>Register 5 or more for a group discount. Restrictions apply.</p>
-	</div>
-	<div style="clear: both;">&nbsp;</div>
-</div>
-*/
 #pricing {
   background: #fff;
   padding: 10px 10px 0px 10px;
@@ -2215,6 +2200,13 @@ button[disabled],
     line-height: 24px;
     margin-bottom: 5px; }
 
+@media only screen and (max-width: 767px) {
+  .instructors .caption.left {
+    float: none;
+    margin-right: 0;
+    width: 100%; }
+    .instructors .caption.left img {
+      width: 100%; } }
 /* Specific to course-description tabs */
 #course-description {
   padding: 0 0 10px;
