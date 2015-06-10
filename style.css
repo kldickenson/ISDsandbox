@@ -416,7 +416,8 @@ h2.page-title span {
 @media only screen and (min-width: 767px) {
   #page-banner {
     height: 150px;
-    clear: both; }
+    clear: both;
+    padding: 0 11px; }
 
   #page-banner.img-embed .container {
     height: 250px;
