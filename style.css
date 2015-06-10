@@ -2929,7 +2929,7 @@ button[disabled],
       nav.mainmenu .flexnav > li.admissions.active a, nav.mainmenu .flexnav > li.admissions > a:hover, nav.mainmenu .flexnav > li.admissions > a:focus {
         color: #6c207e; }
       nav.mainmenu .flexnav > li.admissions div.boxed {
-        min-height: 200px;
+        min-height: 180px;
         background: #efefef;
         margin-left: 20px;
         margin-right: 0;
