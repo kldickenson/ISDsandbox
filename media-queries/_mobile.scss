@@ -5,6 +5,10 @@
 
 
 @media only screen and (max-width: 767px) {
+
+	body {
+		background-color: $color-pg-bkgd-mobile;
+	}
  	
  	.container {
  		width: 100%;

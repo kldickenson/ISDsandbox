@@ -803,7 +803,7 @@ NEW:
     font-size: .9em; }
   .promo ul.disc {
     margin: 0 10px 0 10px;
-    padding: 0 10px 10px 15px; }
+    padding: 0 15px 10px 15px; }
   .promo a.slider2button.small.blue {
     background-color: #5082b9;
     margin: 0px 0 20px 10px;
@@ -3859,7 +3859,8 @@ ul.alpha-in-page li a {
   height: 390px;
   /* header + main-menu + slider = 80+50+260   */
   width: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-top: -50px; }
 
 .homeslider {
   margin-bottom: 0;
@@ -4474,6 +4475,9 @@ ul.flex-direction-nav {
 ================================================== */
 /* Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
+  body {
+    background-color: #f0f0f0; }
+
   .container {
     width: 100%; }
     .container div.columns {
