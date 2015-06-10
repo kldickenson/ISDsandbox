@@ -1,21 +1,10 @@
 /*
-OLD:
-<div class="row" style="margin-top: 0px; padding-top: 30px;">
-<div class="one column alpha"><img src="http://confluence.engin.umich.edu/download/attachments/21103180/left-quote-icon.png" alt="left quotation mark" border="0"></div>
-<div class="three columns">
-<p style="font-size: 14px; line-height: 21px; margin-bottom: 0px;">The Lean Leadership workshop facilitated by Drew Locher provides a systematic way to guide Leaders through becoming Lean Thinkers and Lean Leaders. The combination of instruction and practical application help both new and experienced leaders work through Lean tools, like Leader Standard work, in small understandable bites.</p>
-<p style="font-size: 14px; margin-top: 5px;"><em>—Danette Conley, Lean Director, Zodiac Aerospace</em></p>
-</div>
-<div class="one column omega"><img src="http://confluence.engin.umich.edu/download/attachments/21103180/right-quote-icon.png" alt="right quotation mark" border="0"></div>
-<div class="clearfix">&nbsp;</div>
-</div>
-
 NEW:
 <div class="row" class="quotes">
 	<div class="one column alpha">
 		<img src="http://confluence.engin.umich.edu/download/attachments/21103180/left-quote-icon.png" alt="left quotation mark" border="0">
 	</div>
-	<div class="three columns">
+	<div class="three columns alpha omega">
 		<p>The Lean Leadership workshop facilitated by Drew Locher provides a systematic way to guide Leaders through becoming Lean Thinkers and Lean Leaders. The combination of instruction and practical application help both new and experienced leaders work through Lean tools, like Leader Standard work, in small understandable bites.</p>
 		<p><em>—Danette Conley, Lean Director, Zodiac Aerospace</em></p>
 	</div>
@@ -24,11 +13,7 @@ NEW:
 	</div>
 	<div class="clearfix">&nbsp;</div>
 </div>
-
-
 */
-
-
 
 .quotes {
 	margin-top: 0px; 
@@ -42,16 +27,8 @@ NEW:
 
 }
 
-
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	.quotes {
-
-	.column.one {
-		width: 15%;
-	}
-	.columns.three {
-		width: 70%;
-	}
-
+		display: none;
 	}
 }
