@@ -381,6 +381,7 @@ tfoot td {
 
 h2.page-title {
   padding: 20px;
+  padding-left: 0;
   /* padding-top: 100px;  SEE MEDIA QUERIES */
   color: #176eb5;
   line-height: 1.2em;
