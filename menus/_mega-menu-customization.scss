@@ -266,9 +266,11 @@
           }
         }
         &.about   {
+          background-color: rgb(19, 71, 145);
+          background-color: rgba(19, 71, 145, .7);
           & > a   {
-            background-color: rgb(19, 71, 145);
-            background-color: rgba(19, 71, 145, .7);
+            //background-color: rgb(19, 71, 145);
+           // background-color: rgba(19, 71, 145, .7);
             color: #fff;
           }  
           h3,
@@ -287,9 +289,11 @@
           }
         }
         &.admissions {
+          background-color: rgb(108, 32, 126);
+          background-color: rgba(108, 32, 126, .7);
           & > a   {
-            background-color: rgb(108, 32, 126);
-            background-color: rgba(108, 32, 126, .7);
+            //background-color: rgb(108, 32, 126);
+            //background-color: rgba(108, 32, 126, .7);
           }
           h3,
           h3 > a   {
@@ -310,6 +314,10 @@
           div.boxed   {
             //background: transparent;
             background: #efefef;
+            margin-left: 20px;
+            margin-right: 0;
+            padding: 10px 0;
+            border-color: $color-admissions;
 
             h3 {
               margin-top: 5px;
@@ -345,9 +353,11 @@
           }
         }    
         &.degrees {
+          background-color: rgb(213, 159, 13);
+          background-color: rgba(213, 159, 13, .9);
           & > a   {
-            background-color: rgb(213, 159, 13);
-            background-color: rgba(213, 159, 13, .9);
+            //background-color: rgb(213, 159, 13);
+            //background-color: rgba(213, 159, 13, .9);
           }
           h3,
           h3 > a  {
@@ -364,9 +374,11 @@
           }
         }    
         &.certificates {
+          background-color: rgb(86, 160, 211);
+          background-color: rgba(86, 160, 211, .7);
           & > a   {
-            background-color: rgb(86, 160, 211);
-            background-color: rgba(86, 160, 211, .7);
+            //background-color: rgb(86, 160, 211);
+            //background-color: rgba(86, 160, 211, .7);
           }
           h3,
           h3 > a   {
@@ -384,9 +396,11 @@
           }
         }    
         &.programs {
+          background-color: rgb(176, 188, 34);
+          background-color: rgba(176, 188, 34, .7);
           & > a   {
-            background-color: rgb(176, 188, 34);
-            background-color: rgba(176, 188, 34, .7);
+            //background-color: rgb(176, 188, 34);
+            //background-color: rgba(176, 188, 34, .7);
           }
           h3,
           h3 > a    {
@@ -413,9 +427,11 @@
           }
         }
         &.careers {
+          background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
+          background-color: rgba(184, 110, 35, .7);
           & > a   {
-            background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
-            background-color: rgba(184, 110, 35, .7);
+            //background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
+            //background-color: rgba(184, 110, 35, .7);
           }    
           h3,
           h3 > a   {
@@ -432,9 +448,11 @@
           }
         }
         &.people {
-          & > a   {
-            background-color: rgb(145, 145, 149);
-            background-color: rgba(145, 145, 149, .7);
+          background-color: rgb(145, 145, 149);
+          background-color: rgba(145, 145, 149, .7);
+         & > a   {
+            //background-color: rgb(145, 145, 149);
+            //background-color: rgba(145, 145, 149, .7);
             color: #fff;        
           }
           h3,
