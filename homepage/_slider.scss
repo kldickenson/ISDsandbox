@@ -275,3 +275,9 @@ ul.flex-direction-nav {
 .flex-direction-nav .flex-caption {
     background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0;
 }
+
+@media (max-width: 768px) {
+    #slider {
+        display: none;
+    }
+}
