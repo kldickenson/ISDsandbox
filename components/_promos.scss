@@ -65,6 +65,9 @@ NEW:
     position: relative;
     background-color: #fff;
 
+	.row {
+		margin-bottom: 0;
+	}
     h3, h4 {
         padding: 0 15px 0 15px;
         margin-bottom: 10px;
@@ -101,7 +104,7 @@ NEW:
     }
     ul.disc  {
         margin: 0 10px 0 25px; 
-        padding: 0 0 10px 10px;
+        padding: 0 0 0 10px;
     }
     a.slider2button.small.blue {
         background-color: #5082b9; 
@@ -150,7 +153,6 @@ NEW:
     &.learning-objectives {
 		background-image: none;
 		padding:0;
-		margin: 0;
       
         div.columns.five {
             margin-left: 0;

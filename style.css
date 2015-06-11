@@ -784,6 +784,8 @@ NEW:
   position: relative;
   background-color: #fff;
   /* H5 is used for Promo banners */ }
+  .promo .row {
+    margin-bottom: 0; }
   .promo h3, .promo h4 {
     padding: 0 15px 0 15px;
     margin-bottom: 10px;
@@ -813,7 +815,7 @@ NEW:
     font-size: .9em; }
   .promo ul.disc {
     margin: 0 10px 0 25px;
-    padding: 0 0 10px 10px; }
+    padding: 0 0 0 10px; }
   .promo a.slider2button.small.blue {
     background-color: #5082b9;
     margin: 0px 0 20px 10px;
@@ -849,8 +851,7 @@ NEW:
       text-decoration: none; }
   .promo.learning-objectives {
     background-image: none;
-    padding: 0;
-    margin: 0; }
+    padding: 0; }
     .promo.learning-objectives div.columns.five {
       margin-left: 0; }
 
