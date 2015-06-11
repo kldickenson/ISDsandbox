@@ -822,7 +822,6 @@ NEW:
   .promo img {
     display: none; }
   .promo.custom-programs {
-    background-image: none;
     background-color: #7c8703;
     padding: 0;
     padding-top: 20px;
@@ -888,11 +887,7 @@ NEW:
     .promo.custom-programs {
       width: 100%; }
       .promo.custom-programs .caption {
-        display: none;
-        width: 100%; }
-        .promo.custom-programs .caption img {
-          width: 100%;
-          height: inherit; }
+        display: none; }
       .promo.custom-programs h4 {
         clear: left;
         padding: 0; }
@@ -916,6 +911,7 @@ NEW:
     .promo.custom-programs {
       width: 95%; }
       .promo.custom-programs div.caption {
+        display: inline-block;
         float: none;
         width: 215px;
         margin: 0 auto;
@@ -928,9 +924,6 @@ NEW:
         margin-bottom: -4px; }
     .promo.kata-facebook {
       text-align: center; }
-    .promo.leanhealthcare {
-      background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
-      padding-top: 210px; }
     .promo.learning-objectives {
       margin: 0;
       padding: 0;
