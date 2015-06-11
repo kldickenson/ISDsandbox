@@ -70,6 +70,12 @@ NEW:
         margin-bottom: 10px;
         font-size: 1.3em;
     }
+    // H3 used for "Who Should Attend" and "Learning Objectives" promo items
+  	h3 {
+  		margin-top: 10px; 
+        margin-bottom: 10px; 
+        font-weight: bold;
+  	}
     h4 {
         text-transform: capitalize;
         color: #ffffff; 
@@ -142,14 +148,10 @@ NEW:
         }
     }
     &.learning-objectives {
-       background-image: none;
-       padding:0;
-       margin: 0;
-        h3 {
-            margin-top: 20px; 
-            margin-bottom: 10px; 
-            font-weight: bold;
-        }
+		background-image: none;
+		padding:0;
+		margin: 0;
+      
         div.columns.five {
             margin-left: 0;
         }

@@ -788,6 +788,10 @@ NEW:
     padding: 0 15px 0 15px;
     margin-bottom: 10px;
     font-size: 1.3em; }
+  .promo h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold; }
   .promo h4 {
     text-transform: capitalize;
     color: #ffffff;
@@ -847,10 +851,6 @@ NEW:
     background-image: none;
     padding: 0;
     margin: 0; }
-    .promo.learning-objectives h3 {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-weight: bold; }
     .promo.learning-objectives div.columns.five {
       margin-left: 0; }
 
