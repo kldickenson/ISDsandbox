@@ -795,7 +795,7 @@ NEW:
     font-size: 18px;
     line-height: 21px; }
   .promo h5 {
-    color: #ffffff;
+    color: #176EB5;
     font-weight: bold;
     padding-left: 15px;
     margin-bottom: 10px;
@@ -819,6 +819,8 @@ NEW:
     margin-bottom: 0px;
     padding: 15px 0 5px 0;
     background-color: #176eb5; }
+  .promo img {
+    display: none; }
   .promo.custom-programs {
     background-image: none;
     background-color: #7c8703;
@@ -907,6 +909,8 @@ NEW:
       margin-top: 0;
       margin-bottom: 10px;
       overflow: hidden; }
+    .promo h5 {
+      color: #fff; }
     .promo.custom-programs {
       width: 95%; }
       .promo.custom-programs div.caption {

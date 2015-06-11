@@ -79,7 +79,7 @@ NEW:
     }
     /* H5 is used for Promo banners */
     h5 {
-        color: #ffffff;
+        color: #176EB5;
   		font-weight: bold;
   		padding-left: 15px;
   		margin-bottom: 10px;
@@ -108,6 +108,9 @@ NEW:
         margin-bottom: 0px;
         padding: 15px 0 5px 0; 
         background-color: #176eb5;
+    }
+    img {
+    	display: none;
     }
 
     &.custom-programs {
@@ -173,11 +176,7 @@ NEW:
         }
         div.banner {
             position: relative;
-            //top: 0; left: 0;
-            //margin-bottom: 20px;
             width: 100%;
-            //height: 45px;
-
             padding-top: 15px; 
             padding-bottom: 5px; 
             background-color: transparent; 
@@ -231,6 +230,9 @@ NEW:
             margin-top: 0;
             margin-bottom: 10px;
             overflow: hidden;       
+        }
+        h5 {
+        	color: #fff;
         }
         
         &.custom-programs {
