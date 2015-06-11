@@ -248,9 +248,11 @@ NEW:
         
         img {
             //padding-top: 180px;
+            display: block;
             width: 100%;
             padding: 0;
             margin-top: 0;
+            margin-bottom: 10px;
             overflow: hidden;       
         }
         &.attendees {
@@ -267,7 +269,7 @@ NEW:
             }
         }
         &.dine-out {
-            background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/downtown-ann-arbor-dineout_280x187.jpg');
+            //background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/downtown-ann-arbor-dineout_280x187.jpg');
             padding-top:  200px;
         }
         &.img-embed {
@@ -282,7 +284,7 @@ NEW:
             text-align: center;
         }
         &.leanhealthcare {
-            background-iamge:url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
+            background-image:url("//confluence.engin.umich.edu/download/attachments/21103180/leanhealthcare-inset.jpg");
             padding-top: 210px;
         }
         &.learning-objectives {
