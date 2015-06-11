@@ -844,7 +844,8 @@ NEW:
       text-decoration: none; }
   .promo.learning-objectives {
     background-image: none;
-    padding-top: 10px; }
+    padding: 0;
+    margin: 0; }
     .promo.learning-objectives h3 {
       margin-top: 20px;
       margin-bottom: 10px;
