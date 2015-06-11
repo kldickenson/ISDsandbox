@@ -907,6 +907,8 @@ NEW:
       margin-top: 0;
       margin-bottom: 15px;
       overflow: hidden; }
+    .promo h3 {
+      padding-left: 10px; }
     .promo h5 {
       color: #fff; }
     .promo.custom-programs {
@@ -934,6 +936,7 @@ NEW:
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 5px;
+        padding-left: 15px;
         font-size: 22px; }
       .promo.learning-objectives p {
         color: #fff; }
