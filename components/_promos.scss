@@ -70,19 +70,22 @@ NEW:
         font-size: 1.3em;
     }
     h4 {
-        font-size: 1.2em;
+        text-transform: capitalize;
+        color: #ffffff; 
+        font-weight: bold; 
+        margin-left: 15px; 
+        font-size: 18px; 
+        line-height: 21px; 
     }
     /* H5 is used for Promo banners */
     h5 {
-        height: 30px;
-        padding-top: 15px;
-        padding-left: 10px;
-        background: url('https://confluence.engin.umich.edu/download/attachments/21103180/sidebar-title-overlay.png') top left repeat;
-        overflow: hidden;
-        text-transform: uppercase;
-        color: #fff;
-        font-weight: normal;
-        width: 100%;
+        color: #ffffff;
+  		font-weight: bold;
+  		padding-left: 15px;
+  		margin-bottom: 10px;
+  		font-size: 18px;
+  		line-height: 21px;
+  		text-transform: capitalize;
     }
     p {
         padding: 0 15px 20px 15px;
@@ -98,6 +101,20 @@ NEW:
         margin: 0px 0 20px 10px; 
         color: #ffffff;
     } 
+
+    div.banner {
+        position: relative;
+        //top: 0; left: 0;
+        //margin-bottom: 20px;
+        width: 100%;
+        //height: 45px;
+
+        padding-top: 15px; 
+        padding-bottom: 5px; 
+        background-color: #176eb5; 
+        margin-bottom: 0px;
+    }
+
     &.image {
         padding-top: 0;
     }
@@ -176,11 +193,23 @@ NEW:
         }
         div.banner {
             position: relative;
-            top: 0; left: 0;
-            margin-bottom: 20px;
+            //top: 0; left: 0;
+            //margin-bottom: 20px;
             width: 100%;
-            height: 45px;
+            //height: 45px;
+
+            padding-top: 15px; 
+            padding-bottom: 5px; 
+            background-color: transparent; 
+            margin-bottom: 0px;
         }
+        h3, h4 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-weight: bold;
+			color: #176EB5;
+        }
+
         &.attendees {
             padding-top: 10px;
             div.six.alpha {
@@ -212,18 +241,17 @@ NEW:
 @media (min-width: 768px) {
     .promo {
         background: #fff url("") left top no-repeat;
-        width: 280px;
+        //width: 280px;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
         
-        div.banner {
-            position: absolute;
-            top: 0; left: 0;
-            margin-bottom: 0;
-            width: 280px;
-            height: 45px;
-        }
-        &.image {
-            padding-top: 180px;
-       
+        img {
+            //padding-top: 180px;
+            width: 100%;
+            padding: 0;
+            margin-top: 0;
+            overflow: hidden;       
         }
         &.attendees {
             background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg');
