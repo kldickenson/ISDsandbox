@@ -171,6 +171,10 @@ NEW:
     .promo {
         width: 100%;
         //padding: 20px 0;
+
+        &.eleven.columns {
+        	width: 100%;
+        }
         .sidebar & {
             background-image: none;
         }

@@ -865,6 +865,8 @@ NEW:
 @media (max-width: 767px) {
   .promo {
     width: 100%; }
+    .promo.eleven.columns {
+      width: 100%; }
     .sidebar .promo {
       background-image: none; }
     .promo div.banner {
