@@ -778,6 +778,7 @@ NEW:
 */
 .promo {
   padding: 0;
+  padding-bottom: 10px;
   margin-bottom: 20px;
   overflow: hidden;
   position: relative;
@@ -803,7 +804,7 @@ NEW:
     line-height: 21px;
     text-transform: capitalize; }
   .promo p {
-    padding: 0 15px 15px 15px;
+    padding: 0 15px 15px 10px;
     margin-bottom: 0;
     font-size: .9em; }
   .promo ul.disc {
@@ -898,14 +899,13 @@ NEW:
 @media (min-width: 768px) {
   .promo {
     background: #fff;
-    padding: 0;
     width: 100%; }
     .promo img {
       display: block;
       width: 100%;
       padding: 0;
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       overflow: hidden; }
     .promo h5 {
       color: #fff; }
