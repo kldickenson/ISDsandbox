@@ -255,10 +255,7 @@ NEW:
             margin-bottom: 10px;
             overflow: hidden;       
         }
-        &.attendees {
-            background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg');
-            padding-top: 0;
-        }
+        
         &.custom-programs {
         	width: 95%;
             div.caption {
@@ -268,10 +265,7 @@ NEW:
                 margin-bottom: 10px;
             }
         }
-        &.dine-out {
-            //background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/downtown-ann-arbor-dineout_280x187.jpg');
-            padding-top:  200px;
-        }
+        
         &.img-embed {
             background: #FFF none;
             padding: 0 0 20px 0;

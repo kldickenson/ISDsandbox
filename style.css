@@ -919,9 +919,6 @@ NEW:
       margin-top: 0;
       margin-bottom: 10px;
       overflow: hidden; }
-    .promo.attendees {
-      background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/who-should-attend.jpg");
-      padding-top: 0; }
     .promo.custom-programs {
       width: 95%; }
       .promo.custom-programs div.caption {
@@ -929,8 +926,6 @@ NEW:
         width: 215px;
         margin: 0 auto;
         margin-bottom: 10px; }
-    .promo.dine-out {
-      padding-top: 200px; }
     .promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
