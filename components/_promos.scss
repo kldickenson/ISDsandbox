@@ -58,7 +58,7 @@ NEW:
 
 .promo {
     //font-size: .9em;
-    padding: 70px 0 0;
+    padding:0;
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
@@ -104,32 +104,12 @@ NEW:
 
     div.banner {
         position: relative;
-        //top: 0; left: 0;
-        //margin-bottom: 20px;
         width: 100%;
-        //height: 45px;
-
-        padding-top: 15px; 
-        padding-bottom: 5px; 
-        background-color: #176eb5; 
         margin-bottom: 0px;
+        padding: 15px 0 5px 0; 
+        background-color: #176eb5;
     }
 
-    &.image {
-        padding-top: 0;
-    }
-    &.attendees {
-        background-image: none;
-        h3 {
-            margin-top: 20px; 
-            margin-bottom: 10px; 
-            font-weight: bold;
-        }
-        p {
-            padding-bottom: 10px;
-            
-        }
-    }
     &.custom-programs {
         background-image: none;
         background-color: #7c8703;
@@ -240,14 +220,11 @@ NEW:
 
 @media (min-width: 768px) {
     .promo {
-        background: #fff url("") left top no-repeat;
-        //width: 280px;
-        margin-bottom: 20px;
+        background: #fff;
         padding: 0;
         width: 100%;
         
         img {
-            //padding-top: 180px;
             display: block;
             width: 100%;
             padding: 0;
