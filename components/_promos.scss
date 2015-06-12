@@ -197,6 +197,9 @@ NEW:
 			font-weight: bold;
 			color: #176EB5;
         }
+        p {
+        	padding-left: 15px;
+        }
 
         &.attendees {
             padding-top: 10px;
@@ -206,6 +209,7 @@ NEW:
         }
         &.custom-programs {
             width: 100%;
+            padding-top: 0;
             .caption {
                 display: none;
             }
