@@ -463,7 +463,7 @@ h2.page-title span {
       text-decoration: none;
       color: #fdeb72; }
 
-@media only screen and (min-width: 480px) and (max-width: 960px) {
+@media only screen and (min-width: 420px) and (max-width: 960px) {
   #footer {
     width: 100%;
     background-image: none;
@@ -490,7 +490,7 @@ h2.page-title span {
           margin: 5px; }
       #footer .container .siteinfo {
         clear: both;
-        margin-top: 40px; } }
+        margin-top: 20px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
