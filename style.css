@@ -934,6 +934,7 @@ NEW:
     .promo.learning-objectives {
       margin: 0;
       padding: 0;
+      padding-bottom: 10px;
       background-image: url("https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
       .promo.learning-objectives img {
         display: none; }
@@ -949,7 +950,8 @@ NEW:
       .promo.learning-objectives li {
         color: #fff; }
       .promo.learning-objectives.sidebar {
-        background-image: none; }
+        background-image: none;
+        padding-bottom: 0; }
         .promo.learning-objectives.sidebar img {
           display: block;
           width: 100%; }
