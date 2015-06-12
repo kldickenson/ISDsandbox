@@ -60,31 +60,34 @@
         }
         .container {
             width: 100%;
-            div.columns {
+            margin-left: 0;
+           /*div.columns {
                 display: block;
                 width: 100%;
                 float: none;
-            }
-            /*ul.social-media {
+            }*/
+            ul.social-media {
                 width: inherit;
                 margin: 0 auto;
-            }*/
+                float: none;
+            }
             #footer-nav {
                 float: none;
                 //width: 50%;
                 margin: 0 auto;
                 text-align: center;
+                clear: both;
                 li {
                     float: none;
                     display: inline-block;
-                    //margin-left: 0;
-                    text-align: center;
+                    margin-left: 0;
+                    //text-align: center;
                     margin-bottom: 5px;
                 }
             }
             .siteinfo {
                 clear: both;
-                margin-top: 10px;
+                margin-top: 50px;
             }
 
         }

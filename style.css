@@ -485,26 +485,29 @@ h2.page-title span {
       margin-bottom: 0; }
     #footer .container {
       width: 100%;
-      /*ul.social-media {
-          width: inherit;
-          margin: 0 auto;
-      }*/ }
-      #footer .container div.columns {
-        display: block;
-        width: 100%;
+      margin-left: 0;
+      /*div.columns {
+           display: block;
+           width: 100%;
+           float: none;
+       }*/ }
+      #footer .container ul.social-media {
+        width: inherit;
+        margin: 0 auto;
         float: none; }
       #footer .container #footer-nav {
         float: none;
         margin: 0 auto;
-        text-align: center; }
+        text-align: center;
+        clear: both; }
         #footer .container #footer-nav li {
           float: none;
           display: inline-block;
-          text-align: center;
+          margin-left: 0;
           margin-bottom: 5px; }
       #footer .container .siteinfo {
         clear: both;
-        margin-top: 10px; } }
+        margin-top: 50px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
