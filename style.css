@@ -493,11 +493,16 @@ h2.page-title span {
         float: none; }
       #footer .container #footer-nav {
         float: none;
-        margin: 0 auto; }
+        margin: 0 auto;
+        text-align: center; }
         #footer .container #footer-nav li {
           float: none;
           display: inline-block;
-          text-align: center; } }
+          text-align: center;
+          margin-bottom: 5px; }
+      #footer .container .siteinfo {
+        clear: both;
+        margin-top: 10px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;

@@ -70,12 +70,18 @@
                 float: none;
                 //width: 50%;
                 margin: 0 auto;
+                text-align: center;
                 li {
                     float: none;
                     display: inline-block;
                     //margin-left: 0;
                     text-align: center;
+                    margin-bottom: 5px;
                 }
+            }
+            .siteinfo {
+                clear: both;
+                margin-top: 10px;
             }
 
         }
