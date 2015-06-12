@@ -219,6 +219,25 @@ NEW:
                 padding-left: 0;
             }
         }
+        &.learning-objectives.sidebar {
+        	&.columns.five {
+        		width: 100%;
+        	}
+            img {
+            	display: block;
+            	width: 100%;
+            }
+            h3 {
+                color: $color-primary;
+                font-weight: bold;
+            }
+            p {
+                color: $color-font;
+            }
+            li {
+                color: $color-font
+            }
+        }
     }
 }
 
@@ -268,8 +287,11 @@ NEW:
             margin: 0; 
             padding: 0;
             background-image: url('https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg');
+            img {
+            	display: none;
+            }
             h3 {
-                color: #ffcc00;
+                color: $color-font-yellow;
                 font-weight: bold;
                 margin-top: 20px;
                 margin-bottom: 5px;

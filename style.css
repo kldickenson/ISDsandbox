@@ -896,7 +896,19 @@ NEW:
         padding: 0; }
       .promo.custom-programs p {
         padding-right: 0;
-        padding-left: 0; } }
+        padding-left: 0; }
+    .promo.learning-objectives.sidebar.columns.five {
+      width: 100%; }
+    .promo.learning-objectives.sidebar img {
+      display: block;
+      width: 100%; }
+    .promo.learning-objectives.sidebar h3 {
+      color: #176EB5;
+      font-weight: bold; }
+    .promo.learning-objectives.sidebar p {
+      color: #58585a; }
+    .promo.learning-objectives.sidebar li {
+      color: #58585a; } }
 @media (min-width: 768px) {
   .promo {
     background: #fff;
@@ -932,6 +944,8 @@ NEW:
       margin: 0;
       padding: 0;
       background-image: url("https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
+      .promo.learning-objectives img {
+        display: none; }
       .promo.learning-objectives h3 {
         color: #ffcc00;
         font-weight: bold;
