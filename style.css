@@ -916,13 +916,11 @@ NEW:
       padding-left: 10px; }
     .promo h5 {
       color: #fff; }
-    .promo.custom-programs {
-      width: 95%; }
-      .promo.custom-programs div.caption {
-        float: none;
-        width: 215px;
-        margin: 0 auto;
-        margin-bottom: 10px; }
+    .promo.custom-programs div.caption {
+      float: none;
+      width: 215px;
+      margin: 0 auto;
+      margin-bottom: 10px; }
     .promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
