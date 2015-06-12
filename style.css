@@ -475,7 +475,7 @@ h2.page-title span {
   text-decoration: none;
   color: #fdeb72; }
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
   #footer {
     width: 100%;
     background-image: none;
@@ -503,11 +503,10 @@ h2.page-title span {
         #footer .container #footer-nav li {
           float: none;
           display: inline-block;
-          margin-left: 0;
-          margin-bottom: 5px; }
+          margin: 5px; }
       #footer .container .siteinfo {
         clear: both;
-        margin-top: 50px; } }
+        margin-top: 40px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
