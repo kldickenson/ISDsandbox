@@ -783,7 +783,15 @@ NEW:
   overflow: hidden;
   position: relative;
   background-color: #fff;
-  /* H5 is used for Promo banners */ }
+  /* H5 is used for Promo banners */
+    /*&.learning-objectives {
+		background-image: none;
+		padding:0;
+      
+        div.columns.five {
+            margin-left: 0;
+        }
+    }*/ }
   .promo .row {
     margin-bottom: 0; }
   .promo h3, .promo h4 {
@@ -849,11 +857,6 @@ NEW:
       font-weight: bold;
       color: #ffcc00;
       text-decoration: none; }
-  .promo.learning-objectives {
-    background-image: none;
-    padding: 0; }
-    .promo.learning-objectives div.columns.five {
-      margin-left: 0; }
 
 .stopwatch {
   background: url("//confluence.engin.umich.edu/download/attachments/3958/stopwatch-090611.jpg") no-repeat scroll left bottom #FFFFFF; }
