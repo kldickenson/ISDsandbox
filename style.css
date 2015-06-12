@@ -4518,16 +4518,21 @@ ul.flex-direction-nav {
 
   .container {
     width: 100%; }
-    .container div.columns {
-      width: 100%; }
 
   .columns {
-    width: 100%; }
+    width: 95%; }
 
   .mobile-hide {
     display: none; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .columns {
+    width: 95%; }
+    .columns.eleven {
+      width: 95%; }
+    .columns.five {
+      width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */
