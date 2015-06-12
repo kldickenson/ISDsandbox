@@ -158,7 +158,7 @@ NEW:
             margin-left: 0;
         }
     }
-    &.learning-objectives.sidebar {
+    /*&.learning-objectives.sidebar {
     	padding: 0;
     	&.columns.five {
     		width: 100%;
@@ -178,7 +178,7 @@ NEW:
         li {
             color: $color-font
         }
-    }
+    }*/
 }
 
 .stopwatch {
@@ -240,26 +240,7 @@ NEW:
                 padding-left: 0;
             }
         }
-/*        &.learning-objectives.sidebar {
-        	&.columns.five {
-        		width: 100%;
-        	}
-            img {
-            	display: block;
-            	width: 100%;
-            }
-            h3 {
-                color: $color-primary;
-                font-weight: bold;
-            }
-            p {
-                color: $color-font;
-            }
-            li {
-                color: $color-font
-            }
-        }*/
-    }
+	}
 }
 
 @media (min-width: 768px) {
@@ -324,6 +305,21 @@ NEW:
             }
             li {
                 color: #fff;
+            }
+            &.sidebar {
+            	img {
+            		display: none;
+            	}
+	        	h3 {
+		            color: $color-primary;
+		            //font-weight: bold;
+		        }
+	            p {
+		            color: $color-font;
+		        }
+		        li {
+		            color: $color-font
+		        }
             }
         }
     }
