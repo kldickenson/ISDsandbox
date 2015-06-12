@@ -482,23 +482,26 @@ h2.page-title span {
     background: #555;
     padding-top: 10px; }
     #footer .container {
-      width: 100%; }
+      width: 100%;
+      /*ul.social-media {
+          width: inherit;
+          margin: 0 auto;
+      }
+      #footer-nav {
+          float: none;
+          width: 50%;
+          margin: 0 auto;
+          li {
+              float: none;
+              display: block;
+              margin-left: 0;
+              text-align: center;
+          }
+      }*/ }
       #footer .container div.columns {
         display: block;
         width: 100%;
-        float: none; }
-      #footer .container ul.social-media {
-        width: inherit;
-        margin: 0 auto; }
-      #footer .container #footer-nav {
-        float: none;
-        width: 50%;
-        margin: 0 auto; }
-        #footer .container #footer-nav li {
-          float: none;
-          display: block;
-          margin-left: 0;
-          text-align: center; } }
+        float: none; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
