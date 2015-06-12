@@ -55,6 +55,9 @@
         background-image: none;
         background: #555;
         padding-top: 10px;
+        .row {
+            margin-bottom: 0;
+        }
         .container {
             width: 100%;
             div.columns {

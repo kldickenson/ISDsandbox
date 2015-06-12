@@ -481,6 +481,8 @@ h2.page-title span {
     background-image: none;
     background: #555;
     padding-top: 10px; }
+    #footer .row {
+      margin-bottom: 0; }
     #footer .container {
       width: 100%;
       /*ul.social-media {
