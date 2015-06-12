@@ -783,28 +783,7 @@ NEW:
   overflow: hidden;
   position: relative;
   background-color: #fff;
-  /* H5 is used for Promo banners */
-  /*&.learning-objectives.sidebar {
-  	padding: 0;
-  	&.columns.five {
-  		width: 100%;
-  		margin-left: 0;
-  	}
-      img {
-      	display: block;
-      	width: 100%;
-      }
-      h3 {
-          color: $color-primary;
-          font-weight: bold;
-      }
-      p {
-          color: $color-font;
-      }
-      li {
-          color: $color-font
-      }
-  }*/ }
+  /* H5 is used for Promo banners */ }
   .promo .row {
     margin-bottom: 0; }
   .promo h3, .promo h4 {
@@ -966,14 +945,17 @@ NEW:
         color: #fff; }
       .promo.learning-objectives li {
         color: #fff; }
-      .promo.learning-objectives.sidebar img {
-        display: none; }
-      .promo.learning-objectives.sidebar h3 {
-        color: #176EB5; }
-      .promo.learning-objectives.sidebar p {
-        color: #58585a; }
-      .promo.learning-objectives.sidebar li {
-        color: #58585a; } }
+      .promo.learning-objectives.sidebar {
+        background-image: none; }
+        .promo.learning-objectives.sidebar img {
+          display: block;
+          width: 100%; }
+        .promo.learning-objectives.sidebar h3 {
+          color: #176EB5; }
+        .promo.learning-objectives.sidebar p {
+          color: #58585a; }
+        .promo.learning-objectives.sidebar li {
+          color: #58585a; } }
 /*
 NEW:
 <div class="brochure">

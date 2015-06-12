@@ -158,27 +158,6 @@ NEW:
             margin-left: 0;
         }
     }
-    /*&.learning-objectives.sidebar {
-    	padding: 0;
-    	&.columns.five {
-    		width: 100%;
-    		margin-left: 0;
-    	}
-        img {
-        	display: block;
-        	width: 100%;
-        }
-        h3 {
-            color: $color-primary;
-            font-weight: bold;
-        }
-        p {
-            color: $color-font;
-        }
-        li {
-            color: $color-font
-        }
-    }*/
 }
 
 .stopwatch {
@@ -307,8 +286,10 @@ NEW:
                 color: #fff;
             }
             &.sidebar {
+            	background-image: none;
             	img {
-            		display: none;
+            		display: block;
+            		width: 100%;
             	}
 	        	h3 {
 		            color: $color-primary;
@@ -318,7 +299,7 @@ NEW:
 		            color: $color-font;
 		        }
 		        li {
-		            color: $color-font
+		            color: $color-font;
 		        }
             }
         }
