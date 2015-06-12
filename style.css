@@ -887,12 +887,15 @@ NEW:
       margin-bottom: 10px;
       font-weight: bold;
       color: #176EB5; }
+    .promo p {
+      padding-left: 15px; }
     .promo.attendees {
       padding-top: 10px; }
       .promo.attendees div.six.alpha {
         display: none; }
     .promo.custom-programs {
-      width: 100%; }
+      width: 100%;
+      padding-top: 0; }
       .promo.custom-programs .caption {
         display: none; }
       .promo.custom-programs h4 {
@@ -4515,6 +4518,9 @@ ul.flex-direction-nav {
     width: 100%; }
     .container div.columns {
       width: 100%; }
+
+  .columns {
+    width: 100%; }
 
   .mobile-hide {
     display: none; } }
