@@ -124,7 +124,7 @@ NEW:
     }
 
     &.custom-programs {
-        //background-image: none;
+    	width: 100%;
         background-color: #7c8703;
         padding: 0;
         padding-top: 20px;
@@ -144,8 +144,7 @@ NEW:
             color: #ffffff;
         }
         a {
-            //margin-left: 10px;
-            font-weight: bold; 
+           font-weight: bold; 
            color: #ffcc00;
            text-decoration: none;
         }
@@ -219,14 +218,6 @@ NEW:
                 padding-left: 0;
             }
         }
-        &.learning-objectives.sidebar {
-        	p {
-        		font-size: .9em
-        	}
-        	li {
-        		font-size: .9em
-        	}
-        }
 	}
 }
 
@@ -254,7 +245,6 @@ NEW:
         &.custom-programs {
         	width: 95%;
             div.caption {
-            	display: inline-block;
                 float: none;
                 width: 215px;
                 margin: 0 auto;
