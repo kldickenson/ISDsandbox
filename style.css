@@ -854,6 +854,21 @@ NEW:
     padding: 0; }
     .promo.learning-objectives div.columns.five {
       margin-left: 0; }
+  .promo.learning-objectives.sidebar {
+    padding: 0; }
+    .promo.learning-objectives.sidebar.columns.five {
+      width: 100%;
+      margin-left: 0; }
+    .promo.learning-objectives.sidebar img {
+      display: block;
+      width: 100%; }
+    .promo.learning-objectives.sidebar h3 {
+      color: #176EB5;
+      font-weight: bold; }
+    .promo.learning-objectives.sidebar p {
+      color: #58585a; }
+    .promo.learning-objectives.sidebar li {
+      color: #58585a; }
 
 .stopwatch {
   background: url("//confluence.engin.umich.edu/download/attachments/3958/stopwatch-090611.jpg") no-repeat scroll left bottom #FFFFFF; }
@@ -866,7 +881,26 @@ NEW:
 
 @media (max-width: 767px) {
   .promo {
-    width: 100%; }
+    width: 100%;
+    /*        &.learning-objectives.sidebar {
+            	&.columns.five {
+            		width: 100%;
+            	}
+                img {
+                	display: block;
+                	width: 100%;
+                }
+                h3 {
+                    color: $color-primary;
+                    font-weight: bold;
+                }
+                p {
+                    color: $color-font;
+                }
+                li {
+                    color: $color-font
+                }
+            }*/ }
     .promo.eleven.columns {
       width: 100%; }
     .sidebar .promo {
@@ -896,19 +930,7 @@ NEW:
         padding: 0; }
       .promo.custom-programs p {
         padding-right: 0;
-        padding-left: 0; }
-    .promo.learning-objectives.sidebar.columns.five {
-      width: 100%; }
-    .promo.learning-objectives.sidebar img {
-      display: block;
-      width: 100%; }
-    .promo.learning-objectives.sidebar h3 {
-      color: #176EB5;
-      font-weight: bold; }
-    .promo.learning-objectives.sidebar p {
-      color: #58585a; }
-    .promo.learning-objectives.sidebar li {
-      color: #58585a; } }
+        padding-left: 0; } }
 @media (min-width: 768px) {
   .promo {
     background: #fff;
