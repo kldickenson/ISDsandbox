@@ -57,14 +57,12 @@
         .container {
             width: 100%;
             margin-left: 0;
-           /*div.columns {
-                display: block;
-                width: 100%;
-                float: none;
-            }*/
+           div.columns {
+                margin: 0 auto;
+            }
             ul.social-media {
                 width: inherit;
-                margin: 0 auto;
+                //margin: 0 auto;
                 float: none;
             }
             #footer-nav {

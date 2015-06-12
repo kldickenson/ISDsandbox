@@ -473,15 +473,11 @@ h2.page-title span {
       margin-bottom: 0; }
     #footer .container {
       width: 100%;
-      margin-left: 0;
-      /*div.columns {
-           display: block;
-           width: 100%;
-           float: none;
-       }*/ }
+      margin-left: 0; }
+      #footer .container div.columns {
+        margin: 0 auto; }
       #footer .container ul.social-media {
         width: inherit;
-        margin: 0 auto;
         float: none; }
       #footer .container #footer-nav {
         float: none;
