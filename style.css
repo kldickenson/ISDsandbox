@@ -926,6 +926,28 @@ NEW:
       width: 215px;
       margin: 0 auto;
       margin-bottom: 10px; }
+    .promo.custom-programs img {
+      display: none; }
+    .promo.custom-programs.sidebar {
+      background-image: none;
+      padding-bottom: 0; }
+      .promo.custom-programs.sidebar img {
+        display: block;
+        width: 100%; }
+      .promo.custom-programs.sidebar div.columns.five {
+        margin-left: 0; }
+      .promo.custom-programs.sidebar h3 {
+        color: #176EB5;
+        padding-bottom: 10px;
+        font-size: 24px; }
+      .promo.custom-programs.sidebar p {
+        color: #58585a;
+        font-size: .9em;
+        margin-right: 15px; }
+      .promo.custom-programs.sidebar li {
+        color: #58585a;
+        font-size: .9em;
+        margin-rigth: 15px; }
     .promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
@@ -4518,22 +4540,11 @@ ul.flex-direction-nav {
 
   .container {
     width: 100%; }
-    .container div.columns {
-      width: 95%; }
 
   .mobile-hide {
     display: none; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .container.columns {
-    width: 95%; }
-    .container.columns.eleven {
-      width: 95%; }
-    .container.columns.six {
-      width: 95%; }
-    .container.columns.five {
-      width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */

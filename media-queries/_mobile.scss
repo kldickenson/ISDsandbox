@@ -13,7 +13,7 @@
  	.container {
  		width: 100%;
  		div.columns {
- 			width: 95%;
+ 			//width: 95%;
  		}
  	}
 	.mobile-hide {
@@ -30,16 +30,16 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 	.container.columns {
-		width: 95%;
+		//width: 95%;
 
 		&.eleven {
-			width: 95%;
+			//width: 95%;
 		}
 		&.six {
-			width: 95%;
+			//width: 95%;
 		}
 		&.five {
-			width: 95%;
+			//width: 95%;
 		}
 	}
 }
