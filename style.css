@@ -4528,11 +4528,13 @@ ul.flex-direction-nav {
 ================================================== */
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .columns {
+  .container.columns {
     width: 95%; }
-    .columns.eleven {
+    .container.columns.eleven {
       width: 95%; }
-    .columns.five {
+    .container.columns.six {
+      width: 95%; }
+    .container.columns.five {
       width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */
