@@ -953,16 +953,20 @@ NEW:
         .promo.learning-objectives.sidebar img {
           display: block;
           width: 100%; }
+        .promo.learning-objectives.sidebar div.columns.five {
+          margin-left: 0; }
         .promo.learning-objectives.sidebar h3 {
           color: #176EB5;
           padding-bottom: 10px;
           font-size: 24px; }
         .promo.learning-objectives.sidebar p {
           color: #58585a;
-          font-size: .9em; }
+          font-size: .9em;
+          margin-right: 15px; }
         .promo.learning-objectives.sidebar li {
           color: #58585a;
-          font-size: .9em; } }
+          font-size: .9em;
+          margin-rigth: 15px; } }
 /*
 NEW:
 <div class="brochure">
