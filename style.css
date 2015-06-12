@@ -486,22 +486,18 @@ h2.page-title span {
       /*ul.social-media {
           width: inherit;
           margin: 0 auto;
-      }
-      #footer-nav {
-          float: none;
-          width: 50%;
-          margin: 0 auto;
-          li {
-              float: none;
-              display: block;
-              margin-left: 0;
-              text-align: center;
-          }
       }*/ }
       #footer .container div.columns {
         display: block;
         width: 100%;
-        float: none; } }
+        float: none; }
+      #footer .container #footer-nav {
+        float: none;
+        margin: 0 auto; }
+        #footer .container #footer-nav li {
+          float: none;
+          display: inline-block;
+          text-align: center; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;

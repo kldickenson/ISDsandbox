@@ -65,19 +65,19 @@
             /*ul.social-media {
                 width: inherit;
                 margin: 0 auto;
-            }
+            }*/
             #footer-nav {
                 float: none;
-                width: 50%;
+                //width: 50%;
                 margin: 0 auto;
                 li {
                     float: none;
-                    display: block;
-                    margin-left: 0;
+                    display: inline-block;
+                    //margin-left: 0;
                     text-align: center;
                 }
-            }*/
-            
+            }
+
         }
     }
 }
