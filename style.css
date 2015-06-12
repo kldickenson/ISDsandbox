@@ -472,10 +472,10 @@ h2.page-title span {
     #footer .row {
       margin-bottom: 0; }
     #footer .container {
-      width: 100%;
-      margin-left: 0; }
+      width: 420px;
+      margin: 0 auto; }
       #footer .container div.columns {
-        margin: 0 auto; }
+        width: 100%; }
       #footer .container ul.social-media {
         width: inherit;
         float: none; }
