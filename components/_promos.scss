@@ -174,11 +174,14 @@ NEW:
 @media (max-width: 767px) {
 
     .promo {
-        width: 100%;
+        width: 95%;
         //padding: 20px 0;
 
         &.eleven.columns {
-        	width: 100%;
+        	width: 95%;
+        }
+        &.five.columns {
+        	width: 95%;
         }
         .sidebar & {
             background-image: none;

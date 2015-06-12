@@ -870,9 +870,11 @@ NEW:
 
 @media (max-width: 767px) {
   .promo {
-    width: 100%; }
+    width: 95%; }
     .promo.eleven.columns {
-      width: 100%; }
+      width: 95%; }
+    .promo.five.columns {
+      width: 95%; }
     .sidebar .promo {
       background-image: none; }
     .promo div.banner {
