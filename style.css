@@ -2935,9 +2935,9 @@ button[disabled],
     nav.mainmenu .flexnav > li {
       padding: 5px; }
       nav.mainmenu .flexnav > li > a {
-        height: 18px;
+        height: 23px;
         /* Total height: 50px; alternate: 28px; */
-        padding: 11px 10px 1px;
+        padding: 11px 5px 6px;
         border: none;
         background: none;
         font: bold 100% "Open Sans", sans-serif;
