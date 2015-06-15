@@ -251,10 +251,11 @@
         display: none; 
       }
   // First level
-      > li  { 
+      > li  {
+        padding: 5px;
         > a {
-          height: 28px; /* Total height: 50px; alternate: 28px; */
-          padding: 16px 10px 6px;
+          height: 18px; /* Total height: 50px; alternate: 28px; */
+          padding: 11px 10px 1px;
           border: none;
           background: none;
           font: bold 100% $font-family;

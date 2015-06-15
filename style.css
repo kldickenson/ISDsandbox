@@ -2932,185 +2932,187 @@ button[disabled],
     background: none; }
     nav.mainmenu .flexnav .touch-button {
       display: none; }
-    nav.mainmenu .flexnav > li > a {
-      height: 28px;
-      /* Total height: 50px; alternate: 28px; */
-      padding: 16px 10px 6px;
-      border: none;
-      background: none;
-      font: bold 100% "Open Sans", sans-serif;
-      color: #fff; }
-      nav.mainmenu .flexnav > li > a:hover, nav.mainmenu .flexnav > li > a:focus {
-        text-decoration: none;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li.about {
-      background-color: #134791;
-      background-color: rgba(19, 71, 145, 0.7); }
-      nav.mainmenu .flexnav > li.about h3,
-      nav.mainmenu .flexnav > li.about h3 > a {
-        color: #134791; }
-      nav.mainmenu .flexnav > li.about:hover, nav.mainmenu .flexnav > li.about:hover > a {
-        background-color: #fff;
-        color: #134791; }
-      nav.mainmenu .flexnav > li.about > a:hover, nav.mainmenu .flexnav > li.about > a:focus {
-        color: #134791;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li.admissions {
-      background-color: #6c207e;
-      background-color: rgba(108, 32, 126, 0.7); }
-      nav.mainmenu .flexnav > li.admissions h3,
-      nav.mainmenu .flexnav > li.admissions h3 > a {
-        color: #6c207e; }
-      nav.mainmenu .flexnav > li.admissions:hover, nav.mainmenu .flexnav > li.admissions:hover > a {
-        background-color: #fff;
-        color: #6c207e; }
-      nav.mainmenu .flexnav > li.admissions.active a, nav.mainmenu .flexnav > li.admissions > a:hover, nav.mainmenu .flexnav > li.admissions > a:focus {
-        color: #6c207e;
-        background-color: transparent; }
-      nav.mainmenu .flexnav > li.admissions div.boxed {
-        min-height: 180px;
-        background: #efefef;
-        margin-left: 20px;
-        margin-right: 0;
-        padding: 10px 0;
-        border-color: #933da6; }
-        nav.mainmenu .flexnav > li.admissions div.boxed h3 {
-          margin-top: 5px;
-          margin-bottom: 10px; }
-        nav.mainmenu .flexnav > li.admissions div.boxed div.sub {
-          width: 47%;
-          float: left;
-          border-left: 1px solid #933da6; }
-          nav.mainmenu .flexnav > li.admissions div.boxed div.sub.right {
-            float: right; }
-          nav.mainmenu .flexnav > li.admissions div.boxed div.sub.left {
-            border: none; }
-        nav.mainmenu .flexnav > li.admissions div.boxed.des-sci {
-          border-color: #0075bc; }
-          nav.mainmenu .flexnav > li.admissions div.boxed.des-sci div.sub {
-            border-color: #0075bc; }
-          nav.mainmenu .flexnav > li.admissions div.boxed.des-sci h3 {
-            color: #0075bc; }
-            nav.mainmenu .flexnav > li.admissions div.boxed.des-sci h3 a {
-              color: #0075bc; }
-    nav.mainmenu .flexnav > li.degrees {
-      background-color: #d59f0d;
-      background-color: rgba(213, 159, 13, 0.9); }
-      nav.mainmenu .flexnav > li.degrees h3,
-      nav.mainmenu .flexnav > li.degrees h3 > a {
-        color: #d59f0d; }
-      nav.mainmenu .flexnav > li.degrees:hover, nav.mainmenu .flexnav > li.degrees:hover > a {
-        background-color: #fff;
-        color: #d59f0d; }
-      nav.mainmenu .flexnav > li.degrees > a:hover, nav.mainmenu .flexnav > li.degrees > a:focus {
-        color: #d59f0d;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li.certificates {
-      background-color: #56a0d3;
-      background-color: rgba(86, 160, 211, 0.7); }
-      nav.mainmenu .flexnav > li.certificates h3,
-      nav.mainmenu .flexnav > li.certificates h3 > a {
-        color: #56a0d3; }
-      nav.mainmenu .flexnav > li.certificates:hover, nav.mainmenu .flexnav > li.certificates:hover > a {
-        background-color: #fff;
-        color: #56a0d3; }
-      nav.mainmenu .flexnav > li.certificates > a:hover, nav.mainmenu .flexnav > li.certificates > a:focus {
-        color: #56a0d3;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li.programs {
-      background-color: #b0bc22;
-      background-color: rgba(176, 188, 34, 0.7); }
-      nav.mainmenu .flexnav > li.programs h3,
-      nav.mainmenu .flexnav > li.programs h3 > a {
-        color: #b0bc22; }
-      nav.mainmenu .flexnav > li.programs:hover, nav.mainmenu .flexnav > li.programs:hover > a {
-        background-color: #fff;
-        color: #b0bc22; }
-      nav.mainmenu .flexnav > li.programs > a:hover, nav.mainmenu .flexnav > li.programs > a:focus {
-        color: #b0bc22;
-        background-color: transparent; }
-      nav.mainmenu .flexnav > li.programs div.feature p {
-        width: 96%;
-        padding: 0 10px;
-        font-weight: bold;
-        line-height: 1.3em; }
-        nav.mainmenu .flexnav > li.programs div.feature p a {
-          color: #e6b028; }
-    nav.mainmenu .flexnav > li.careers {
-      background-color: #b86e23;
-      /*#b86e23, 70% opaque*/
-      background-color: rgba(184, 110, 35, 0.7); }
-      nav.mainmenu .flexnav > li.careers h3,
-      nav.mainmenu .flexnav > li.careers h3 > a {
-        color: #b86e23; }
-      nav.mainmenu .flexnav > li.careers:hover, nav.mainmenu .flexnav > li.careers:hover > a {
-        background-color: #fff;
-        color: #b86e23; }
-      nav.mainmenu .flexnav > li.careers > a:hover, nav.mainmenu .flexnav > li.careers > a:focus {
-        color: #b86e23;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li.people {
-      background-color: #919195;
-      background-color: rgba(145, 145, 149, 0.7); }
-      nav.mainmenu .flexnav > li.people > a {
+    nav.mainmenu .flexnav > li {
+      padding: 5px; }
+      nav.mainmenu .flexnav > li > a {
+        height: 18px;
+        /* Total height: 50px; alternate: 28px; */
+        padding: 11px 10px 1px;
+        border: none;
+        background: none;
+        font: bold 100% "Open Sans", sans-serif;
         color: #fff; }
-      nav.mainmenu .flexnav > li.people h3,
-      nav.mainmenu .flexnav > li.people h3 > a {
-        color: #919195; }
-      nav.mainmenu .flexnav > li.people:hover, nav.mainmenu .flexnav > li.people:hover > a {
+        nav.mainmenu .flexnav > li > a:hover, nav.mainmenu .flexnav > li > a:focus {
+          text-decoration: none;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li.about {
+        background-color: #134791;
+        background-color: rgba(19, 71, 145, 0.7); }
+        nav.mainmenu .flexnav > li.about h3,
+        nav.mainmenu .flexnav > li.about h3 > a {
+          color: #134791; }
+        nav.mainmenu .flexnav > li.about:hover, nav.mainmenu .flexnav > li.about:hover > a {
+          background-color: #fff;
+          color: #134791; }
+        nav.mainmenu .flexnav > li.about > a:hover, nav.mainmenu .flexnav > li.about > a:focus {
+          color: #134791;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li.admissions {
+        background-color: #6c207e;
+        background-color: rgba(108, 32, 126, 0.7); }
+        nav.mainmenu .flexnav > li.admissions h3,
+        nav.mainmenu .flexnav > li.admissions h3 > a {
+          color: #6c207e; }
+        nav.mainmenu .flexnav > li.admissions:hover, nav.mainmenu .flexnav > li.admissions:hover > a {
+          background-color: #fff;
+          color: #6c207e; }
+        nav.mainmenu .flexnav > li.admissions.active a, nav.mainmenu .flexnav > li.admissions > a:hover, nav.mainmenu .flexnav > li.admissions > a:focus {
+          color: #6c207e;
+          background-color: transparent; }
+        nav.mainmenu .flexnav > li.admissions div.boxed {
+          min-height: 180px;
+          background: #efefef;
+          margin-left: 20px;
+          margin-right: 0;
+          padding: 10px 0;
+          border-color: #933da6; }
+          nav.mainmenu .flexnav > li.admissions div.boxed h3 {
+            margin-top: 5px;
+            margin-bottom: 10px; }
+          nav.mainmenu .flexnav > li.admissions div.boxed div.sub {
+            width: 47%;
+            float: left;
+            border-left: 1px solid #933da6; }
+            nav.mainmenu .flexnav > li.admissions div.boxed div.sub.right {
+              float: right; }
+            nav.mainmenu .flexnav > li.admissions div.boxed div.sub.left {
+              border: none; }
+          nav.mainmenu .flexnav > li.admissions div.boxed.des-sci {
+            border-color: #0075bc; }
+            nav.mainmenu .flexnav > li.admissions div.boxed.des-sci div.sub {
+              border-color: #0075bc; }
+            nav.mainmenu .flexnav > li.admissions div.boxed.des-sci h3 {
+              color: #0075bc; }
+              nav.mainmenu .flexnav > li.admissions div.boxed.des-sci h3 a {
+                color: #0075bc; }
+      nav.mainmenu .flexnav > li.degrees {
+        background-color: #d59f0d;
+        background-color: rgba(213, 159, 13, 0.9); }
+        nav.mainmenu .flexnav > li.degrees h3,
+        nav.mainmenu .flexnav > li.degrees h3 > a {
+          color: #d59f0d; }
+        nav.mainmenu .flexnav > li.degrees:hover, nav.mainmenu .flexnav > li.degrees:hover > a {
+          background-color: #fff;
+          color: #d59f0d; }
+        nav.mainmenu .flexnav > li.degrees > a:hover, nav.mainmenu .flexnav > li.degrees > a:focus {
+          color: #d59f0d;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li.certificates {
+        background-color: #56a0d3;
+        background-color: rgba(86, 160, 211, 0.7); }
+        nav.mainmenu .flexnav > li.certificates h3,
+        nav.mainmenu .flexnav > li.certificates h3 > a {
+          color: #56a0d3; }
+        nav.mainmenu .flexnav > li.certificates:hover, nav.mainmenu .flexnav > li.certificates:hover > a {
+          background-color: #fff;
+          color: #56a0d3; }
+        nav.mainmenu .flexnav > li.certificates > a:hover, nav.mainmenu .flexnav > li.certificates > a:focus {
+          color: #56a0d3;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li.programs {
+        background-color: #b0bc22;
+        background-color: rgba(176, 188, 34, 0.7); }
+        nav.mainmenu .flexnav > li.programs h3,
+        nav.mainmenu .flexnav > li.programs h3 > a {
+          color: #b0bc22; }
+        nav.mainmenu .flexnav > li.programs:hover, nav.mainmenu .flexnav > li.programs:hover > a {
+          background-color: #fff;
+          color: #b0bc22; }
+        nav.mainmenu .flexnav > li.programs > a:hover, nav.mainmenu .flexnav > li.programs > a:focus {
+          color: #b0bc22;
+          background-color: transparent; }
+        nav.mainmenu .flexnav > li.programs div.feature p {
+          width: 96%;
+          padding: 0 10px;
+          font-weight: bold;
+          line-height: 1.3em; }
+          nav.mainmenu .flexnav > li.programs div.feature p a {
+            color: #e6b028; }
+      nav.mainmenu .flexnav > li.careers {
+        background-color: #b86e23;
+        /*#b86e23, 70% opaque*/
+        background-color: rgba(184, 110, 35, 0.7); }
+        nav.mainmenu .flexnav > li.careers h3,
+        nav.mainmenu .flexnav > li.careers h3 > a {
+          color: #b86e23; }
+        nav.mainmenu .flexnav > li.careers:hover, nav.mainmenu .flexnav > li.careers:hover > a {
+          background-color: #fff;
+          color: #b86e23; }
+        nav.mainmenu .flexnav > li.careers > a:hover, nav.mainmenu .flexnav > li.careers > a:focus {
+          color: #b86e23;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li.people {
+        background-color: #919195;
+        background-color: rgba(145, 145, 149, 0.7); }
+        nav.mainmenu .flexnav > li.people > a {
+          color: #fff; }
+        nav.mainmenu .flexnav > li.people h3,
+        nav.mainmenu .flexnav > li.people h3 > a {
+          color: #919195; }
+        nav.mainmenu .flexnav > li.people:hover, nav.mainmenu .flexnav > li.people:hover > a {
+          background-color: #fff;
+          color: #919195; }
+        nav.mainmenu .flexnav > li.people > a:hover, nav.mainmenu .flexnav > li.people > a:focus {
+          color: #919195;
+          background-color: transparent; }
+      nav.mainmenu .flexnav > li > ul {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 960px;
+        margin: 0;
+        padding: 20px 0;
         background-color: #fff;
-        color: #919195; }
-      nav.mainmenu .flexnav > li.people > a:hover, nav.mainmenu .flexnav > li.people > a:focus {
-        color: #919195;
-        background-color: transparent; }
-    nav.mainmenu .flexnav > li > ul {
-      position: absolute;
-      top: 50px;
-      left: 0;
-      width: 960px;
-      margin: 0;
-      padding: 20px 0;
-      background-color: #fff;
-      -webkit-box-shadow: 0px 5px 5px 0px #999;
-      box-shadow: 0px 5px 5px 0px #999; }
-      nav.mainmenu .flexnav > li > ul li {
-        background: #fff;
-        margin-bottom: 0;
-        padding: 0;
-        padding-top: 5px; }
-      nav.mainmenu .flexnav > li > ul div.columns {
-        margin: 0 10px; }
-      nav.mainmenu .flexnav > li > ul h3 {
-        margin: 0;
-        margin-bottom: 0.5em;
-        margin-left: 15px;
-        padding: 0;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 1.1em;
-        line-height: 100%; }
-        nav.mainmenu .flexnav > li > ul h3 a {
-          margin: 0;
+        -webkit-box-shadow: 0px 5px 5px 0px #999;
+        box-shadow: 0px 5px 5px 0px #999; }
+        nav.mainmenu .flexnav > li > ul li {
+          background: #fff;
+          margin-bottom: 0;
           padding: 0;
-          color: #58585a;
-          background: transparent;
-          border: none; }
-      nav.mainmenu .flexnav > li > ul p {
-        margin: 0;
-        margin-bottom: 3px;
-        margin-left: 15px;
-        padding: 0;
-        line-height: 1.2em;
-        font-size: 1em;
-        font-weigth: normal; }
-        nav.mainmenu .flexnav > li > ul p a {
+          padding-top: 5px; }
+        nav.mainmenu .flexnav > li > ul div.columns {
+          margin: 0 10px; }
+        nav.mainmenu .flexnav > li > ul h3 {
           margin: 0;
+          margin-bottom: 0.5em;
+          margin-left: 15px;
           padding: 0;
-          padding-bottom: 5px;
-          color: #58585a;
-          font-weight: normal;
-          background: transparent;
-          border: none; } }
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 1.1em;
+          line-height: 100%; }
+          nav.mainmenu .flexnav > li > ul h3 a {
+            margin: 0;
+            padding: 0;
+            color: #58585a;
+            background: transparent;
+            border: none; }
+        nav.mainmenu .flexnav > li > ul p {
+          margin: 0;
+          margin-bottom: 3px;
+          margin-left: 15px;
+          padding: 0;
+          line-height: 1.2em;
+          font-size: 1em;
+          font-weigth: normal; }
+          nav.mainmenu .flexnav > li > ul p a {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 5px;
+            color: #58585a;
+            font-weight: normal;
+            background: transparent;
+            border: none; } }
 @media (min-width: 960px) {
   #main-menu {
     height: 50px; }
