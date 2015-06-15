@@ -263,6 +263,7 @@
           &:hover,
           &:focus   {
             text-decoration: none;
+            background-color: transparent;
           }
         }
         &.about   {
@@ -271,7 +272,7 @@
           & > a   {
             //background-color: rgb(19, 71, 145);
            // background-color: rgba(19, 71, 145, .7);
-            color: #fff;
+            //color: #fff;
           }  
           h3,
           h3 > a  {
@@ -286,6 +287,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(19, 71, 145);
+            background-color: transparent;
           }
         }
         &.admissions {
@@ -308,11 +310,11 @@
           & > a:hover,
           & > a:focus {
             color: rgb(108, 32, 126);
+            background-color: transparent;
           }
           //SECOND LEVEL div.boxed div.sub
 
           div.boxed   {
-            //background: transparent;
             min-height: 180px;
             background: #efefef;
             margin-left: 20px;
@@ -349,9 +351,6 @@
               }
             }
           }
-
-          .sub {
-          }
         }    
         &.degrees {
           background-color: rgb(213, 159, 13);
@@ -372,6 +371,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(213, 159, 13);
+            background-color: transparent;
           }
         }    
         &.certificates {
@@ -394,6 +394,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(86, 160, 211);
+            background-color: transparent;
           }
         }    
         &.programs {
@@ -415,6 +416,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(176, 188, 34);
+            background-color: transparent;
           }
           div.feature p {
             width: 96%; 
@@ -446,6 +448,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(184, 110, 35);
+            background-color: transparent;
           }
         }
         &.people {
@@ -468,6 +471,7 @@
           & > a:hover,
           & > a:focus {
             color: rgb(145, 145, 149);
+            background-color: transparent;
           }
         }
   // second level

@@ -2941,12 +2941,11 @@ button[disabled],
       font: bold 100% "Open Sans", sans-serif;
       color: #fff; }
       nav.mainmenu .flexnav > li > a:hover, nav.mainmenu .flexnav > li > a:focus {
-        text-decoration: none; }
+        text-decoration: none;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li.about {
       background-color: #134791;
       background-color: rgba(19, 71, 145, 0.7); }
-      nav.mainmenu .flexnav > li.about > a {
-        color: #fff; }
       nav.mainmenu .flexnav > li.about h3,
       nav.mainmenu .flexnav > li.about h3 > a {
         color: #134791; }
@@ -2954,7 +2953,8 @@ button[disabled],
         background-color: #fff;
         color: #134791; }
       nav.mainmenu .flexnav > li.about > a:hover, nav.mainmenu .flexnav > li.about > a:focus {
-        color: #134791; }
+        color: #134791;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li.admissions {
       background-color: #6c207e;
       background-color: rgba(108, 32, 126, 0.7); }
@@ -2965,7 +2965,8 @@ button[disabled],
         background-color: #fff;
         color: #6c207e; }
       nav.mainmenu .flexnav > li.admissions.active a, nav.mainmenu .flexnav > li.admissions > a:hover, nav.mainmenu .flexnav > li.admissions > a:focus {
-        color: #6c207e; }
+        color: #6c207e;
+        background-color: transparent; }
       nav.mainmenu .flexnav > li.admissions div.boxed {
         min-height: 180px;
         background: #efefef;
@@ -3002,7 +3003,8 @@ button[disabled],
         background-color: #fff;
         color: #d59f0d; }
       nav.mainmenu .flexnav > li.degrees > a:hover, nav.mainmenu .flexnav > li.degrees > a:focus {
-        color: #d59f0d; }
+        color: #d59f0d;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li.certificates {
       background-color: #56a0d3;
       background-color: rgba(86, 160, 211, 0.7); }
@@ -3013,7 +3015,8 @@ button[disabled],
         background-color: #fff;
         color: #56a0d3; }
       nav.mainmenu .flexnav > li.certificates > a:hover, nav.mainmenu .flexnav > li.certificates > a:focus {
-        color: #56a0d3; }
+        color: #56a0d3;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li.programs {
       background-color: #b0bc22;
       background-color: rgba(176, 188, 34, 0.7); }
@@ -3024,7 +3027,8 @@ button[disabled],
         background-color: #fff;
         color: #b0bc22; }
       nav.mainmenu .flexnav > li.programs > a:hover, nav.mainmenu .flexnav > li.programs > a:focus {
-        color: #b0bc22; }
+        color: #b0bc22;
+        background-color: transparent; }
       nav.mainmenu .flexnav > li.programs div.feature p {
         width: 96%;
         padding: 0 10px;
@@ -3043,7 +3047,8 @@ button[disabled],
         background-color: #fff;
         color: #b86e23; }
       nav.mainmenu .flexnav > li.careers > a:hover, nav.mainmenu .flexnav > li.careers > a:focus {
-        color: #b86e23; }
+        color: #b86e23;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li.people {
       background-color: #919195;
       background-color: rgba(145, 145, 149, 0.7); }
@@ -3056,7 +3061,8 @@ button[disabled],
         background-color: #fff;
         color: #919195; }
       nav.mainmenu .flexnav > li.people > a:hover, nav.mainmenu .flexnav > li.people > a:focus {
-        color: #919195; }
+        color: #919195;
+        background-color: transparent; }
     nav.mainmenu .flexnav > li > ul {
       position: absolute;
       top: 50px;
