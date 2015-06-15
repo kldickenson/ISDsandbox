@@ -631,7 +631,6 @@ h2.page-title span {
 #upcoming li.item {
   float: left;
   /* to set up opposing floats */
-  width: 93%;
   padding: 10px;
   margin-bottom: 5px;
   background-color: #0b66bc;
@@ -659,7 +658,7 @@ h2.page-title span {
     #upcoming li.item a .status {
       float: right;
       margin-right: 0;
-      padding: 2px 20px 0 0;
+      padding: 0 30px 0 0;
       background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
       text-align: right;
       color: #fff;
@@ -677,9 +676,6 @@ h2.page-title span {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png);
       color: #969696; }
 
-@media (max-width: 767px) {
-  #upcoming li.item {
-    width: 95%; } }
 #pricing {
   background: #fff;
   padding: 10px 10px 0px 10px;
