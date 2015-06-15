@@ -679,6 +679,9 @@ h2.page-title span {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png);
       color: #969696; }
 
+@media (min-width: 766px) {
+  #upcoming li.item div {
+    width: 50%; } }
 @media (max-width: 767px) {
   #upcoming li.item {
     width: 95%; } }
@@ -2205,6 +2208,7 @@ button[disabled],
     padding-bottom: 56.25%;
     /* 16:9 */
     padding-top: 25px;
+    margin: 20px 0;
     height: 0; }
     #course-overview .videoWrapper iframe {
       position: absolute;

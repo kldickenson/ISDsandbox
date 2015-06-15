@@ -70,6 +70,14 @@
         }
     }
 }
+@media (min-width: 766px) {
+
+    #upcoming li.item {
+        div {
+            width: 50%;
+        }
+    }
+}
 @media (max-width: 767px) {
 
     #upcoming li.item {
