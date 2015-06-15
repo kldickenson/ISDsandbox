@@ -81,6 +81,8 @@
 @media (max-width: 767px) {
 
     #upcoming li.item {
-    //width: 95%;
+        div {
+            width: 50%;
+        }
     }
 }
