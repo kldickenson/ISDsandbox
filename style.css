@@ -829,7 +829,6 @@ NEW:
   .promo img {
     display: none; }
   .promo.custom-programs {
-    width: 100%;
     background-color: #7c8703;
     padding: 0;
     padding-top: 20px;
@@ -863,10 +862,6 @@ NEW:
 @media (max-width: 767px) {
   .promo {
     width: 95%; }
-    .promo.eleven.columns {
-      width: 95%; }
-    .promo.five.columns {
-      width: 95%; }
     .sidebar .promo {
       background-image: none; }
     .promo div.banner {
@@ -888,7 +883,6 @@ NEW:
       .promo.attendees div.six.alpha {
         display: none; }
     .promo.custom-programs {
-      width: 100%;
       padding-top: 0; }
       .promo.custom-programs .caption {
         display: none; }
@@ -900,8 +894,7 @@ NEW:
         padding-left: 0; } }
 @media (min-width: 768px) {
   .promo {
-    background: #fff;
-    width: 100%; }
+    background: #fff; }
     .promo img {
       display: block;
       width: 100%;

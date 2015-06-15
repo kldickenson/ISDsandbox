@@ -124,7 +124,7 @@ NEW:
     }
 
     &.custom-programs {
-    	width: 100%;
+    	//width: 100%;
         background-color: #7c8703;
         padding: 0;
         padding-top: 20px;
@@ -178,10 +178,10 @@ NEW:
         //padding: 20px 0;
 
         &.eleven.columns {
-        	width: 95%;
+        	//width: 95%;
         }
         &.five.columns {
-        	width: 95%;
+        	//width: 95%;
         }
         .sidebar & {
             background-image: none;
@@ -211,7 +211,7 @@ NEW:
             }
         }
         &.custom-programs {
-            width: 100%;
+           //width: 100%;
             padding-top: 0;
             .caption {
                 display: none;
@@ -232,7 +232,7 @@ NEW:
     .promo {
         background: #fff;
         //padding: 0;
-        width: 100%;
+        //width: 100%;
         
         img {
             display: block;
