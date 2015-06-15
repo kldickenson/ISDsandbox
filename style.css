@@ -3913,7 +3913,8 @@ ul.alpha-in-page li a {
   /* header + main-menu + slider = 80+50+260   */
   width: 100%;
   background-color: #fff;
-  margin-top: -50px; }
+  position: absolute;
+  top: 0; }
 
 .homeslider {
   margin-bottom: 0;
@@ -4151,7 +4152,8 @@ ul.flex-direction-nav {
   padding-top: 30px;
   padding-bottom: 1px;
   margin-bottom: 0;
-  background: #f3f2f1 url(../../images/ISD-video-ribbons.png) 25% -30px no-repeat; }
+  background: #f3f2f1 url(../../images/ISD-video-ribbons.png) 25% -30px no-repeat;
+  margin-top: 330px; }
 
 #ribbon h3 {
   display: inline-block;

@@ -3,7 +3,9 @@
     height: 390px; /* header + main-menu + slider = 80+50+260   */
     width: 100%;
     background-color: #fff;
-    margin-top: -50px;
+   // margin-top: -50px;
+   position: absolute;
+   top: 0;
 }
 
 .homeslider {
