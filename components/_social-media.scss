@@ -1,0 +1,22 @@
+.social-media {
+
+	li {
+		a{
+			&.social_facebook {
+				background-image: url("//isdsandbox.engin.umich.edu/images/icon-facebook.png");
+			}
+			&.social_twitter {
+				background-image: url("//isdsandbox.engin.umich.edu/images/icon-twitter.png");
+			}
+			&.social_linkedin {
+				background-image: url("//isdsandbox.engin.umich.edu/images/icon-linkedin.png");
+			}
+			&.social_youtube {
+				background-image: url("//isdsandbox.engin.umich.edu/images/icon-youtube.png");
+			}
+			&.social_tagboard {
+				background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/tagboard-icon_24x24.png");
+			}
+		}
+	}
+}
