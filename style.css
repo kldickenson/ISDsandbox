@@ -647,25 +647,21 @@ h2.page-title span {
       color: yellow !important; }
     #upcoming li.item div.class-name {
       display: none; }
+  #upcoming li.item div.status {
+    margin-right: 0;
+    color: #fff;
+    font-weight: bold; }
   #upcoming li.item a {
     display: block;
     float: right;
-    clear: none;
     vertical-align: top;
-    text-align: right;
-    padding-right: 0;
-    margin-right: 0; }
-    #upcoming li.item a .status {
-      float: right;
-      margin-right: 0;
-      padding: 0 30px 0 0;
-      background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
-      text-align: right;
-      color: #fff;
-      font-weight: bold; }
-      #upcoming li.item a .status:hover, #upcoming li.item a .status:focus {
-        color: yellow;
-        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
+    margin-right: 0;
+    padding: 0 30px 0 0;
+    background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
+    text-align: right; }
+    #upcoming li.item a:hover, #upcoming li.item a:focus {
+      color: yellow;
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
   #upcoming li.item.soldout {
     background-color: #e7e7e7; }
     #upcoming li.item.soldout h5 {
