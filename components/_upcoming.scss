@@ -67,12 +67,15 @@
 
     #upcoming li.item {
         div.columns.three {
-            width: 40%;
+            width: 45%;
             margin-left: 10px;
         }
         div.columns.two {
-            width: 40%;
+            width: 45%;
             margin-right: 10px;
+            a {
+                //display: block;
+            }
         }
     }
 }

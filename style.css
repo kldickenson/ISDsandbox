@@ -671,10 +671,10 @@ h2.page-title span {
 
 @media (max-width: 767px) {
   #upcoming li.item div.columns.three {
-    width: 40%;
+    width: 45%;
     margin-left: 10px; }
   #upcoming li.item div.columns.two {
-    width: 40%;
+    width: 45%;
     margin-right: 10px; } }
 #pricing {
   background: #fff;
@@ -690,7 +690,7 @@ h2.page-title span {
       padding-left: 10px; }
     #pricing div.right {
       float: right;
-      width: 55%;
+      width: 45%;
       padding-right: 10px; }
   #pricing p {
     margin-bottom: 10px; }
@@ -701,11 +701,6 @@ h2.page-title span {
       margin-bottom: 2px;
       font-size: 1.2em; }
 
-@media (max-width: 767px) {
-  #pricing div.left {
-    width: 35%; }
-  #pricing div.right {
-    width: 60%; } }
 /*
 OLD:
 <div style="width: 280px; padding: 0; background: url('https://confluence.engin.umich.edu/download/attachments/21103180/learning-objectives-inset.jpg') top left no-repeat; overflow: hidden;">
