@@ -632,7 +632,7 @@ h2.page-title span {
   float: left;
   /* to set up opposing floats */
   padding: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   background-color: #0b66bc;
   font-size: .9em;
   line-height: 1.3em; }
@@ -656,7 +656,7 @@ h2.page-title span {
     float: right;
     vertical-align: top;
     margin-right: 0;
-    padding: 0 30px 0 0;
+    padding: 0 20px 0 0;
     background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
     text-align: right;
     color: #fff; }
