@@ -680,19 +680,20 @@ h2.page-title span {
 #pricing {
   background: #fff;
   width: 93%;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 0;
   color: #176eb5;
-  padding-bottom: 5px;
   font-size: .9em; }
   #pricing div {
     margin: 0; }
     #pricing div.left {
       width: 40%;
       float: left;
-      margin-right: 7px; }
+      margin-right: 7px;
+      padding-left: 10px; }
     #pricing div.right {
       float: right;
-      width: 55%; }
+      width: 55%;
+      padding-right: 10px; }
   #pricing p {
     margin-bottom: 10px; }
     #pricing p.price {
