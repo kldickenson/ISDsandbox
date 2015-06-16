@@ -2517,6 +2517,8 @@ button[disabled],
     background-image: url(http://isdsandbox.engin.umich.edu/images/icon-youtube.png); }
   .social-media li a.social_tagboard {
     background-image: url(https://confluence.engin.umich.edu/download/attachments/21103180/tagboard-icon_24x24.png); }
+  .social-media li span {
+    display: none; }
 
 #audience-menu {
   float: right;
