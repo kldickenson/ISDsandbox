@@ -675,10 +675,8 @@ h2.page-title span {
       color: #969696; }
 
 @media (max-width: 767px) {
-  #upcoming li.item div {
-    width: 50%; }
-  #upcoming li.item .status {
-    width: 40%; } }
+  #upcoming li.item {
+    width: 100%; } }
 #pricing {
   background: #fff;
   width: 93%;

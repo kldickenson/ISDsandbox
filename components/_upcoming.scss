@@ -74,19 +74,18 @@
 @media (min-width: 768px) {
 
     #upcoming li.item {
-        div {
-            //width: 50%;
-        }
+        //width: 100%;
     }
 }
 @media (max-width: 767px) {
 
     #upcoming li.item {
+        width: 100%;
         div {
-            width: 50%;
+            //width: 50%;
         }
         .status {
-            width: 40%;
+            //width: 40%;
         }
     }
 }
