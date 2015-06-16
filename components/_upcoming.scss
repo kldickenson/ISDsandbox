@@ -66,6 +66,13 @@
 @media (max-width: 767px) {
 
     #upcoming li.item {
-        width: 100%;
+        div.columns.three {
+            width: 40%;
+            margin-left: 10px;
+        }
+        div.columns.two {
+            width: 40%;
+            margin-right: 10px;
+        }
     }
 }
