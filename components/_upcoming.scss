@@ -62,11 +62,11 @@
             color: rgb(150,150,150);
 
         }
-        a {
-            .soldout   {
+        .soldout a {
+            //.soldout   {
                 background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png);
                 color: rgb(150,150,150);
-            }
+            //}
         }
     }
 }
@@ -83,6 +83,9 @@
     #upcoming li.item {
         div {
             width: 50%;
+        }
+        .status {
+            width: 40%;
         }
     }
 }
