@@ -110,12 +110,6 @@
           background: transparent;
           color: #fff
         }
-        ul p.copy {
-          color: $color-font;
-          a {
-            color: $color-pro-certs;
-          }
-        }
       }
       &.programs   {
         background-color: $color-custom-program-dark;
@@ -566,6 +560,12 @@
               &:hover,
               &:focus   {
                 //color: ;
+              }
+            }
+            p.copy {
+              color: $color-font;
+              a {
+                color: $color-pro-certs;
               }
             }
           }

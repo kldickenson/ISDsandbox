@@ -2836,10 +2836,6 @@ button[disabled],
       .flexnav > li.certificates > a {
         background: transparent;
         color: #fff; }
-      .flexnav > li.certificates ul p.copy {
-        color: #58585a; }
-        .flexnav > li.certificates ul p.copy a {
-          color: rgba(86, 160, 211, 0.7); }
     .flexnav > li.programs {
       background-color: #b4af0a;
       opacity: 100; }
@@ -3139,7 +3135,11 @@ button[disabled],
             color: #58585a;
             font-weight: normal;
             background: transparent;
-            border: none; } }
+            border: none; }
+          nav.mainmenu .flexnav > li > ul p p.copy {
+            color: #58585a; }
+            nav.mainmenu .flexnav > li > ul p p.copy a {
+              color: rgba(86, 160, 211, 0.7); } }
 @media (min-width: 960px) {
   #main-menu {
     height: 50px; }
