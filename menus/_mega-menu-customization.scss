@@ -110,6 +110,12 @@
           background: transparent;
           color: #fff
         }
+        .copy {
+          color: $color-font;
+          a {
+            color: $color-pro-certs;
+          }
+        }
       }
       &.programs   {
         background-color: $color-custom-program-dark;
@@ -240,6 +246,9 @@
             line-height: 11px;
             border: none;
           }
+        }
+        p.copy {
+          display: none;
         }
       }
     }
