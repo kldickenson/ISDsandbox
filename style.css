@@ -3136,9 +3136,9 @@ button[disabled],
             font-weight: normal;
             background: transparent;
             border: none; }
-          nav.mainmenu .flexnav > li > ul p p.copy {
+          nav.mainmenu .flexnav > li > ul p.copy {
             color: #58585a; }
-            nav.mainmenu .flexnav > li > ul p p.copy a {
+            nav.mainmenu .flexnav > li > ul p.copy a {
               color: rgba(86, 160, 211, 0.7); } }
 @media (min-width: 960px) {
   #main-menu {
