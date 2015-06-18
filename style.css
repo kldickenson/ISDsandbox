@@ -2836,9 +2836,9 @@ button[disabled],
       .flexnav > li.certificates > a {
         background: transparent;
         color: #fff; }
-      .flexnav > li.certificates .copy {
+      .flexnav > li.certificates ul p.copy {
         color: #58585a; }
-        .flexnav > li.certificates .copy a {
+        .flexnav > li.certificates ul p.copy a {
           color: rgba(86, 160, 211, 0.7); }
     .flexnav > li.programs {
       background-color: #b4af0a;
