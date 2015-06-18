@@ -565,7 +565,10 @@
             &.copy {
               color: $color-font;
               a {
+                display: inline;
+                padding-bottom: 0;
                 color: $color-pro-certs;
+                font-weight: bold;
               }
             }
           }

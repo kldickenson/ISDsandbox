@@ -3139,7 +3139,10 @@ button[disabled],
           nav.mainmenu .flexnav > li > ul p.copy {
             color: #58585a; }
             nav.mainmenu .flexnav > li > ul p.copy a {
-              color: rgba(86, 160, 211, 0.7); } }
+              display: inline;
+              padding-bottom: 0;
+              color: rgba(86, 160, 211, 0.7);
+              font-weight: bold; } }
 @media (min-width: 960px) {
   #main-menu {
     height: 50px; }
