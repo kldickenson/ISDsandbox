@@ -2783,13 +2783,12 @@ button[disabled],
     .menu-button a.icon-contact {
       margin-left: -10px; }
   .menu-button .touch-button {
-    padding-top: 5px; }
+    padding-top: 5px;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-menu-hamburger.png) 50% 50% no-repeat; }
     .menu-button .touch-button i.navicon {
-      width: 25px;
       text-indent: -1000px;
       color: #fff;
-      font-size: 12px;
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-menu-hamburger.png); }
+      font-size: 12px; }
 
 .flexnav {
   margin: 0;
