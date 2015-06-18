@@ -2772,15 +2772,21 @@ button[disabled],
   font-weight: bold;
   color: #fff; }
   .menu-button .menu-button-text {
+    display: inline-block;
     text-indent: -1000px; }
   .menu-button a {
     display: inline-block;
+    width: 25px;
     margin-right: 10px; }
     .menu-button a img {
       height: 25px; }
+    .menu-button a.icon-contact {
+      margin-left: -10px; }
   .menu-button .touch-button {
     padding-top: 5px; }
     .menu-button .touch-button i.navicon {
+      width: 25px;
+      text-indent: -1000px;
       color: #fff;
       font-size: 12px;
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-menu-hamburger.png); }

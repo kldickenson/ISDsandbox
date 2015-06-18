@@ -20,18 +20,19 @@
     font-weight: bold;
     color: #fff;
     .menu-button-text {
+      display: inline-block;
       text-indent: -1000px;
     }
     a {
       display: inline-block;
+      width: 25px;
       margin-right: 10px;
 
       img {
         height: 25px;
       }
       &.icon-contact {
-    
-
+        margin-left: -10px;
       }
       &.icon-phone {
 
@@ -40,6 +41,8 @@
     .touch-button {
       padding-top: 5px;
       i.navicon {
+        width: 25px;
+        text-indent: -1000px;
         color: #fff;
         font-size: 12px;
         background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-menu-hamburger.png);
