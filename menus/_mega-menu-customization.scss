@@ -13,9 +13,10 @@
   }
 
   .menu-button {
-    padding: 15px 11px 5px;
-    height: 30px;
+    padding: 10px 11px 5px;
+    height: 35px;
     background: $color-menu-dark;
+    border-bottom: none;
     font-size: 1em;
     font-weight: bold;
     color: #fff;
@@ -32,18 +33,17 @@
         height: 25px;
       }
       &.icon-contact {
-        margin-left: -10px;
       }
       &.icon-phone {
+        margin-left: -10px;
 
       }
     }    
     .touch-button {
-      padding-top: 5px;
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-menu-hamburger.png) 50% 50% no-repeat;
+      padding-top: 10px;
  
       i.navicon {
-        text-indent: -1000px;
+        display: none;
         color: #fff;
         font-size: 12px;
       }
