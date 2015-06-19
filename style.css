@@ -707,63 +707,7 @@ h2.page-title span {
       margin-bottom: 2px;
       font-size: 1.2em; }
 
-/*
-OLD:
-<div style="width: 280px; padding: 0; background: url('https://confluence.engin.umich.edu/download/attachments/21103180/learning-objectives-inset.jpg') top left no-repeat; overflow: hidden;">
-    <div style="height: 30px; padding-top: 15px; background: url('https://confluence.engin.umich.edu/download/attachments/21103180/sidebar-title-overlay.png') top left repeat-x; overflow: hidden;">
-        <h5 style="color: #ffffff; font-weight: normal; margin-left: 10px; text-transform: uppercase;">Learning Objectives</h5>
-    </div>
-    <ul class="disc" style="margin: 130px 10px 0px 10px; padding: 0 10px 0 15px;">
-        <li>Learn valuable&nbsp;skills to transform and lead a Lean Enterprise&nbsp;</li>
-        <li>Develop&nbsp;management tools to facilitate Lean Leadership including Leader Standard Work and Visual Management</li>
-        <li>To provide particular methodologies to assist the Lean leader fulfill his or her primary responsibility of driving continuous improvement in his or her organization including A3, Gemba Walks, Training Within Industries (TWI), and Toyota Kata</li>
-    </ul>
-    <a class="slider2button small blue" style="background-color: #5082b9; margin: 0px 0 20px 10px; color: #ffffff;" href="/professional-programs/lean-leadership/why.htm"><span style="color: #ffffff;">Why Take this Course?</span></a>
-</div>
-
-NEW:
-<div class="promo image dine-out">
-    <div class="banner">
-        <h5>Networking "Dine Out"</h5>
-    </div>
-    <p>When class is finished for the day, enjoy a casual night out with your classmates in an organized excursion to one of Ann Arbor's many great restaurants.</p>
-    <ul class="disc">
-        <li>Learn valuable skills to transform and lead a Lean Enterprise&nbsp;</li>
-        <li>Develop management tools to facilitate Lean Leadership including Leader Standard Work and Visual Management</li>
-        <li>To provide particular methodologies to assist the Lean leader fulfill his or her primary responsibility of driving continuous improvement in his or her organization including A3, Gemba Walks, Training Within Industries (TWI), and Toyota Kata</li>
-    </ul>
-    <a class="slider2button small blue" href="/professional-programs/lean-leadership/why.htm">Why Take this Course?</a>
-</div>
-
-<div class="columns eleven alpha promo learning-objectives">
-    <div class="row" style="background: none; margin: 0px; padding: 0px;">
-        <div class="columns five" style="margin-top: 5px; margin-left: 25px;">
-            <h3 style="color: #ffcc00; font-weight: bold; margin-top: 20px; margin-bottom: 5px;">Learning Objectives</h3>
-            <ul class="disc" style="color: #ffffff;">
-            <li>Learn valuable skills to transform and lead a Lean Enterprise</li>
-            <li>Develop management tools to facilitate Lean Leadership including Leader Standard Work and Visual Management</li>
-            <li>To provide particular methodologies to assist the Lean leader fulfill his or her primary responsibility of driving continuous improvement in his or her organization including A3, Gemba Walks, Training Within Industries (TWI), and Toyota Kata</li>
-            </ul>
-        </div>
-
-    </div>
-</div>
-
-<div class="eleven columns alpha promo attendees">
-    <div class="six columns alpha" style="margin-bottom: -4px;">
-        <img style="max-width: 100%;" src="http://confluence.engin.umich.edu/download/attachments/30508410/lhc-who-should-attend.jpg" alt="Lean Healthcare: Who Should Attend" border="0" />
-    </div>
-    <div class="five columns omega">
-        <h3>Who Should Attend</h3>
-        <p>All of the following attendees will benefit from this program:</p>
-        <ul class="disc">
-            <li>Anyone in a leadership position from Supervisor to CEO</li>
-            <li>Leaders in any industry including but not limited to manufacturing, service, and healthcare</li>
-            <li>Anyone who wants to create a sustainable culture of continuous improvement</li>
-        </ul>
-    </div>
-</div>
-*/
+/* - - - For Promo material both in main content and in sidebar - - - */
 .promo {
   padding: 0;
   padding-bottom: 10px;
