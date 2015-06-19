@@ -644,6 +644,7 @@ h2.page-title span {
     #upcoming li.item div.class-name {
       display: none; }
   #upcoming li.item div.status {
+    float: right;
     color: #fff;
     font-weight: bold; }
   #upcoming li.item a {
