@@ -233,6 +233,8 @@ NEW:
         background: #fff;
         //padding: 0;
         //width: 100%;
+        //margin-left: 0;
+        margin-right: 0;
         
         img {
             display: block;
@@ -325,13 +327,10 @@ NEW:
         }
         &.sidebar {
             background-image: none;
-            padding-bottom: 0;
+            //padding-bottom: 0;
             img {
                 display: block;
                 width: 100%;
-            }
-            div.columns.five {
-                //margin-left: 0;
             }
             h3 {
                 color: $color-primary;

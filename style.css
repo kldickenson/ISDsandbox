@@ -890,7 +890,8 @@ NEW:
         padding-left: 0; } }
 @media (min-width: 768px) {
   .promo {
-    background: #fff; }
+    background: #fff;
+    margin-right: 0; }
     .promo img {
       display: block;
       width: 100%;
@@ -956,8 +957,7 @@ NEW:
       .promo.learning-objectives li {
         color: #fff; }
     .promo.sidebar {
-      background-image: none;
-      padding-bottom: 0; }
+      background-image: none; }
       .promo.sidebar img {
         display: block;
         width: 100%; }
