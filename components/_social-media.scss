@@ -1,5 +1,4 @@
 .social-media {
-
 	li {
 		color: #fff;
 		text-align: center;
@@ -23,5 +22,11 @@
 		span {
 			display: none;
 		}
+	}
+}
+@media only screen and (max-width: 960px) { 
+	.social-media {
+		width: 260px;
+		margin: 10px auto 0;
 	}
 }

@@ -490,7 +490,7 @@ h2.page-title span {
           margin: 5px; }
       #footer .container .siteinfo {
         clear: both;
-        margin-top: 20px; } }
+        margin-top: 10px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
@@ -1288,6 +1288,10 @@ NEW:
   .social-media li span {
     display: none; }
 
+@media only screen and (max-width: 960px) {
+  .social-media {
+    width: 260px;
+    margin: 10px auto 0; } }
 #audience-menu {
   float: right;
   /*height: 40px;*/
