@@ -262,17 +262,14 @@ NEW:
             img {
             	display: none;
             }
-            &.sidebar {
+            .sidebar & {
             	background-image: none;
             	padding-bottom: 0;
             	img {
             		display: block;
             		width: 100%;
             	}
-            	div.columns.five {
-					margin-left: 0;
-            	}
-	        	h3 {
+	        	/*h3 {
 		            color: $color-primary;
 		            //font-weight: bold;
 		            padding-bottom: 10px;
@@ -287,7 +284,7 @@ NEW:
 		            color: $color-font;
 		            font-size: .9em;
 		            margin-rigth: 15px;
-		        }
+		        }*/
             }
         }
         &.img-embed {
