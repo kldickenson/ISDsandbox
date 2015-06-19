@@ -149,14 +149,6 @@ NEW:
            text-decoration: none;
         }
      }
-    /*&.learning-objectives {
-		background-image: none;
-		padding:0;
-      
-        div.columns.five {
-            margin-left: 0;
-        }
-    }*/
 }
 
 .stopwatch {
@@ -231,9 +223,6 @@ NEW:
 @media (min-width: 768px) {
     .promo {
         background: #fff;
-        //padding: 0;
-        //width: 100%;
-        //margin-left: 0;
         margin-right: 0;
         
         img {
@@ -252,39 +241,21 @@ NEW:
         }
         
         &.custom-programs {
-        	//width: 95%;
-            div.caption {
+            .caption {
                 float: none;
                 width: 215px;
                 margin: 0 auto;
                 margin-bottom: 10px;
             }
             img {
-            	display: none;
+            	//display: none;
             }
             .sidebar & {
             	background-image: none;
             	padding-bottom: 0;
-            	img {
-            		display: block;
-            		width: 100%;
+            	.caption {
+            		display: none;
             	}
-	        	/*h3 {
-		            color: $color-primary;
-		            //font-weight: bold;
-		            padding-bottom: 10px;
-		            font-size: 24px;
-		        }
-	            p {
-		            color: $color-font;
-		            font-size: .9em;
-		            margin-right: 15px;
-		        }
-		        li {
-		            color: $color-font;
-		            font-size: .9em;
-		            margin-rigth: 15px;
-		        }*/
             }
         }
         &.img-embed {
@@ -322,7 +293,7 @@ NEW:
             }
             
         }
-        &.sidebar {
+        /*&.sidebar {
             background-image: none;
             //padding-bottom: 0;
             img {
@@ -345,6 +316,6 @@ NEW:
                 font-size: .9em;
                 margin-rigth: 15px;
             }
-        }
+        }*/
     }
 }

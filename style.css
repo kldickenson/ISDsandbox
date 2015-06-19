@@ -771,15 +771,7 @@ NEW:
   overflow: hidden;
   position: relative;
   background-color: #fff;
-  /* H5 is used for Promo banners */
-    /*&.learning-objectives {
-		background-image: none;
-		padding:0;
-      
-        div.columns.five {
-            margin-left: 0;
-        }
-    }*/ }
+  /* H5 is used for Promo banners */ }
   .promo .row {
     margin-bottom: 0; }
   .promo h3, .promo h4 {
@@ -891,7 +883,31 @@ NEW:
 @media (min-width: 768px) {
   .promo {
     background: #fff;
-    margin-right: 0; }
+    margin-right: 0;
+    /*&.sidebar {
+        background-image: none;
+        //padding-bottom: 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+        h3 {
+            color: $color-primary;
+            //font-weight: bold;
+            padding-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            color: $color-font;
+            font-size: .9em;
+            margin-right: 15px;
+        }
+        li {
+            color: $color-font;
+            font-size: .9em;
+            margin-rigth: 15px;
+        }
+    }*/ }
     .promo img {
       display: block;
       width: 100%;
@@ -903,35 +919,16 @@ NEW:
       padding-left: 10px; }
     .promo h5 {
       color: #fff; }
-    .promo.custom-programs div.caption {
+    .promo.custom-programs .caption {
       float: none;
       width: 215px;
       margin: 0 auto;
       margin-bottom: 10px; }
-    .promo.custom-programs img {
-      display: none; }
     .sidebar .promo.custom-programs {
       background-image: none;
-      padding-bottom: 0;
-        	/*h3 {
-	            color: $color-primary;
-	            //font-weight: bold;
-	            padding-bottom: 10px;
-	            font-size: 24px;
-	        }
-            p {
-	            color: $color-font;
-	            font-size: .9em;
-	            margin-right: 15px;
-	        }
-	        li {
-	            color: $color-font;
-	            font-size: .9em;
-	            margin-rigth: 15px;
-	        }*/ }
-      .sidebar .promo.custom-programs img {
-        display: block;
-        width: 100%; }
+      padding-bottom: 0; }
+      .sidebar .promo.custom-programs .caption {
+        display: none; }
     .promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
@@ -957,24 +954,7 @@ NEW:
       .promo.learning-objectives p {
         color: #fff; }
       .promo.learning-objectives li {
-        color: #fff; }
-    .promo.sidebar {
-      background-image: none; }
-      .promo.sidebar img {
-        display: block;
-        width: 100%; }
-      .promo.sidebar h3 {
-        color: #176EB5;
-        padding-bottom: 10px;
-        font-size: 24px; }
-      .promo.sidebar p {
-        color: #58585a;
-        font-size: .9em;
-        margin-right: 15px; }
-      .promo.sidebar li {
-        color: #58585a;
-        font-size: .9em;
-        margin-rigth: 15px; } }
+        color: #fff; } }
 /*
 NEW:
 <div class="brochure">
