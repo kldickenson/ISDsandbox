@@ -667,9 +667,9 @@ h2.page-title span {
     #upcoming li.item.soldout div {
       color: #969696; }
     #upcoming li.item.soldout .soldout {
+      width: 25%;
       float: right;
       vertical-align: top;
-      margin-right: 0;
       padding: 0 20px 0 0;
       background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png) top right no-repeat;
       text-align: right;
@@ -680,7 +680,7 @@ h2.page-title span {
     width: 45%;
     margin-left: 10px; }
   #upcoming li.item div.columns.two {
-    width: 45%;
+    width: 35%;
     margin-right: 10px; } }
 #pricing {
   background: #fff;
