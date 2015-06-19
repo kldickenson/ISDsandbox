@@ -715,6 +715,7 @@ h2.page-title span {
   overflow: hidden;
   position: relative;
   background-color: #fff;
+  /* H3 used for "Who Should Attend" and "Learning Objectives" promo items */
   /* H5 is used for Promo banners */ }
   .promo .row {
     margin-bottom: 0; }
@@ -827,31 +828,7 @@ h2.page-title span {
 @media (min-width: 768px) {
   .promo {
     background: #fff;
-    margin-right: 0;
-    /*&.sidebar {
-        background-image: none;
-        //padding-bottom: 0;
-        img {
-            display: block;
-            width: 100%;
-        }
-        h3 {
-            color: $color-primary;
-            //font-weight: bold;
-            padding-bottom: 10px;
-            font-size: 24px;
-        }
-        p {
-            color: $color-font;
-            font-size: .9em;
-            margin-right: 15px;
-        }
-        li {
-            color: $color-font;
-            font-size: .9em;
-            margin-rigth: 15px;
-        }
-    }*/ }
+    margin-right: 0; }
     .promo img {
       display: block;
       width: 100%;

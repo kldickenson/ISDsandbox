@@ -160,7 +160,6 @@
             border: none;
             padding: 5px 0;
             color: #fff;
-            //font-size: .9em;
           }
           div.columns {
             margin: 5px 0;
@@ -556,11 +555,6 @@
               font-weight: normal;
               background: transparent;
               border: none;
-
-              &:hover,
-              &:focus   {
-                //color: ;
-              }
             }
             &.copy {
               color: $color-font;
