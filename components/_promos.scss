@@ -321,32 +321,33 @@ NEW:
             li {
                 color: #fff;
             }
-            &.sidebar {
-            	background-image: none;
-            	padding-bottom: 0;
-            	img {
-            		display: block;
-            		width: 100%;
-            	}
-            	div.columns.five {
-					margin-left: 0;
-            	}
-	        	h3 {
-		            color: $color-primary;
-		            //font-weight: bold;
-		            padding-bottom: 10px;
-		            font-size: 24px;
-		        }
-	            p {
-		            color: $color-font;
-		            font-size: .9em;
-		            margin-right: 15px;
-		        }
-		        li {
-		            color: $color-font;
-		            font-size: .9em;
-		            margin-rigth: 15px;
-		        }
+            
+        }
+        &.sidebar {
+            background-image: none;
+            padding-bottom: 0;
+            img {
+                display: block;
+                width: 100%;
+            }
+            div.columns.five {
+                margin-left: 0;
+            }
+            h3 {
+                color: $color-primary;
+                //font-weight: bold;
+                padding-bottom: 10px;
+                font-size: 24px;
+            }
+            p {
+                color: $color-font;
+                font-size: .9em;
+                margin-right: 15px;
+            }
+            li {
+                color: $color-font;
+                font-size: .9em;
+                margin-rigth: 15px;
             }
         }
     }
