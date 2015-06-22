@@ -1315,11 +1315,7 @@ NEW:
     opacity: 0; }
   .flexnav.flexnav-show {
     max-height: 2000px;
-    opacity: 1;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out; }
+    opacity: 1; }
   .flexnav.one-page {
     position: fixed;
     top: 50px;

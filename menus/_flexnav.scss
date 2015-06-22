@@ -31,10 +31,10 @@ $fourth_level: #fff;
 	&.flexnav-show {
 		max-height: 2000px;
     	opacity: 1;
-		-webkit-transition: all .5s ease-in-out;
-    	-moz-transition: all .5s ease-in-out;
-   	 	-ms-transition: all .5s ease-in-out;
-    	transition: all .5s ease-in-out;
+		//-webkit-transition: all .5s ease-in-out;
+    	//-moz-transition: all .5s ease-in-out;
+   	 	//-ms-transition: all .5s ease-in-out;
+    	//transition: all .5s ease-in-out;
 	}
 	&.one-page {
 		position: fixed;
