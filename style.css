@@ -972,6 +972,23 @@ NEW:
   padding: 15px;
   display: none; }
 
+/*  ISD Customization */
+/*----- Section Titles -----*/
+.accordion-section-title {
+  border: 1px soid #176EB5;
+  background: #fff;
+  color: #176EB5; }
+
+.accordion-section-title.active, .accordion-section-title:hover {
+  background: #fff; }
+
+.accordion-section:last-child .accordion-section-title {
+  border-bottom: none; }
+
+/*----- Section Content -----*/
+.accordion-section-content {
+  padding: 15px; }
+
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
   margin-top: 0px;

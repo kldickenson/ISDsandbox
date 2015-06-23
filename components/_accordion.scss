@@ -41,3 +41,24 @@
 	padding:15px;
 	display:none;
 }
+
+
+/*  ISD Customization */
+/*----- Section Titles -----*/
+.accordion-section-title {
+	border: 1px soid $color-primary;
+	background:#fff;
+	color:$color-primary;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	background:#fff;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+}
