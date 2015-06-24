@@ -1656,6 +1656,8 @@ NEW:
       .flexnav > li.people > a {
         background: transparent;
         color: #fff; }
+    .flexnav > li > ul {
+      display: none; }
   .flexnav li {
     /* second level */ }
     .flexnav li ul.flexnav-show {
@@ -1731,11 +1733,8 @@ NEW:
 
   #main-menu .flexnav > li {
     position: relative; }
-    #main-menu .flexnav > li > ul {
-      display: none; }
     #main-menu .flexnav > li ul.flexnav-show {
-      padding: 0 11px;
-      display: block; }
+      padding: 0 11px; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
         height: 22px;
         line-height: 11px;
