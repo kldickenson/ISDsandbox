@@ -964,7 +964,7 @@ NEW:
   /* Type */
   text-decoration: none; }
 
-.accordion-section:last-child .accordion-section-title {
+.mobile-accordion:last-child .accordion-section-title {
   border-bottom: none; }
 
 /*----- Section Content -----*/
@@ -982,12 +982,12 @@ NEW:
 .accordion-section-title.active, .accordion-section-title:hover {
   background: #fff; }
 
-.accordion-section:last-child .accordion-section-title {
+.mobile-accordion:last-child .accordion-section-title {
   border-bottom: none; }
 
 /*----- Section Content -----*/
 .accordion-section-content {
-  padding: 15px; }
+  padding: 15px 0; }
 
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
@@ -1730,8 +1730,11 @@ NEW:
 
   #main-menu .flexnav > li {
     position: relative; }
+    #main-menu .flexnav > li > ul {
+      display: none; }
     #main-menu .flexnav > li ul.flexnav-show {
-      padding: 0 11px; }
+      padding: 0 11px;
+      display: block; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
         height: 22px;
         line-height: 11px;

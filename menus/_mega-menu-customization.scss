@@ -226,8 +226,13 @@
   #main-menu .flexnav > li {
     position: relative;
 
+    > ul {
+    display:none;
+    }
+
     ul.flexnav-show {
       padding: 0 11px;
+      display: block;
 
       div.columns {
         p {

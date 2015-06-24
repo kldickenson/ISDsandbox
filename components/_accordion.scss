@@ -32,7 +32,7 @@
 	text-decoration:none;
 }
 
-.accordion-section:last-child .accordion-section-title {
+.mobile-accordion:last-child .accordion-section-title {
 	border-bottom:none;
 }
 
@@ -55,10 +55,10 @@
 	background:#fff;
 }
 
-.accordion-section:last-child .accordion-section-title {
+.mobile-accordion:last-child .accordion-section-title {
 	border-bottom:none;
 }
 /*----- Section Content -----*/
 .accordion-section-content {
-	padding:15px;
+	padding:15px 0;
 }
