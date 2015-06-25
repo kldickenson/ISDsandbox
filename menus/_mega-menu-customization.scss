@@ -23,8 +23,22 @@
     .menu-button-text {
       display: inline-block;
       text-indent: -1000px;
+    }    
+    .touch-button {
+      padding-top: 10px;
+ 
+      i.navicon {
+        display: none;
+        color: #fff;
+        font-size: 12px;
+      }
     }
+  }
+  .mobile-menu-contact {
     a {
+      position: absolute;
+      top: 10px; left: 0;
+      z-index: 1000;
       display: inline-block;
       width: 25px;
       margin-right: 10px;
@@ -36,20 +50,10 @@
       }
       &.icon-phone {
         margin-left: -10px;
-        z-index: 1000;
+      }
+    }
+  }  
 
-      }
-    }    
-    .touch-button {
-      padding-top: 10px;
- 
-      i.navicon {
-        display: none;
-        color: #fff;
-        font-size: 12px;
-      }
-    }    
-  }
   
   .flexnav {
     margin: 0;
