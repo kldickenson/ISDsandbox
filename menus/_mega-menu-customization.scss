@@ -46,11 +46,10 @@
       img {
         height: 25px;
       }
-      &.icon-contact {
+      /*&.icon-contact {
       }
       &.icon-phone {
-        //margin-left: -10px;
-      }
+      }*/
     }
   }  
   
@@ -139,13 +138,13 @@
       /* second level */
       ul.flexnav-show {
         margin: 0;
-        //background-color: transparent;
 
         li {
           padding-top: 10px;
           padding-bottom: 10px;
 
           h3  {
+            margin-top: 1em;
             margin-bottom: 2px;
             padding-left: 0;
             color: #fff;
@@ -160,7 +159,7 @@
           p   {
             padding: 0;
             margin: 0;
-            line-height: 1em;
+            //line-height: 1em;
           }
           a {
             background: transparent;
@@ -233,10 +232,6 @@
   #main-menu .flexnav > li {
     position: relative;
 
-    //> ul {
-    //display:none;
-    //}
-
     ul.flexnav-show {
       padding: 0 11px;
       max-height: 2500px;
@@ -244,12 +239,8 @@
 
       div.columns {
         p {
-          //height: 22px; // need to adjust this! 
-          line-height: 1.2em;
           border: none;
-          margin-bottom: 1em;
           a {
-            //height: 11px;
             line-height: 1.2em;
             border: none;
           }
