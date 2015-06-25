@@ -1742,12 +1742,11 @@ NEW:
     #main-menu .flexnav > li ul.flexnav-show {
       padding: 0 11px; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
-        height: 22px;
-        line-height: 11px;
-        border: none; }
+        line-height: 1.2em;
+        border: none;
+        margin-bottom: 1em; }
         #main-menu .flexnav > li ul.flexnav-show div.columns p a {
-          height: 11px;
-          line-height: 11px;
+          line-height: 1.2em;
           border: none; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p.copy {
         display: none; } }
