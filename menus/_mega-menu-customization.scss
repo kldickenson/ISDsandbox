@@ -63,6 +63,7 @@
           font-weight: bold;
           font-size: 1em;
           padding: 11px;
+          background: transparent;
       }
      .touch-button   {
        background: rgba(255,255,255,.2);
@@ -221,6 +222,51 @@
       }
     }
   }
+  /* Khaled's code to fix Mobile white background flash on close */
+  .item-with-ul .columns h3 {
+    font-size: 1.1em;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 2px;
+    line-height: 1.4em;
+    a {
+      padding: 5px 0;
+    }
+  }
+
+  .item-with-ul ul li {
+    padding: 0;
+  }
+
+  li.item-with-ul > ul {
+    padding: 0 11px;
+    margin: 0;
+  }
+
+  .item-with-ul ul div.columns p a {
+    padding: 5px 0;
+  }
+
+  .item-with-ul ul div.columns, .item-with-ul ul div.columns p, .item-with-ul ul div.columns a {
+    background-color: inherit;
+  }
+
+  .item-with-ul ul div.columns p, .item-with-ul ul div.columns p a {
+    height: 0;
+    line-height: 0;
+  }
+
+  .item-with-ul ul.flexnav-show div.columns p {
+    height: 21px;
+    line-height: 11;
+  }
+
+  .item-with-ul ul.flexnav-show div.columns p a {
+    height: 11px;
+    line-height: 11px;
+  }
+  /* End of Khaled's code */
+
 } 
 @media (min-width: 768px) and (max-width: 959px) {
   #main-menu {
