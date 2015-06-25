@@ -215,10 +215,11 @@
       p {
         //background-color: inherit;
        // height: 0;
-        //line-height: 0;
+        line-height: 0;
+        margin-bottom: 0.5em;
         //border: none;
         //margin-left: 0;
-        //padding-left: 0;
+        padding-left: 0;
         a {
           //background-color: inherit;
           //height: 0;
@@ -226,6 +227,7 @@
           //border: none;
           //margin-left: 0;
           //padding-left: 0;
+          padding: 0;
         }
       }
     }

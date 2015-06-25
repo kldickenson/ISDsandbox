@@ -1,18 +1,18 @@
 /* - - - - - - - - CSS for Admissions menu boxes - - - - - - - - */
        div.boxed   {
-//           height: 150px;
-        width: 90%;
+           //height: 150px;
+            width: 90%;
             border: $color-admissions 1px solid; /*Admissions Purple */
             background: #efefef;
-            padding: 0 10px 10px;
-            margin: 0 0 20px 0;
+            padding: 0 10px 10px 0;
+            margin: 0 0 1em 0;
             position: relative;
-//            display: inline-block;
+            //display: inline-block;
             vertical-align: text-top;
         }
         .boxed .sub   {
             width: 48%;
-            padding: 0;
+            padding: 0 0 0 10px;
             margin: 0;
             border-left: $color-admissions 1px solid; /*Admissions Purple */
             color: $color-font;
@@ -31,7 +31,7 @@
 
 @media (min-width: 800px) {
     div.boxed {
-//        float: left;
+        //float: left;
         background: #efefef;
         border: #933da6 1px solid; /*Admissions Purple */
         padding: 0 10px 10px;
