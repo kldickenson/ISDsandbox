@@ -1332,7 +1332,8 @@ NEW:
   /*height: 40px;*/
   margin: 0;
   padding: 0;
-  padding-top: 35px; }
+  padding-top: 35px;
+  font-size: .85em; }
 
 #audience-menu li {
   float: left;
@@ -1342,8 +1343,7 @@ NEW:
 #audience-menu li a {
   display: block;
   color: #bbd7e5;
-  text-transform: capitalize;
-  font-size: .9em; }
+  text-transform: capitalize; }
 
 #audience-menu li a:hover,
 #audience-menu li a:focus {
