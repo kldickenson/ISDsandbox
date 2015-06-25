@@ -1701,7 +1701,8 @@ NEW:
       margin-right: 0;
       margin-left: 0; }
       #main-menu .container li.item-with-ul ul div.sub {
-        background-color: inherit; }
+        background-color: inherit;
+        padding-left: 0; }
       #main-menu .container li.item-with-ul ul div.columns {
         background-color: inherit; }
         #main-menu .container li.item-with-ul ul div.columns h3 {
@@ -1712,7 +1713,6 @@ NEW:
           line-height: 1.4em;
           text-transform: uppercase; }
       #main-menu .container li.item-with-ul ul p {
-        line-height: 0;
         margin-bottom: 0.5em;
         padding-left: 0; }
         #main-menu .container li.item-with-ul ul p a {
