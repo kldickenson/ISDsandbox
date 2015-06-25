@@ -1592,18 +1592,17 @@ NEW:
       color: #fff;
       font-size: 12px; }
 
-.mobile-menu-contact a {
+.mobile-menu-contact {
   position: absolute;
-  top: 10px;
-  left: 0;
-  z-index: 1000;
-  display: inline-block;
-  width: 25px;
-  margin-right: 10px; }
-  .mobile-menu-contact a img {
-    height: 25px; }
-  .mobile-menu-contact a.icon-phone {
-    margin-left: -10px; }
+  top: 11px;
+  left: 11px; }
+  .mobile-menu-contact a {
+    z-index: 1000;
+    display: inline-block;
+    width: 25px;
+    margin-right: 10px; }
+    .mobile-menu-contact a img {
+      height: 25px; }
 
 .flexnav {
   margin: 0;
