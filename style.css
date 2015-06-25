@@ -3153,7 +3153,7 @@ ul.flex-direction-nav {
   /* TOTAL height: 50px; */
   width: 80%;
   padding: 10px 5%;
-  margin-bottom: 33px;
+  margin-bottom: 27px;
   text-align: center;
   text-transform: uppercase;
   border: #fff solid 5px;
@@ -3173,6 +3173,7 @@ ul.flex-direction-nav {
 
 #action .buttons a.actions.first {
   /* programs of study */
+  margin-top: 15px;
   background: url(http://isd.engin.umich.edu/images/button-bg-programs-off.gif) left top repeat; }
 
 #action .buttons a.actions.first:hover,
