@@ -157,18 +157,18 @@
               }
           }
           p   {
-            padding: 0;
-            margin: 0;
+            //padding: 0;
+            //margin: 0;
             //line-height: 1em;
           }
           a {
             background: transparent;
             border: none;
-            padding: 5px 0;
-            color: #fff;
+            //padding: 5px 0;
+            //color: #fff;
           }
           div.columns {
-            margin: 5px 0;
+            //margin: 5px 0;
           }
         }
       }
@@ -194,37 +194,38 @@
         background-color: inherit;
 
         h3 {
-         font-size: 1.1em;
+          font-size: 1.1em;
           color: #FFF;
           font-weight: bold;
           margin-bottom: 5px;
           line-height: 1.4em;
           text-transform: uppercase;
-          p, a {
-            padding: 5px 0;
-            background-color: inherit;
-            height: 0;
-            line-height: 0;
-            border: none;
-            margin-left: 0;
-            padding-left: 0;
+
+          a {
+            //padding: 5px 0;
+            //background-color: inherit;
+            //height: 0;
+            //line-height: 0;
+            //border: none;
+            //margin-left: 0;
+            //padding-left: 0;
           }
         }
       }
       p {
-        background-color: inherit;
-        height: 0;
-        line-height: 0;
-        border: none;
-        margin-left: 0;
-        padding-left: 0;
+        //background-color: inherit;
+       // height: 0;
+        //line-height: 0;
+        //border: none;
+        //margin-left: 0;
+        //padding-left: 0;
         a {
-          background-color: inherit;
-          height: 0;
-          line-height: 0;
-          border: none;
-          margin-left: 0;
-          padding-left: 0;
+          //background-color: inherit;
+          //height: 0;
+          //line-height: 0;
+          //border: none;
+          //margin-left: 0;
+          //padding-left: 0;
         }
       }
     }
@@ -239,10 +240,10 @@
 
       div.columns {
         p {
-          border: none;
+          //border: none;
           a {
-            line-height: 1.2em;
-            border: none;
+            //line-height: 1.2em;
+            //border: none;
           }
         }
         p.copy {

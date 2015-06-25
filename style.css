@@ -1686,16 +1686,9 @@ NEW:
           .flexnav li ul.flexnav-show li h3 a {
             padding-left: 0;
             font-size: 1em; }
-        .flexnav li ul.flexnav-show li p {
-          padding: 0;
-          margin: 0; }
         .flexnav li ul.flexnav-show li a {
           background: transparent;
-          border: none;
-          padding: 5px 0;
-          color: #fff; }
-        .flexnav li ul.flexnav-show li div.columns {
-          margin: 5px 0; }
+          border: none; }
 
 @media (max-width: 767px) {
   #main-menu .container {
@@ -1718,39 +1711,12 @@ NEW:
           margin-bottom: 5px;
           line-height: 1.4em;
           text-transform: uppercase; }
-          #main-menu .container li.item-with-ul ul div.columns h3 p, #main-menu .container li.item-with-ul ul div.columns h3 a {
-            padding: 5px 0;
-            background-color: inherit;
-            height: 0;
-            line-height: 0;
-            border: none;
-            margin-left: 0;
-            padding-left: 0; }
-      #main-menu .container li.item-with-ul ul p {
-        background-color: inherit;
-        height: 0;
-        line-height: 0;
-        border: none;
-        margin-left: 0;
-        padding-left: 0; }
-        #main-menu .container li.item-with-ul ul p a {
-          background-color: inherit;
-          height: 0;
-          line-height: 0;
-          border: none;
-          margin-left: 0;
-          padding-left: 0; }
 
   #main-menu .flexnav > li {
     position: relative; }
     #main-menu .flexnav > li ul.flexnav-show {
       padding: 0 11px;
       max-height: 2500px; }
-      #main-menu .flexnav > li ul.flexnav-show div.columns p {
-        border: none; }
-        #main-menu .flexnav > li ul.flexnav-show div.columns p a {
-          line-height: 1.2em;
-          border: none; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p.copy {
         display: none; } }
 @media (min-width: 768px) and (max-width: 959px) {
