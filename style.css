@@ -1686,7 +1686,8 @@ NEW:
           text-transform: uppercase; }
           .flexnav li ul.flexnav-show li h3 a {
             padding-left: 0;
-            font-size: 1em; }
+            font-size: 1em;
+            border-bottom: none; }
         .flexnav li ul.flexnav-show li a {
           background: transparent;
           border: none; }
