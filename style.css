@@ -1589,7 +1589,7 @@ NEW:
     padding-top: 10px; }
     .menu-button .touch-button i.navicon {
       display: none;
-      color: #fff;
+      color: transparent;
       font-size: 12px; }
 
 .mobile-menu-contact {
