@@ -43,7 +43,8 @@
 }
 
 
-/*  ISD Customization */
+/* - - - - - - - - ISD Customization - - - - - - - - */
+
 /*----- Section Titles -----*/
 .accordion-section-title {
 	border: 1px soid $color-primary;
@@ -61,4 +62,9 @@
 /*----- Section Content -----*/
 .accordion-section-content {
 	padding:15px 0;
+}
+@media all and (min-width: 768px) {
+	.mobile-title {
+		display: none;
+	}
 }
