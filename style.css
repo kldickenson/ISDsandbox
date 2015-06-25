@@ -1712,6 +1712,8 @@ NEW:
           margin-bottom: 5px;
           line-height: 1.4em;
           text-transform: uppercase; }
+          #main-menu .container li.item-with-ul ul div.columns h3 a {
+            padding: 0; }
       #main-menu .container li.item-with-ul ul p {
         margin-bottom: 0.5em;
         padding-left: 0; }
