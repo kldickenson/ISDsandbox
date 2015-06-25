@@ -1740,7 +1740,8 @@ NEW:
   #main-menu .flexnav > li {
     position: relative; }
     #main-menu .flexnav > li ul.flexnav-show {
-      padding: 0 11px; }
+      padding: 0 11px;
+      max-height: 2500px; }
       #main-menu .flexnav > li ul.flexnav-show div.columns p {
         line-height: 1.2em;
         border: none;
