@@ -1783,6 +1783,8 @@ NEW:
     height: 50px;
     margin: 0;
     background: none; }
+    nav.mainmenu .flexnav .mobile-menu-contact {
+      display: none; }
     nav.mainmenu .flexnav .touch-button {
       display: none; }
     nav.mainmenu .flexnav > li {

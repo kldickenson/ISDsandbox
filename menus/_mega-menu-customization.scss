@@ -291,6 +291,9 @@
     background: none;
 
     .flexnav  {  
+      .mobile-menu-contact {
+        display: none;
+      }
       .touch-button {
         display: none; 
       }
