@@ -295,18 +295,18 @@
     height: 50px;
     background-color: $color-menu;
   }
+  .mobile-menu-contact {
+    display: none;
+  }
+  .touch-button {
+    display: none; 
+  }
   nav.mainmenu  {
     height: 50px;
     margin: 0;
     background: none;
 
     .flexnav  {  
-      .mobile-menu-contact {
-        display: none;
-      }
-      .touch-button {
-        display: none; 
-      }
   // First level
       > li  {
         padding: 5px;

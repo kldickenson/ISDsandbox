@@ -1781,14 +1781,16 @@ NEW:
     height: 50px;
     background-color: rgba(97, 181, 218, 0.8); }
 
+  .mobile-menu-contact {
+    display: none; }
+
+  .touch-button {
+    display: none; }
+
   nav.mainmenu {
     height: 50px;
     margin: 0;
     background: none; }
-    nav.mainmenu .flexnav .mobile-menu-contact {
-      display: none; }
-    nav.mainmenu .flexnav .touch-button {
-      display: none; }
     nav.mainmenu .flexnav > li {
       padding: 5px; }
       nav.mainmenu .flexnav > li > a {
