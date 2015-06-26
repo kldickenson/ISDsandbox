@@ -1618,7 +1618,8 @@ NEW:
       font-weight: bold;
       font-size: 1em;
       padding: 11px;
-      background: transparent; }
+      background: transparent;
+      border: none; }
     .flexnav > li .touch-button {
       background: rgba(255, 255, 255, 0.2);
       height: 40px; }
@@ -1687,7 +1688,7 @@ NEW:
           .flexnav li ul.flexnav-show li h3 a {
             padding-left: 0;
             font-size: 1em;
-            border-bottom: none; }
+            border: none; }
         .flexnav li ul.flexnav-show li a {
           background: transparent;
           border: none; }
@@ -1748,22 +1749,28 @@ NEW:
     margin: 0; }
 
   .item-with-ul ul div.columns p a {
-    padding: 5px 0; }
+    padding: 5px 0;
+    border: none;
+    background: transparent; }
 
   .item-with-ul ul div.columns, .item-with-ul ul div.columns p, .item-with-ul ul div.columns a {
-    background-color: inherit; }
+    background-color: inherit;
+    border: none;
+    background: transparent; }
 
   .item-with-ul ul div.columns p, .item-with-ul ul div.columns p a {
     height: 0;
-    line-height: 0; }
+    line-height: 0;
+    border: none;
+    background: transparent; }
 
   .item-with-ul ul.flexnav-show div.columns p {
-    height: 21px;
-    line-height: 11; }
+    line-height: 1em; }
 
   .item-with-ul ul.flexnav-show div.columns p a {
-    height: 11px;
-    line-height: 11px; }
+    line-height: 1em;
+    border: none;
+    background: transparent; }
 
   /* End of Khaled's code */ }
 @media (min-width: 768px) and (max-width: 959px) {
