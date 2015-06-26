@@ -1600,11 +1600,7 @@ NEW:
     z-index: 1000;
     display: inline-block;
     width: 25px;
-    margin-right: 10px;
-    /*&.icon-contact {
-    }
-    &.icon-phone {
-    }*/ }
+    margin-right: 10px; }
     .mobile-menu-contact a img {
       height: 25px; }
 
@@ -1725,7 +1721,8 @@ NEW:
           padding: 0; }
 
   #main-menu .flexnav > li {
-    position: relative; }
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
     #main-menu .flexnav > li ul.flexnav-show {
       padding: 0 11px;
       max-height: 2500px; }
@@ -1925,6 +1922,8 @@ NEW:
         nav.mainmenu .flexnav > li.people > a:hover, nav.mainmenu .flexnav > li.people > a:focus {
           color: #919195;
           background-color: transparent; }
+      nav.mainmenu .flexnav > li .touch-button {
+        display: none; }
       nav.mainmenu .flexnav > li > ul {
         position: absolute;
         top: 50px;

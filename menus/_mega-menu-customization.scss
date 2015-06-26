@@ -46,10 +46,6 @@
       img {
         height: 25px;
       }
-      /*&.icon-contact {
-      }
-      &.icon-phone {
-      }*/
     }
   }  
   
@@ -176,7 +172,7 @@
     margin: 0 11px; 
     nav.mainmenu {
         width: 100%;
-      } 
+    }
     li.item-with-ul ul {
       padding: 0 11px;
       margin-right: 0;
@@ -213,6 +209,7 @@
   }
   #main-menu .flexnav > li {
     position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
     ul.flexnav-show {
       padding: 0 11px;
@@ -532,6 +529,9 @@
             color: rgb(145, 145, 149);
             background-color: transparent;
           }
+        }
+        .touch-button {
+          display: none;
         }
   // second level
          > ul {
