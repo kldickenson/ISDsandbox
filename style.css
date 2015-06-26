@@ -1639,7 +1639,8 @@ NEW:
         background: transparent;
         color: #fff; }
       .flexnav > li.admissions div.boxed {
-        background: transparent; }
+        background: transparent;
+        margin-bottom: 0; }
         .flexnav > li.admissions div.boxed .sub {
           width: 100%;
           float: none;
@@ -1675,7 +1676,7 @@ NEW:
     .flexnav li ul.flexnav-show {
       margin: 0; }
       .flexnav li ul.flexnav-show li {
-        padding-top: 10px;
+        padding-top: 0;
         padding-bottom: 10px; }
         .flexnav li ul.flexnav-show li h3 {
           margin-top: 1em;
@@ -1718,7 +1719,7 @@ NEW:
           #main-menu .container li.item-with-ul ul div.columns h3 a {
             padding: 0; }
       #main-menu .container li.item-with-ul ul p {
-        margin-bottom: 0.5em;
+        margin-bottom: 5px;
         padding-left: 0; }
         #main-menu .container li.item-with-ul ul p a {
           padding: 0; }
