@@ -493,7 +493,9 @@ h2.page-title span {
         margin-top: 10px; } }
 @media (max-width: 767px) {
   #sb-player section {
-    width: 250px; } }
+    width: 250px; }
+  #sb-player h2 {
+    font-size: 125%; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
