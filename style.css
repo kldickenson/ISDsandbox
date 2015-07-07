@@ -491,6 +491,9 @@ h2.page-title span {
       #footer .container .siteinfo {
         clear: both;
         margin-top: 10px; } }
+@media (max-width: 767px) {
+  #sb-player section {
+    width: 250px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
