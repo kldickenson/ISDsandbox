@@ -1626,7 +1626,8 @@ NEW:
       height: 40px; }
       .flexnav > li .touch-button .navicon {
         color: #fff;
-        top: 1.1em; }
+        top: 1.1em;
+        left: -3px; }
     .flexnav > li.about {
       background-color: #134791;
       opacity: 100; }
