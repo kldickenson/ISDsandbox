@@ -22,6 +22,23 @@
             }
         }
     }
+    .contact-info {
+        a {
+            height: 40px;
+            text-align: center;
+            padding: 2px;
+            margin-left: 20px;
+            &.phone {
+                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+            }
+            &.map {
+                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png) 50% 0 no-repeat;
+            }
+            &.contact {
+                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png) 50% 0 no-repeat;
+            }
+        }
+    }
 }
 
 // See _social-media.scss for Footer Social Media styling

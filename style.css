@@ -450,6 +450,17 @@ h2.page-title span {
       text-decoration: none; }
       #footer .siteinfo a:focus, #footer .siteinfo a:hover {
         text-decoration: underline; }
+  #footer .contact-info a {
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+    margin-left: 20px; }
+    #footer .contact-info a.phone {
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
+    #footer .contact-info a.map {
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png) 50% 0 no-repeat; }
+    #footer .contact-info a.contact {
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png) 50% 0 no-repeat; }
 
 #footer-nav {
   float: right; }
