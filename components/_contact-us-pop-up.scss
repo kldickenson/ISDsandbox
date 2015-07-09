@@ -1,13 +1,6 @@
 @media (max-width: 767px) {
 	//to solve pop-up window issues
-	#sb-player {
-
-		section {
-			width: 250px; 
-		}
-
-		h2 {
-			font-size: 150%;
-		}
-	}		
+	#sb-player section {
+		width: 250px; 
+	}
 }

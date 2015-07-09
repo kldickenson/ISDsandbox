@@ -491,11 +491,6 @@ h2.page-title span {
       #footer .container .siteinfo {
         clear: both;
         margin-top: 10px; } }
-@media (max-width: 767px) {
-  #sb-player section {
-    width: 250px; }
-  #sb-player h2 {
-    font-size: 150%; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
@@ -1315,16 +1310,20 @@ NEW:
 .social-media li {
   color: #fff;
   text-align: center; }
-  .social-media li a.social_facebook {
-    background-image: url(http://isdsandbox.engin.umich.edu/images/icon-facebook.png); }
-  .social-media li a.social_twitter {
-    background-image: url(http://isdsandbox.engin.umich.edu/images/icon-twitter.png); }
-  .social-media li a.social_linkedin {
-    background-image: url(http://isdsandbox.engin.umich.edu/images/icon-linkedin.png); }
-  .social-media li a.social_youtube {
-    background-image: url(http://isdsandbox.engin.umich.edu/images/icon-youtube.png); }
-  .social-media li a.social_tagboard {
-    background-image: url(https://confluence.engin.umich.edu/download/attachments/21103180/tagboard-icon_24x24.png); }
+  .social-media li a {
+    width: 24px;
+    height: 24px;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png) 50% 50% no-repeat; }
+    .social-media li a.social_facebook {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png); }
+    .social-media li a.social_twitter {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-twitter.png); }
+    .social-media li a.social_linkedin {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-linkedin.png); }
+    .social-media li a.social_youtube {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-youtube.png); }
+    .social-media li a.social_tagboard {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-tagboard.png); }
   .social-media li span {
     display: none; }
 
@@ -1627,7 +1626,7 @@ NEW:
       .flexnav > li .touch-button .navicon {
         color: #fff;
         top: 1.1em;
-        left: -3px; }
+        left: -5px; }
     .flexnav > li.about {
       background-color: #134791;
       opacity: 100; }
