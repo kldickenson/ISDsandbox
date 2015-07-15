@@ -23,6 +23,7 @@
     a {
         color: #fff;
         text-decoration: none;
+        padding: 0;
 
         &:focus,
         &:hover {
@@ -33,13 +34,13 @@
     .contact-info {
         li {
             margin-top: 25px;
+            margin-left: 20px;
         }
 
         a {
             height: 40px;
-            text-align: center;
+            /*text-align: center;*/
             padding-top: 25px;
-            margin-left: 20px;
             background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
 
             &.phone {

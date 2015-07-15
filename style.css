@@ -450,17 +450,18 @@ h2.page-title span {
       margin-right: 0; }
   #footer a {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 0; }
     #footer a:focus, #footer a:hover {
       text-decoration: underline;
       color: #fdeb72; }
   #footer .contact-info li {
-    margin-top: 25px; }
+    margin-top: 25px;
+    margin-left: 20px; }
   #footer .contact-info a {
     height: 40px;
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 25px;
-    margin-left: 20px;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
     #footer .contact-info a.phone {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
