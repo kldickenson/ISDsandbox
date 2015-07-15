@@ -438,41 +438,41 @@ h2.page-title span {
   margin: 0;
   padding-top: 25px;
   padding-bottom: 10px;
-  background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x; }
-  #footer li {
+  background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x;
+  font: bold .8em 'Open Sans', sans-serif; }
+  #footer ul li {
+    display: inline-block;
+    margin: 0 10px;
     line-height: 1.2em; }
+  #footer ul:first-child {
+    margin-left: 0; }
+  #footer ul:last-child {
+    margin-right: 0; }
+  #footer a {
+    color: #fff;
+    text-decoration: none; }
+    #footer a:focus, #footer a:hover {
+      text-decoration: underline;
+      color: #fdeb72; }
+  #footer .contact-info a {
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 20px;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
+    #footer .contact-info a.phone {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
+    #footer .contact-info a.map {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png); }
+    #footer .contact-info a.contact {
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
   #footer .siteinfo {
     color: #fff;
     font-size: 70%;
     text-align: center; }
-    #footer .siteinfo a {
-      color: #fff;
-      text-decoration: none; }
-      #footer .siteinfo a:focus, #footer .siteinfo a:hover {
-        text-decoration: underline; }
-  #footer .contact-info a {
-    height: 40px;
-    text-align: center;
-    padding: 2px;
-    margin-left: 20px; }
-    #footer .contact-info a.phone {
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
-    #footer .contact-info a.map {
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png) 50% 0 no-repeat; }
-    #footer .contact-info a.contact {
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png) 50% 0 no-repeat; }
 
-#footer-nav {
-  float: right; }
-  #footer-nav li {
-    float: left;
-    margin-left: 20px; }
-  #footer-nav a {
-    color: #fff;
-    font: 400 85% 'Open Sans', sans-serif; }
-    #footer-nav a:hover, #footer-nav a:focus {
-      text-decoration: none;
-      color: #fdeb72; }
+#footer-nav li {
+  margin: 0 5px; }
 
 @media only screen and (max-width: 960px) {
   #footer {

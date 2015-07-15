@@ -3,61 +3,65 @@
     padding-top: 25px;
     padding-bottom: 10px;
     background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x;
+    font: bold .8em 'Open Sans', sans-serif;
 
-    li {
-        line-height: 1.2em;
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 10px;
+            line-height: 1.2em;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
     }
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        &:focus,
+        &:hover {
+            text-decoration: underline;
+            color: #fdeb72;
+        }
+    }
+    .contact-info {
+
+        a {
+            height: 40px;
+            text-align: center;
+            padding-top: 25px;
+            margin-left: 20px;
+            background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+
+            &.phone {
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
+            }
+            &.map {
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png);
+            }
+            &.contact {
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png);
+            }
+        }
+    }
+
+    // See _social-media.scss for Footer Social Media styling
+
     .siteinfo {
         color: #fff;
         font-size: 70%;
         text-align: center;
-
-        a {
-            color: #fff;
-            text-decoration: none;
-
-            &:focus,
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-    .contact-info {
-        a {
-            height: 40px;
-            text-align: center;
-            padding: 2px;
-            margin-left: 20px;
-            &.phone {
-                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
-            }
-            &.map {
-                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png) 50% 0 no-repeat;
-            }
-            &.contact {
-                background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png) 50% 0 no-repeat;
-            }
-        }
     }
 }
 
-// See _social-media.scss for Footer Social Media styling
-
 #footer-nav {
-    float: right;
 
     li {
-        float: left;
-        margin-left: 20px;
-    }
-    a {
-        color: #fff;
-        font: 400 85% 'Open Sans', sans-serif;
-        &:hover,
-        &:focus {
-            text-decoration: none;
-            color: #fdeb72;
-        }
+        margin: 0 5px;
     }
 }
 
