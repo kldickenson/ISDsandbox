@@ -81,13 +81,15 @@
     }
 }
 @media only screen and (max-width: 400px) { 
+#footer {
 
-    #footer-nav {
+        #footer-nav {
 
-        li {
+            li {
 
-            display: block;
-            margin: 10px;
+                display: block;
+                margin: 10px;
+            }
         }
     }
 }
