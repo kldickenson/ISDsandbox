@@ -59,11 +59,13 @@
 
     .um-logo {
         display: block;
-        margin-left: 50px;
+        margin: 47px 0 20px 0;
+        float: right;
     }
 
     .siteinfo {
-        margin-left: 50px;
+        float: right;
+        margin-right: 50px;
         color: #fff;
         font-size: 70%;
         text-align: left;
@@ -74,6 +76,7 @@
 
     li {
         margin: 0 5px;
+        font-size: 90%;
     }
 }
 

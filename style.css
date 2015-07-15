@@ -471,15 +471,18 @@ h2.page-title span {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
   #footer .um-logo {
     display: block;
-    margin-left: 50px; }
+    margin: 47px 0 20px 0;
+    float: right; }
   #footer .siteinfo {
-    margin-left: 50px;
+    float: right;
+    margin-right: 50px;
     color: #fff;
     font-size: 70%;
     text-align: left; }
 
 #footer-nav li {
-  margin: 0 5px; }
+  margin: 0 5px;
+  font-size: 90%; }
 
 @media only screen and (max-width: 960px) {
   #footer {
