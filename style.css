@@ -487,6 +487,8 @@ h2.page-title span {
     font-size: 90%; }
 
 @media only screen and (max-width: 400px) {
+  #footer .columns {
+    width: 100%; }
   #footer #footer-nav li {
     display: block;
     margin: 10px; } }

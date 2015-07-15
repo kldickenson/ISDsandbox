@@ -81,10 +81,11 @@
     }
 }
 @media only screen and (max-width: 400px) { 
-#footer {
-
+    #footer {
+        .columns {
+            width: 100%;
+        }
         #footer-nav {
-
             li {
 
                 display: block;
