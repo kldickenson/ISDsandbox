@@ -480,44 +480,40 @@ h2.page-title span {
     font-size: 70%;
     text-align: left; }
 
-#footer-nav li {
-  margin: 0 5px;
-  font-size: 90%; }
+#footer-nav {
+  clear: both; }
+  #footer-nav li {
+    margin: 0 5px;
+    font-size: 90%; }
 
 @media only screen and (max-width: 960px) {
   #footer {
     width: 100%;
     background-image: none;
     background: #555;
-    padding-top: 10px; }
+    padding-top: 10px;
+    /*
+    .siteinfo {
+        clear: both;
+        margin-top: 10px;
+    }
+    */ }
     #footer .row {
       margin-bottom: 0; }
     #footer .container {
       width: 420px;
-      margin: 0 auto;
-      /*
-                  ul.social-media {
-                      width: inherit;
-                      float: none;
-                  }
-                  #footer-nav {
-                      float: none;
-                      margin: 0 auto;
-                      text-align: center;
-                      clear: both;
-                      li {
-                          float: none;
-                          display: inline-block;
-                          margin: 5px;
-                      }
-                  }
-                  .siteinfo {
-                      clear: both;
-                      margin-top: 10px;
-                  }
-                  */ }
+      margin: 0 auto; }
       #footer .container div.columns {
-        width: 100%; } }
+        width: 100%; }
+    #footer #footer-nav {
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      clear: both; }
+      #footer #footer-nav li {
+        float: none;
+        display: inline-block;
+        margin: 5px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
@@ -1362,8 +1358,9 @@ NEW:
 
 @media only screen and (max-width: 960px) {
   .social-media {
+    float: none;
     width: 260px;
-    margin: 10px auto 0; } }
+    margin: 10px auto 20px; } }
 #audience-menu {
   float: right;
   /*height: 40px;*/

@@ -73,6 +73,7 @@
 }
 
 #footer-nav {
+    clear: both;
 
     li {
         margin: 0 5px;
@@ -95,27 +96,24 @@
            div.columns {
                 width: 100%;
             }
-/*
-            ul.social-media {
-                width: inherit;
-                float: none;
-            }
-            #footer-nav {
-                float: none;
-                margin: 0 auto;
-                text-align: center;
-                clear: both;
-                li {
-                    float: none;
-                    display: inline-block;
-                    margin: 5px;
-                }
-            }
-            .siteinfo {
-                clear: both;
-                margin-top: 10px;
-            }
-            */
         }
+        #footer-nav {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        clear: both;
+            li {
+                float: none;
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+        /*
+        .siteinfo {
+            clear: both;
+            margin-top: 10px;
+        }
+        */
     }
+
 }
