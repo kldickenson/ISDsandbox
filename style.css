@@ -486,7 +486,11 @@ h2.page-title span {
     margin: 0 5px;
     font-size: 90%; }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 400px) {
+  #footer-nav li {
+    display: block;
+    margin: 10px; } }
+@media only screen and (min-width: 401px) and (max-width: 960px) {
   #footer {
     width: 100%;
     background-image: none;
@@ -525,10 +529,6 @@ h2.page-title span {
       width: 300px;
       float: none;
       margin: 0 auto; } }
-@media only screen and (max-width: 400px) {
-  #footer-nav li {
-    display: block;
-    margin: 10px; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
