@@ -38,24 +38,26 @@
 	margin: 0; 
 }
 
-@media only screen and (max-width: 960px) { 
-	//.social-media {
-	//	float: none;
-	//	width: 400px;
-	//	margin: 10px auto 20px;
-	//}
-}
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 959px) { 
 	.social-media {
 		float: none;
 		width: 400px;
 		margin: 10px auto 20px;
 	}
 }
+@media only screen and (max-width: 700px) { 
+	.social-media {
+		//float: none;
+		//width: 400px;
+		padding-left: 25%;
+		//margin: 10px auto 20px;
+	}
+}
 @media only screen and (max-width: 400px) { 
 	.social-media {
-		float: none;
+		//float: none;
 		width: 260px;
-		margin: 10px auto 20px;
+		//margin: 10px auto 20px;
+		padding-left: 20%;
 	}
 }
