@@ -59,13 +59,13 @@
 
     .um-logo {
         display: block;
-        margin: 47px 0 20px 0;
         float: right;
+        margin: 47px 0 20px 0;
     }
 
     .siteinfo {
         float: right;
-        margin-right: 50px;
+        margin-right: 85px;
         color: #fff;
         font-size: 70%;
         text-align: left;
@@ -95,6 +95,7 @@
            div.columns {
                 width: 100%;
             }
+/*
             ul.social-media {
                 width: inherit;
                 float: none;
@@ -114,6 +115,7 @@
                 clear: both;
                 margin-top: 10px;
             }
+            */
         }
     }
 }

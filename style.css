@@ -471,11 +471,11 @@ h2.page-title span {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
   #footer .um-logo {
     display: block;
-    margin: 47px 0 20px 0;
-    float: right; }
+    float: right;
+    margin: 47px 0 20px 0; }
   #footer .siteinfo {
     float: right;
-    margin-right: 50px;
+    margin-right: 85px;
     color: #fff;
     font-size: 70%;
     text-align: left; }
@@ -494,24 +494,30 @@ h2.page-title span {
       margin-bottom: 0; }
     #footer .container {
       width: 420px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      /*
+                  ul.social-media {
+                      width: inherit;
+                      float: none;
+                  }
+                  #footer-nav {
+                      float: none;
+                      margin: 0 auto;
+                      text-align: center;
+                      clear: both;
+                      li {
+                          float: none;
+                          display: inline-block;
+                          margin: 5px;
+                      }
+                  }
+                  .siteinfo {
+                      clear: both;
+                      margin-top: 10px;
+                  }
+                  */ }
       #footer .container div.columns {
-        width: 100%; }
-      #footer .container ul.social-media {
-        width: inherit;
-        float: none; }
-      #footer .container #footer-nav {
-        float: none;
-        margin: 0 auto;
-        text-align: center;
-        clear: both; }
-        #footer .container #footer-nav li {
-          float: none;
-          display: inline-block;
-          margin: 5px; }
-      #footer .container .siteinfo {
-        clear: both;
-        margin-top: 10px; } }
+        width: 100%; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
@@ -1333,7 +1339,7 @@ NEW:
   .social-media li {
     color: #fff;
     text-align: center;
-    margin: 0 3px; }
+    margin: 0; }
     .social-media li a {
       width: 24px;
       height: 24px;
@@ -1352,7 +1358,7 @@ NEW:
       display: none; }
 
 #footer ul.social-media li {
-  margin: 0 3px; }
+  margin: 0; }
 
 @media only screen and (max-width: 960px) {
   .social-media {
