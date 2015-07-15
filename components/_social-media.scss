@@ -1,4 +1,5 @@
 .social-media {
+	width: 100%;
 	li {
 		color: #fff;
 		text-align: center;
@@ -29,6 +30,11 @@
 		}
 	}
 }
+// to over-ride #footer default styling
+#footer ul.social-media li {
+	margin: 0 3px; 
+}
+
 @media only screen and (max-width: 960px) { 
 	.social-media {
 		width: 260px;

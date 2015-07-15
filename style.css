@@ -1325,26 +1325,31 @@ NEW:
   width: 15%;
   text-align: center; }
 
-.social-media li {
-  color: #fff;
-  text-align: center;
+.social-media {
+  width: 100%; }
+  .social-media li {
+    color: #fff;
+    text-align: center;
+    margin: 0 3px; }
+    .social-media li a {
+      width: 24px;
+      height: 24px;
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png) 50% 50% no-repeat; }
+      .social-media li a.social_facebook {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png); }
+      .social-media li a.social_twitter {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-twitter.png); }
+      .social-media li a.social_linkedin {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-linkedin.png); }
+      .social-media li a.social_youtube {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-youtube.png); }
+      .social-media li a.social_tagboard {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-tagboard.png); }
+    .social-media li span {
+      display: none; }
+
+#footer ul.social-media li {
   margin: 0 3px; }
-  .social-media li a {
-    width: 24px;
-    height: 24px;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png) 50% 50% no-repeat; }
-    .social-media li a.social_facebook {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png); }
-    .social-media li a.social_twitter {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-twitter.png); }
-    .social-media li a.social_linkedin {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-linkedin.png); }
-    .social-media li a.social_youtube {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-youtube.png); }
-    .social-media li a.social_tagboard {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-tagboard.png); }
-  .social-media li span {
-    display: none; }
 
 @media only screen and (max-width: 960px) {
   .social-media {
