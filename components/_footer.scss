@@ -6,6 +6,8 @@
     font: bold .8em 'Open Sans', sans-serif;
 
     ul {
+        margin-bottom: 0;
+        
         li {
             display: inline-block;
             margin: 0 10px;
@@ -29,6 +31,9 @@
         }
     }
     .contact-info {
+        li {
+            margin-top: 25px;
+        }
 
         a {
             height: 40px;
@@ -51,10 +56,16 @@
 
     // See _social-media.scss for Footer Social Media styling
 
+    .um-logo {
+        display: block;
+        margin-left: 50px;
+    }
+
     .siteinfo {
+        margin-left: 50px;
         color: #fff;
         font-size: 70%;
-        text-align: center;
+        text-align: left;
     }
 }
 
