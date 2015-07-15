@@ -495,7 +495,7 @@ h2.page-title span {
     /*
     .siteinfo {
         clear: both;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     */ }
     #footer .row {
@@ -505,15 +505,26 @@ h2.page-title span {
       margin: 0 auto; }
       #footer .container div.columns {
         width: 100%; }
+    #footer .contact-info {
+      margin: 25px auto;
+      text-align: center; }
+      #footer .contact-info li:first-child {
+        margin-left: 20px; }
+      #footer .contact-info li:last-child {
+        margin-right: 20px; }
     #footer #footer-nav {
       float: none;
-      margin: 0 auto;
+      margin: 25px auto;
       text-align: center;
       clear: both; }
       #footer #footer-nav li {
         float: none;
         display: inline-block;
-        margin: 5px; } }
+        margin: 5px; }
+    #footer .um-logo {
+      width: 300px;
+      float: none;
+      margin: 0 auto; } }
 #breadcrumbs {
   height: 30px;
   width: 100%;
