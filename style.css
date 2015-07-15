@@ -440,15 +440,13 @@ h2.page-title span {
   padding-bottom: 10px;
   background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x;
   font: bold .8em 'Open Sans', sans-serif; }
-  #footer ul {
-    margin-bottom: 0; }
-    #footer ul li {
-      display: inline-block;
-      margin: 0 10px;
-      line-height: 1.2em; }
-    #footer ul:first-child {
+  #footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 1.2em; }
+    #footer ul li:first-child {
       margin-left: 0; }
-    #footer ul:last-child {
+    #footer ul li:last-child {
       margin-right: 0; }
   #footer a {
     color: #fff;
