@@ -133,5 +133,14 @@
         }
         */
     }
+}
+@media only screen and (max-width: 400px) { 
 
+    #footer-nav {
+
+        li {
+
+            display: block;
+        }
+    }
 }
