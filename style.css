@@ -1146,18 +1146,14 @@ div.sb-message a:link, div.sb-message a:visited {
 
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 @media (max-width: 565px) {
-  #sb-container {
-    height: 100%;
-    width: 100%; }
-
   #sb-wrapper {
-    left: 5%;
-    top: 5%;
-    height: 90%;
-    width: 90%; }
+    left: 5% !important;
+    top: 5% !important;
+    height: 90% !important;
+    width: 90% !important; }
 
   #sb-wrapper-inner {
-    height: 100%; } }
+    height: 100% !important; } }
 /*----- Accordion -----*/
 .accordion, .accordion * {
   -webkit-box-sizing: border-box;
