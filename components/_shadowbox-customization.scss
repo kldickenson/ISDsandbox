@@ -1,2 +1,33 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 
+@media (max-width: 565px) {
+	//to solve pop-up window issues
+
+	#sb-container {
+		//inline: display: block; height: 693px; width: 550px; visibility: visible;
+		height: 100%;
+		width: 100%;
+	}
+
+	#sb-wrapper {
+		// inline: top: 69px; left: 20px; width: 510px; visibility: visible;
+		left: 5%;
+		top: 5%;
+		height: 90%;
+		width: 90%;
+	}
+
+	#sb-wrapper-inner {
+		// inline: height: 529px
+		height: 100%;
+	}
+
+	#sb-body {
+
+	}
+
+	#sb-body-inner {
+		// wrapper container of iframe
+
+	}
+}
