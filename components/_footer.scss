@@ -86,11 +86,23 @@
             width: 100%;
         }
         #footer-nav {
-            li {
+                 text-align: center;
+           li {
 
                 display: block;
                 margin: 10px;
             }
+        }
+        ul.contact-info {
+            li:first-child {
+                margin-left: 20px;
+            }
+        }
+        .um-logo {
+            width: 300px;
+            float: none;
+            margin: 0 auto 10px;
+
         }
     }
 }
