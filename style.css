@@ -1224,8 +1224,13 @@ div.sb-message a:link, div.sb-message a:visited {
   /*----- Section Titles -----*/
   .accordion-section-title {
     padding: 0 30px 0 0;
-    font-weight: normal; }
+    font-weight: normal;
+    position: relative; }
     .accordion-section-title .arrow {
+      display: block;
+      width: 20px;
+      position: absolute;
+      right: 0;
       background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
     .accordion-section-title.active, .accordion-section-title:hover {
       background-color: #fff; }
@@ -1234,7 +1239,7 @@ div.sb-message a:link, div.sb-message a:visited {
 
   /*----- Section Content -----*/
   .accordion-section-content {
-    padding: 15px 0;
+    padding: 0;
     display: none; } }
 @media all and (min-width: 766px) {
   .mobile-title {

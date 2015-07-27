@@ -98,8 +98,13 @@
 	.accordion-section-title {
 		padding: 0 30px 0 0;
 		font-weight: normal;
+		position: relative;
 	
 		.arrow {
+			display: block;
+			width: 20px;
+			position: absolute;
+			right: 0;
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		}
 		&.active, &:hover {
@@ -115,7 +120,7 @@
 
 	/*----- Section Content -----*/
 	.accordion-section-content {
-		padding:15px 0;
+		padding: 0;
 		display:none;
 	}
 }
