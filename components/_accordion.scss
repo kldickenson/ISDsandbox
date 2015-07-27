@@ -60,17 +60,19 @@
 		border-radius: none;
 		background: transparent;
 		min-height: 40px;
+
 	}
 
 	/* ----- Mobile Accordion Icons ------ */
 	h3.mobile-title {
+		height: 30px;
+		padding: 0 5px 0 40px;
+		margin: 0;
 		border: none;
+		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
 		color:$color-primary;
 		font-weight: normal;
 		font-size: 1.2rem;
-		height: 30px;
-		padding: 0 5px 0 40px;
-		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
 		#pricing & {
 			background-position: left -10px;
 		}
@@ -105,10 +107,11 @@
 			width: 20px;
 			position: absolute;
 			right: 0;
+			top: 0;
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		}
-		&.active, &:hover {
-			background-color:#fff;
+		&.active {
+			//background-color:#fff;
 			.arrow {
 				transform: rotate(.25turn);
 			}
