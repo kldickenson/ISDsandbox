@@ -1234,7 +1234,7 @@ div.sb-message a:link, div.sb-message a:visited {
   .accordion-section-content {
     padding: 15px 0;
     display: none; } }
-@media all and (min-width: 401px) {
+@media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }
 /* - - - For Course Overview / Introduction including embedded video - - - */
