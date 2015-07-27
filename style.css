@@ -1198,7 +1198,8 @@ div.sb-message a:link, div.sb-message a:visited {
     min-height: 40px; }
 
   #pricing {
-    min-height: 40px; }
+    min-height: 40px;
+    background-color: transparent; }
 
   /* ----- Mobile Accordion Icons ------ */
   h3.mobile-title {
