@@ -1169,23 +1169,15 @@ div.sb-message a:link, div.sb-message a:visited {
 /*----- Section Titles -----*/
 .accordion-section-title {
   width: 100%;
-  padding: 15px;
   display: inline-block;
-  border-bottom: 1px solid #1a1a1a;
-  background: #333;
   transition: all linear 0.15s;
   /* Type */
   font-size: 1.200em;
-  text-shadow: 0px 1px 0px #1a1a1a;
-  color: #fff; }
+  text-shadow: 0px 1px 0px #1a1a1a; }
 
 .accordion-section-title.active, .accordion-section-title:hover {
-  background: #4c4c4c;
   /* Type */
   text-decoration: none; }
-
-.accordion:last-child .accordion-section-title {
-  border-bottom: none; }
 
 /*----- Section Content -----*/
 .accordion-section-content {
@@ -1208,15 +1200,40 @@ div.sb-message a:link, div.sb-message a:visited {
 
   /*----- Section Titles -----*/
   .mobile-title {
-    border: 1px soid #176EB5;
-    background: #fff;
+    border: none;
+    background: transparent;
     color: #176EB5; }
 
   .mobile-title.active, .mobile-title:hover {
     background: #fff; }
 
   .mobile-accordion:last-child .accordion-section-title {
-    border-bottom: none; } }
+    border-bottom: none; }
+
+  /* ----- Mobile Accordion Icons ------ */
+  .mobile-title {
+    height: 25px;
+    padding: 10px 0;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat; }
+    #pricing .mobile-title {
+      background-position: left 0; }
+    #course-overview .mobile-title {
+      background-position: left -30px; }
+    #agenda .mobile-title {
+      background-position: left -60px; }
+    .learning-objectives .mobile-title {
+      background-position: left -90px; }
+    .attendees .mobile-title {
+      background-position: left -120px; }
+    .instructors .mobile-title {
+      background-position: left -150px; }
+    .brochure .mobile-title {
+      background-position: left -180px; }
+
+  /*----- Section Content -----*/
+  .accordion-section-content {
+    padding: 15px 0;
+    display: none; } }
 @media all and (min-width: 401px) {
   .mobile-title {
     display: none; } }
