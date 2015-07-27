@@ -61,23 +61,10 @@
 		background:#f7f7f7;
 	}
 
-	/*----- Section Titles -----*/
-	h3.mobile-title {
-		border: none;
-		background: transparent;
-		color:$color-primary;
-	}
-
-	.mobile-title.active, .mobile-title:hover {
-		background:#fff;
-	}
-
-	.mobile-accordion:last-child .accordion-section-title {
-		border-bottom:none;
-	}
-
 	/* ----- Mobile Accordion Icons ------ */
 	h3.mobile-title {
+		border: none;
+		color:$color-primary;
 		height: 25px;
 		padding: 10px 0 10px 30px;
 		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
@@ -102,14 +89,31 @@
 		.brochure & {
 			background-position: left -180px;
 		}
-
 	}
+
+	/*----- Section Titles -----*/
+	.accordion-section-title {
+		padding: 0 20px 0 0;
+	
+		.arrow {
+			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
+		}
+		&.active, &:hover {
+			background-color:#fff;
+			.arrow {
+				transform: rotate(.25turn);
+			}
+		}
+		//.mobile-accordion:last-child & {
+		//	border-bottom:none;
+		//}
+	}
+
 	/*----- Section Content -----*/
 	.accordion-section-content {
 		padding:15px 0;
 		display:none;
 	}
-
 }
 
 @media all and (min-width: 766px) {

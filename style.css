@@ -1197,20 +1197,10 @@ div.sb-message a:link, div.sb-message a:visited {
     border-radius: 3px;
     background: #f7f7f7; }
 
-  /*----- Section Titles -----*/
-  h3.mobile-title {
-    border: none;
-    background: transparent;
-    color: #176EB5; }
-
-  .mobile-title.active, .mobile-title:hover {
-    background: #fff; }
-
-  .mobile-accordion:last-child .accordion-section-title {
-    border-bottom: none; }
-
   /* ----- Mobile Accordion Icons ------ */
   h3.mobile-title {
+    border: none;
+    color: #176EB5;
     height: 25px;
     padding: 10px 0 10px 30px;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat; }
@@ -1228,6 +1218,16 @@ div.sb-message a:link, div.sb-message a:visited {
       background-position: left -150px; }
     .brochure h3.mobile-title {
       background-position: left -180px; }
+
+  /*----- Section Titles -----*/
+  .accordion-section-title {
+    padding: 0 20px 0 0; }
+    .accordion-section-title .arrow {
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
+    .accordion-section-title.active, .accordion-section-title:hover {
+      background-color: #fff; }
+      .accordion-section-title.active .arrow, .accordion-section-title:hover .arrow {
+        transform: rotate(0.25turn); }
 
   /*----- Section Content -----*/
   .accordion-section-content {
