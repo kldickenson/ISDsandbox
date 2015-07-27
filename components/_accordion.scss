@@ -32,7 +32,7 @@
 	text-decoration:none;
 }
 
-.mobile-accordion:last-child .accordion-section-title {
+.accordion:last-child .accordion-section-title {
 	border-bottom:none;
 }
 
@@ -44,39 +44,40 @@
 
 
 /* - - - - - - - - ISD Customization - - - - - - - - */
-/*----- Accordion -----*/
-.mobile-accordion, .mobile-accordion * {
-	-webkit-box-sizing:border-box; 
-	-moz-box-sizing:border-box; 
-	box-sizing:border-box;
+
+@media all and (max-width: 400px) {
+
+	/*----- Accordion -----*/
+	.mobile-accordion, .mobile-accordion * {
+		-webkit-box-sizing:border-box; 
+		-moz-box-sizing:border-box; 
+		box-sizing:border-box;
+	}
+
+	.mobile-accordion {
+		overflow:hidden;
+		box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+		border-radius:3px;
+		background:#f7f7f7;
+	}
+
+	/*----- Section Titles -----*/
+	.mobile-title {
+		border: 1px soid $color-primary;
+		background:#fff;
+		color:$color-primary;
+	}
+
+	.mobile-title.active, .mobile-title:hover {
+		background:#fff;
+	}
+
+	.mobile-accordion:last-child .accordion-section-title {
+		border-bottom:none;
+	}
 }
 
-.mobile-accordion {
-	overflow:hidden;
-	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-	border-radius:3px;
-	background:#f7f7f7;
-}
-/*----- Section Titles -----*/
-.mobile-title {
-	border: 1px soid $color-primary;
-	background:#fff;
-	color:$color-primary;
-}
-
-.mobile-title.active, .mobile-title:hover {
-	background:#fff;
-}
-
-.mobile-accordion:last-child .accordion-section-title {
-	border-bottom:none;
-}
-/*----- Section Content -----*/
-.mobile-content {
-	padding:15px 0;
-}
-
-@media all and (min-width: 768px) {
+@media all and (min-width: 401px) {
 	.mobile-title {
 		display: none;
 	}
