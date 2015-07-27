@@ -1197,6 +1197,9 @@ div.sb-message a:link, div.sb-message a:visited {
     background: transparent;
     min-height: 40px; }
 
+  #pricing {
+    min-height: 40px; }
+
   /* ----- Mobile Accordion Icons ------ */
   h3.mobile-title {
     height: 30px;
@@ -1208,7 +1211,7 @@ div.sb-message a:link, div.sb-message a:visited {
     font-weight: normal;
     font-size: 1.2rem; }
     #pricing h3.mobile-title {
-      background-position: left -10px; }
+      background-position: left 0px; }
     #course-overview h3.mobile-title {
       background-position: left -30px; }
     #agenda h3.mobile-title {
@@ -1226,16 +1229,21 @@ div.sb-message a:link, div.sb-message a:visited {
   .accordion-section-title {
     padding: 0 30px 0 0;
     font-weight: normal;
-    position: relative; }
+    position: relative;
+    text-decoration: none; }
+    .accordion-section-title:hover, .accordion-section-title:focus {
+      text-decoration: none; }
     .accordion-section-title .arrow {
-      display: block;
+      display: inline-block;
       width: 20px;
       position: absolute;
       right: 0;
       top: 0;
       background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
-    .accordion-section-title.active .arrow {
-      transform: rotate(0.25turn); }
+    .accordion-section-title.active {
+      background-color: transparent; }
+      .accordion-section-title.active .arrow {
+        transform: rotate(0.25turn); }
 
   /*----- Section Content -----*/
   .accordion-section-content {
