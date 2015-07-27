@@ -1213,7 +1213,7 @@ div.sb-message a:link, div.sb-message a:visited {
   /* ----- Mobile Accordion Icons ------ */
   .mobile-title {
     height: 25px;
-    padding: 10px 0;
+    padding: 10px 0 10px 30px;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat; }
     #pricing .mobile-title {
       background-position: left 0; }
