@@ -22,7 +22,7 @@
 	transition:all linear 0.15s;
 	/* Type */
 	font-size:1.200em;
-	text-shadow:0px 1px 0px #1a1a1a;
+	//text-shadow:0px 1px 0px #1a1a1a;
 	//color:#fff;
 }
 
@@ -62,7 +62,7 @@
 	}
 
 	/*----- Section Titles -----*/
-	.mobile-title {
+	h3.mobile-title {
 		border: none;
 		background: transparent;
 		color:$color-primary;
@@ -77,7 +77,7 @@
 	}
 
 	/* ----- Mobile Accordion Icons ------ */
-	.mobile-title {
+	h3.mobile-title {
 		height: 25px;
 		padding: 10px 0 10px 30px;
 		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
