@@ -1185,7 +1185,7 @@ div.sb-message a:link, div.sb-message a:visited {
   display: none; }
 
 /* - - - - - - - - ISD Customization - - - - - - - - */
-@media all and (max-width: 400px) {
+@media all and (max-width: 765px) {
   /*----- Accordion -----*/
   .mobile-accordion, .mobile-accordion * {
     -webkit-box-sizing: border-box;
