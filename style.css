@@ -1171,8 +1171,7 @@ div.sb-message a:link, div.sb-message a:visited {
   width: 100%;
   display: inline-block;
   transition: all linear 0.15s;
-  /* Type */
-  font-size: 1.200em; }
+  /* Type */ }
 
 .accordion-section-title.active, .accordion-section-title:hover {
   /* Type */
@@ -1193,19 +1192,22 @@ div.sb-message a:link, div.sb-message a:visited {
 
   .mobile-accordion {
     overflow: hidden;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
-    background: #f7f7f7; }
+    box-shadow: none;
+    border-radius: none;
+    background: transparent;
+    min-height: 40px; }
 
   /* ----- Mobile Accordion Icons ------ */
   h3.mobile-title {
     border: none;
     color: #176EB5;
-    height: 25px;
-    padding: 10px 0 10px 30px;
+    font-weight: normal;
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 0 5px 0 40px;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat; }
     #pricing h3.mobile-title {
-      background-position: left 0; }
+      background-position: left -10px; }
     #course-overview h3.mobile-title {
       background-position: left -30px; }
     #agenda h3.mobile-title {
@@ -1221,7 +1223,8 @@ div.sb-message a:link, div.sb-message a:visited {
 
   /*----- Section Titles -----*/
   .accordion-section-title {
-    padding: 0 20px 0 0; }
+    padding: 0 30px 0 0;
+    font-weight: normal; }
     .accordion-section-title .arrow {
       background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
     .accordion-section-title.active, .accordion-section-title:hover {
