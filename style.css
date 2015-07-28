@@ -863,10 +863,8 @@ h2.page-title span {
       color: #176EB5; }
     .promo p {
       padding-left: 15px; }
-    .promo.attendees {
-      padding-top: 10px; }
-      .promo.attendees div.six.alpha {
-        display: none; }
+    .promo.attendees div.six.alpha {
+      display: none; }
     .promo.custom-programs {
       padding-top: 0; }
       .promo.custom-programs .caption {
