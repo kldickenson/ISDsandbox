@@ -3708,6 +3708,9 @@ ul.flex-direction-nav {
     width: 100%; }
 
   .mobile-hide {
+    display: none; }
+
+  div.spacer {
     display: none; } }
 /* #Mobile (Landscape)
 ================================================== */
