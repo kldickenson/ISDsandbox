@@ -1156,112 +1156,6 @@ div.sb-message a:link, div.sb-message a:visited {
 
   #sb-wrapper-inner {
     height: 100% !important; } }
-/*----- Accordion -----*/
-.accordion, .accordion * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.accordion {
-  overflow: hidden;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  border-radius: 3px;
-  background: #f7f7f7; }
-
-/*----- Section Titles -----*/
-.accordion-section-title {
-  width: 100%;
-  display: inline-block;
-  transition: all linear 0.15s;
-  /* Type */ }
-
-.accordion-section-title.active, .accordion-section-title:hover {
-  /* Type */
-  text-decoration: none; }
-
-/*----- Section Content -----*/
-.accordion-section-content {
-  padding: 15px;
-  display: none; }
-
-/* - - - - - - - - ISD Customization - - - - - - - - */
-@media all and (max-width: 765px) {
-  /*----- Accordion -----*/
-  .mobile-accordion, .mobile-accordion * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-
-  .mobile-accordion {
-    overflow: hidden;
-    box-shadow: none;
-    border-radius: none;
-    border-bottom: pink 1px solid;
-    background: transparent;
-    min-height: 40px;
-    padding: 5px 0;
-    margin: 0; }
-
-  #pricing {
-    min-height: 40px;
-    background-color: transparent; }
-
-  #course-overview, #agenda, .instructors {
-    padding: 5px 0;
-    margin: 0; }
-
-  /* ----- Mobile Accordion Icons ------ */
-  h3.mobile-title {
-    height: 30px;
-    padding: 0 5px 0 40px;
-    margin: 0;
-    border: none;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
-    color: #176EB5;
-    font-weight: normal;
-    font-size: 1.2rem; }
-    #pricing h3.mobile-title {
-      background-position: left 0px; }
-    #course-overview h3.mobile-title {
-      background-position: left -30px; }
-    #agenda h3.mobile-title {
-      background-position: left -60px; }
-    .learning-objectives h3.mobile-title {
-      background-position: left -90px; }
-    .attendees h3.mobile-title {
-      background-position: left -120px; }
-    .instructors h3.mobile-title {
-      background-position: left -150px; }
-    .brochure h3.mobile-title {
-      background-position: left -180px; }
-
-  /*----- Section Titles -----*/
-  a.accordion-section-title {
-    padding: 0 30px 0 0;
-    font-weight: normal;
-    position: relative;
-    text-decoration: none; }
-    a.accordion-section-title:hover, a.accordion-section-title:focus {
-      text-decoration: none; }
-    a.accordion-section-title .arrow {
-      display: inline-block;
-      width: 20px;
-      position: absolute;
-      right: 0;
-      top: 0;
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
-    a.accordion-section-title.active {
-      background-color: transparent; }
-      a.accordion-section-title.active .arrow {
-        transform: rotate(0.25turn); }
-
-  /*----- Section Content -----*/
-  .accordion-section-content {
-    padding: 0;
-    display: none; } }
-@media all and (min-width: 766px) {
-  .mobile-title {
-    display: none; } }
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
   margin-top: 0px;
@@ -1347,6 +1241,115 @@ div.sb-message a:link, div.sb-message a:visited {
     width: 100%; }
     .instructors .captioned.left img {
       width: 100%; } }
+/*----- Accordion -----*/
+.accordion, .accordion * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.accordion {
+  overflow: hidden;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background: #f7f7f7; }
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+  width: 100%;
+  display: inline-block;
+  transition: all linear 0.15s;
+  /* Type */ }
+
+.accordion-section-title.active, .accordion-section-title:hover {
+  /* Type */
+  text-decoration: none; }
+
+/*----- Section Content -----*/
+.accordion-section-content {
+  padding: 15px;
+  display: none; }
+
+/* - - - - - - - - ISD Customization - - - - - - - - */
+@media all and (max-width: 765px) {
+  /*----- Accordion -----*/
+  .mobile-accordion, .mobile-accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  div.mobile-accordion {
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: none;
+    border-bottom: pink 1px solid;
+    background: transparent;
+    min-height: 40px;
+    padding: 5px 0;
+    margin: 0; }
+
+  #pricing {
+    min-height: 40px;
+    background-color: transparent; }
+
+  #course-overview,
+  #agenda,
+  .instructors,
+  .brochure {
+    padding: 5px 0;
+    margin: 0; }
+
+  /* ----- Mobile Accordion Icons ------ */
+  .mobile-accordion h3.mobile-title {
+    height: 30px;
+    padding: 0 5px 0 40px;
+    margin: 0;
+    border: none;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
+    color: #176EB5;
+    font-weight: normal;
+    font-size: 1.2rem; }
+    #pricing .mobile-accordion h3.mobile-title {
+      background-position: left 0px; }
+    #course-overview .mobile-accordion h3.mobile-title {
+      background-position: left -30px; }
+    #agenda .mobile-accordion h3.mobile-title {
+      background-position: left -60px; }
+    .learning-objectives .mobile-accordion h3.mobile-title {
+      background-position: left -90px; }
+    .attendees .mobile-accordion h3.mobile-title {
+      background-position: left -120px; }
+    .instructors .mobile-accordion h3.mobile-title {
+      background-position: left -150px; }
+    .brochure .mobile-accordion h3.mobile-title {
+      background-position: left -180px; }
+
+  /*----- Section Titles -----*/
+  a.accordion-section-title {
+    padding: 0 30px 0 0;
+    font-weight: normal;
+    position: relative;
+    text-decoration: none; }
+    a.accordion-section-title:hover, a.accordion-section-title:focus {
+      text-decoration: none; }
+    a.accordion-section-title .arrow {
+      display: inline-block;
+      width: 20px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
+    a.accordion-section-title.active {
+      background-color: transparent; }
+      a.accordion-section-title.active .arrow {
+        transform: rotate(0.25turn); }
+
+  /*----- Section Content -----*/
+  .accordion-section-content {
+    padding: 0;
+    display: none; } }
+@media all and (min-width: 766px) {
+  .mobile-title {
+    display: none; } }
 /* Specific to course-description tabs */
 #course-description {
   padding: 0 0 10px;

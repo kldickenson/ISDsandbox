@@ -54,7 +54,7 @@
 		box-sizing:border-box;
 	}
 
-	.mobile-accordion {
+	div.mobile-accordion {
 		overflow:hidden;
 		box-shadow: none;
 		border-radius: none;
@@ -70,41 +70,46 @@
 		min-height: 40px;
 		background-color: transparent;
 	}
-	#course-overview, #agenda, .instructors {
+	#course-overview, 
+	#agenda, 
+	.instructors, 
+	.brochure {
 		padding: 5px 0;
 		margin: 0;
 	}
 
 	/* ----- Mobile Accordion Icons ------ */
-	h3.mobile-title {
-		height: 30px;
-		padding: 0 5px 0 40px;
-		margin: 0;
-		border: none;
-		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
-		color:$color-primary;
-		font-weight: normal;
-		font-size: 1.2rem;
-		#pricing & {
-			background-position: left 0px;
-		}
-		#course-overview & {
-			background-position: left -30px;
-		}
-		#agenda & {
-			background-position: left -60px;
-		}
-		.learning-objectives & {
-			background-position: left -90px;
-		}
-		.attendees & {
-			background-position: left -120px;
-		}
-		.instructors & {
-			background-position: left -150px;
-		}
-		.brochure & {
-			background-position: left -180px;
+	.mobile-accordion {
+		h3.mobile-title {
+			height: 30px;
+			padding: 0 5px 0 40px;
+			margin: 0;
+			border: none;
+			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
+			color:$color-primary;
+			font-weight: normal;
+			font-size: 1.2rem;
+			#pricing & {
+				background-position: left 0px;
+			}
+			#course-overview & {
+				background-position: left -30px;
+			}
+			#agenda & {
+				background-position: left -60px;
+			}
+			.learning-objectives & {
+				background-position: left -90px;
+			}
+			.attendees & {
+				background-position: left -120px;
+			}
+			.instructors & {
+				background-position: left -150px;
+			}
+			.brochure & {
+				background-position: left -180px;
+			}
 		}
 	}
 
