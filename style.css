@@ -1301,7 +1301,7 @@ div.sb-message a:link, div.sb-message a:visited {
       color: #176EB5; }
 
   /* ----- Mobile Accordion Icons ------ */
-  .mobile-accordion .mobile-title {
+  h3.mobile-title {
     height: 30px;
     padding: 0 5px 0 40px;
     margin: 0;
@@ -1310,19 +1310,19 @@ div.sb-message a:link, div.sb-message a:visited {
     color: #176EB5;
     font-weight: normal;
     font-size: 1.2rem; }
-    #pricing .mobile-accordion .mobile-title {
+    #pricing h3.mobile-title {
       background-position: left 0px; }
-    #course-overview .mobile-accordion .mobile-title {
+    #course-overview h3.mobile-title {
       background-position: left -30px; }
-    #agenda .mobile-accordion .mobile-title {
+    #agenda h3.mobile-title {
       background-position: left -60px; }
-    .learning-objectives .mobile-accordion .mobile-title {
+    .learning-objectives h3.mobile-title {
       background-position: left -90px; }
-    .attendees .mobile-accordion .mobile-title {
+    .attendees h3.mobile-title {
       background-position: left -120px; }
-    .instructors .mobile-accordion .mobile-title {
+    .instructors h3.mobile-title {
       background-position: left -150px; }
-    .brochure .mobile-accordion .mobile-title {
+    .brochure h3.mobile-title {
       background-position: left -180px; }
 
   /*----- Section Titles -----*/
