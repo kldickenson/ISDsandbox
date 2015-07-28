@@ -1291,10 +1291,7 @@ div.sb-message a:link, div.sb-message a:visited {
     min-height: 40px;
     background-color: transparent; }
 
-  #course-overview,
-  #agenda,
-  .instructors,
-  .brochure {
+  div#course-overview, div#agenda, div.instructors, div.brochure {
     padding: 5px 0;
     margin: 0; }
 
