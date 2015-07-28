@@ -91,6 +91,12 @@
            text-decoration: none;
         }
      }
+     &.attendees {
+        padding-bottom: 0;
+        img {
+            margin-bottom: 0;
+        }
+     }
 }
 
 .stopwatch {
