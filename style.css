@@ -1329,24 +1329,24 @@ div.sb-message a:link, div.sb-message a:visited {
     padding: 0 5px 0 40px;
     margin: 0;
     border: none;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) 5px 0 no-repeat;
     color: #176EB5;
     font-weight: normal;
     font-size: 1.2rem; }
     #pricing h3.mobile-title {
-      background-position: left 0px; }
+      background-position: 5px 0px; }
     #course-overview h3.mobile-title {
-      background-position: left -30px; }
+      background-position: 5px -30px; }
     #agenda h3.mobile-title {
-      background-position: left -60px; }
+      background-position: 5px -60px; }
     .learning-objectives h3.mobile-title {
-      background-position: left -90px; }
+      background-position: 5px -90px; }
     .attendees h3.mobile-title {
-      background-position: left -120px; }
+      background-position: 5px -120px; }
     .instructors h3.mobile-title {
-      background-position: left -150px; }
+      background-position: 5px -150px; }
     .brochure h3.mobile-title {
-      background-position: left -180px; }
+      background-position: 5px -180px; }
 
   /*----- Section Titles -----*/
   a.accordion-section-title {

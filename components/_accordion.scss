@@ -91,31 +91,31 @@
 			padding: 0 5px 0 40px;
 			margin: 0;
 			border: none;
-			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) left 0 no-repeat;
+			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) 5px 0 no-repeat;
 			color:$color-primary;
 			font-weight: normal;
 			font-size: 1.2rem;
 
 			#pricing & {
-				background-position: left 0px;
+				background-position: 5px 0px;
 			}
 			#course-overview & {
-				background-position: left -30px;
+				background-position: 5px -30px;
 			}
 			#agenda & {
-				background-position: left -60px;
+				background-position: 5px -60px;
 			}
 			.learning-objectives & {
-				background-position: left -90px;
+				background-position: 5px -90px;
 			}
 			.attendees & {
-				background-position: left -120px;
+				background-position: 5px -120px;
 			}
 			.instructors & {
-				background-position: left -150px;
+				background-position: 5px -150px;
 			}
 			.brochure & {
-				background-position: left -180px;
+				background-position: 5px -180px;
 			}
 		}
 
