@@ -160,6 +160,9 @@
                 padding-left: 0;
             }
         }
+        &.learning-objectives {
+            margin-bottom: 0; 
+        }
 	}
 }
 
@@ -209,7 +212,7 @@
             text-align: center;
         }
         &.learning-objectives {
-            margin: 0; 
+            margin: 0;
             padding: 0;
             padding-bottom: 10px;
             background-image: url('https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg');

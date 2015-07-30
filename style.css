@@ -876,7 +876,9 @@ h2.page-title span {
         padding: 0; }
       .promo.custom-programs p {
         padding-right: 0;
-        padding-left: 0; } }
+        padding-left: 0; }
+    .promo.learning-objectives {
+      margin-bottom: 0; } }
 @media (min-width: 768px) {
   .promo {
     background: #fff;
