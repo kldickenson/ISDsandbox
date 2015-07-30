@@ -834,6 +834,8 @@ h2.page-title span {
     padding-bottom: 0; }
     .promo.attendees img {
       margin-bottom: 0; }
+  .promo.learning-objectives {
+    margin-bottom: 30px; }
 
 .stopwatch {
   background: url("//confluence.engin.umich.edu/download/attachments/3958/stopwatch-090611.jpg") no-repeat scroll left bottom #FFFFFF; }
@@ -1233,7 +1235,7 @@ div.sb-message a:link, div.sb-message a:visited {
     width: 100%; }
     .instructors .instructor .captioned {
       width: 100px;
-      padding: 20px 10px 0 0;
+      padding: 20px 10px 0 10px;
       margin-bottom: 10px;
       float: right; }
     .instructors .instructor h4 {
