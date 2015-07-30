@@ -1227,9 +1227,6 @@ div.sb-message a:link, div.sb-message a:visited {
 
 .instructors {
   margin-bottom: 10px; }
-  .instructors h3 {
-    line-height: 24px;
-    margin-bottom: 5px; }
   .instructors .instructor {
     background-color: #a0c0de;
     padding: 0;
