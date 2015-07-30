@@ -1286,6 +1286,8 @@ div.sb-message a:link, div.sb-message a:visited {
     min-height: 40px;
     padding: 5px 0;
     margin: 0; }
+    div.mobile-accordion.active {
+      background: #fff; }
 
   #pricing {
     min-height: 40px;
@@ -1348,9 +1350,10 @@ div.sb-message a:link, div.sb-message a:visited {
   /*----- Section Content -----*/
   .accordion-section-content {
     padding: 0;
+    padding-top: 15px;
     display: none; }
     .accordion-section-content.open {
-      background-position: #fff; } }
+      background: #fff; } }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }
