@@ -1229,7 +1229,6 @@ div.sb-message a:link, div.sb-message a:visited {
       margin-bottom: 0; }
 
 .instructors {
-  margin-bottom: 10px;
   background: transparent; }
   .instructors .instructor {
     background-color: #a0c0de;
@@ -1237,8 +1236,7 @@ div.sb-message a:link, div.sb-message a:visited {
     width: 100%; }
     .instructors .instructor .captioned {
       width: 100px;
-      padding: 20px 10px 0 10px;
-      margin-bottom: 10px;
+      padding: 20px 10px 10px 10px;
       margin-right: 10px;
       float: right; }
       .instructors .instructor .captioned img {
@@ -1310,9 +1308,7 @@ div.sb-message a:link, div.sb-message a:visited {
     padding: 5px 0;
     margin: 0; }
     div.mobile-accordion.active {
-      background: #fff;
-      border: #fff 5px solid;
-      border-bottom: pink 1px solid; }
+      background: #fff; }
 
   #pricing {
     min-height: 40px;
@@ -1368,18 +1364,10 @@ div.sb-message a:link, div.sb-message a:visited {
       top: 0;
       z-index: 5;
       background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
-    a.accordion-section-title.active {
-      background-color: #fff; }
-      a.accordion-section-title.active .arrow {
-        transform: rotate(0.25turn); }
+    a.accordion-section-title.active .arrow {
+      transform: rotate(0.25turn); }
 
-  /*----- Section Content -----*/
-  .accordion-section-content {
-    padding: 0;
-    padding-top: 15px;
-    display: none; }
-    .accordion-section-content.open {
-      background: #fff; } }
+  /*----- Section Content -----*/ }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }

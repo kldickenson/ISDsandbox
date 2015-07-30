@@ -66,8 +66,6 @@
 
 		&.active {
 			background: #fff;
-			border: #fff 5px solid;
-			border-bottom: pink 1px solid;
 		}
 
 	}
@@ -143,25 +141,16 @@
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		}
 		&.active {
-			background-color: #fff;
 			.arrow {
 				transform: rotate(.25turn);
 			}
 		}
-		//.mobile-accordion:last-child & {
-		//	border-bottom:none;
-		//}
 	}
 
 	/*----- Section Content -----*/
 	.accordion-section-content {
-		padding: 0;
-		padding-top: 15px;
-		display:none;
-
-		&.open	{
-			background: #fff;
-		}
+		//padding: 15px 10px 10px 10px;
+		//display:none;
 	}
 }
 
