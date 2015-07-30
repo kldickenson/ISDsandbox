@@ -834,8 +834,6 @@ h2.page-title span {
     padding-bottom: 0; }
     .promo.attendees img {
       margin-bottom: 0; }
-  .promo.learning-objectives {
-    margin-bottom: 30px; }
 
 .stopwatch {
   background: url("//confluence.engin.umich.edu/download/attachments/3958/stopwatch-090611.jpg") no-repeat scroll left bottom #FFFFFF; }
@@ -914,6 +912,7 @@ h2.page-title span {
       text-align: center; }
     .promo.learning-objectives {
       margin: 0;
+      margin-bottom: 30px;
       padding: 0;
       padding-bottom: 10px;
       background-image: url("https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
