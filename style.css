@@ -1233,10 +1233,12 @@ div.sb-message a:link, div.sb-message a:visited {
     margin-bottom: 5px; }
   .instructors .instructor {
     background-color: #a0c0de;
-    padding: 0; }
+    padding: 0;
+    width: 100%; }
     .instructors .instructor .captioned {
       width: 100px;
       padding: 20px 10px 0 0;
+      margin-bottom: 10px;
       float: right; }
     .instructors .instructor h4 {
       text-transform: capitalize;
@@ -1250,16 +1252,18 @@ div.sb-message a:link, div.sb-message a:visited {
       padding: 0 10px 10px 10px;
       font-size: 12px;
       line-height: 17px; }
-      .instructors .instructor p p:last-child {
-        padding-bottom: 0; }
 
 @media only screen and (max-width: 767px) {
-  .instructors .captioned.left {
-    float: none;
-    margin-right: 0;
-    width: 100%; }
-    .instructors .captioned.left img {
-      width: 100%; } }
+  .instructors {
+    		/*.captioned {
+    			float: none;
+    			margin-right: 0;
+    			width: 100%;
+    
+    			img {
+    				width: 100%;
+    			}
+    		}*/ } }
 /*----- Accordion -----*/
 .accordion, .accordion * {
   -webkit-box-sizing: border-box;
