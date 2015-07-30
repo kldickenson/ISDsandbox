@@ -755,6 +755,9 @@ h2.page-title span {
       margin-bottom: 2px;
       font-size: 1.2em; }
 
+@media (max-width: 767px) {
+  #pricing.active {
+    background: #fff; } }
 /* - - - For Promo material both in main content and in sidebar - - - */
 .promo {
   padding: 0;

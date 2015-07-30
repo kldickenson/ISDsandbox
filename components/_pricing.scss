@@ -41,5 +41,8 @@
 		div.right {
 			//width: 50%;
 		}
+		&.active {
+			background: #fff;
+		}
 	}
 }
