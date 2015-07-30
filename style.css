@@ -1341,14 +1341,16 @@ div.sb-message a:link, div.sb-message a:visited {
       top: 0;
       background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
     a.accordion-section-title.active {
-      background-color: transparent; }
+      background-color: #fff; }
       a.accordion-section-title.active .arrow {
         transform: rotate(0.25turn); }
 
   /*----- Section Content -----*/
   .accordion-section-content {
     padding: 0;
-    display: none; } }
+    display: none; }
+    .accordion-section-content.open {
+      background-position: #fff; } }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }

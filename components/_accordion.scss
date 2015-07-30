@@ -125,7 +125,7 @@
 		&:hover, &:focus {
 			text-decoration: none;
 		}
-	
+
 		.arrow {
 			display: inline-block;
 			width: 20px;
@@ -135,7 +135,7 @@
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		}
 		&.active {
-			background-color: transparent;
+			background-color: #fff;
 			.arrow {
 				transform: rotate(.25turn);
 			}
@@ -149,6 +149,10 @@
 	.accordion-section-content {
 		padding: 0;
 		display:none;
+
+		&.open	{
+			background-position: #fff;
+		}
 	}
 }
 
