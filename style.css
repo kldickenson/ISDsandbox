@@ -1233,6 +1233,24 @@ div.sb-message a:link, div.sb-message a:visited {
     margin-bottom: 5px; }
   .instructors .captioned img {
     margin-bottom: 0; }
+  .instructors .instructor {
+    background-color: #a0c0de;
+    padding: 0; }
+    .instructors .instructor .captioned {
+      width: 100px;
+      padding: 20px 10px 0 0; }
+    .instructors .instructor h4 {
+      text-transform: capitalize;
+      padding: 20px 0 0 10px;
+      margin-bottom: 0;
+      font-weight: normal;
+      font-size: 19px;
+      color: #175191; }
+    .instructors .instructor p {
+      color: #333333;
+      padding: 0 10px 10px 10px;
+      font-size: 12px;
+      line-height: 17px; }
 
 @media only screen and (max-width: 767px) {
   .instructors .captioned.left {
