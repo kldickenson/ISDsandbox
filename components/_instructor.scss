@@ -12,14 +12,16 @@
 		width: 100%;
 		.captioned {
 			width: 100px; 
-			padding: 20px 10px 0 10px;
+			padding: 20px 0 0 10px;
 			margin-bottom: 10px;
+			margin-right: 10px;
 			float: right;
 		}
 		h4 {
 			text-transform: capitalize; 
-			padding: 20px 0 0 10px; 
+			padding: 20px 0 0 0; 
 			margin-bottom: 0; 
+			margin-left: 10px;
 			font-weight: normal; 
 			font-size: 19px; 
 			color: #175191;
