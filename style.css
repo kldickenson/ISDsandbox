@@ -1250,6 +1250,8 @@ div.sb-message a:link, div.sb-message a:visited {
       padding: 0 10px 10px 10px;
       font-size: 12px;
       line-height: 17px; }
+      .instructors .instructor p p:last-child {
+        padding-bottom: 0; }
 
 @media only screen and (max-width: 767px) {
   .instructors .captioned.left {
