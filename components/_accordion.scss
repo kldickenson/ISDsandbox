@@ -66,6 +66,8 @@
 
 		&.active {
 			background: #fff;
+			border: #fff 5px solid;
+			border-bottom: pink 1px solid;
 		}
 
 	}
@@ -125,17 +127,19 @@
 		font-weight: normal;
 		position: relative;
 		text-decoration: none;
+		z-index: 10;
 
 		&:hover, &:focus {
 			text-decoration: none;
 		}
 
 		.arrow {
-			display: inline-block;
+			//display: inline-block;
 			width: 20px;
 			position: absolute;
 			right: 0;
 			top: 0;
+			z-index: 5;
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		}
 		&.active {
