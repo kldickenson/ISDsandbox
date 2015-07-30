@@ -1231,14 +1231,13 @@ div.sb-message a:link, div.sb-message a:visited {
   .instructors h3 {
     line-height: 24px;
     margin-bottom: 5px; }
-  .instructors .captioned img {
-    margin-bottom: 0; }
   .instructors .instructor {
     background-color: #a0c0de;
     padding: 0; }
     .instructors .instructor .captioned {
       width: 100px;
-      padding: 20px 10px 0 0; }
+      padding: 20px 10px 0 0;
+      float: right; }
     .instructors .instructor h4 {
       text-transform: capitalize;
       padding: 20px 0 0 10px;
