@@ -1293,9 +1293,9 @@ div.sb-message a:link, div.sb-message a:visited {
 
   div.mobile-accordion {
     overflow: hidden;
-    box-shadow: none;
     border-radius: 0;
-    border-bottom: pink 1px solid;
+    border-bottom: 1.5px solid #e7e6e3;
+    box-shadow: inset 0 1px 0 #fcfcfc;
     background: transparent;
     min-height: 40px;
     padding: 5px 0;
