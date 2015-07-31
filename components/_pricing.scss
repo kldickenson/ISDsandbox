@@ -35,6 +35,11 @@
 @media (max-width: 767px) {
 
 	#pricing {
+		border-top: 1.5px solid #e7e6e3;
+    	box-shadow: inset 0 1px 0 #fcfcfc;
+		min-height: 40px;
+		background-color: transparent;
+
 		div.left {
 			//width: 35%;
 		}		

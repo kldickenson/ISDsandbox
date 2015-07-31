@@ -753,9 +753,14 @@ h2.page-title span {
       font-size: 1.2em; }
 
 @media (max-width: 767px) {
-  #pricing.active {
-    background: #fff;
-    padding: 15px; } }
+  #pricing {
+    border-top: 1.5px solid #e7e6e3;
+    box-shadow: inset 0 1px 0 #fcfcfc;
+    min-height: 40px;
+    background-color: transparent; }
+    #pricing.active {
+      background: #fff;
+      padding: 15px; } }
 /* - - - For Promo material both in main content and in sidebar - - - */
 .promo {
   padding: 0;
@@ -1305,17 +1310,12 @@ div.sb-message a:link, div.sb-message a:visited {
     div.mobile-accordion.active {
       background: #fff; }
 
-  #pricing {
-    border-top: 1.5px solid #e7e6e3;
-    box-shadow: inset 0 -1px 0 #fcfcfc;
-    min-height: 40px;
-    background-color: transparent; }
-
   div#course-overview, div#agenda, div.instructors, div.brochure {
     padding: 5px 0;
     margin: 0; }
 
   /* Brochure mobile accordion adjustments in _brochure.scss */
+  /* Pricing mobile accordion styling in _pricing.scss */
   /* ----- Mobile Accordion Icons ------ */
   h3.mobile-title {
     height: 30px;
