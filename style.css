@@ -930,19 +930,6 @@ h2.page-title span {
         color: #fff; }
       .promo.learning-objectives li {
         color: #fff; } }
-/*
-NEW:
-<div class="brochure">
-	<div class="caption left">
-		<a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank">
-			<img src="http://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure-thumbnail.jpg" alt="Lean Leadership Brochure" border="0">
-		</a>
-	</div>
-	<p><a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank"><strong>Digital Brochure</strong></a></p>
-	<p>Detailed information in a shareable format.</p>
-	<p><a href="https://confluence.engin.umich.edu/download/attachments/21103180/lean-leadership-brochure.pdf" target="_blank">Download now...</a></p>
-</div>
-*/
 .brochure {
   height: 137px;
   padding: 10px 0;
@@ -961,6 +948,9 @@ NEW:
   .brochure strong {
     color: #fff; }
 
+@media (min-width: 768px) {
+  .brochure h3.mobile-title {
+    color: #176EB5; } }
 /*
 NEW:
 <div class="row" class="quotes">
