@@ -111,6 +111,15 @@
 		}
 
 	/*----- Section Titles -----*/
+	.arrow {
+		//display: inline-block;
+		width: 20px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 5;
+		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
+	}
 	a.accordion-section-title {
 		padding: 0 30px 0 0;
 		font-weight: normal;
@@ -121,19 +130,10 @@
 		&:hover, &:focus {
 			text-decoration: none;
 		}
-
-		.arrow {
-			//display: inline-block;
-			width: 20px;
-			position: absolute;
-			right: 0;
-			top: 0;
-			z-index: 5;
-			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
-		}
 		&.active {
 			.arrow {
 				transform: rotate(.25turn);
+				//z-index: 5;
 			}
 		}
 	}

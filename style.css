@@ -1346,6 +1346,14 @@ div.sb-message a:link, div.sb-message a:visited {
       background-position: 5px -180px; }
 
   /*----- Section Titles -----*/
+  .arrow {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
+
   a.accordion-section-title {
     padding: 0 30px 0 0;
     font-weight: normal;
@@ -1354,13 +1362,6 @@ div.sb-message a:link, div.sb-message a:visited {
     z-index: 10; }
     a.accordion-section-title:hover, a.accordion-section-title:focus {
       text-decoration: none; }
-    a.accordion-section-title .arrow {
-      width: 20px;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 5;
-      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
     a.accordion-section-title.active .arrow {
       transform: rotate(0.25turn); }
 
