@@ -1354,6 +1354,8 @@ div.sb-message a:link, div.sb-message a:visited {
     top: 0;
     z-index: 5;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
+    .active .arrow {
+      transform: rotate(0.25turn); }
 
   a.accordion-section-title {
     padding: 0 30px 0 0;
@@ -1361,7 +1363,7 @@ div.sb-message a:link, div.sb-message a:visited {
     position: relative;
     text-decoration: none;
     z-index: 10; }
-    a.accordion-section-title:hover, a.accordion-section-title:focus {
+    a.accordion-section-title:hover, a.accordion-section-title:focus, a.accordion-section-title:target {
       text-decoration: none; }
     a.accordion-section-title.active .arrow {
       transform: rotate(0.25turn); }
