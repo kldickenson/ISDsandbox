@@ -26,6 +26,8 @@
 @media (max-width: 767px) {
 	.brochure {
 		box-shadow: 0 1px 0 #fcfcfc;
+		padding: 5px 0;
+		margin: 0;
 
 		h3.mobile-title a {
 			color: $color-primary;

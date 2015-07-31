@@ -954,7 +954,9 @@ h2.page-title span {
 
 @media (max-width: 767px) {
   .brochure {
-    box-shadow: 0 1px 0 #fcfcfc; }
+    box-shadow: 0 1px 0 #fcfcfc;
+    padding: 5px 0;
+    margin: 0; }
     .brochure h3.mobile-title a {
       color: #176EB5; }
     .brochure p {
@@ -1311,7 +1313,7 @@ div.sb-message a:link, div.sb-message a:visited {
     div.mobile-accordion.active {
       background: #fff; }
 
-  div#course-overview, div#agenda, div.instructors, div.brochure {
+  div#course-overview, div#agenda, div.instructors {
     padding: 5px 0;
     margin: 0; }
 
