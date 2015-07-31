@@ -949,7 +949,7 @@ h2.page-title span {
     color: #fff; }
 
 @media (min-width: 768px) {
-  .brochure h3.mobile-title {
+  .brochure h3.mobile-title a {
     color: #176EB5; } }
 /*
 NEW:
