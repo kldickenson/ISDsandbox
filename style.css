@@ -1360,7 +1360,7 @@ div.sb-message a:link, div.sb-message a:visited {
 
   /*----- Section Content -----*/
   .accordion-section-content {
-    padding: 0 10px 0 0; } }
+    padding: 10px 10px 0 0; } }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }
