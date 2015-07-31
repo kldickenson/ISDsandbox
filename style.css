@@ -455,20 +455,22 @@ h2.page-title span {
     #footer a:focus, #footer a:hover {
       text-decoration: underline;
       color: #fdeb72; }
-  #footer .contact-info li {
-    margin-top: 25px;
-    margin-left: 20px; }
-  #footer .contact-info a {
-    height: 40px;
-    /*text-align: center;*/
-    padding-top: 25px;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
-    #footer .contact-info a.phone {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
-    #footer .contact-info a.map {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png); }
-    #footer .contact-info a.contact {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
+  #footer .contact-info {
+    text-align: center; }
+    #footer .contact-info li {
+      margin-top: 25px;
+      margin-left: 10px; }
+    #footer .contact-info a {
+      height: 40px;
+      /*text-align: center;*/
+      padding-top: 25px;
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
+      #footer .contact-info a.phone {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
+      #footer .contact-info a.map {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png); }
+      #footer .contact-info a.contact {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
   #footer .um-logo {
     display: block;
     float: right;
@@ -494,8 +496,6 @@ h2.page-title span {
     #footer #footer-nav li {
       display: block;
       margin: 10px; }
-  #footer ul.contact-info li:first-child {
-    margin-left: 20px; }
   #footer .um-logo {
     width: 300px;
     float: none;

@@ -32,9 +32,11 @@
         }
     }
     .contact-info {
+        text-align: center;
+
         li {
             margin-top: 25px;
-            margin-left: 20px;
+            margin-left: 10px;
         }
 
         a {
@@ -94,9 +96,9 @@
             }
         }
         ul.contact-info {
-            li:first-child {
-                margin-left: 20px;
-            }
+            //li:first-child {
+            //    margin-left: 20px;
+            //}
         }
         .um-logo {
             width: 300px;
