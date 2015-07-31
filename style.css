@@ -1325,6 +1325,7 @@ div.sb-message a:link, div.sb-message a:visited {
     height: 30px;
     padding: 0 5px 0 40px;
     margin: 0;
+    position: relative;
     border: none;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) 5px 0 no-repeat;
     color: #176EB5;
