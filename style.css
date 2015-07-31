@@ -954,12 +954,14 @@ h2.page-title span {
     color: #fff; }
 
 @media (max-width: 767px) {
-  .brochure h3.mobile-title a {
-    color: #176EB5; }
-  .brochure p {
-    color: #176EB5; }
-  .brochure stong {
-    color: #176EB5; } }
+  .brochure {
+    box-shadow: 0 1px 0 #fcfcfc; }
+    .brochure h3.mobile-title a {
+      color: #176EB5; }
+    .brochure p {
+      color: #176EB5; }
+    .brochure stong {
+      color: #176EB5; } }
 /*
 NEW:
 <div class="row" class="quotes">
