@@ -32,11 +32,10 @@
         }
     }
     .contact-info {
-        text-align: center;
 
         li {
             margin-top: 25px;
-            margin-left: 10px;
+            margin-left: 20px;
         }
 
         a {
@@ -99,6 +98,10 @@
             //li:first-child {
             //    margin-left: 20px;
             //}
+            text-align: center;
+            li {
+                margin-left: 5px;
+            }
         }
         .um-logo {
             width: 300px;
@@ -126,15 +129,15 @@
             }
         }
         .contact-info {
-            margin: 25px auto;
+            //margin: 25px auto;
             text-align: center;
             li {
-                &:first-child {
-                    margin-left: 20px;
-                }
-                &:last-child {
-                    margin-right: 20px;
-                }
+                //&:first-child {
+                //    margin-left: 20px;
+                //}
+                //&:last-child {
+                //    margin-right: 20px;
+                //}
  
             }
         }
