@@ -759,8 +759,7 @@ h2.page-title span {
     min-height: 40px;
     background-color: transparent; }
     #pricing.active {
-      background: #fff;
-      padding: 15px; } }
+      background: #fff; } }
 /* - - - For Promo material both in main content and in sidebar - - - */
 .promo {
   padding: 0;
