@@ -757,7 +757,8 @@ h2.page-title span {
 
 @media (max-width: 767px) {
   #pricing.active {
-    background: #fff; } }
+    background: #fff;
+    padding: 15px; } }
 /* - - - For Promo material both in main content and in sidebar - - - */
 .promo {
   padding: 0;
@@ -1370,7 +1371,9 @@ div.sb-message a:link, div.sb-message a:visited {
     a.accordion-section-title.active .arrow {
       transform: rotate(0.25turn); }
 
-  /*----- Section Content -----*/ }
+  /*----- Section Content -----*/
+  .accordion-section-content {
+    padding: 0 10px 0 0; } }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }
