@@ -1202,10 +1202,10 @@ NEW:
       transform: rotate(0.25turn); }
 
   /*----- Section Content -----*/
-  .accordion-section-content {
+  div.accordion-section-content {
     padding: 10px;
     margin-bottom: 0; }
-    .accordion-section-content columns {
+    div.accordion-section-content columns {
       width: 100%; } }
 @media all and (min-width: 766px) {
   .mobile-title {
