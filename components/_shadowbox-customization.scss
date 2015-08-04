@@ -24,5 +24,13 @@
 		h2 {
 			font-size: 175%;
 		}
+		input, textarea {
+			width: 100%;
+		}
+		input[type="submit"] {
+			float: none;
+			width: 50%;
+			margin: 10px 0 10px 25%;
+		}
 	}
 }
