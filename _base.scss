@@ -135,9 +135,10 @@ div.captioned p {
     margin-bottom: 10px;
 }
 
-ul {
+ul, ul.disc {
     list-style: disc;
     margin-left: 15px;
+    padding-left: 15px;
 
     ul  {
         list-style: circle;

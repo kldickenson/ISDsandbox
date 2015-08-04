@@ -78,7 +78,7 @@
 
 	/* ----- Mobile Accordion Icons ------ */
 		h3.mobile-title {
-			height: 30px;
+			height: 40px;
 			padding: 0 5px 0 40px;
 			margin: 0;
 			position: relative;
@@ -117,7 +117,7 @@
 		width: 20px;
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: 3px;
 		z-index: 5;
 		background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat;
 		// FOR SPAN.ARROW outside of A
@@ -128,7 +128,7 @@
 		}
 	}
 	a.accordion-section-title {
-		padding: 0 30px 0 0;
+		padding: 2px 30px 0 0;
 		font-weight: normal;
 		position: relative;
 		text-decoration: none;
