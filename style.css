@@ -1191,7 +1191,7 @@ NEW:
       transform: rotate(0.25turn); }
 
   a.accordion-section-title {
-    padding: 2px 30px 0 0;
+    padding: 7px 30px 0 0;
     font-weight: normal;
     position: relative;
     text-decoration: none;
@@ -1203,7 +1203,9 @@ NEW:
 
   /*----- Section Content -----*/
   .accordion-section-content {
-    padding: 10px; } }
+    padding: 10px; }
+    .accordion-section-content columns {
+      width: 100%; } }
 @media all and (min-width: 766px) {
   .mobile-title {
     display: none; } }

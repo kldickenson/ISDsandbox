@@ -128,7 +128,7 @@
 		}
 	}
 	a.accordion-section-title {
-		padding: 2px 30px 0 0;
+		padding: 7px 30px 0 0;
 		font-weight: normal;
 		position: relative;
 		text-decoration: none;
@@ -149,6 +149,9 @@
 	.accordion-section-content {
 		padding: 10px;
 		//display:none;
+		columns {
+			width: 100%;
+		}
 	}
 }
 
