@@ -3,14 +3,8 @@
 @media (max-width: 565px) {
 	//to solve pop-up window issues
 
-	#sb-container {
-		//inline: display: block; height: 693px; width: 550px; visibility: visible;
-		//height: 100%;
-		//width: 100%;
-	}
-
 	#sb-wrapper {
-		// inline: top: 69px; left: 20px; width: 510px; visibility: visible;
+		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
 		left: 5% !important;
 		top: 5% !important;
 		height: 90% !important;
@@ -18,7 +12,7 @@
 	}
 
 	#sb-wrapper-inner {
-		// inline: height: 529px
+		// inline = height: 529px
 		height: 100% !important;
 	}
 
