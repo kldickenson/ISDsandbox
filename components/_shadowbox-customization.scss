@@ -22,12 +22,13 @@
 		height: 100% !important;
 	}
 
-	#sb-body {
-
-	}
-
-	#sb-body-inner {
-		// wrapper container of iframe
-
+	#sb-player {
+		section {
+			padding: 0 5%;
+			width: 90%;
+		}
+		h2 {
+			font-size: 175%;
+		}
 	}
 }

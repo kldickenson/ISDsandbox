@@ -169,6 +169,12 @@ div.sb-message a:link, div.sb-message a:visited {
     width: 90% !important; }
 
   #sb-wrapper-inner {
-    height: 100% !important; } }
+    height: 100% !important; }
+
+  #sb-player section {
+    padding: 0 5%;
+    width: 90%; }
+  #sb-player h2 {
+    font-size: 175%; } }
 
 /*# sourceMappingURL=shadowbox.css.map */
