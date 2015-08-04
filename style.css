@@ -118,17 +118,17 @@ div.captioned p {
   line-height: 1.2em;
   margin-bottom: 10px; }
 
-ul, ul.disc {
+ul {
   list-style: disc;
-  margin-left: 15px;
+  margin-left: 5px;
   padding-left: 15px; }
-  ul ul, ul.disc ul {
+  ul ul {
     list-style: circle; }
-  ul.no-style, ul.disc.no-style {
+  ul.no-style {
     list-style: none;
     margin-left: 0;
     padding-left: 0; }
-    ul.no-style li, ul.disc.no-style li {
+    ul.no-style li {
       list-style: none; }
 
 ol {
@@ -804,7 +804,7 @@ h2.page-title span {
     margin-bottom: 0;
     font-size: .9em; }
   .promo ul.disc {
-    margin: 0 10px 0 25px;
+    margin: 0 10px 0 15px;
     padding: 0 0 0 10px; }
   .promo a.slider2button.small.blue {
     background-color: #5082b9;
