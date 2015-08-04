@@ -118,22 +118,22 @@ div.captioned p {
   line-height: 1.2em;
   margin-bottom: 10px; }
 
-ul.disc {
+ul {
   list-style: disc;
   margin-left: 15px; }
-
-ul.disc ul.disc {
-  list-style: circle; }
+  ul ul {
+    list-style: circle; }
+  ul.no-style {
+    list-style: none;
+    margin-left: 0; }
+    ul.no-style li {
+      list-style: none; }
 
 ol {
   margin-bottom: 20px; }
 
 ol.roman {
   list-style: upper-roman; }
-
-li.no-style {
-  list-style: none;
-  margin-left: -20px; }
 
 dl {
   margin-bottom: 10px; }

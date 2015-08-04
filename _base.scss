@@ -135,13 +135,22 @@ div.captioned p {
     margin-bottom: 10px;
 }
 
-ul.disc {
+ul {
     list-style: disc;
     margin-left: 15px;
-}
 
-ul.disc ul.disc {
-    list-style: circle;
+    ul  {
+        list-style: circle;
+    }
+
+    &.no-style {
+        list-style: none;
+        margin-left: 0;
+
+        li {
+            list-style: none; 
+        }
+    }
 }
 
 ol {
@@ -150,11 +159,6 @@ ol {
 
 ol.roman {
     list-style: upper-roman;
-}
-
-li.no-style {
-    list-style: none;
-    margin-left: -20px;
 }
 
 dl {
