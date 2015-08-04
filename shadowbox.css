@@ -175,7 +175,8 @@ div.sb-message a:link, div.sb-message a:visited {
     padding: 0 5%;
     width: 90%; }
   #sb-player h2 {
-    font-size: 175%; }
+    font-size: 175%;
+    text-align: center; }
   #sb-player input, #sb-player textarea {
     width: 100%; }
   #sb-player input[type="submit"] {
