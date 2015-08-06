@@ -3577,8 +3577,8 @@ ul.flex-direction-nav {
   div.spacer, div.cms-history, div.preview-inline-edit-box {
     display: none !important; }
 
-  .sidebar div.preview-editable {
-    margin: 0; } }
+  .sidebar div {
+    margin: 0 !important; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
