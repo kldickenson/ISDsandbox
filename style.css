@@ -854,90 +854,92 @@ h2.page-title span {
     padding-left: 120px; }
 
 @media (max-width: 767px) {
-  .promo {
+  div.promo {
     width: 95%; }
-    .sidebar .promo {
+    .sidebar div.promo {
       background-image: none; }
-    .promo div.banner {
+    div.promo div.banner {
       position: relative;
       width: 100%;
       padding-top: 15px;
       padding-bottom: 5px;
       background-color: transparent;
       margin-bottom: 0px; }
-    .promo h3, .promo h4 {
+    div.promo h3, div.promo h4 {
       margin-top: 20px;
       margin-bottom: 10px;
       font-weight: bold;
       color: #176EB5; }
-    .promo p {
+    div.promo p {
       padding-left: 15px; }
-    .promo.attendees div.six.alpha {
+    div.promo.attendees div.six.alpha {
       display: none; }
-    .promo.custom-programs {
+    div.promo.custom-programs {
       padding-top: 0; }
-      .promo.custom-programs .caption {
+      div.promo.custom-programs .caption {
         display: none; }
-      .promo.custom-programs h4 {
+      div.promo.custom-programs h4 {
         clear: left;
         padding: 0; }
-      .promo.custom-programs p {
+      div.promo.custom-programs p {
         padding-right: 0;
         padding-left: 0; }
-    .promo.learning-objectives {
-      margin-bottom: 0; } }
+    div.promo.learning-objectives {
+      margin-bottom: 0; }
+      div.promo.learning-objectives .mobile-content {
+        margin-bottom: 0; } }
 @media (min-width: 768px) {
-  .promo {
+  div.promo {
     background: #fff;
     margin-right: 0; }
-    .promo img {
+    div.promo img {
       display: block;
       width: 100%;
       padding: 0;
       margin-top: 0;
       margin-bottom: 15px;
       overflow: hidden; }
-    .promo h3 {
+    div.promo h3 {
       padding-left: 10px; }
-    .promo h5 {
+    div.promo h5 {
       color: #fff; }
-    .promo.custom-programs .caption {
+    div.promo.custom-programs .caption {
       float: none;
       width: 215px;
       margin: 0 auto;
       margin-bottom: 10px; }
-    .sidebar .promo.custom-programs {
+    .sidebar div.promo.custom-programs {
       background-image: none;
       padding-bottom: 0; }
-      .sidebar .promo.custom-programs .caption {
+      .sidebar div.promo.custom-programs .caption {
         display: none; }
-    .promo.img-embed {
+    div.promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
       overflow: hidden; }
-      .promo.img-embed img {
+      div.promo.img-embed img {
         margin-bottom: -4px; }
-    .promo.kata-facebook {
+    div.promo.kata-facebook {
       text-align: center; }
-    .promo.learning-objectives {
+    div.promo.learning-objectives {
       margin-top: 30px;
       padding: 0;
       padding-bottom: 10px;
       background-image: url("https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
-      .promo.learning-objectives img {
+      div.promo.learning-objectives img {
         display: none; }
-      .promo.learning-objectives h4 {
+      div.promo.learning-objectives h4 {
         color: #ffcc00;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 5px;
         padding-left: 0;
         font-size: 22px; }
-      .promo.learning-objectives ul {
+      div.promo.learning-objectives ul {
         margin-left: 20px; }
-      .promo.learning-objectives p {
+      div.promo.learning-objectives p {
         color: #fff; }
-      .promo.learning-objectives li {
+      div.promo.learning-objectives li {
         color: #fff; } }
 .brochure {
   height: 137px;
@@ -958,16 +960,18 @@ h2.page-title span {
     color: #fff; }
 
 @media (max-width: 767px) {
-  .brochure {
+  div.brochure {
     height: inherit;
     box-shadow: 0 1px 0 #fcfcfc;
     padding: 5px 0;
     margin: 0; }
-    .brochure h3.mobile-title a {
+    div.brochure h3.mobile-title a {
       color: #176EB5; }
-    .brochure p {
+    div.brochure .mobile-content {
+      margin-bottom: 0; }
+    div.brochure p {
       color: #176EB5; }
-    .brochure stong {
+    div.brochure stong {
       color: #176EB5; } }
 /*
 NEW:

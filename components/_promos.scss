@@ -114,7 +114,7 @@
 
 @media (max-width: 767px) {
 
-    .promo {
+    div.promo {
         width: 95%;
 
         .sidebar & {
@@ -160,12 +160,15 @@
         }
         &.learning-objectives {
             margin-bottom: 0; 
+            .mobile-content {
+                margin-bottom: 0;
+            }
         }
 	}
 }
 
 @media (min-width: 768px) {
-    .promo {
+    div.promo {
         background: #fff;
         margin-right: 0;
         
