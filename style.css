@@ -887,7 +887,9 @@ h2.page-title span {
     .promo.learning-objectives {
       margin-bottom: 0; }
       .promo.learning-objectives .mobile-content {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+        .promo.learning-objectives .mobile-content ul {
+          margin-bottom: 0; } }
 @media (min-width: 768px) {
   .promo {
     background: #fff;
