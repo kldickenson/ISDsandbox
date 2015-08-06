@@ -61,8 +61,8 @@
     	box-shadow: inset 0 1px 0 #fcfcfc;
 		background: transparent;
 		min-height: 40px;
-		padding: 5px 0 !important;
-		margin: 0 !important;
+		padding: 5px 0;
+		margin: 0;
 
 		&.active {
 			background: #fff;
@@ -70,23 +70,27 @@
 	}
 	
 	div#course-overview, div#agenda, div.instructors {
-		padding: 5px 0 !important;
-		margin: 0 !important;
+		padding: 5px 0;
+		margin: 0;
 	}
 	/* Brochure mobile accordion adjustments in _brochure.scss */
 	/* Pricing mobile accordion styling in _pricing.scss */
 
 	/* ----- Mobile Accordion Icons ------ */
-		div.promo h3.mobile-title {
+		 h3.mobile-title {
 			height: 40px;
 			padding: 0 5px 0 40px;
-			margin: 0 !important;
+			margin: 0;
 			position: relative;
 			border: none;
 			background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icons-mobile.png) 5px 0 no-repeat;
 			color:$color-primary;
 			font-weight: normal;
 			font-size: 1.2rem;
+			
+			div.promo & {
+				margin: 0;
+			}
 
 			#pricing & {
 				background-position: 5px 0px;
