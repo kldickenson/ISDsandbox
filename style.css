@@ -27,6 +27,9 @@ body {
 .two-col .omega {
   margin-left: 20px; }
 
+.clearfix {
+  margin: 0 !important; }
+
 a.download {
   display: block;
   width: 32px;
