@@ -3583,7 +3583,10 @@ ul.flex-direction-nav {
     margin-bottom: 0 !important; }
 
   div.sidebar.preview-editable {
-    margin-bottom: 0 !important; } }
+    margin-bottom: 0 !important; }
+
+  .sidebar div.clearfix {
+    margin-bottom: 0; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */
