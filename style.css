@@ -3572,8 +3572,8 @@ ul.flex-direction-nav {
   .mobile-hide {
     display: none; }
 
-  div.spacer {
-    display: none; } }
+  div.spacer, div.cms-history, div.preview-inline-edit-box {
+    display: none !important; } }
 /* #Mobile (Landscape)
 ================================================== */
 /* Note: Design for a width of 480px */

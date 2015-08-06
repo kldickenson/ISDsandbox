@@ -19,8 +19,8 @@
 	.mobile-hide {
 		display: none;
 	}
-	div.spacer {
-		display: none;
+	div.spacer, div.cms-history, div.preview-inline-edit-box {
+		display: none !important;
 	}
 
 
