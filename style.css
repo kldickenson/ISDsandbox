@@ -854,92 +854,92 @@ h2.page-title span {
     padding-left: 120px; }
 
 @media (max-width: 767px) {
-  div.promo {
+  .promo {
     width: 95%; }
-    .sidebar div.promo {
+    .sidebar .promo {
       background-image: none; }
-    div.promo div.banner {
+    .promo div.banner {
       position: relative;
       width: 100%;
       padding-top: 15px;
       padding-bottom: 5px;
       background-color: transparent;
       margin-bottom: 0px; }
-    div.promo h3, div.promo h4 {
+    .promo h3, .promo h4 {
       margin-top: 20px;
       margin-bottom: 10px;
       font-weight: bold;
       color: #176EB5; }
-    div.promo p {
+    .promo p {
       padding-left: 15px; }
-    div.promo.attendees div.six.alpha {
+    .promo.attendees div.six.alpha {
       display: none; }
-    div.promo.custom-programs {
+    .promo.custom-programs {
       padding-top: 0; }
-      div.promo.custom-programs .caption {
+      .promo.custom-programs .caption {
         display: none; }
-      div.promo.custom-programs h4 {
+      .promo.custom-programs h4 {
         clear: left;
         padding: 0; }
-      div.promo.custom-programs p {
+      .promo.custom-programs p {
         padding-right: 0;
         padding-left: 0; }
-    div.promo.learning-objectives {
+    .promo.learning-objectives {
       margin-bottom: 0; }
-      div.promo.learning-objectives .mobile-content {
+      .promo.learning-objectives .mobile-content {
         margin-bottom: 0; } }
 @media (min-width: 768px) {
-  div.promo {
+  .promo {
     background: #fff;
     margin-right: 0; }
-    div.promo img {
+    .promo img {
       display: block;
       width: 100%;
       padding: 0;
       margin-top: 0;
       margin-bottom: 15px;
       overflow: hidden; }
-    div.promo h3 {
+    .promo h3 {
       padding-left: 10px; }
-    div.promo h5 {
+    .promo h5 {
       color: #fff; }
-    div.promo.custom-programs .caption {
+    .promo.custom-programs .caption {
       float: none;
       width: 215px;
       margin: 0 auto;
       margin-bottom: 10px; }
-    .sidebar div.promo.custom-programs {
+    .sidebar .promo.custom-programs {
       background-image: none;
       padding-bottom: 0; }
-      .sidebar div.promo.custom-programs .caption {
+      .sidebar .promo.custom-programs .caption {
         display: none; }
-    div.promo.img-embed {
+    .promo.img-embed {
       background: #FFF none;
       padding: 0 0 20px 0;
       overflow: hidden; }
-      div.promo.img-embed img {
+      .promo.img-embed img {
         margin-bottom: -4px; }
-    div.promo.kata-facebook {
+    .promo.kata-facebook {
       text-align: center; }
-    div.promo.learning-objectives {
+    .promo.learning-objectives {
       margin-top: 30px;
       padding: 0;
       padding-bottom: 10px;
       background-image: url("https://confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
-      div.promo.learning-objectives img {
+      .promo.learning-objectives img {
         display: none; }
-      div.promo.learning-objectives h4 {
+      .promo.learning-objectives h4 {
         color: #ffcc00;
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 5px;
         padding-left: 0;
         font-size: 22px; }
-      div.promo.learning-objectives ul {
+      .promo.learning-objectives ul {
         margin-left: 20px; }
-      div.promo.learning-objectives p {
+      .promo.learning-objectives p {
         color: #fff; }
-      div.promo.learning-objectives li {
+      .promo.learning-objectives li {
         color: #fff; } }
 .brochure {
   height: 137px;

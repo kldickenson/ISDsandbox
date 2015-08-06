@@ -114,7 +114,7 @@
 
 @media (max-width: 767px) {
 
-    div.promo {
+    .promo {
         width: 95%;
 
         .sidebar & {
@@ -168,7 +168,7 @@
 }
 
 @media (min-width: 768px) {
-    div.promo {
+    .promo {
         background: #fff;
         margin-right: 0;
         
