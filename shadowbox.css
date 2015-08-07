@@ -5,7 +5,12 @@ footer {
   box-shadow: inset 0 -1px 0 #fcfcfc; }
   footer .contact-info li {
     display: inline-block;
-    margin: 10px 25px; }
+    margin: 10px 25px;
+    border-left: 1.5px solid #e7e6e3;
+    box-shadow: inset 0 -1px 0 #fcfcfc; }
+    footer .contact-info li:last-child {
+      border: none;
+      box-shadow: none; }
   footer .contact-info a {
     height: 40px;
     padding-top: 25px;
@@ -15,7 +20,7 @@ footer {
     footer .contact-info a.phone {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
     footer .contact-info a.email {
-      background-image: url(); }
+      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png); }
 
 /* For mobile view ONLY */
 @media (max-width: 565px) {

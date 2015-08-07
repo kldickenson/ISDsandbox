@@ -9,6 +9,12 @@ footer {
         li {
         	display: inline-block;
         	margin: 10px 25px;
+			border-left: 1.5px solid #e7e6e3;
+    		box-shadow: inset 0 -1px 0 #fcfcfc;    
+        	&:last-child {
+        		border: none;
+        		box-shadow: none;
+        	}
         }
         a {
             height: 40px;
@@ -21,7 +27,7 @@ footer {
                 background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
             }
             &.email {
-                background-image: url();
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png);
             }
         }
     }	
