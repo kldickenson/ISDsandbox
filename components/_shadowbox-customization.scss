@@ -1,96 +1,105 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 
 /* For "We want to hear from you!" Footer */
+.send-message-form {
 
-section {
-	padding: 0 5%;
-	width: 90%;
-}
+	section {
+		padding: 0 5%;
+		width: 90%;
+	}
 
-input[name=submit] {
-	margin-bottom: 30px;
-}
+	input[name=submit] {
+		margin-bottom: 30px;
+	}
 
-footer {
-	clear: both;
-	margin-top: 20px;
-	padding-top: 20px;
-	border-top: 1.5px solid rgba(255,255,255,.1);
-    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3);
-	-moz-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3);
-	box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3); 
+	footer {
+		clear: both;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1.5px solid rgba(255,255,255,.1);
+	    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3);
+		-moz-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3);
+		box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.3); 
 
-    h2 {
-    	text-align: center;
-    } 
+	    h2 {
+	    	text-align: center;
+	    } 
 
-    .contact-info {
-        li {
-        	display: inline-block;
-        	width: 35%;
-        	margin: 10px 0;
-			border-right: 1.5px solid rgba(255,255,255,.1);
-    		box-shadow: inset -1px 0 0 0 rgba(1,1,1,.3);    
-        	list-style: none;
-        	&:last-child {
-        		border: none;
-        		box-shadow: none;
-        	}
-        }
-        a {
-        	display: block;
-            height: 20px;
-            padding: 50px 0 0 0;
-            text-align: center;
-            text-decoration: none;
-            color: #fff;
-            font: normal 1.3em 'Open Sans', sans-serif;
-            background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
-            background-size: 36px 36px;
+	    .contact-info {
+	        li {
+	        	display: inline-block;
+	        	width: 35%;
+	        	margin: 10px 0;
+				border-right: 1.5px solid rgba(255,255,255,.1);
+	    		box-shadow: inset -1px 0 0 0 rgba(1,1,1,.3);    
+	        	list-style: none;
+	        	&:last-child {
+	        		border: none;
+	        		box-shadow: none;
+	        	}
+	        }
+	        a {
+	        	display: block;
+	            height: 20px;
+	            padding: 50px 0 0 0;
+	            text-align: center;
+	            text-decoration: none;
+	            color: #fff;
+	            font: normal 1.3em 'Open Sans', sans-serif;
+	            background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+	            background-size: 36px 36px;
 
-            &.phone {
-                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
-            }
-            &.email {
-                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png);
-            }
-        }
-    }	
+	            &.phone {
+	                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
+	            }
+	            &.email {
+	                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png);
+	            }
+	        }
+	    }	
+	}
 }
 
 /* For mobile view ONLY */
 @media (max-width: 565px) {
 	//to solve pop-up window issues
-
-	#sb-wrapper {
-		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
-		left: 5% !important;
-		top: 5% !important;
-		height: 90% !important;
-		width: 90% !important;
-	}
-
-	#sb-wrapper-inner {
-		// inline = height: 529px
-		height: 100% !important;
-	}
-
-	#sb-player {
-		section {
-			padding: 0 5%;
-			width: 90%;
+	.send-message-form {
+		#sb-wrapper {
+			// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
+			left: 5% !important;
+			top: 5% !important;
+			height: 90% !important;
+			width: 90% !important;
 		}
-		h2 {
-			font-size: 175%;
-			text-align: center;
+
+		#sb-wrapper-inner {
+			// inline = height: 529px
+			height: 100% !important;
 		}
-		input, textarea {
-			width: 100%;
-		}
-		input[type="submit"] {
-			float: none;
-			width: 50%;
-			margin: 10px 0 10px 25%;
+
+		#sb-player {
+			section {
+				padding: 0 5%;
+				width: 90%;
+			}
+			h2 {
+				font-size: 175%;
+				text-align: center;
+			}
+			input, textarea {
+				width: 100%;
+			}
+			input[type="submit"] {
+				float: none;
+				width: 50%;
+				margin: 10px 0 10px 25%;
+			}
+
+			.contact-info {
+				a {
+					font-size: 1em;
+				}
+			}
 		}
 	}
 }
