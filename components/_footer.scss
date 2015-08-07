@@ -24,6 +24,7 @@
         color: #fff;
         text-decoration: none;
         padding: 0;
+        font-weight: normal;
 
         &:focus,
         &:hover {
@@ -40,7 +41,6 @@
 
         a {
             height: 40px;
-            /*text-align: center;*/
             padding-top: 25px;
             font-weight: bold;
             background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
@@ -64,7 +64,6 @@
         float: right;
         margin: 47px 0 20px 0;
     }
-
     .siteinfo {
         float: right;
         margin-right: 95px;
@@ -77,29 +76,25 @@
 
 #footer-nav {
     clear: both;
-
     li {
         margin: 0 5px;
         font-size: 90%;
     }
 }
+
 @media only screen and (max-width: 400px) { 
     #footer {
         .columns {
             width: 100%;
         }
         #footer-nav {
-                 text-align: center;
+            text-align: center;
            li {
-
                 display: block;
                 margin: 10px;
             }
         }
         ul.contact-info {
-            //li:first-child {
-            //    margin-left: 20px;
-            //}
             text-align: center;
             li {
                 margin-left: 5px;
@@ -109,7 +104,6 @@
             width: 300px;
             float: none;
             margin: 0 auto 10px;
-
         }
     }
 }
@@ -131,17 +125,7 @@
             }
         }
         .contact-info {
-            //margin: 25px auto;
             text-align: center;
-            li {
-                //&:first-child {
-                //    margin-left: 20px;
-                //}
-                //&:last-child {
-                //    margin-right: 20px;
-                //}
- 
-            }
         }
         #footer-nav {
         float: none;
@@ -159,11 +143,5 @@
             float: none;
             margin: 0 auto;
         }
-        /*
-        .siteinfo {
-            clear: both;
-            margin-top: 20px;
-        }
-        */
     }
 }
