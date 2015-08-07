@@ -84,8 +84,8 @@ body.send-message-form {
 				padding: 0 5%;
 				width: 90%;
 			}
-			h2 {
-				font-size: 160% !important;
+			h2.white, h2.yellow {
+				font-size: 22px !important;
 				text-align: center !important;
 			}
 			input, textarea {
@@ -99,7 +99,7 @@ body.send-message-form {
 
 			.contact-info {
 				a {
-					font-size: .9em;
+					font-size: 12px;
 				}
 			}
 		}

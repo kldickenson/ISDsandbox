@@ -54,8 +54,8 @@ body.send-message-form footer {
   #sb-player .send-message-form section {
     padding: 0 5%;
     width: 90%; }
-  #sb-player .send-message-form h2 {
-    font-size: 160% !important;
+  #sb-player .send-message-form h2.white, #sb-player .send-message-form h2.yellow {
+    font-size: 22px !important;
     text-align: center !important; }
   #sb-player .send-message-form input, #sb-player .send-message-form textarea {
     width: 100%; }
@@ -64,6 +64,6 @@ body.send-message-form footer {
     width: 50%;
     margin: 10px 0 10px 25%; }
   #sb-player .send-message-form .contact-info a {
-    font-size: .9em; } }
+    font-size: 12px; } }
 
 /*# sourceMappingURL=shadowbox.css.map */
