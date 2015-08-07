@@ -20,7 +20,7 @@ footer {
   footer .contact-info li {
     display: inline-block;
     width: 40%;
-    margin: 10px 10%;
+    margin: 10px 5%;
     border-right: 1.5px solid rgba(255, 255, 255, 0.1);
     box-shadow: inset -1px 0 0 0 rgba(1, 1, 1, 0.3);
     list-style: none; }
