@@ -2,6 +2,11 @@
 
 /* For "We want to hear from you!" Footer */
 
+section {
+	padding: 0 5%;
+	width: 90%;
+}
+
 input[name=submit] {
 	margin-bottom: 30px;
 }
@@ -88,9 +93,5 @@ footer {
 			width: 50%;
 			margin: 10px 0 10px 25%;
 		}
-	}
-	section {
-		padding: 0 5%;
-		width: 90%;
 	}
 }

@@ -1,5 +1,9 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 /* For "We want to hear from you!" Footer */
+section {
+  padding: 0 5%;
+  width: 90%; }
+
 input[name=submit] {
   margin-bottom: 30px; }
 
@@ -61,10 +65,6 @@ footer {
   #sb-player input[type="submit"] {
     float: none;
     width: 50%;
-    margin: 10px 0 10px 25%; }
-
-  section {
-    padding: 0 5%;
-    width: 90%; } }
+    margin: 10px 0 10px 25%; } }
 
 /*# sourceMappingURL=shadowbox.css.map */
