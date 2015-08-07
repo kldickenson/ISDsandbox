@@ -30,7 +30,7 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    font: normal 1.3em 'Open Sans', sans-serif;
     background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
     background-size: 36px 36px; }
     footer .contact-info a.phone {
