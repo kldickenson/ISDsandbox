@@ -2,10 +2,10 @@
 /* For "We want to hear from you!" Footer */
 footer {
   clear: both;
-  border-top: 1.5px solid #00397a;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #001f42;
-  -moz-box-shadow: inset 0px 1px 0px 0px #001f42;
-  box-shadow: inset 0px 1px 0px 0px #001f42; }
+  border-top: 1.5px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.5);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.5);
+  box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.5); }
   footer h2 {
     text-align: center; }
   footer .contact-info li {

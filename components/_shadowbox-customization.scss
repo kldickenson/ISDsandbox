@@ -3,11 +3,11 @@
 /* For "We want to hear from you!" Footer */
 footer {
 	clear: both;
-	border-top: 1.5px solid #00397a;
+	border-top: 1.5px solid rgba(255,255,255,.5);
 
-    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0,31,66,1);
-	-moz-box-shadow: inset 0px 1px 0px 0px rgba(0,31,66,1);
-	box-shadow: inset 0px 1px 0px 0px rgba(0,31,66,1); 
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.5);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.5);
+	box-shadow: inset 0px 1px 0px 0px rgba(1,1,1,.5); 
 
     h2 {
     	text-align: center;
