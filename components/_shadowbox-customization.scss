@@ -1,5 +1,33 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 
+/* For "We want to hear from you!" Footer */
+footer {
+	border-top: 1.5px solid #e7e6e3;
+    box-shadow: inset 0 -1px 0 #fcfcfc;    
+
+    .contact-info {
+        li {
+        	display: inline-block;
+        	margin: 10px 25px;
+        }
+        a {
+            height: 40px;
+            padding-top: 25px;
+            font-weight: bold;
+            text-align: center;
+            background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+
+            &.phone {
+                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
+            }
+            &.email {
+                background-image: url();
+            }
+        }
+    }	
+}
+
+/* For mobile view ONLY */
 @media (max-width: 565px) {
 	//to solve pop-up window issues
 
