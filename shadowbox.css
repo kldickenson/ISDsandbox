@@ -1,7 +1,11 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 /* For "We want to hear from you!" Footer */
+input[name=submit] {
+  margin-bottom: 30px; }
+
 footer {
   clear: both;
+  margin-top: 20px;
   padding-top: 20px;
   border-top: 1.5px solid rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.3);
@@ -20,8 +24,8 @@ footer {
       box-shadow: none; }
   footer .contact-info a {
     display: block;
-    height: 40px;
-    padding: 20px 40px 20px 0;
+    height: 20px;
+    padding: 50px 20px 0 20px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
