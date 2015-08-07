@@ -63,21 +63,23 @@
 /* For mobile view ONLY */
 @media (max-width: 565px) {
 	//to solve pop-up window issues
-	.send-message-form {
-		#sb-wrapper {
-			// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
-			left: 5% !important;
-			top: 5% !important;
-			height: 90% !important;
-			width: 90% !important;
-		}
+	#sb-wrapper {
+		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
+		left: 5% !important;
+		top: 5% !important;
+		height: 90% !important;
+		width: 90% !important;
+	}
 
-		#sb-wrapper-inner {
-			// inline = height: 529px
-			height: 100% !important;
-		}
+	#sb-wrapper-inner {
+		// inline = height: 529px
+		height: 100% !important;
+	}
 
-		#sb-player {
+	#sb-player {
+
+		.send-message-form {
+
 			section {
 				padding: 0 5%;
 				width: 90%;
@@ -101,5 +103,5 @@
 				}
 			}
 		}
-	}
+	}	
 }

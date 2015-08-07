@@ -42,26 +42,28 @@
 
 /* For mobile view ONLY */
 @media (max-width: 565px) {
-  .send-message-form #sb-wrapper {
+  #sb-wrapper {
     left: 5% !important;
     top: 5% !important;
     height: 90% !important;
     width: 90% !important; }
-  .send-message-form #sb-wrapper-inner {
+
+  #sb-wrapper-inner {
     height: 100% !important; }
-  .send-message-form #sb-player section {
+
+  #sb-player .send-message-form section {
     padding: 0 5%;
     width: 90%; }
-  .send-message-form #sb-player h2 {
+  #sb-player .send-message-form h2 {
     font-size: 160%;
     text-align: center; }
-  .send-message-form #sb-player input, .send-message-form #sb-player textarea {
+  #sb-player .send-message-form input, #sb-player .send-message-form textarea {
     width: 100%; }
-  .send-message-form #sb-player input[type="submit"] {
+  #sb-player .send-message-form input[type="submit"] {
     float: none;
     width: 50%;
     margin: 10px 0 10px 25%; }
-  .send-message-form #sb-player .contact-info a {
+  #sb-player .send-message-form .contact-info a {
     font-size: .9em; } }
 
 /*# sourceMappingURL=shadowbox.css.map */
