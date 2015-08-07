@@ -55,8 +55,8 @@ body.send-message-form footer {
     padding: 0 5%;
     width: 90%; }
   #sb-player .send-message-form h2 {
-    font-size: 160%;
-    text-align: center; }
+    font-size: 160% !important;
+    text-align: center !important; }
   #sb-player .send-message-form input, #sb-player .send-message-form textarea {
     width: 100%; }
   #sb-player .send-message-form input[type="submit"] {
