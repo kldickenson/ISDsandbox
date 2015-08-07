@@ -61,7 +61,7 @@ body.send-message-form {
 }
 
 /* For mobile view ONLY */
-@media (max-width: 565px) {
+@media all and (max-width: 565px) {
 	//to solve pop-up window issues
 	#sb-wrapper {
 		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;

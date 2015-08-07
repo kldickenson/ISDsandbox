@@ -41,7 +41,7 @@ body.send-message-form footer {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png); }
 
 /* For mobile view ONLY */
-@media (max-width: 565px) {
+@media all and (max-width: 565px) {
   #sb-wrapper {
     left: 5% !important;
     top: 5% !important;
