@@ -58,7 +58,7 @@
     float: none;
     width: 40%;
     margin: 10px 0 10px 30%; }
-  .send-message-form footer h2 {
+  .send-message-form footer h2.white {
     font-size: 22px; }
   .send-message-form footer .contact-info a {
     font-size: 13px; } }
