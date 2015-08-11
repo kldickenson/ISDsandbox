@@ -1003,7 +1003,7 @@ NEW:
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 /* For "We want to hear from you!" Footer */
 /* For mobile view ONLY */
-@media all and (max-width: 565px) {
+@media all and (max-width: 765px) {
   #sb-wrapper {
     left: 5% !important;
     top: 5% !important;
