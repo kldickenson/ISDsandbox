@@ -674,26 +674,26 @@ h2.page-title span {
 .sidebar #upcoming div {
   margin-bottom: 0; }
 
-#upcoming li.item {
+#upcoming > > li.item {
   padding: 10px 0;
   margin-bottom: 10px;
   background-color: #0b66bc;
   font-size: .9em;
   line-height: 1.3em; }
-  #upcoming li.item h5 {
+  #upcoming > > li.item h5 {
     color: #fff;
     margin-bottom: 0; }
-  #upcoming li.item div {
+  #upcoming > > li.item div {
     color: #fff; }
-    #upcoming li.item div span {
+    #upcoming > > li.item div span {
       color: yellow !important; }
-    #upcoming li.item div.class-name {
+    #upcoming > > li.item div.class-name {
       display: none; }
-  #upcoming li.item div.status {
+  #upcoming > > li.item div.status {
     float: right;
     color: #fff;
     font-weight: bold; }
-  #upcoming li.item a {
+  #upcoming > > li.item a {
     display: block;
     float: right;
     vertical-align: top;
@@ -702,17 +702,17 @@ h2.page-title span {
     background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
     text-align: right;
     color: #fff; }
-    #upcoming li.item a:hover, #upcoming li.item a:focus {
+    #upcoming > > li.item a:hover, #upcoming > > li.item a:focus {
       text-decoration: none;
       color: yellow;
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
-  #upcoming li.item.soldout {
+  #upcoming > > li.item.soldout {
     background-color: #e7e7e7; }
-    #upcoming li.item.soldout h5 {
+    #upcoming > > li.item.soldout h5 {
       color: #969696; }
-    #upcoming li.item.soldout div {
+    #upcoming > > li.item.soldout div {
       color: #969696; }
-    #upcoming li.item.soldout .soldout {
+    #upcoming > > li.item.soldout .soldout {
       width: 25%;
       float: right;
       vertical-align: top;

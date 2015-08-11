@@ -3,7 +3,7 @@
     margin-bottom: 0;
 }
 
-#upcoming li.item {
+#upcoming > > li.item {
     padding: 10px 0;
     margin-bottom: 10px;
     background-color: $color-mobile-blue;
