@@ -1000,6 +1000,18 @@ NEW:
 @media (max-width: 768px) {
   .quotes {
     display: none; } }
+/* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
+/* For "We want to hear from you!" Footer */
+/* For mobile view ONLY */
+@media all and (max-width: 565px) {
+  #sb-wrapper {
+    left: 5% !important;
+    top: 5% !important;
+    height: 90% !important;
+    width: 90% !important; }
+
+  #sb-wrapper-inner {
+    height: 100% !important; } }
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
   margin-top: 0px;
