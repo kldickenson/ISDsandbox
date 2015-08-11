@@ -50,8 +50,8 @@
     padding: 0 5%;
     width: 90%; }
   .send-message-form h2.white, .send-message-form h2.yellow {
-    font-size: 26px !important;
-    text-align: center !important; }
+    font-size: 26px;
+    text-align: center; }
   .send-message-form input, .send-message-form textarea {
     width: 100%; }
   .send-message-form input[type="submit"] {
