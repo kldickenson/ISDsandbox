@@ -2,9 +2,10 @@
 /* For "We want to hear from you!" Footer */
 .send-message-form section {
   padding: 0 5%;
-  width: 22px; }
+  width: 100%; }
 .send-message-form h2 {
-  font-weight: normal; }
+  font-size: 28px;
+  font-weight: 600; }
 .send-message-form input[name=submit] {
   margin-bottom: 30px; }
 .send-message-form footer {
