@@ -1010,7 +1010,8 @@ NEW:
     width: 90% !important; }
 
   #sb-wrapper-inner {
-    height: 700px !important; } }
+    height: 90%;
+    max-height: 700px !important; } }
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
   margin-top: 0px;
