@@ -12,10 +12,10 @@
   clear: both;
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1.5px solid rgba(255, 255, 255, 0.1);
-  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.3);
-  -moz-box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.3);
-  box-shadow: inset 0px 1px 0px 0px rgba(1, 1, 1, 0.3); }
+  border-top: 1.5px solid rgba(1, 1, 1, 0.3);
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); }
   .send-message-form footer h2 {
     text-align: center;
     font-size: 24px; }
