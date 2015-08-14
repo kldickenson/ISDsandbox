@@ -45,7 +45,9 @@
 
 /* - - - - - - - - ISD Customization - - - - - - - - */
 
-//@media all and (max-width: 765px) {
+/* Cannot remove media queries until accordion.js is fixed */
+
+@media all and (max-width: 765px) {
 
 	/*----- Accordion -----*/
 	.mobile-accordion, .mobile-accordion * {
@@ -158,11 +160,10 @@
 			width: 100%;
 		}
 	}
-//}
-/*
+}
+
 @media all and (min-width: 766px) {
 	.mobile-title {
 		display: none;
 	}
 }
-*/
