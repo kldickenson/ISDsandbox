@@ -61,16 +61,18 @@
 
     .um-logo {
         display: block;
-        float: right;
-        margin: 47px 0 20px 0;
+        width: 300px;
+        //float: right;
+        margin: 47px auto 20px auto;
     }
     .siteinfo {
-        float: right;
+        //float: right;
         margin-right: 95px;
         color: #fff;
         font-size: 70%;
         text-align: left;
         font-weight: normal;
+        text-align: center;
     }
 }
 
