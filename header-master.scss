@@ -1,0 +1,18 @@
+// Pulling in only the Sass partials needed for HEADER
+
+@import "base";
+@import "colors";
+@import "layout-grid";
+
+// Adding page components
+@import "components/header";
+@import "components/search";
+@import "components/page-banner";
+
+// Adding Menus
+@import "menus/audience";
+@import "menus/flexnav";
+@import "menus/mega-menu-customization";
+// menu components
+@import "menus/admissions";
+@import "menus/custom-features";

@@ -6,10 +6,10 @@
 @import "layout-grid";
 
 // Adding page components
-@import "components/header";
-@import "components/search";
-@import "components/page-banner";
-@import "components/footer";
+//@import "components/header"; MOVED TO HEADER.CSS
+//@import "components/search"; MOVED TO HEADER.CSS
+//@import "components/page-banner"; MOVED TO HEADER.CSS
+//@import "components/footer"; MOVED TO FOOTER.CSS
 @import "components/breadcrumbs-socialmedia";
 // sidebar components
 @import "components/sidebar";
@@ -30,12 +30,12 @@
 @import "components/social-media";
 
 // Adding Menus
-@import "menus/audience";
-@import "menus/flexnav";
-@import "menus/mega-menu-customization";
+//@import "menus/audience";  MOVED TO HEADER.CSS
+//@import "menus/flexnav";  MOVED TO HEADER.CSS
+//@import "menus/mega-menu-customization";  MOVED TO HEADER.CSS
 // menu components
-@import "menus/admissions";
-@import "menus/custom-features";
+//@import "menus/admissions";  MOVED TO HEADER.CSS
+//@import "menus/custom-features";  MOVED TO HEADER.CSS
 
 // Page Specific
 @import "page-specific/about";

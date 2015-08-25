@@ -1,0 +1,8 @@
+// Pulling in only the Sass partials needed for FOOTER
+
+@import "base";
+@import "colors";
+@import "layout-grid";
+
+// Adding page components
+@import "components/footer";
