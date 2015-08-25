@@ -281,15 +281,14 @@ tfoot td {
       background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
   #footer .um-logo {
     display: block;
-    float: right;
-    margin: 47px 0 20px 0; }
+    width: 300px;
+    margin: 47px auto 20px auto; }
   #footer .siteinfo {
-    float: right;
-    margin-right: 95px;
     color: #fff;
     font-size: 70%;
     text-align: left;
-    font-weight: normal; }
+    font-weight: normal;
+    text-align: center; }
 
 #footer-nav {
   clear: both; }
