@@ -1,0 +1,63 @@
+// Pulling in all the Sass partials together
+
+@import "fonts";  //MOVED TO BASE.CSS
+@import "base"; //MOVED TO BASE.CSS
+@import "colors"; //MOVED TO BASE.CSS
+@import "layout-grid"; //MOVED TO BASE.CSS
+
+// Adding page components
+@import "components/header"; //MOVED TO HEADER.CSS
+@import "components/search"; //MOVED TO HEADER.CSS
+@import "components/page-banner"; //MOVED TO HEADER.CSS
+@import "components/footer"; //MOVED TO FOOTER.CSS
+@import "components/breadcrumbs-socialmedia";
+// sidebar components
+@import "components/sidebar";
+@import "components/upcoming";
+@import "components/pricing";
+@import "components/promos";
+@import "components/brochure";
+@import "components/quotes";
+// main content components
+@import "components/shadowbox-base"; //MOVED TO SHDOWBOX-MOBILE.CSS
+//@import "components/shadowbox-customization"; // REMAINS EXCLUDED, MOVED TO CONTACT_POP_UP.CSS
+@import "components/course-overview";
+@import "components/agenda";
+@import "components/instructor";
+@import "components/accordion";
+@import "components/tabs-tables";
+// footer components
+@import "components/social-media";  //MOVED TO FOOTER.CSS
+
+// Adding Menus
+@import "menus/audience";  //MOVED TO HEADER.CSS
+@import "menus/flexnav";  //MOVED TO HEADER.CSS
+@import "menus/mega-menu-customization";  //MOVED TO HEADER.CSS
+// menu components
+@import "menus/admissions";  //MOVED TO HEADER.CSS
+@import "menus/custom-features";  //MOVED TO HEADER.CSS
+
+// Page Specific
+@import "page-specific/about";
+@import "page-specific/how-to";
+@import "page-specific/students";
+@import "page-specific/events-calendar";
+@import "page-specific/news-archive";
+@import "page-specific/admissions";
+@import "page-specific/graduate-degrees";
+@import "page-specific/professionals";
+@import "page-specific/custom-programs";
+@import "page-specific/people";
+@import "page-specific/faculty-staff";
+
+// Homepage Specific
+@import "homepage/homepage-specific";
+@import "homepage/slider";
+@import "homepage/ribbon";
+@import "homepage/action";
+@import "homepage/teasers";
+
+// Adding Media Queries for Print, Table & Mobile
+@import "media-queries/print";
+@import "media-queries/tablet";
+@import "media-queries/mobile";
