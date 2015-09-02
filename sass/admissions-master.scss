@@ -1,0 +1,8 @@
+// Pulling in Sass partials together for just the main menu admissions drop-down
+
+
+@import "sass-partials/base";
+@import "sass-partials/colors";
+@import "sass-partials/layout-grid";
+
+@import "sass-partials/menus/admissions";

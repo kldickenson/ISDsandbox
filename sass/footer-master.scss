@@ -1,0 +1,10 @@
+// Pulling in only the Sass partials needed for FOOTER
+
+@import "sass-partials/fonts";
+@import "sass-partials/colors";
+
+// Adding page components
+@import "sass-partials/components/footer";
+
+// footer components
+@import "sass-partials/components/social-media";

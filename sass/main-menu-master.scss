@@ -1,0 +1,12 @@
+// Pulling in only the Sass partials needed for the main menu / mega-menu
+
+@import "sass-partials/fonts";
+@import "sass-partials/colors";
+
+// Adding Menus
+@import "sass-partials/menus/audience";
+@import "sass-partials/menus/flexnav";
+@import "sass-partials/menus/mega-menu-customization";
+// menu components
+@import "sass-partials/menus/admissions";
+@import "sass-partials/menus/custom-features";

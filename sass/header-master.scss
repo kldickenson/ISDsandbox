@@ -1,0 +1,8 @@
+// Pulling in only the Sass partials needed for HEADER
+@import "sass-partials/fonts";
+@import "sass-partials/colors";
+
+// Adding page components
+@import "sass-partials/components/header";
+@import "sass-partials/components/search";
+@import "sass-partials/components/page-banner";

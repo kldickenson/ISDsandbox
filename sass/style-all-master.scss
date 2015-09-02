@@ -1,0 +1,63 @@
+// Pulling in all the Sass partials together
+
+@import "sass-partials/fonts";  //MOVED TO BASE.CSS
+@import "sass-partials/base"; //MOVED TO BASE.CSS
+@import "sass-partials/colors"; //MOVED TO BASE.CSS
+@import "sass-partials/layout-grid"; //MOVED TO BASE.CSS
+
+// Adding page components
+@import "sass-partials/components/header"; //MOVED TO HEADER.CSS
+@import "sass-partials/components/search"; //MOVED TO HEADER.CSS
+@import "sass-partials/components/page-banner"; //MOVED TO HEADER.CSS
+@import "sass-partials/components/footer"; //MOVED TO FOOTER.CSS
+@import "sass-partials/components/breadcrumbs-socialmedia";
+// sidebar components
+@import "sass-partials/components/sidebar";
+@import "sass-partials/components/upcoming";
+@import "sass-partials/components/pricing";
+@import "sass-partials/components/promos";
+@import "sass-partials/components/brochure";
+@import "sass-partials/components/quotes";
+// main content components
+@import "sass-partials/components/shadowbox-base"; //MOVED TO SHDOWBOX-MOBILE.CSS
+//@import "components/shadowbox-customization"; // REMAINS EXCLUDED, MOVED TO CONTACT_POP_UP.CSS
+@import "sass-partials/components/course-overview";
+@import "sass-partials/components/agenda";
+@import "sass-partials/components/instructor";
+@import "sass-partials/components/accordion";
+@import "sass-partials/components/tabs-tables";
+// footer components
+@import "sass-partials/components/social-media";  //MOVED TO FOOTER.CSS
+
+// Adding Menus
+@import "sass-partials/menus/audience";  //MOVED TO HEADER.CSS
+@import "sass-partials/menus/flexnav";  //MOVED TO HEADER.CSS
+@import "sass-partials/menus/mega-menu-customization";  //MOVED TO HEADER.CSS
+// menu components
+@import "sass-partials/menus/admissions";  //MOVED TO HEADER.CSS
+@import "sass-partials/menus/custom-features";  //MOVED TO HEADER.CSS
+
+// Page Specific
+@import "sass-partials/page-specific/about";
+@import "sass-partials/page-specific/how-to";
+@import "sass-partials/page-specific/students";
+@import "sass-partials/page-specific/events-calendar";
+@import "sass-partials/page-specific/news-archive";
+@import "sass-partials/page-specific/admissions";
+@import "sass-partials/page-specific/graduate-degrees";
+@import "sass-partials/page-specific/professionals";
+@import "sass-partials/page-specific/custom-programs";
+@import "sass-partials/page-specific/people";
+@import "sass-partials/page-specific/faculty-staff";
+
+// Homepage Specific
+@import "sass-partials/homepage/homepage-specific";
+@import "sass-partials/homepage/slider";
+@import "sass-partials/homepage/ribbon";
+@import "sass-partials/homepage/action";
+@import "sass-partials/homepage/teasers";
+
+// Adding Media Queries for Print, Table & Mobile
+@import "sass-partials/media-queries/print";
+@import "sass-partials/media-queries/tablet";
+@import "sass-partials/media-queries/mobile";

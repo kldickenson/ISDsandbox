@@ -1,0 +1,578 @@
+#main-menu {
+    height: 50px; /* Total height: 50px; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(97, 181, 218); /* #61b5da, 80% opaque*/
+    background-color: rgba(97, 181, 218, .8); /* #61b5da, 80% opaque*/
+}
+
+.homepage #main-menu {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+.mainmenu {
+    float: left;
+    margin-top: 0;
+    background-color: #fff;
+    height: 50px;
+    z-index: 20;
+}
+
+/* David's CSS for dropdown mega-menu */
+#main-menu nav > div {
+    background-color: #fff;
+    float: left;
+    list-style: none;
+    height: 50px; /* Total height: 50px; alternate: 28px; */
+    height: 28px;
+    margin: 0;
+    padding: 16px 10px 6px;
+    /* padding: 0;*/
+    /*width: 100px;*/
+    text-align: center;
+    font: bold 85% 'Open Sans', sans-serif;
+    color: #fff;
+    /*text-transform: uppercase;*/
+}
+
+#main-menu nav > div {
+    color: #fff;
+}
+
+#main-menu nav div > a {
+    display: block;
+    color: #fff;
+    height: 28px; /* Total height: 50px; */
+    /* height: 50px;
+    creates white box below menu items.
+    Removing. -dadick
+    */
+    /*padding: 16px 10px 6px;*/
+}
+
+#main-menu nav div > a:hover,
+#main-menu nav div > a:focus {
+    text-decoration: none;
+}
+
+#main-menu nav div.admissions {
+    background-color: rgb(108, 32, 126);
+    background-color: rgba(108, 32, 126, .7);
+}
+
+#main-menu nav div.admissions:hover,
+#main-menu nav div.admissions:hover > a {
+    background-color: #fff;
+    color: rgb(108, 32, 126);
+}
+
+#main-menu nav div.admissions.active a,
+#main-menu nav div.admissions a:hover,
+#main-menu nav div.admissions a:focus {
+    color: rgb(108, 32, 126);
+}
+
+#main-menu nav div.degrees {
+    background-color: rgb(213, 159, 13);
+    background-color: rgba(213, 159, 13, .9);
+}
+
+#main-menu nav div.degrees:hover,
+#main-menu nav div.degrees:hover > a {
+    background-color: #fff;
+    color: rgb(213, 159, 13);
+}
+
+#main-menu nav div.degrees a:hover,
+#main-menu nav div.degrees a:focus {
+    color: rgb(213, 159, 13);
+}
+
+#main-menu nav div.certificates {
+    background-color: rgb(86, 160, 211);
+    background-color: rgba(86, 160, 211, .7);
+}
+
+#main-menu nav div.certificates:hover,
+#main-menu nav div.certificates:hover > a {
+    background-color: #fff;
+    color: rgb(86, 160, 211);
+}
+
+#main-menu nav div.certificates a:hover,
+#main-menu nav div.certificates a:focus {
+    color: rgb(86, 160, 211);
+}
+
+#main-menu nav div.programs {
+    background-color: rgb(176, 188, 34);
+    background-color: rgba(176, 188, 34, .7);
+}
+
+#main-menu nav div.programs:hover,
+#main-menu nav div.programs:hover > a {
+    background-color: #fff;
+    color: rgb(176, 188, 34);
+}
+
+#main-menu nav div.programs a:hover,
+#main-menu nav div.programs a:focus {
+    color: rgb(176, 188, 34);
+}
+
+#main-menu nav div.careers {
+    background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
+    background-color: rgba(184, 110, 35, .7);
+}
+
+#main-menu nav div.careers:hover,
+#main-menu nav div.careers:hover > a {
+    background-color: #fff;
+    color: rgb(184, 110, 35);
+}
+
+#main-menu nav div.careers a:hover,
+#main-menu nav div.careers a:focus {
+    color: rgb(184, 110, 35);
+}
+
+#main-menu nav div.people {
+    background-color: rgb(145, 145, 149);
+    background-color: rgba(145, 145, 149, .7);
+    color: #fff;
+}
+
+#main-menu nav div.people a {
+    color: #fff;
+}
+
+#main-menu nav div.people:hover,
+#main-menu nav div.people:hover > a {
+    background-color: #fff;
+    color: rgb(145, 145, 149);
+}
+
+#main-menu nav div.people a:hover,
+#main-menu nav div.people a:focus {
+    color: rgb(145, 145, 149);
+}
+
+#main-menu nav div.about {
+    background-color: rgb(19, 71, 145);
+    background-color: rgba(19, 71, 145, .7);
+    color: #fff;
+}
+
+/*#main-menu nav div.about a {
+    color: #fff;
+}*/
+#main-menu nav div.about:hover,
+#main-menu nav div.about:hover > a {
+    background-color: #fff;
+    color: rgb(19, 71, 145);
+}
+
+#main-menu nav div.about a:hover,
+#main-menu nav div.about a:focus {
+    color: rgb(19, 71, 145);
+}
+
+#main-menu nav ul.mega-menu {
+    clear: both;
+    color: black;
+    background-color: white;
+    display: none;
+    padding: 20px;
+    height: 260px; /* Total height: 300px; */
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 15;
+    -webkit-box-shadow: 0px 5px 5px 0px #999;
+    box-shadow: 0px 5px 5px 0px #999;
+    /*background: #fff url(../../images/dropshadow-topmenu.png) left bottom repeat-x;*/
+}
+
+#main-menu nav ul.sub {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    text-align: left;
+    /*display: block;
+    position: relative;
+    top: 0; left: 0;
+    -webkit-box-shadow:  none;
+    box-shadow:  none;*/
+}
+
+#main-menu nav .degrees ul.sub {
+    /* Degrees */
+    width: 23%;
+    margin-left: 15px;
+}
+
+#main-menu nav .certificates ul.sub {
+    /* ProEd */
+    width: 18%;
+    margin-left: 15px;
+}
+
+#main-menu nav ul.sub a {
+    color: #58585a;
+    font-weight: normal;
+    text-align: left;
+    /*text-transform: capitalize;*/
+}
+
+#main-menu nav ul.sub h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+#main-menu nav .admissions ul.sub h3 {
+    color: rgb(108, 32, 126);
+}
+
+#main-menu nav .degrees ul.sub h3,
+#main-menu nav .degrees ul.sub h3 a,
+#main-menu nav .degrees ul.sub h3 a:hover,
+#main-menu nav .degrees ul.sub h3 a:focus {
+    color: rgb(213, 159, 13);
+    text-transform: uppercase;
+}
+
+#main-menu nav .certificates ul.sub h3,
+#main-menu nav .certificates ul.sub h3 a,
+#main-menu nav .certificates ul.sub h3 a:hover,
+#main-menu nav .certificates ul.sub h3 a:focus {
+    color: rgb(86, 160, 211);
+    text-transform: uppercase;
+}
+
+#main-menu nav .programs ul.sub h3 {
+    color: rgb(176, 188, 34);
+}
+
+#main-menu nav .careers ul.sub h3 {
+    color: rgb(184, 110, 35);
+}
+
+#main-menu nav .people ul.sub h3 {
+    color: rgb(145, 145, 149);
+}
+
+#main-menu nav .about ul.sub h3 {
+    color: rgb(19, 71, 145);
+}
+
+#main-menu nav ul.sub li {
+    margin-bottom: 5px;
+    line-height: 1.2em;
+}
+
+
+/* - - - - -  Specifically for Admissions + Aid Mega Menu - - - - - */
+#main-menu nav .boxed ul.sub    {
+ margin-left: 0;
+    height: 147px;
+    width: 49%;
+    padding-bottom: 20px;
+}
+
+#main-menu nav div.admissions div.des-sci a:hover,
+#main-menu nav div.admissions div.des-sci a:focus {
+    color: #0075bc;
+}
+/* - - - - - END - - - - - */
+
+
+
+/* - - - - - - -
+ KLD's customization
+ - - - - - - - - - */
+#main-menu {
+    position: relative;
+    z-index: 10;
+    height: 50px; /* Total height: 50px; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(97, 181, 218); /* #61b5da, 100% opaque*/
+    background-color: rgba(97, 181, 218, .8); /* #61b5da, 80% opaque*/
+}
+
+/* - - - - - - - - - - ISD customizations to Universal Mega Menu - - - - - - - - - */
+#main-menu .container {
+    /*float: left;*/
+    margin-top: 0;
+    background-image: none;
+    background-color: transparent;
+    height: 50px;
+    z-index: 20;
+ }
+
+
+/*  Changes to Mobile by WTW Design Group   */
+    div.menu-button,
+    div.menu-button_active {
+        background-color: transparent;
+        padding-top: 15px;
+        height: 35px; /* 50px - 15px padding */
+        text-shadow: none;
+        /*text-decoration: underline;*/
+        font-weight: bold;
+        text-indent: -500px;
+        background: transparent url(https://confluence.engin.umich.edu/download/attachments/21103180/menu-icon-white-20x20.png) 13px 50% no-repeat;
+    }
+
+    nav.mainmenu.twelve  {
+      width: 100%;
+
+      /*div.menu-button {
+        width: 25%;
+      }*/
+      & > li {
+        /*width: 100%;*/
+
+        li  {
+         /* width: 100%;*/
+          -webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,.5);
+          box-shadow: 0 2px 2px 2px rgba(0,0,0,.5);
+
+          &.about {
+            background-color: rgba(19, 71, 145, 1);
+          }
+          &.admissions {
+              background-color: rgba(108, 32, 126, 1);
+          }   
+          &.degrees {
+              background-color: rgba(213, 159, 13, 1);
+          }    
+          &.certificates {
+              background-color: rgba(86, 160, 211, 1);
+          }    
+          &.programs {
+              background-color: rgba(176, 188, 34, 1);
+          }
+          &.people {
+              background-color: rgba(145, 145, 149, 1);
+          }
+        }
+      }
+    }
+
+
+
+// DESKTOP (flexnav is mobile first so @media is for desktop)
+@media all and (min-width: 800px) {
+  nav.mainmenu  {
+    /*position: relative;
+    float: left;*/
+    margin-top: 0;
+    background-color: rgb(97, 181, 218); /* #61b5da, 100% opaque*/
+    background-color: rgba(97, 181, 218, .8); /* #61b5da, 80% opaque*/
+    height: 50px;
+    z-index: 20;
+    .homepage & {
+        position: absolute;
+        float: none;
+        left: 0px;
+        top: 80px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      -ms-transition: none;
+      transition: none;
+    }
+// first level 
+    ul.flexnav {
+      .touch-button {
+        display: none;
+      }
+      & > li {
+        /*width: inherit;*/
+        height: 50px; /* Total height: 50px; alternate: 28px; */
+        float: left;
+        display: block;
+        position: none;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        list-style: none;
+        & > a {
+          display: block;
+          height: 28px; /* Total height: 50px; alternate: 28px; */
+          padding: 16px 10px 6px;
+          border: none;
+          font: bold 85% 'Open Sans', sans-serif;
+          text-align: center;
+          text-shadow: none;
+          font-size: 100%;
+          color: #fff;
+          &:hover,
+          &:focus {
+            text-decoration: none;
+          }
+        }
+      } 
+    }    
+    ul.flexnav > li.about {
+      & > a   {
+        background-color: rgb(19, 71, 145);
+        background-color: rgba(19, 71, 145, .7);
+        color: #fff;
+      }  
+      h3,
+      h3 > a  {
+        color: rgb(19, 71, 145);
+      }
+      &:hover,
+      &:hover > a
+      {
+        background-color: #fff;
+        color: rgb(19, 71, 145);
+      }
+      & > a:hover,
+      & > a:focus {
+        color: rgb(19, 71, 145);
+      }
+    }    
+    ul.flexnav > li.admissions {
+      & > a   {
+        background-color: rgb(108, 32, 126);
+        background-color: rgba(108, 32, 126, .7);
+      }
+      h3,
+      h3 > a   {
+        color: rgb(108, 32, 126);
+      }
+      &:hover,
+      &:hover > a {
+        background-color: #fff;
+        color: rgb(108, 32, 126);
+      }
+      &.active a,
+      & > a:hover,
+      & > a:focus {
+        color: rgb(108, 32, 126);
+      }
+    }    
+    ul.flexnav > li.degrees {
+      & > a   {
+        background-color: rgb(213, 159, 13);
+        background-color: rgba(213, 159, 13, .9);
+      }
+      h3,
+      h3 > a  {
+        color: rgb(213, 159, 13);
+      }
+      &:hover,
+      &:hover > a {
+        background-color: #fff;
+        color: rgb(213, 159, 13);
+      }
+      & > a:hover,
+      & > a:focus {
+        color: rgb(213, 159, 13);
+      }
+    }    
+    ul.flexnav > li.certificates {
+      & > a   {
+        background-color: rgb(86, 160, 211);
+        background-color: rgba(86, 160, 211, .7);
+      }
+      h3,
+      h3 > a   {
+        color: rgb(86, 160, 211);
+      }
+      &:hover,
+      &:hover > a {
+        background-color: #fff;
+        color: rgb(86, 160, 211);
+      }
+
+      & > a:hover,
+      & > a:focus {
+        color: rgb(86, 160, 211);
+      }
+    }    
+    ul.flexnav > li.programs {
+      & > a   {
+        background-color: rgb(176, 188, 34);
+        background-color: rgba(176, 188, 34, .7);
+      }
+      h3,
+      h3 > a    {
+        color: rgb(176, 188, 34);
+      }
+      &:hover,
+      &:hover > a {
+        background-color: #fff;
+        color: rgb(176, 188, 34);
+      }
+      & > a:hover,
+      & > a:focus {
+        color: rgb(176, 188, 34);
+      }
+    }
+    ul.flexnav > li.careers {
+      & > a   {
+        background-color: rgb(184, 110, 35); /*#b86e23, 70% opaque*/
+        background-color: rgba(184, 110, 35, .7);
+      }    
+      h3,
+      h3 > a   {
+        color: rgb(184, 110, 35);
+      }
+      &:hover,
+      &:hover > a  {
+        background-color: #fff;
+        color: rgb(184, 110, 35);
+      }
+      & > a:hover,
+      & > a:focus {
+        color: rgb(184, 110, 35);
+      }
+    }
+    ul.flexnav > li.people {
+      & > a   {
+        background-color: rgb(145, 145, 149);
+        background-color: rgba(145, 145, 149, .7);
+        color: #fff;        
+      }
+      h3,
+      h3 > a   {
+        color: rgb(145, 145, 149);
+      }
+      &:hover,
+      &:hover > a{
+        background-color: #fff;
+        color: rgb(145, 145, 149);
+      }
+      & > a:hover,
+      & > a:focus {
+        color: rgb(145, 145, 149);
+      }
+    }
+
+// second level  
+
+
+    
+
+  } 
+}
+/* - - - - - END - - - - - */
+
+
+    
