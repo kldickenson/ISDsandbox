@@ -3,6 +3,10 @@
 /* For "We want to hear from you!" Footer */
 .send-message-form {
 
+	header img {
+		margin-bottom: 20px;
+	}
+
 	section {
 		padding: 0 5%;
 		width: 90%;
@@ -25,6 +29,7 @@
 
 	input[name=submit] {
 		margin-bottom: 10px;
+		font-weight: bold;
 	}
 
 	footer {
@@ -38,11 +43,11 @@
 
 	    h2 {
 	    	text-align: center;
-	    	font-size: 24px;
+	    	font-size: 23px;
 	    	//font-weight: normal;
 	    } 
 	    .contact-info {
-	    	margin: 10px 0;
+	    	margin:10px 0;
 
 	        li {
 	        	display: inline-block;
@@ -59,7 +64,7 @@
 	        a {
 	        	display: block;
 	            height: 20px;
-	            padding: 45px 0 0 0;
+	            padding: 40px 0 0 0;
 	            text-align: center;
 	            text-decoration: none;
 	            color: #fff;
