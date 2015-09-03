@@ -4,12 +4,16 @@
   padding: 0 5%;
   width: 90%; }
 .send-message-form h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600; }
 .send-message-form input {
-  height: 24px;
-  /* full height: 26px; */
-  margin: 5px 0; }
+  height: 26px;
+  /* full height: 28px; */
+  margin: 5px 0;
+  font-weight: normal; }
+.send-message-form textarea {
+  margin: 5px 0;
+  font-weight: normal; }
 .send-message-form input[name=submit] {
   margin-bottom: 10px; }
 .send-message-form footer {
@@ -22,7 +26,7 @@
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); }
   .send-message-form footer h2 {
     text-align: center;
-    font-size: 22px; }
+    font-size: 24px; }
   .send-message-form footer .contact-info {
     margin: 10px 0; }
     .send-message-form footer .contact-info li {

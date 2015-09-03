@@ -9,13 +9,18 @@
 	}
 
 	h2 {
-		font-size: 24px;
+		font-size: 26px;
 		font-weight: 600;
 	}
 
 	input {
-		height: 24px; /* full height: 26px; */
+		height: 26px; /* full height: 28px; */
 		margin: 5px 0;
+		font-weight: normal;
+	}
+	textarea {
+		margin: 5px 0;
+		font-weight: normal;
 	}
 
 	input[name=submit] {
@@ -33,7 +38,7 @@
 
 	    h2 {
 	    	text-align: center;
-	    	font-size: 22px;
+	    	font-size: 24px;
 	    	//font-weight: normal;
 	    } 
 	    .contact-info {
