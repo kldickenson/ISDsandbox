@@ -1375,7 +1375,7 @@ div.sb-message a:link, div.sb-message a:visited {
     margin-bottom: 0; }
     div.accordion-section-content columns {
       width: 100%; } }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .mobile-title {
     display: none; } }
 /* Specific to course-description tabs */
