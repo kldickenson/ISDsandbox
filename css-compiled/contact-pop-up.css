@@ -4,45 +4,51 @@
   padding: 0 5%;
   width: 90%; }
 .send-message-form h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600; }
+.send-message-form input {
+  height: 24px;
+  /* full height: 26px; */
+  margin: 5px 0; }
 .send-message-form input[name=submit] {
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
 .send-message-form footer {
   clear: both;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1.5px solid rgba(1, 1, 1, 0.3);
   -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
   -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); }
   .send-message-form footer h2 {
     text-align: center;
-    font-size: 24px; }
-  .send-message-form footer .contact-info li {
-    display: inline-block;
-    width: 40%;
-    margin: 10px;
-    border-right: 1.5px solid rgba(255, 255, 255, 0.1);
-    box-shadow: inset -1px 0 0 0 rgba(1, 1, 1, 0.3);
-    list-style: none; }
-    .send-message-form footer .contact-info li:last-child {
-      border: none;
-      box-shadow: none; }
-  .send-message-form footer .contact-info a {
-    display: block;
-    height: 20px;
-    padding: 45px 0 0 0;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font: normal 1.1em 'Open Sans', sans-serif;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
-    background-size: 36px 36px; }
-    .send-message-form footer .contact-info a.phone {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
-    .send-message-form footer .contact-info a.email {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png); }
+    font-size: 22px; }
+  .send-message-form footer .contact-info {
+    margin: 10px 0; }
+    .send-message-form footer .contact-info li {
+      display: inline-block;
+      width: 40%;
+      margin: 10px;
+      border-right: 1.5px solid rgba(255, 255, 255, 0.1);
+      box-shadow: inset -1px 0 0 0 rgba(1, 1, 1, 0.3);
+      list-style: none; }
+      .send-message-form footer .contact-info li:last-child {
+        border: none;
+        box-shadow: none; }
+    .send-message-form footer .contact-info a {
+      display: block;
+      height: 20px;
+      padding: 45px 0 0 0;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font: normal 1.1em 'Open Sans', sans-serif;
+      background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+      background-size: 36px 36px; }
+      .send-message-form footer .contact-info a.phone {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
+      .send-message-form footer .contact-info a.email {
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-email.png); }
 
 /* For mobile view ONLY */
 @media all and (max-width: 449px) {
@@ -50,7 +56,7 @@
     padding: 0 5%;
     width: 90%; }
   .send-message-form h2.white, .send-message-form h2.yellow {
-    font-size: 26px;
+    font-size: 22px;
     text-align: center; }
   .send-message-form input, .send-message-form textarea {
     width: 100%; }
@@ -59,7 +65,7 @@
     width: 40%;
     margin: 10px 0 10px 30%; }
   .send-message-form footer h2.white {
-    font-size: 22px; }
+    font-size: 20px; }
   .send-message-form footer .contact-info a {
     font-size: 13px; } }
 
