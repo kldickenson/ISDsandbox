@@ -160,4 +160,17 @@ div.sb-message a:link, div.sb-message a:visited {
   color: #fff;
   text-decoration: underline; }
 
+/* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
+/* For mobile view ONLY */
+@media all and (max-width: 765px) {
+  #sb-wrapper {
+    left: 5% !important;
+    top: 5% !important;
+    height: 90% !important;
+    width: 90% !important; }
+
+  #sb-wrapper-inner {
+    height: 90%;
+    max-height: 700px !important; } }
+
 /*# sourceMappingURL=shadowbox-mobile.css.map */
