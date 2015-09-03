@@ -163,6 +163,8 @@
 }
 
 // REMOVED MEDIA QUERY TO HIDE .mobile-title as now using accordions on full width
-//	.mobile-title {
-//		display: none;
-//	}
+@media (max-width: 767px) {
+	.mobile-title {
+		display: none;
+	}	
+}
