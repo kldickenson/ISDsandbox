@@ -164,7 +164,6 @@ div.sb-message a:link, div.sb-message a:visited {
 /* For mobile view ONLY */
 @media all and (max-width: 1199px) {
   #sb-wrapper {
-    left: 5% !important;
     top: 5% !important;
     height: 90% !important;
     width: 90% !important;
