@@ -17,7 +17,7 @@
     width: 100%;
     height: 80px; /* header + main-menu + slider = 80+50+260=390 minus 300 padding  */
     padding-top: 310px;
-    background: #fff url(../../images/slider-bg-blue.gif) 50% bottom repeat-x;
+    background: #fff url("//confluence.engin.umich.edu/download/attachments/30508410/slider-bg-blue.gif") 50% bottom repeat-x;
 }
 
 #slider .slide.first {
@@ -268,11 +268,11 @@ ul.flex-direction-nav {
 .flex-direction-nav li a {
     width: 8px;
     height: 8px;
-    background: transparent url(http://isd.engin.umich.edu/images/slider-indicator.gif) 50% 50% no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator.gif") 50% 50% no-repeat;
 }
 
 .flex-direction-nav li a.current {
-    background: transparent url(http://isd.engin.umich.edu/images/slider-indicator-current.gif) 50% 50% no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator-current.gif") 50% 50% no-repeat;
 }
 
 .flex-direction-nav .flex-caption {

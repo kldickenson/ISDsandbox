@@ -2,7 +2,7 @@
     margin: 0;
     padding-top: 25px;
     padding-bottom: 10px;
-    background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x;
+    background: #5c5c5c url("//confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif") left top repeat-x;
     font: bold .8em 'Open Sans', sans-serif;
 
     ul {
@@ -43,16 +43,16 @@
             height: 40px;
             padding-top: 25px;
             font-weight: bold;
-            background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat;
+            background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png") 50% 0 no-repeat;
 
             &.phone {
-                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png);
+                background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png");
             }
             &.map {
-                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png);
+                background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png");
             }
             &.contact {
-                background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png);
+                background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png");
             }
         }
     }

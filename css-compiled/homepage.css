@@ -71,7 +71,7 @@
   height: 80px;
   /* header + main-menu + slider = 80+50+260=390 minus 300 padding  */
   padding-top: 310px;
-  background: #fff url(../../images/slider-bg-blue.gif) 50% bottom repeat-x; }
+  background: #fff url("//confluence.engin.umich.edu/download/attachments/30508410/slider-bg-blue.gif") 50% bottom repeat-x; }
 
 #slider .slide.first {
   /*background: #fff url(../../images/) 50% bottom no-repeat;
@@ -281,10 +281,10 @@ ul.flex-direction-nav {
 .flex-direction-nav li a {
   width: 8px;
   height: 8px;
-  background: transparent url(http://isd.engin.umich.edu/images/slider-indicator.gif) 50% 50% no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator.gif") 50% 50% no-repeat; }
 
 .flex-direction-nav li a.current {
-  background: transparent url(http://isd.engin.umich.edu/images/slider-indicator-current.gif) 50% 50% no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator-current.gif") 50% 50% no-repeat; }
 
 .flex-direction-nav .flex-caption {
   background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0; }
@@ -298,7 +298,7 @@ ul.flex-direction-nav {
   padding-top: 30px;
   padding-bottom: 1px;
   margin-bottom: 0;
-  background: #f3f2f1 url(../../images/ISD-video-ribbons.png) 25% -30px no-repeat;
+  background: #f3f2f1 url("//confluence.engin.umich.edu/download/attachments/30508410/ISD-video-ribbons.png") 25% -30px no-repeat;
   margin-top: 330px; }
 
 #ribbon h3 {
@@ -367,19 +367,19 @@ ul.flex-direction-nav {
   /* Total height: 280px; */
   padding-top: 30px;
   /* need this for homepage WITHOUT #ribbon */
-  background: #f3f2f1 url(https://confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif) repeat-x scroll left top; }
+  background: #f3f2f1 url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") repeat-x scroll left top; }
 
 #action .mini-feature {
   height: 180px;
   margin-bottom: 15px;
   margin-right: 20px;
   /*border: #fff solid 5px;*/
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/mini-feature-background.jpg) left top no-repeat;
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/mini-feature-background.jpg") left top no-repeat;
   /*32113: ../images/lean-pd-mini-feature.jpg*/ }
 
 #action .mini-feature .overlay {
   height: 140px;
-  /*background: url(https://confluence.engin.umich.edu/download/attachments/30508410/mini-feature-overlay.png) 50% 50% no-repeat;*/ }
+  /*background: url(//confluence.engin.umich.edu/download/attachments/30508410/mini-feature-overlay.png) 50% 50% no-repeat;*/ }
 
 #action h3 {
   padding-top: 13px;
@@ -476,43 +476,43 @@ ul.flex-direction-nav {
 
 #action .buttons a.actions.first {
   /* programs of study */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-off.gif") left top repeat; }
 
 #action .buttons a.actions.first:hover,
 #action .buttons a.actions.first:focus {
   /* programs of study */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-hover.gif") left top repeat; }
 
 #action .buttons a.actions.second {
   /* get started */
   margin-right: 0;
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-off.gif") left top repeat; }
 
 #action .buttons a.actions.second:hover,
 #action .buttons a.actions.second:focus {
   /* get started */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-hover.gif") left top repeat; }
 
 #action .buttons a.actions.third {
   /* events */
   /*margin-bottom: 0;*/
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-off.gif") left top repeat; }
 
 #action .buttons a.actions.third:hover,
 #action .buttons a.actions.third:focus {
   /* events */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-hover.gif") left top repeat; }
 
 #action .buttons a.actions.fourth {
   /* upcoming programs */
   margin-right: 0;
   margin-bottom: 0;
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-off.gif") left top repeat; }
 
 #action .buttons a.actions.fourth:hover,
 #action .buttons a.actions.fourth:focus {
   /* upcoming programs */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-hover.gif") left top repeat; }
 
 #action .tagline {
   padding-top: 15px;
@@ -530,7 +530,7 @@ ul.flex-direction-nav {
   /* Total height: 180px; */
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #ffe466 url(../../images/branding-ribbon-bg.gif) left top repeat-x; }
+  background: #ffe466 url("//confluence.engin.umich.edu/download/attachments/30508410/branding-ribbon-bg.gif") left top repeat-x; }
 
 #teasers .teasers {
   margin-left: 0;

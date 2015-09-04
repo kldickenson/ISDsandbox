@@ -36,7 +36,7 @@ a.download {
   height: 30px;
   /* TOTAL height: 85px; */
   padding-top: 55px;
-  background: transparent url(../../images/icon-download.png) 50% top no-repeat;
+  background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-download.png) 50% top no-repeat;
   text-transform: uppercase;
   font-size: .6em;
   color: #176eb5; }
@@ -52,7 +52,7 @@ p.intro {
   min-height: 5px;
   padding-bottom: 5px;
   margin-bottom: 25px;
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif) left bottom repeat-x; }
 
 p.no-space {
   margin-bottom: 0; }
@@ -363,7 +363,7 @@ tfoot td {
   /*height: 150px;*/
   margin: 0;
   padding: 0;
-  background: #a6bee0 url(../../images/title-ribbon-bg.jpg) 50% 50% no-repeat;
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
   z-index: 10; }
 
 #page-banner.img-embed {
@@ -443,7 +443,7 @@ h2.page-title span {
   margin: 0;
   padding-top: 25px;
   padding-bottom: 10px;
-  background: #5c5c5c url(https://confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif) left top repeat-x;
+  background: #5c5c5c url("//confluence.engin.umich.edu/download/attachments/30508410/footer-ribbon-bg.gif") left top repeat-x;
   font: bold .8em 'Open Sans', sans-serif; }
   #footer ul li {
     display: inline-block;
@@ -468,13 +468,13 @@ h2.page-title span {
     height: 40px;
     padding-top: 25px;
     font-weight: bold;
-    background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png) 50% 0 no-repeat; }
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png") 50% 0 no-repeat; }
     #footer .contact-info a.phone {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png); }
+      background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-phone.png"); }
     #footer .contact-info a.map {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png); }
+      background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-map-location.png"); }
     #footer .contact-info a.contact {
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png); }
+      background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-contact.png"); }
   #footer .um-logo {
     display: block;
     width: 300px;
@@ -548,7 +548,7 @@ h2.page-title span {
   /*border-bottom: 1.5px solid #FCFCFC;
   -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
   box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 #breadcrumbs a {
   text-decoration: none;
@@ -565,14 +565,14 @@ h2.page-title span {
   padding-top: 4px; }
 
 #breadcrumbs .social-media li a#print-page {
-  background: transparent url(../../images/icon-print.png) left 1px no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
 
 #breadcrumbs .social-media li a#print-page span {
   display: block;
   text-indent: -9999px; }
 
 #breadcrumbs .social-media li a#interC {
-  background: transparent url("../../images/icon_info.png") left 1px no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
 
 #breadcrumbs .social-media li a#interC span {
   display: block;
@@ -607,40 +607,6 @@ h2.page-title span {
 @media only screen and (max-width: 767px) {
   #breadcrumbs {
     display: none; } }
-/* - - - - - - - - Footer Social Media - - - - - - - - */
-.social-media {
-  float: left; }
-
-.social-media li {
-  float: left; }
-
-.social-media li a {
-  display: block;
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  background: url(../../images/icon-facebook.png) 50% 50% no-repeat;
-  transition: none; }
-
-.social-media li a:hover,
-.social-media li a:focus {
-  transition: none; }
-
-.social-media li a.social_twitter {
-  background: url(../../images/icon-twitter.png) 50% 50% no-repeat; }
-
-.social-media li a.social_linkedin {
-  background: url(../../images/icon-linkedin.png) 50% 50% no-repeat; }
-
-.social-media li a.social_youtube {
-  background: url(../../images/icon-youtube.png) 50% 50% no-repeat; }
-
-.social-media li a.social_rss {
-  background: url(../../images/icon-rss.png) 50% 50% no-repeat; }
-
-.social-media li div {
-  display: none; }
-
 /* - - - - - - #sidebar - - - - - - */
 #sidebar, .columns.sidebar {
   margin-top: 20px;
@@ -1109,7 +1075,7 @@ NEW:
   text-align: center; }
 
 #sb-loading-inner span {
-  background: url(../images/shadowbox/loading.gif) no-repeat;
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/loading.gif") no-repeat;
   padding-left: 34px;
   display: inline-block; }
 
@@ -1125,7 +1091,7 @@ NEW:
   margin-top: -12px;
   width: 100%;
   text-align: center;
-  background: #58585A url(../images/shadowbox/loading.gif) no-repeat;
+  background: #58585A url("//confluence.engin.umich.edu/download/attachments/30508410/loading.gif") no-repeat;
   padding-left: 34px;
   display: inline-block; }
 
@@ -1170,21 +1136,25 @@ NEW:
   cursor: pointer;
   background-repeat: no-repeat; }
 
-#sb-nav-close {
-  background-image: url(../images/shadowbox/close.png); }
+/*#sb-nav-close {
+    background-image: url(../images/shadowbox/close.png);
+}
 
 #sb-nav-next {
-  background-image: url(../images/shadowbox/next.png); }
+    background-image: url(../images/shadowbox/next.png);
+}
 
 #sb-nav-previous {
-  background-image: url(../images/shadowbox/previous.png); }
+    background-image: url(../images/shadowbox/previous.png);
+}
 
 #sb-nav-play {
-  background-image: url(../images/shadowbox/play.png); }
+    background-image: url(../images/shadowbox/play.png);
+}
 
 #sb-nav-pause {
-  background-image: url(../images/shadowbox/pause.png); }
-
+    background-image: url(../images/shadowbox/pause.png);
+}*/
 #sb-counter {
   float: left;
   width: 45%; }
@@ -1262,15 +1232,15 @@ div.sb-message a:link, div.sb-message a:visited {
       margin-bottom: 5px;
       padding-bottom: 10px;
       padding-left: 40px;
-      background: url("https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png") left top no-repeat; }
+      background: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png") left top no-repeat; }
       #agenda p.icon.networking {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png"); }
       #agenda p.icon.downtown {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/town-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/town-icon.png"); }
       #agenda p.icon.dining {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png"); }
       #agenda p.icon.airport {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png"); }
   #agenda .disc {
     margin-bottom: 10px; }
     #agenda .disc li {
@@ -2732,7 +2702,7 @@ div.boxed {
 .calendar .event,
 .calendar .event .eleven.columns {
   width: 620px;
-  background: #FFF url(../../images/rule-embossed.gif) left bottom repeat-x;
+  background: #FFF url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
   padding: 10px;
   float: none;
   display: block; }
@@ -2793,13 +2763,13 @@ div.boxed {
   width: 70px;
   min-height: 30px;
   padding: 20px 5px 0 5px;
-  background: transparent url(../../images/icon-register-orange.png) 50% top no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-register-orange.png") 50% top no-repeat; }
 
 .calendar .event .sold-out {
   min-height: 30px;
   width: 70px;
   padding: 20px 5px 0 5px;
-  background: transparent url(../../images/icon-soldout.png) 50% top no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-soldout.png") 50% top no-repeat;
   font-size: .7em;
   text-transform: uppercase;
   text-align: center;
@@ -2880,14 +2850,14 @@ div.boxed {
 
 #grad-menu {
   width: 100%;
-  background: transparent url(../../images/rule-embossed.gif) left top repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left top repeat-x; }
 
 #grad-menu li {
   /*list-style-position: inside;
   list-style-image: url(../../images/icon-menuarrow-resting.png);*/
   padding: 10px 0 10px 20px;
   margin-bottom: 0;
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 #grad-menu li:hover,
 #grad-menu li.current {
@@ -2896,14 +2866,14 @@ div.boxed {
 #grad-menu a {
   display: block;
   padding: 5px 10px 5px 25px;
-  background: transparent url(../../images/icon-menuarrow-resting.png) 5px 50% no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-resting.png") 5px 50% no-repeat;
   color: #6d6e70;
   text-decoration: none; }
 
 #grad-menu a:hover,
 #grad-menu a:focus,
 #grad-menu li.current a {
-  background: transparent url(../../images/icon-menuarrow-active.png) 5px 50% no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-active.png") 5px 50% no-repeat;
   color: #1f6db4;
   background-color: #fff; }
 
@@ -3008,7 +2978,7 @@ div.boxed {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url(../../images/title-ribbon-bg.jpg) 50% 50% no-repeat;
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
   height: 100px; }
 
 .pro.landing #page-banner {
@@ -3098,7 +3068,7 @@ div.directory .row {
   min-height: 5px;
   padding-bottom: 5px;
   margin-bottom: 25px;
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 @media only screen and (max-width: 767px) {
   /* People pages specific */
@@ -3179,7 +3149,7 @@ ul.alpha-in-page li a {
   height: 80px;
   /* header + main-menu + slider = 80+50+260=390 minus 300 padding  */
   padding-top: 310px;
-  background: #fff url(../../images/slider-bg-blue.gif) 50% bottom repeat-x; }
+  background: #fff url("//confluence.engin.umich.edu/download/attachments/30508410/slider-bg-blue.gif") 50% bottom repeat-x; }
 
 #slider .slide.first {
   /*background: #fff url(../../images/) 50% bottom no-repeat;
@@ -3389,10 +3359,10 @@ ul.flex-direction-nav {
 .flex-direction-nav li a {
   width: 8px;
   height: 8px;
-  background: transparent url(http://isd.engin.umich.edu/images/slider-indicator.gif) 50% 50% no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator.gif") 50% 50% no-repeat; }
 
 .flex-direction-nav li a.current {
-  background: transparent url(http://isd.engin.umich.edu/images/slider-indicator-current.gif) 50% 50% no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/slider-indicator-current.gif") 50% 50% no-repeat; }
 
 .flex-direction-nav .flex-caption {
   background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0; }
@@ -3406,7 +3376,7 @@ ul.flex-direction-nav {
   padding-top: 30px;
   padding-bottom: 1px;
   margin-bottom: 0;
-  background: #f3f2f1 url(../../images/ISD-video-ribbons.png) 25% -30px no-repeat;
+  background: #f3f2f1 url("//confluence.engin.umich.edu/download/attachments/30508410/ISD-video-ribbons.png") 25% -30px no-repeat;
   margin-top: 330px; }
 
 #ribbon h3 {
@@ -3475,19 +3445,19 @@ ul.flex-direction-nav {
   /* Total height: 280px; */
   padding-top: 30px;
   /* need this for homepage WITHOUT #ribbon */
-  background: #f3f2f1 url(https://confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif) repeat-x scroll left top; }
+  background: #f3f2f1 url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") repeat-x scroll left top; }
 
 #action .mini-feature {
   height: 180px;
   margin-bottom: 15px;
   margin-right: 20px;
   /*border: #fff solid 5px;*/
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/mini-feature-background.jpg) left top no-repeat;
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/mini-feature-background.jpg") left top no-repeat;
   /*32113: ../images/lean-pd-mini-feature.jpg*/ }
 
 #action .mini-feature .overlay {
   height: 140px;
-  /*background: url(https://confluence.engin.umich.edu/download/attachments/30508410/mini-feature-overlay.png) 50% 50% no-repeat;*/ }
+  /*background: url(//confluence.engin.umich.edu/download/attachments/30508410/mini-feature-overlay.png) 50% 50% no-repeat;*/ }
 
 #action h3 {
   padding-top: 13px;
@@ -3584,43 +3554,43 @@ ul.flex-direction-nav {
 
 #action .buttons a.actions.first {
   /* programs of study */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-off.gif") left top repeat; }
 
 #action .buttons a.actions.first:hover,
 #action .buttons a.actions.first:focus {
   /* programs of study */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-programs-hover.gif") left top repeat; }
 
 #action .buttons a.actions.second {
   /* get started */
   margin-right: 0;
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-off.gif") left top repeat; }
 
 #action .buttons a.actions.second:hover,
 #action .buttons a.actions.second:focus {
   /* get started */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-getstarted-hover.gif") left top repeat; }
 
 #action .buttons a.actions.third {
   /* events */
   /*margin-bottom: 0;*/
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-off.gif") left top repeat; }
 
 #action .buttons a.actions.third:hover,
 #action .buttons a.actions.third:focus {
   /* events */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-events-hover.gif") left top repeat; }
 
 #action .buttons a.actions.fourth {
   /* upcoming programs */
   margin-right: 0;
   margin-bottom: 0;
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-off.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-off.gif") left top repeat; }
 
 #action .buttons a.actions.fourth:hover,
 #action .buttons a.actions.fourth:focus {
   /* upcoming programs */
-  background: url(https://confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-hover.gif) left top repeat; }
+  background: url("//confluence.engin.umich.edu/download/attachments/30508410/button-bg-upcoming-hover.gif") left top repeat; }
 
 #action .tagline {
   padding-top: 15px;
@@ -3638,7 +3608,7 @@ ul.flex-direction-nav {
   /* Total height: 180px; */
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #ffe466 url(../../images/branding-ribbon-bg.gif) left top repeat-x; }
+  background: #ffe466 url("//confluence.engin.umich.edu/download/attachments/30508410/branding-ribbon-bg.gif") left top repeat-x; }
 
 #teasers .teasers {
   margin-left: 0;

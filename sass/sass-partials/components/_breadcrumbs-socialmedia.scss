@@ -9,7 +9,7 @@
     /*border-bottom: 1.5px solid #FCFCFC;
     -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
     box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
-    background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
 }
 
 #breadcrumbs a {
@@ -30,7 +30,7 @@
 }
 
 #breadcrumbs .social-media li a#print-page {
-    background: transparent url(../../images/icon-print.png) left 1px no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat;
 }
 
 #breadcrumbs .social-media li a#print-page span {
@@ -39,7 +39,7 @@
 }
 
 #breadcrumbs .social-media li a#interC {
-    background: transparent url("../../images/icon_info.png") left 1px no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat;
 }
 
 #breadcrumbs .social-media li a#interC span {
@@ -80,48 +80,4 @@
     #breadcrumbs  {
         display: none;
     }
-}
-
-/* - - - - - - - - Footer Social Media - - - - - - - - */
-
-.social-media {
-    float: left;
-}
-
-.social-media li {
-    float: left;
-}
-
-.social-media li a {
-    display: block;
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-    background: url(../../images/icon-facebook.png) 50% 50% no-repeat;
-    transition: none;
-}
-
-.social-media li a:hover,
-.social-media li a:focus {
-    transition: none;
-}
-
-.social-media li a.social_twitter {
-    background: url(../../images/icon-twitter.png) 50% 50% no-repeat;
-}
-
-.social-media li a.social_linkedin {
-    background: url(../../images/icon-linkedin.png) 50% 50% no-repeat;
-}
-
-.social-media li a.social_youtube {
-    background: url(../../images/icon-youtube.png) 50% 50% no-repeat;
-}
-
-.social-media li a.social_rss {
-    background: url(../../images/icon-rss.png) 50% 50% no-repeat;
-}
-
-.social-media li div {
-    display: none;
 }

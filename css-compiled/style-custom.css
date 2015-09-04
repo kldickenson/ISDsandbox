@@ -11,7 +11,7 @@
   /*border-bottom: 1.5px solid #FCFCFC;
   -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
   box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 #breadcrumbs a {
   text-decoration: none;
@@ -28,14 +28,14 @@
   padding-top: 4px; }
 
 #breadcrumbs .social-media li a#print-page {
-  background: transparent url(../../images/icon-print.png) left 1px no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
 
 #breadcrumbs .social-media li a#print-page span {
   display: block;
   text-indent: -9999px; }
 
 #breadcrumbs .social-media li a#interC {
-  background: transparent url("../../images/icon_info.png") left 1px no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
 
 #breadcrumbs .social-media li a#interC span {
   display: block;
@@ -70,40 +70,6 @@
 @media only screen and (max-width: 767px) {
   #breadcrumbs {
     display: none; } }
-/* - - - - - - - - Footer Social Media - - - - - - - - */
-.social-media {
-  float: left; }
-
-.social-media li {
-  float: left; }
-
-.social-media li a {
-  display: block;
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  background: url(../../images/icon-facebook.png) 50% 50% no-repeat;
-  transition: none; }
-
-.social-media li a:hover,
-.social-media li a:focus {
-  transition: none; }
-
-.social-media li a.social_twitter {
-  background: url(../../images/icon-twitter.png) 50% 50% no-repeat; }
-
-.social-media li a.social_linkedin {
-  background: url(../../images/icon-linkedin.png) 50% 50% no-repeat; }
-
-.social-media li a.social_youtube {
-  background: url(../../images/icon-youtube.png) 50% 50% no-repeat; }
-
-.social-media li a.social_rss {
-  background: url(../../images/icon-rss.png) 50% 50% no-repeat; }
-
-.social-media li div {
-  display: none; }
-
 /* - - - - - - #sidebar - - - - - - */
 #sidebar, .columns.sidebar {
   margin-top: 20px;
@@ -563,15 +529,15 @@ NEW:
       margin-bottom: 5px;
       padding-bottom: 10px;
       padding-left: 40px;
-      background: url("https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png") left top no-repeat; }
+      background: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png") left top no-repeat; }
       #agenda p.icon.networking {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png"); }
       #agenda p.icon.downtown {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/town-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/town-icon.png"); }
       #agenda p.icon.dining {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png"); }
       #agenda p.icon.airport {
-        background-image: url("https://confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png"); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png"); }
   #agenda .disc {
     margin-bottom: 10px; }
     #agenda .disc li {
@@ -1218,7 +1184,7 @@ div.accordion-section-content {
 .calendar .event,
 .calendar .event .eleven.columns {
   width: 620px;
-  background: #FFF url(../../images/rule-embossed.gif) left bottom repeat-x;
+  background: #FFF url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
   padding: 10px;
   float: none;
   display: block; }
@@ -1279,13 +1245,13 @@ div.accordion-section-content {
   width: 70px;
   min-height: 30px;
   padding: 20px 5px 0 5px;
-  background: transparent url(../../images/icon-register-orange.png) 50% top no-repeat; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-register-orange.png") 50% top no-repeat; }
 
 .calendar .event .sold-out {
   min-height: 30px;
   width: 70px;
   padding: 20px 5px 0 5px;
-  background: transparent url(../../images/icon-soldout.png) 50% top no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-soldout.png") 50% top no-repeat;
   font-size: .7em;
   text-transform: uppercase;
   text-align: center;
@@ -1366,14 +1332,14 @@ div.accordion-section-content {
 
 #grad-menu {
   width: 100%;
-  background: transparent url(../../images/rule-embossed.gif) left top repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left top repeat-x; }
 
 #grad-menu li {
   /*list-style-position: inside;
   list-style-image: url(../../images/icon-menuarrow-resting.png);*/
   padding: 10px 0 10px 20px;
   margin-bottom: 0;
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 #grad-menu li:hover,
 #grad-menu li.current {
@@ -1382,14 +1348,14 @@ div.accordion-section-content {
 #grad-menu a {
   display: block;
   padding: 5px 10px 5px 25px;
-  background: transparent url(../../images/icon-menuarrow-resting.png) 5px 50% no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-resting.png") 5px 50% no-repeat;
   color: #6d6e70;
   text-decoration: none; }
 
 #grad-menu a:hover,
 #grad-menu a:focus,
 #grad-menu li.current a {
-  background: transparent url(../../images/icon-menuarrow-active.png) 5px 50% no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-active.png") 5px 50% no-repeat;
   color: #1f6db4;
   background-color: #fff; }
 
@@ -1494,7 +1460,7 @@ div.accordion-section-content {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url(../../images/title-ribbon-bg.jpg) 50% 50% no-repeat;
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
   height: 100px; }
 
 .pro.landing #page-banner {
@@ -1584,7 +1550,7 @@ div.directory .row {
   min-height: 5px;
   padding-bottom: 5px;
   margin-bottom: 25px;
-  background: transparent url(../../images/rule-embossed.gif) left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
 
 @media only screen and (max-width: 767px) {
   /* People pages specific */

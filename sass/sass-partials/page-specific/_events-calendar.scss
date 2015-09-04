@@ -64,7 +64,7 @@
 .calendar .event,
 .calendar .event .eleven.columns {
     width: 620px;
-    background: #FFF url(../../images/rule-embossed.gif) left bottom repeat-x;
+    background: #FFF url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
     padding: 10px;
     float: none;
     display: block;
@@ -136,14 +136,14 @@
     width: 70px;
     min-height: 30px;
     padding: 20px 5px 0 5px;
-    background: transparent url(../../images/icon-register-orange.png) 50% top no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-register-orange.png") 50% top no-repeat;
 }
 
 .calendar .event .sold-out {
     min-height: 30px;
     width: 70px;
     padding: 20px 5px 0 5px;
-    background: transparent url(../../images/icon-soldout.png) 50% top no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-soldout.png") 50% top no-repeat;
     font-size: .7em;
     text-transform: uppercase;
     text-align: center;

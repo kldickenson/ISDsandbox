@@ -39,19 +39,19 @@
 			margin-bottom: 5px; 
 			padding-bottom: 10px; 
 			padding-left: 40px; 
-			background: url('https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png') left top no-repeat;
+			background: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png") left top no-repeat;
 		
 			&.networking {
-				background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/network-icon.png');
+				background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/network-icon.png");
 			}
 			&.downtown {
-				background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/town-icon.png');
+				background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/town-icon.png")
 			}
 			&.dining {
-				background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png'); 
+				background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/dine-icon.png"); 
 			}
 			&.airport {
-				background-image: url('https://confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png');
+				background-image: url("//confluence.engin.umich.edu/download/attachments/21103180/flight-icon.png");
 			}
 		}		 
 	}
