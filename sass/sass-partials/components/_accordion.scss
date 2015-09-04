@@ -47,7 +47,7 @@
 
 /* Cannot remove media queries until accordion.js is fixed */
 
-@media all and (max-width: 765px) {
+//@media all and (max-width: 765px) {
 
 	/*----- Accordion -----*/
 	.mobile-accordion, .mobile-accordion * {
@@ -160,11 +160,11 @@
 			width: 100%;
 		}
 	}
-}
+//}
 
 // REMOVED MEDIA QUERY TO HIDE .mobile-title as now using accordions on full width
-@media (min-width: 767px) {
-	.mobile-title {
+//@media (min-width: 767px) {
+	/*.mobile-title {
 		display: none;
-	}	
-}
+	}*/	
+//}
