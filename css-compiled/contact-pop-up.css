@@ -20,7 +20,9 @@
   font-weight: normal; }
 .send-message-form input[name=submit] {
   margin-bottom: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative;
+  right: -8px; }
 .send-message-form footer {
   clear: both;
   margin-top: 10px;

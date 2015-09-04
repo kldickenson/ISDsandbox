@@ -32,6 +32,8 @@
 	input[name=submit] {
 		margin-bottom: 10px;
 		font-weight: bold;
+		position: relative;
+		right: -8px;
 	}
 
 	footer {
@@ -105,6 +107,7 @@
 			float: none;
 			width: 40%;
 			margin: 10px 0 10px 30%;
+			//right: 0;
 		}
 		div.clear {
 			height: 1px;
