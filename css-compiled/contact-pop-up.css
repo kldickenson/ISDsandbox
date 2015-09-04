@@ -71,10 +71,15 @@
     width: 100%; }
   .send-message-form input[type="submit"] {
     float: none;
-    width: 40%; }
+    width: 40%;
+    margin: 10px 0 10px 30%; }
+  .send-message-form div.clear {
+    height: 1px; }
   .send-message-form footer h2.white {
     font-size: 20px; }
-  .send-message-form footer .contact-info a {
-    font-size: 13px; } }
+  .send-message-form footer .contact-info {
+    margin-top: 5px; }
+    .send-message-form footer .contact-info a {
+      font-size: 13px; } }
 
 /*# sourceMappingURL=contact-pop-up.css.map */

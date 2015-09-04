@@ -104,13 +104,17 @@
 		input[type="submit"] {
 			float: none;
 			width: 40%;
-			//margin: 10px 0 10px 30%;
+			margin: 10px 0 10px 30%;
+		}
+		div.clear {
+			height: 1px;
 		}
 		footer {
 			h2.white {
 				font-size: 20px;
 			}
 			.contact-info {
+				margin-top: 5px;
 				a {
 					font-size: 13px;
 				}
