@@ -80,8 +80,9 @@
   .send-message-form footer h2.white {
     font-size: 20px; }
   .send-message-form footer .contact-info {
-    margin-top: 5px; }
+    margin-top: 5px;
+    padding-left: 10px; }
     .send-message-form footer .contact-info a {
-      font-size: 11px; } }
+      font-size: 13px; } }
 
 /*# sourceMappingURL=contact-pop-up.css.map */
