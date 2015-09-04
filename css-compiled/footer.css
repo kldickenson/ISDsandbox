@@ -164,26 +164,26 @@
         background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-youtube.png); }
       .social-media li a.social_tagboard {
         background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-social-tagboard.png); }
-      .social-media li a span {
-        display: none; }
+    .social-media li span {
+      display: none; }
     .social-media li.umichisd {
       color: #fff;
       font-weight: bold;
       font-size: 1.1em;
       padding-top: 10px; }
 
-#footer ul.social-media li {
-  margin: 0; }
-
+/*#footer ul.social-media li {
+	margin: 0; 
+}
 #footer ul.social-media li:last-child {
-  /* margin-right: 0; */
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.1em;
-  padding-top: 7px; }
-  #footer ul.social-media li:last-child span {
-    display: none; }
-
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-top: 7px;
+	span {
+		display: none;
+	}
+}*/
 @media only screen and (max-width: 400px) {
   .social-media {
     float: none;
