@@ -41,7 +41,7 @@
 }
 
 // to over-ride #footer default styling
-/*#footer ul.social-media li {
+#footer ul.social-media li {
 	margin: 0; 
 }
 #footer ul.social-media li:last-child {
@@ -49,10 +49,7 @@
 	font-weight: bold;
 	font-size: 1.1em;
 	padding-top: 7px;
-	span {
-		display: none;
-	}
-}*/
+}
 
 @media only screen and (max-width: 400px) { 
 	.social-media {
