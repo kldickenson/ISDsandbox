@@ -1,7 +1,7 @@
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 
 /* For mobile view ONLY */
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1199px) {
 	//to solve pop-up window issues
 	#sb-wrapper {
 		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
@@ -10,6 +10,7 @@
 		height: 90% !important;
 		width: 90% !important;
 		max-height: 600px !important;
+		max-width: 530px !important;
 	}
 
 	#sb-wrapper-inner {
@@ -17,3 +18,9 @@
 		height: 100% !important;
 	}
 }
+/*@media all and (min-width: 766px) and (max-width: 1199px) {
+	#sb-wrapper {
+		width: 530px !important;
+	}
+
+}*/
