@@ -2,6 +2,8 @@
 /* For "We want to hear from you!" Footer */
 .send-message-form header img {
   margin-bottom: 20px; }
+.send-message-form div {
+  float: none; }
 .send-message-form section {
   padding: 0 5%;
   width: 90%; }
