@@ -1,4 +1,5 @@
 #audience-menu {
+    list-style: none;
     float: right;
     /*height: 40px;*/
     margin: 0;
@@ -8,6 +9,7 @@
 }
 
 #audience-menu li {
+    list-style: none;
     float: left;
     margin-left: 5px;
     margin-right: 10px;

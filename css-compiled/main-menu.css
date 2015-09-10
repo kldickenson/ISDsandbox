@@ -45,6 +45,7 @@
   background-color: rgba(145, 145, 149, 0.7); }
 
 #audience-menu {
+  list-style: none;
   float: right;
   /*height: 40px;*/
   margin: 0;
@@ -53,6 +54,7 @@
   font-size: .8em; }
 
 #audience-menu li {
+  list-style: none;
   float: left;
   margin-left: 5px;
   margin-right: 10px; }
