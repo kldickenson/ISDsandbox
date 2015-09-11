@@ -6,11 +6,13 @@
 		width: 100%;
 		height: 24px;
 		li {
+			float: left;
 			list-style: none;
 			color: #fff;
 			text-align: center;
 			margin: 0;
 			a {
+				display: block;
 				width: 24px;
 				height: 24px;
 				background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png") 50% 50% no-repeat;
