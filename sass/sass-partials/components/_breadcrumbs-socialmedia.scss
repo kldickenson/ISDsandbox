@@ -24,11 +24,15 @@
 
     /*.social-media {
         float: right;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
         padding-top: 4px;
+        list-style: none;
 
         li {
             float: left;
+            width: 16px;
+            margin-left: 10px;
             list-style: none;
 
             a#print-page {
@@ -45,12 +49,16 @@
                     text-indent: -9999px;
                 }
             }
-        }*/
-        .chicklets {
-            text-indent: -9999px;
-        }
-    //}
+            .chicklets {
+                text-indent: -9999px;
+            } 
+        }       
+    }*/
+    .chicklets {
+        text-indent: -9999px;
+    } 
 }
+
 /*			#breadcrumbs .social-media a {
 				width: 16px; height: 16px;
 				background: url("../images/icon-share-google-plus.png") no-repeat scroll 50% 50% transparent;

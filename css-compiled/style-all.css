@@ -551,11 +551,15 @@ h2.page-title span {
   background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
     /*.social-media {
         float: right;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
         padding-top: 4px;
+        list-style: none;
 
         li {
             float: left;
+            width: 16px;
+            margin-left: 10px;
             list-style: none;
 
             a#print-page {
@@ -572,7 +576,11 @@ h2.page-title span {
                     text-indent: -9999px;
                 }
             }
-        }*/ }
+            .chicklets {
+                text-indent: -9999px;
+            } 
+        }       
+    }*/ }
   #breadcrumbs .crumbs {
     float: left;
     /*margin-left: 10px;*/
