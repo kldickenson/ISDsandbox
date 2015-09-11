@@ -6,9 +6,6 @@
     margin-bottom: 25px;
     font-size: .9em;
     color: #6d6e70;
-    /*border-bottom: 1.5px solid #FCFCFC;
-    -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
-    box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
     background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
 
     .crumbs {
@@ -23,7 +20,7 @@
     }
 
     ul.social-media {
-
+        float: right;
         li {
             float: left;
             width: 16px;
@@ -44,7 +41,7 @@
                     text-indent: -9999px;
                 }
             }
-            .chicklets {
+            div {
                 text-indent: -9999px;
             } 
         }       

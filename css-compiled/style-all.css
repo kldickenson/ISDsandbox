@@ -545,9 +545,6 @@ h2.page-title span {
   margin-bottom: 25px;
   font-size: .9em;
   color: #6d6e70;
-  /*border-bottom: 1.5px solid #FCFCFC;
-  -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
-  box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
   background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
   #breadcrumbs .crumbs {
     float: left;
@@ -556,23 +553,25 @@ h2.page-title span {
   #breadcrumbs a {
     text-decoration: none;
     color: #698cc7; }
-  #breadcrumbs ul.social-media li {
-    float: left;
-    width: 16px;
-    margin-left: 10px;
-    list-style: none; }
-    #breadcrumbs ul.social-media li a#print-page {
-      background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
-      #breadcrumbs ul.social-media li a#print-page span {
-        display: block;
+  #breadcrumbs ul.social-media {
+    float: right; }
+    #breadcrumbs ul.social-media li {
+      float: left;
+      width: 16px;
+      margin-left: 10px;
+      list-style: none; }
+      #breadcrumbs ul.social-media li a#print-page {
+        background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
+        #breadcrumbs ul.social-media li a#print-page span {
+          display: block;
+          text-indent: -9999px; }
+      #breadcrumbs ul.social-media li a#interC {
+        background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
+        #breadcrumbs ul.social-media li a#interC span {
+          display: block;
+          text-indent: -9999px; }
+      #breadcrumbs ul.social-media li div {
         text-indent: -9999px; }
-    #breadcrumbs ul.social-media li a#interC {
-      background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
-      #breadcrumbs ul.social-media li a#interC span {
-        display: block;
-        text-indent: -9999px; }
-    #breadcrumbs ul.social-media li .chicklets {
-      text-indent: -9999px; }
 
 /*			#breadcrumbs .social-media a {
 				width: 16px; height: 16px;
