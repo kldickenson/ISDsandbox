@@ -548,39 +548,40 @@ h2.page-title span {
   /*border-bottom: 1.5px solid #FCFCFC;
   -webkit-box-shadow: inset 0px -1px 0px 0px #E7E6E3;
   box-shadow: inset 0px -1px 0px 0px #E7E6E3;*/
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x;
+    /*.social-media {
+        float: right;
+        margin-bottom: 0;
+        padding-top: 4px;
 
-#breadcrumbs a {
-  text-decoration: none;
-  color: #698cc7; }
+        li {
+            float: left;
+            list-style: none;
 
-#breadcrumbs .crumbs {
-  float: left;
-  /*margin-left: 10px;*/
-  padding-top: 2px; }
-
-#breadcrumbs .social-media {
-  float: right;
-  margin-bottom: 0;
-  padding-top: 4px; }
-
-#breadcrumbs .social-media
-#breadcrumbs .social-media li a#print-page {
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
-
-#breadcrumbs .social-media li a#print-page span {
-  display: block;
-  text-indent: -9999px; }
-
-#breadcrumbs .social-media li a#interC {
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
-
-#breadcrumbs .social-media li a#interC span {
-  display: block;
-  text-indent: -9999px; }
-
-#breadcrumbs .social-media .chicklets {
-  text-indent: -9999px; }
+            a#print-page {
+                background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat;
+                span {
+                    display: block;
+                    text-indent: -9999px;
+                }
+            }
+            a#interC {
+                background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat;
+                span {
+                    display: block;
+                    text-indent: -9999px;
+                }
+            }
+        }*/ }
+  #breadcrumbs .crumbs {
+    float: left;
+    /*margin-left: 10px;*/
+    padding-top: 2px; }
+  #breadcrumbs a {
+    text-decoration: none;
+    color: #698cc7; }
+  #breadcrumbs .chicklets {
+    text-indent: -9999px; }
 
 /*			#breadcrumbs .social-media a {
 				width: 16px; height: 16px;
