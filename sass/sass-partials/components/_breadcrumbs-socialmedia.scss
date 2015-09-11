@@ -22,19 +22,10 @@
         color: #698cc7;
     }
 
-    /*.social-media {
-        float: right;
-        margin: 0;
-        padding: 0;
-        padding-top: 4px;
-        list-style: none;
+    .social-media {
 
         li {
-            float: left;
-            width: 16px;
-            margin-left: 10px;
-            list-style: none;
-
+            
             a#print-page {
                 background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat;
                 span {
@@ -53,10 +44,7 @@
                 text-indent: -9999px;
             } 
         }       
-    }*/
-    .chicklets {
-        text-indent: -9999px;
-    } 
+    }
 }
 
 /*			#breadcrumbs .social-media a {
