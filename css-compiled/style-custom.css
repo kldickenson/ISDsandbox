@@ -19,18 +19,23 @@
   #breadcrumbs a {
     text-decoration: none;
     color: #698cc7; }
-  #breadcrumbs .social-media li a#print-page {
-    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
-    #breadcrumbs .social-media li a#print-page span {
-      display: block;
+  #breadcrumbs ul.social-media li {
+    float: left;
+    width: 16px;
+    margin-left: 10px;
+    list-style: none; }
+    #breadcrumbs ul.social-media li a#print-page {
+      background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
+      #breadcrumbs ul.social-media li a#print-page span {
+        display: block;
+        text-indent: -9999px; }
+    #breadcrumbs ul.social-media li a#interC {
+      background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
+      #breadcrumbs ul.social-media li a#interC span {
+        display: block;
+        text-indent: -9999px; }
+    #breadcrumbs ul.social-media li .chicklets {
       text-indent: -9999px; }
-  #breadcrumbs .social-media li a#interC {
-    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon_info.png") left 1px no-repeat; }
-    #breadcrumbs .social-media li a#interC span {
-      display: block;
-      text-indent: -9999px; }
-  #breadcrumbs .social-media li .chicklets {
-    text-indent: -9999px; }
 
 /*			#breadcrumbs .social-media a {
 				width: 16px; height: 16px;

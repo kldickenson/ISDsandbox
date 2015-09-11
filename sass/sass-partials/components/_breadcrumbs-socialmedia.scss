@@ -22,10 +22,14 @@
         color: #698cc7;
     }
 
-    .social-media {
+    ul.social-media {
 
         li {
-            
+            float: left;
+            width: 16px;
+            margin-left: 10px;
+            list-style: none;
+
             a#print-page {
                 background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat;
                 span {
