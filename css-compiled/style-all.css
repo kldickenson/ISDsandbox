@@ -560,6 +560,8 @@ h2.page-title span {
       width: 16px;
       margin-left: 10px;
       list-style: none; }
+      #breadcrumbs ul.social-media li a {
+        display: block; }
       #breadcrumbs ul.social-media li a#print-page {
         background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat; }
         #breadcrumbs ul.social-media li a#print-page span {
@@ -570,8 +572,10 @@ h2.page-title span {
         #breadcrumbs ul.social-media li a#interC span {
           display: block;
           text-indent: -9999px; }
+      #breadcrumbs ul.social-media li .chicklets {
+        text-indent: 999px; }
       #breadcrumbs ul.social-media li div {
-        text-indent: -9999px; }
+        display: none; }
 
 /*			#breadcrumbs .social-media a {
 				width: 16px; height: 16px;

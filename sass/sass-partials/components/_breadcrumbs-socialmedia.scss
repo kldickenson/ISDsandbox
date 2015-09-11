@@ -26,6 +26,9 @@
             width: 16px;
             margin-left: 10px;
             list-style: none;
+            a {
+                display: block;
+            }
 
             a#print-page {
                 background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-print.png") left 1px no-repeat;
@@ -41,8 +44,11 @@
                     text-indent: -9999px;
                 }
             }
+            .chicklets {
+                text-indent: 999px;
+            }
             div {
-                text-indent: -9999px;
+                display: none;
             } 
         }       
     }
