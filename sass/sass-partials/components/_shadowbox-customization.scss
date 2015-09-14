@@ -9,8 +9,9 @@
 		top: 5% !important;
 		height: 90% !important;
 		width: 90% !important;
-		max-height: 600px !important;
-		max-width: 530px !important;
+		/*max-height: 600px !important;
+		max-width: 530px !important;*/
+		overflow: hidden;
 	}
 
 	#sb-wrapper-inner {

@@ -70,7 +70,7 @@
     padding: 0 5%;
     width: 90%; }
   .send-message-form h2.white, .send-message-form h2.yellow {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center; }
   .send-message-form input, .send-message-form textarea {
     width: 100%; }
@@ -81,11 +81,11 @@
   .send-message-form div.clear {
     height: 1px; }
   .send-message-form footer h2.white {
-    font-size: 20px; }
+    font-size: 18px; }
   .send-message-form footer .contact-info {
     margin-top: 5px;
     padding-left: 10px; }
     .send-message-form footer .contact-info a {
-      font-size: 13px; } }
+      font-size: 12px; } }
 
 /*# sourceMappingURL=contact-pop-up.css.map */
