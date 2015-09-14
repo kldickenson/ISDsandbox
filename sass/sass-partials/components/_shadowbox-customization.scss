@@ -3,11 +3,16 @@
 /* For mobile view ONLY */
 @media all and (max-width: 1199px) {
 	//to solve pop-up window issues
+
+	#sb-container {
+		width: 100% !important;
+		height: 100% !important;
+	}
 	#sb-wrapper {
 		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
-		//left: 5% !important;
-		top: 5% !important;
-		height: 90% !important;
+		left: 5% !important;
+		top: 0px !important;
+		height: 100% !important;
 		width: 90% !important;
 		/*max-height: 600px !important;
 		max-width: 530px !important;*/
