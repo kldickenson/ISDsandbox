@@ -179,13 +179,8 @@ div.sb-message a:link, div.sb-message a:visited {
     height: 100% !important; }
 
   #sb-body-inner {
+    /* Needed for touch scrolling on iPhones in Safari*/
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch; } }
-/*@media all and (min-width: 766px) and (max-width: 1199px) {
-	#sb-wrapper {
-		width: 530px !important;
-	}
-
-}*/
 
 /*# sourceMappingURL=shadowbox-mobile.css.map */
