@@ -4,14 +4,11 @@
 @media all and (max-width: 1199px) {
 	//to solve pop-up window issues
 
-	#sb-container {
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
-	}
+	
 	#sb-wrapper {
 		// inline = top: 69px; left: 20px; width: 510px; visibility: visible;
 		left: 5% !important;
-		top: 0px !important;
+		top: 5% !important;
 		height: 100% !important;
 		width: 90% !important;
 		max-height: 600px !important;
@@ -22,6 +19,11 @@
 	#sb-wrapper-inner {
 		// inline = height: 529px
 		height: 100% !important;
+	}
+
+	#sb-body-inner {
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 }
 /*@media all and (min-width: 766px) and (max-width: 1199px) {
