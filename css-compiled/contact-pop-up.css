@@ -80,12 +80,15 @@
     margin: 10px 0 10px 30%; }
   .send-message-form div.clear {
     height: 1px; }
-  .send-message-form footer h2.white {
-    font-size: 18px; }
-  .send-message-form footer .contact-info {
+  .send-message-form footer {
     margin-top: 5px;
-    padding-left: 10px; }
-    .send-message-form footer .contact-info a {
-      font-size: 12px; } }
+    padding-top: 10px; }
+    .send-message-form footer h2.white {
+      font-size: 18px; }
+    .send-message-form footer .contact-info {
+      margin-top: 5px;
+      padding-left: 10px; }
+      .send-message-form footer .contact-info a {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=contact-pop-up.css.map */
