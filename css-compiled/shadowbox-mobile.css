@@ -167,10 +167,6 @@ div.sb-message a:link, div.sb-message a:visited {
 /* - - - - - - Customization for Shadowbox for Contact Us pop-up - - - - - - */
 /* For mobile view ONLY */
 @media all and (max-width: 1199px) {
-  #sb-container {
-    width: 100% !important;
-    height: 100% !important; }
-
   #sb-wrapper {
     left: 5% !important;
     top: 0px !important;
