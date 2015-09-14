@@ -82,7 +82,8 @@
     height: 1px; }
   .send-message-form footer {
     margin-top: 5px;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-bottom: 5px; }
     .send-message-form footer h2.white {
       font-size: 18px; }
     .send-message-form footer .contact-info {
