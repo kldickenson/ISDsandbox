@@ -172,13 +172,13 @@ div.sb-message a:link, div.sb-message a:visited {
     height: 100% !important; }
 
   #sb-wrapper {
-    /*left: 5% !important;
+    left: 5% !important;
     top: 0px !important;
     height: 100% !important;
     width: 90% !important;
     max-height: 600px !important;
     max-width: 530px !important;
-    overflow: hidden;*/ }
+    overflow: hidden; }
 
   #sb-wrapper-inner {
     height: 100% !important; } }
