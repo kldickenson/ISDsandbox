@@ -328,7 +328,8 @@
   padding: 0;
   /* First level */ }
   .flexnav > li {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    list-style: none; }
     .flexnav > li a {
       font-weight: bold;
       font-size: 1em;
