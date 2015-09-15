@@ -123,19 +123,15 @@
   cursor: pointer;
   background-repeat: no-repeat; }
 
-#sb-nav-close {
+#sb-nav a#sb-nav-close {
   background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/close.png"); }
-
-#sb-nav-next {
+#sb-nav a#sb-nav-next {
   background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/next.png"); }
-
-#sb-nav-previous {
+#sb-nav a#sb-nav-previous {
   background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/previous.png"); }
-
-#sb-nav-play {
+#sb-nav a#sb-nav-play {
   background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/play.png"); }
-
-#sb-nav-pause {
+#sb-nav a#sb-nav-pause {
   background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/pause.png"); }
 
 #sb-counter {
