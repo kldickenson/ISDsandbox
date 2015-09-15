@@ -1,8 +1,7 @@
 /* - - - - - - - Customization for Contact Us Pop Up - - - - - - - */
 
-/* For "We want to hear from you!" Footer */
 .send-message-form {
-
+/* Form */
 	header img {
 		margin-bottom: 20px;
 	}
@@ -24,13 +23,11 @@
 	input {
 		height: 26px; /* full height: 28px; */
 		margin: 5px 0;
-		font-size: 95%;
-		font-weight: normal;
+		font: 95% normal 'Open Sans', sans-serif;
 	}
 	textarea {
 		margin: 5px 0;
-		font-size: 95%;
-		font-weight: normal;
+		font: 95% normal 'Open Sans', sans-serif;
 	}
 
 	input[name=submit] {
@@ -40,6 +37,7 @@
 		right: -8px;
 	}
 
+/* For "We want to hear from you!" Footer */
 	footer {
 		clear: both;
 		margin-top: 10px;
