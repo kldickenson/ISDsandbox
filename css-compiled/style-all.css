@@ -516,7 +516,7 @@ h2.page-title span {
     width: 90%;
     float: none;
     margin: 0 auto 10px; } }
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 959px) {
   #footer {
     width: 100%;
     background-image: none;
@@ -1635,6 +1635,7 @@ div.accordion-section-content {
       display: block;
       width: 24px;
       height: 24px;
+      margin-right: 2px;
       background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png") 50% 50% no-repeat; }
       #footer .social-media li a.social_facebook {
         background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-social-facebook.png");
@@ -1654,7 +1655,8 @@ div.accordion-section-content {
       color: #fff;
       font-weight: bold;
       font-size: 1.1em;
-      padding-top: 10px; }
+      padding-top: 10px;
+      margin-left: 2px; }
 
 #footer ul.social-media li {
   margin: 0; }
@@ -1665,19 +1667,7 @@ div.accordion-section-content {
   font-size: 1.1em;
   padding-top: 7px; }
 
-@media only screen and (max-width: 400px) {
-  #footer .social-media {
-    float: none;
-    width: 50%;
-    margin: 10px auto 20px;
-    padding: 0; } }
-@media only screen and (min-width: 401px) and (max-width: 700px) {
-  #footer .social-media {
-    float: none;
-    width: 50%;
-    margin: 10px auto 20px;
-    padding: 0; } }
-@media only screen and (min-width: 701px) and (max-width: 959px) {
+@media only screen and (max-width: 959px) {
   #footer .social-media {
     float: none;
     width: 50%;
