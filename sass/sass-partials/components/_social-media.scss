@@ -61,7 +61,7 @@
 }
 
 @media only screen and (max-width: 400px) { 
-	.social-media {
+	#footer .social-media {
 		float: none;
 		width: 260px;
 		margin: 10px auto 20px;
@@ -70,7 +70,7 @@
 }
 
 @media only screen and (min-width: 401px) and (max-width: 700px) { 
-	.social-media {
+	#footer .social-media {
 		float: none;
 		width: 400px;
 		margin: 10px auto 20px;
@@ -79,7 +79,7 @@
 }
 
 @media only screen and (min-width: 701px) and (max-width: 959px) { 
-	.social-media {
+	#footer .social-media {
 		float: none;
 		width: 100%;
 		margin: 10px auto 20px;
