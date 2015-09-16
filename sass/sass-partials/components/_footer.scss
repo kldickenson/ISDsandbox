@@ -100,12 +100,13 @@
         }
         ul.contact-info {
             text-align: center;
-            margin-left: 0;
+            margin: 0 auto;
             padding-left: 0;
+            width: 95%;
             li {
                 margin-left: 5px;
                 &:first-child {
-                    margin: 0;
+                    margin-left: 0;
                 }
             }
         }
