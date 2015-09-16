@@ -198,7 +198,7 @@
 @media only screen and (max-width: 959px) {
   #footer .social-media {
     float: none;
-    width: 50%;
+    width: 200px;
     margin: 10px auto 20px;
     padding: 0; } }
 
