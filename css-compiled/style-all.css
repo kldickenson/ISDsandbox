@@ -508,7 +508,8 @@ h2.page-title span {
     padding-left: 0;
     width: 95%; }
     #footer ul.contact-info li {
-      margin-left: 5px; }
+      margin-left: 5px;
+      display: inline-block; }
       #footer ul.contact-info li:first-child {
         margin-left: 0; }
   #footer .um-logo {
