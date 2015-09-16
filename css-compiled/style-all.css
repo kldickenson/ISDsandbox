@@ -496,7 +496,9 @@ h2.page-title span {
   #footer .columns {
     width: 100%; }
   #footer #footer-nav {
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto;
+    padding: 0; }
     #footer #footer-nav li {
       display: block;
       margin: 10px; }
@@ -504,8 +506,10 @@ h2.page-title span {
     text-align: center; }
     #footer ul.contact-info li {
       margin-left: 5px; }
+      #footer ul.contact-info li:first-child {
+        margin: 0; }
   #footer .um-logo {
-    width: 300px;
+    width: 90%;
     float: none;
     margin: 0 auto 10px; } }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -1660,21 +1664,21 @@ div.accordion-section-content {
 @media only screen and (max-width: 400px) {
   #footer .social-media {
     float: none;
-    width: 260px;
+    width: 50%;
     margin: 10px auto 20px;
-    padding-left: 0; } }
+    padding: 0; } }
 @media only screen and (min-width: 401px) and (max-width: 700px) {
   #footer .social-media {
     float: none;
-    width: 400px;
+    width: 50%;
     margin: 10px auto 20px;
-    padding-left: 25%; } }
+    padding: 0; } }
 @media only screen and (min-width: 701px) and (max-width: 959px) {
   #footer .social-media {
     float: none;
-    width: 100%;
+    width: 50%;
     margin: 10px auto 20px;
-    padding-left: 25%; } }
+    padding: 0; } }
 #audience-menu {
   list-style: none;
   float: right;

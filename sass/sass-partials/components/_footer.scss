@@ -91,6 +91,8 @@
         }
         #footer-nav {
             text-align: center;
+            margin: 0 auto;
+            padding: 0;
            li {
                 display: block;
                 margin: 10px;
@@ -100,10 +102,13 @@
             text-align: center;
             li {
                 margin-left: 5px;
+                &:first-child {
+                    margin: 0;
+                }
             }
         }
         .um-logo {
-            width: 300px;
+            width: 90%;
             float: none;
             margin: 0 auto 10px;
         }
