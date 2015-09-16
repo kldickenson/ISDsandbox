@@ -681,53 +681,57 @@ h2.page-title span {
 .sidebar #upcoming div {
   margin-bottom: 0; }
 
-#upcoming ul.ilr li.item {
-  padding: 10px 0;
-  margin-bottom: 10px;
-  background-color: #0b66bc;
-  font-size: .9em;
-  line-height: 1.3em;
-  list-style: none; }
-  #upcoming ul.ilr li.item h5 {
-    color: #fff;
-    margin-bottom: 0; }
-  #upcoming ul.ilr li.item div {
-    color: #fff; }
-    #upcoming ul.ilr li.item div span {
-      color: yellow !important; }
-    #upcoming ul.ilr li.item div.class-name {
-      display: none; }
-  #upcoming ul.ilr li.item div.status {
-    float: right;
-    color: #fff;
-    font-weight: bold; }
-  #upcoming ul.ilr li.item a {
-    display: block;
-    float: right;
-    vertical-align: top;
-    margin-right: 0;
-    padding: 0 20px 0 0;
-    background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
-    text-align: right;
-    color: #fff; }
-    #upcoming ul.ilr li.item a:hover, #upcoming ul.ilr li.item a:focus {
-      text-decoration: none;
-      color: yellow;
-      background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
-  #upcoming ul.ilr li.item.soldout {
-    background-color: #e7e7e7; }
-    #upcoming ul.ilr li.item.soldout h5 {
-      color: #969696; }
-    #upcoming ul.ilr li.item.soldout div {
-      color: #969696; }
-    #upcoming ul.ilr li.item.soldout .soldout {
-      width: 25%;
+#upcoming ul.ilr {
+  margin: 0;
+  padding: 0; }
+  #upcoming ul.ilr li.item {
+    padding: 10px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #0b66bc;
+    font-size: .9em;
+    line-height: 1.3em;
+    list-style: none; }
+    #upcoming ul.ilr li.item h5 {
+      color: #fff;
+      margin-bottom: 0; }
+    #upcoming ul.ilr li.item div {
+      color: #fff; }
+      #upcoming ul.ilr li.item div span {
+        color: yellow !important; }
+      #upcoming ul.ilr li.item div.class-name {
+        display: none; }
+    #upcoming ul.ilr li.item div.status {
+      float: right;
+      color: #fff;
+      font-weight: bold; }
+    #upcoming ul.ilr li.item a {
+      display: block;
       float: right;
       vertical-align: top;
+      margin-right: 0;
       padding: 0 20px 0 0;
-      background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png) top right no-repeat;
+      background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
       text-align: right;
-      color: #969696; }
+      color: #fff; }
+      #upcoming ul.ilr li.item a:hover, #upcoming ul.ilr li.item a:focus {
+        text-decoration: none;
+        color: yellow;
+        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
+    #upcoming ul.ilr li.item.soldout {
+      background-color: #e7e7e7; }
+      #upcoming ul.ilr li.item.soldout h5 {
+        color: #969696; }
+      #upcoming ul.ilr li.item.soldout div {
+        color: #969696; }
+      #upcoming ul.ilr li.item.soldout .soldout {
+        width: 25%;
+        float: right;
+        vertical-align: top;
+        padding: 0 20px 0 0;
+        background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-x-gray.png) top right no-repeat;
+        text-align: right;
+        color: #969696; }
 
 @media (max-width: 767px) {
   #upcoming li.item div.columns.three {
