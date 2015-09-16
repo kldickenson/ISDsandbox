@@ -686,7 +686,8 @@ h2.page-title span {
   margin-bottom: 10px;
   background-color: #0b66bc;
   font-size: .9em;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  list-style: none; }
   #upcoming ul.ilr li.item h5 {
     color: #fff;
     margin-bottom: 0; }
