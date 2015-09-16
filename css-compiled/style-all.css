@@ -503,7 +503,9 @@ h2.page-title span {
       display: block;
       margin: 10px; }
   #footer ul.contact-info {
-    text-align: center; }
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0; }
     #footer ul.contact-info li {
       margin-left: 5px; }
       #footer ul.contact-info li:first-child {
