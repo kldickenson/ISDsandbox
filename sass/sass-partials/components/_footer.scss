@@ -112,9 +112,13 @@
             }
         }
         .um-logo {
-            width: 90%;
+            width: 100%;
             float: none;
             margin: 0 auto 10px;
+            img {
+                width: 95%;
+                margin: 0 auto;
+            }
         }
     }
 }

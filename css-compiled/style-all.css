@@ -513,9 +513,12 @@ h2.page-title span {
       #footer ul.contact-info li:first-child {
         margin-left: 0; }
   #footer .um-logo {
-    width: 90%;
+    width: 100%;
     float: none;
-    margin: 0 auto 10px; } }
+    margin: 0 auto 10px; }
+    #footer .um-logo img {
+      width: 95%;
+      margin: 0 auto; } }
 @media only screen and (min-width: 401px) and (max-width: 959px) {
   #footer {
     width: 100%;
