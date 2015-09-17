@@ -41,6 +41,9 @@
 //@import "sass-partials/menus/admissions";  //MOVED TO MAIN-MENU.CSS
 //@import "sass-partials/menus/custom-features";  //MOVED TO MAIN-MENU.CSS
 
+// sidebar sub-menus
+@import "sass-partials/menus/sidebar-submenu";
+
 // Page Specific
 @import "sass-partials/page-specific/about";
 @import "sass-partials/page-specific/how-to";

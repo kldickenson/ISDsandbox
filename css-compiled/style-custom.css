@@ -922,6 +922,35 @@ div.accordion-section-content {
   width: 15%;
   text-align: center; }
 
+#grad-menu {
+  width: 100%;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left top repeat-x;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none; }
+  #grad-menu li {
+    padding: 10px 0 10px 20px;
+    margin-bottom: 0;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
+    #grad-menu li:hover {
+      background-color: #fff; }
+    #grad-menu li.current {
+      background-color: #fff; }
+      #grad-menu li.current a {
+        background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-active.png") 5px 50% no-repeat;
+        color: #1f6db4;
+        background-color: #fff; }
+  #grad-menu a {
+    display: block;
+    padding: 5px 10px 5px 25px;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-resting.png") 5px 50% no-repeat;
+    color: #6d6e70;
+    text-decoration: none; }
+    #grad-menu a:hover, #grad-menu a:focus {
+      background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-active.png") 5px 50% no-repeat;
+      color: #1f6db4;
+      background-color: #fff; }
+
 /*   - - - - - - - .about program specific - - - - - - -   */
 .about #page-banner {
   background: none;
@@ -1331,35 +1360,7 @@ div.accordion-section-content {
 .grad #sidebar {
   margin-top: 0; }
 
-#grad-menu {
-  width: 100%;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left top repeat-x; }
-
-#grad-menu li {
-  /*list-style-position: inside;
-  list-style-image: url(../../images/icon-menuarrow-resting.png);*/
-  padding: 10px 0 10px 20px;
-  margin-bottom: 0;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left bottom repeat-x; }
-
-#grad-menu li:hover,
-#grad-menu li.current {
-  background-color: #fff; }
-
-#grad-menu a {
-  display: block;
-  padding: 5px 10px 5px 25px;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-resting.png") 5px 50% no-repeat;
-  color: #6d6e70;
-  text-decoration: none; }
-
-#grad-menu a:hover,
-#grad-menu a:focus,
-#grad-menu li.current a {
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/icon-menuarrow-active.png") 5px 50% no-repeat;
-  color: #1f6db4;
-  background-color: #fff; }
-
+/* - - - - - - - See #grad-menu in _sidebar-submenu.scss - - - - - - - */
 /*LANDING STYLE PAGE BANNERS*/
 /*
 	.landing #page-banner .container.professionalprograms	{
