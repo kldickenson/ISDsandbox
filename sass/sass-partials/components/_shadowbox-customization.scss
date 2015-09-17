@@ -25,6 +25,11 @@
 	#sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
+
+		iframe {
+			height: 100%;
+			min-height: 700px;
+		}
 	}
 }
 

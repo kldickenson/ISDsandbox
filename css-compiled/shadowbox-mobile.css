@@ -169,6 +169,9 @@ div.sb-message a:link, div.sb-message a:visited {
   #sb-body-inner {
     /* Needed for touch scrolling on iPhones in Safari*/
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch; } }
+    -webkit-overflow-scrolling: touch; }
+    #sb-body-inner iframe {
+      height: 100%;
+      min-height: 700px; } }
 
 /*# sourceMappingURL=shadowbox-mobile.css.map */
