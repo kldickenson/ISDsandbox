@@ -1679,7 +1679,9 @@ div.accordion-section-content {
     float: none;
     width: 200px;
     margin: 10px auto 20px;
-    padding: 0; } }
+    padding: 0; }
+    #footer .social-media li a.social_facebook {
+      margin-left: 0; } }
 #audience-menu {
   list-style: none;
   float: right;
