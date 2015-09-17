@@ -172,6 +172,6 @@ div.sb-message a:link, div.sb-message a:visited {
     -webkit-overflow-scrolling: touch; }
     #sb-body-inner iframe {
       height: 100%;
-      min-height: 650px; } }
+      min-height: 550px; } }
 
 /*# sourceMappingURL=shadowbox-mobile.css.map */
