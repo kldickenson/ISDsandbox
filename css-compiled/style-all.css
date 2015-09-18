@@ -3823,6 +3823,9 @@ ul.flex-direction-nav {
   div.spacer, div.cms-history, div.preview-inline-edit-box {
     display: none !important; }
 
+  #main-content .container {
+    min-height: 400px; }
+
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }
 
