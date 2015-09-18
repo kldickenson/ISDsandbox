@@ -1477,6 +1477,48 @@ div.accordion-section-content {
 .isd-organic-tabs blockquote p {
   color: #58585A; }
 
+/* Sortable tabs css fixes picked up from live site
+===================================================
+*/
+.tabWrapper a.current + a {
+  background-color: #fff;
+  color: #176eb5; }
+
+.tabWrapper:hover {
+  background-color: #fff; }
+
+.add-submenu {
+  border: 1px solid black;
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  z-index: 1000; }
+
+.add-tab-subitem {
+  background-color: white; }
+
+.tab-title-item a:not(.tab-dropdown) {
+  padding-top: .9em;
+  padding-bottom: .9em;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: -4px;
+  margin-left: -4px;
+  font-weight: bold;
+  color: #818285;
+  font-size: 0.8em; }
+
+.tab-title-item a.tab-dropdown {
+  padding-top: .9em;
+  padding-bottom: .9em;
+  padding-right: 4px;
+  margin-right: -4px;
+  font-weight: bold;
+  color: #818285; }
+
+/* - - - - - - - - - - - - - - */
 #content table {
   color: #176eb5;
   margin-bottom: 20px;
