@@ -243,4 +243,11 @@ tfoot td {
 #page-content.eleven.columns {
   margin-left: 0; }
 
+/*  - - - - - - - -  Edit to accomodate styling for the CMS system - - - - - - - - - -  */
+.inline-edit-box,
+.inline-add-box {
+  list-style: none;
+  margin-left: 0;
+  padding: 0; }
+
 /*# sourceMappingURL=base.css.map */
