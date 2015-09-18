@@ -1,7 +1,7 @@
 // Pulling in all the Sass partials together
 
 //@import "sass-partials/fonts";  //MOVED TO BASE.CSS
-//@import "sass-partials/base"; //MOVED TO BASE.CSS
+//@import "sass-partials/customization"; //MOVED TO BASE.CSS
 //@import "sass-partials/colors"; //MOVED TO BASE.CSS
 //@import "sass-partials/layout-grid"; //MOVED TO BASE.CSS
 //@import "sass-partials/cms"; //MOVED TO BASE.CSS
@@ -23,7 +23,6 @@
 
 // main content components
 //@import "sass-partials/components/shadowbox-base"; //MOVED TO SHDOWBOX-MOBILE.CSS
-//@import "components/shadowbox-customization"; //MOVED TO SHDOWBOX-MOBILE.CSS
 @import "sass-partials/components/course-overview";
 @import "sass-partials/components/agenda";
 @import "sass-partials/components/instructor";

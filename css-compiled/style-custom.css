@@ -1725,14 +1725,14 @@ ul.alpha-in-page li a {
   .mobile-hide {
     display: none; }
 
-  div.spacer, div.cms-history, div.preview-inline-edit-box {
-    display: none !important; }
-
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }
 
   div.sidebar.preview-editable {
     margin-bottom: 0 !important; }
+
+  div.spacer, div.cms-history, div.preview-inline-edit-box {
+    display: none !important; }
 
   .sidebar div.clearfix {
     margin-bottom: 0; } }

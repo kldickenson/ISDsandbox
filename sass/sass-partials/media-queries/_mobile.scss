@@ -19,8 +19,14 @@
 	.mobile-hide {
 		display: none;
 	}
-	div.spacer, div.cms-history, div.preview-inline-edit-box {
-		display: none !important;
+
+	.landing #page-banner {
+
+
+		h2.page-title {
+			
+		}
+
 	}
 
 	.sidebar div.mobile-accordion {
@@ -28,6 +34,9 @@
 	}
 	div.sidebar.preview-editable {
 		margin-bottom: 0 !important;
+	}
+	div.spacer, div.cms-history, div.preview-inline-edit-box {
+		display: none !important;
 	}
 	.sidebar div.clearfix {
 		margin-bottom: 0;
