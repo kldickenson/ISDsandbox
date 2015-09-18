@@ -6,3 +6,20 @@
 	margin-left: 0;
 	padding: 0;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+	div.sidebar.preview-editable {
+		margin-bottom: 0 !important;
+	}
+	div.spacer, div.cms-history, div.preview-inline-edit-box {
+		display: none !important;
+	}
+	.inline-edit-box, .inline-add-box {
+		display: none;
+	}
+	.add-submenu {
+		display: none;
+	}
+}
