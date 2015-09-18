@@ -1,5 +1,4 @@
 #page-banner {
-    /*height: 150px;*/
     margin: 0;
     padding: 0;
     background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
@@ -18,12 +17,14 @@
 
 .landing #page-banner {
     background-image: none;
-    min-height: 250px;
 
     .container {
         background: none;
         //min-height: 100px;
     }
+}
+.short #page-banner {
+
 }
 
 h2.page-title {
@@ -52,6 +53,11 @@ h2.page-title span {
         width: 100%;
     }
 
+    .short #page-banner {
+        height: inherit;
+        min-height: 87px;
+    }
+
     #page-banner .container {
         margin: 0;
         width: 100%;
@@ -73,7 +79,6 @@ h2.page-title span {
 @media only screen and (min-width: 767px) {
 
     #page-banner {
-        height: 150px;
         clear: both;
         padding: 0 11px;
     }
@@ -86,7 +91,17 @@ h2.page-title span {
     .landing #page-banner,
     .landing #page-banner .container {
         height: 250px; /* TOTAL height: 250px; */
-    } 
+    }
+    .short #page-banner {
+        height: inherit;
+        min-height: 87px;
+        height: 100px;
+
+        h2.page-title {
+            padding-top: 35px;
+        }
+
+    }
 
     h2.page-title {
         padding-top: 100px;
