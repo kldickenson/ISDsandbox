@@ -383,10 +383,10 @@ tfoot td {
 
 .landing #page-banner {
   background-image: none;
-  height: 250px; }
+  min-height: 250px; }
   .landing #page-banner .container {
     background: none;
-    height: 100px; }
+    min-height: 100px; }
 
 h2.page-title {
   padding: 20px;
@@ -3761,6 +3761,11 @@ ul.flex-direction-nav {
 
   .mobile-hide {
     display: none; }
+
+  .landing #page-banner {
+    min-height: 67px; }
+    .landing #page-banner h2.page-title {
+      min-height: 27px; }
 
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }

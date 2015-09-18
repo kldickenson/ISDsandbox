@@ -1687,6 +1687,11 @@ ul.alpha-in-page li a {
   .mobile-hide {
     display: none; }
 
+  .landing #page-banner {
+    min-height: 67px; }
+    .landing #page-banner h2.page-title {
+      min-height: 27px; }
+
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }
 

@@ -18,11 +18,11 @@
 
 .landing #page-banner {
     background-image: none;
-    height: 250px;
+    min-height: 250px;
 
     .container {
         background: none;
-        height: 100px;
+        min-height: 100px;
     }
 
 }

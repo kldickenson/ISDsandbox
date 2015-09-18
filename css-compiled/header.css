@@ -175,10 +175,10 @@
 
 .landing #page-banner {
   background-image: none;
-  height: 250px; }
+  min-height: 250px; }
   .landing #page-banner .container {
     background: none;
-    height: 100px; }
+    min-height: 100px; }
 
 h2.page-title {
   padding: 20px;
