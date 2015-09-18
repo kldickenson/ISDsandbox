@@ -639,6 +639,9 @@ h2.page-title span {
 
 /* - - - - - Sidebar Submenu styling found in menus/_sidebar-submenu.scss - - - - - */
 @media only screen and (max-width: 767px) {
+  #sidebar {
+    float: none; }
+
   .container {
     margin: 0 11px;
     float: none; }
@@ -1719,7 +1722,7 @@ div.accordion-section-content {
 @media only screen and (max-width: 959px) {
   #footer .social-media {
     float: none;
-    width: 200px;
+    width: 230px;
     margin: 10px auto 20px;
     padding: 0; }
     #footer .social-media li a.social_facebook {

@@ -88,6 +88,9 @@
 
 /* - - - - - Sidebar Submenu styling found in menus/_sidebar-submenu.scss - - - - - */
 @media only screen and (max-width: 767px) {
+  #sidebar {
+    float: none; }
+
   .container {
     margin: 0 11px;
     float: none; }
