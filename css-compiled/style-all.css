@@ -3169,7 +3169,10 @@ div.directory .row {
 ul.alpha-in-page {
   width: 100%;
   height: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
 
 ul.alpha-in-page li {
   float: left; }
