@@ -1602,17 +1602,8 @@ div.directory .row {
 
 @media only screen and (max-width: 767px) {
   /* People pages specific */
-  .people #page-banner .container {
-    /* this can be generalized for all pages */
-    height: 100px; }
-
-  .people h2.page-title {
-    /* this can be generalized for all pages */
-    padding-top: 20px; }
-
-  .people #sidebar {
-    margin-top: 0; }
-
+  /* this can be generalized for all pages */
+  /* this can be generalized for all pages */
   .people #content table {
     width: 100%; }
 
