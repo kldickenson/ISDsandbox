@@ -3138,14 +3138,7 @@ div.directory .row {
     /* this can be generalized for all pages */
     padding-top: 20px; }
 
-  .people #page-content {
-    margin-top: 200px; }
-
   .people #sidebar {
-    float: none;
-    position: absolute;
-    top: 30px;
-    left: 0;
     margin-top: 0; }
 
   .people #content table {
