@@ -242,7 +242,8 @@ tfoot td {
   margin-bottom: 20px; }
 
 #page-content.eleven.columns {
-  margin-left: 0; }
+  margin-left: 0;
+  min-height: 500px; }
 
 /*  - - - - - - - -  Edit to accomodate styling for the CMS system - - - - - - - - - -  */
 .inline-edit-box,
@@ -3825,9 +3826,6 @@ ul.flex-direction-nav {
 
   div.spacer, div.cms-history, div.preview-inline-edit-box {
     display: none !important; }
-
-  #page-content.eleven.columns {
-    min-height: 500px; }
 
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }

@@ -1748,9 +1748,6 @@ ul.alpha-in-page li a {
   div.spacer, div.cms-history, div.preview-inline-edit-box {
     display: none !important; }
 
-  #page-content.eleven.columns {
-    min-height: 500px; }
-
   .sidebar div.mobile-accordion {
     margin-bottom: 0 !important; }
 
