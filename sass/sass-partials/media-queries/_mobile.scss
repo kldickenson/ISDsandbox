@@ -26,7 +26,6 @@
 		h2.page-title {
 			min-height: 27px;
 		}
-
 	}
 
 	.sidebar div.mobile-accordion {
@@ -37,6 +36,9 @@
 	}
 	div.spacer, div.cms-history, div.preview-inline-edit-box {
 		display: none !important;
+	}
+	.inline-edit-box, .inline-add-box {
+		display: none;
 	}
 	.sidebar div.clearfix {
 		margin-bottom: 0;

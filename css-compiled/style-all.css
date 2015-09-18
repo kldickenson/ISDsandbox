@@ -385,8 +385,7 @@ tfoot td {
   background-image: none;
   min-height: 250px; }
   .landing #page-banner .container {
-    background: none;
-    min-height: 100px; }
+    background: none; }
 
 h2.page-title {
   padding: 20px;
@@ -3775,6 +3774,9 @@ ul.flex-direction-nav {
 
   div.spacer, div.cms-history, div.preview-inline-edit-box {
     display: none !important; }
+
+  .inline-edit-box, .inline-add-box {
+    display: none; }
 
   .sidebar div.clearfix {
     margin-bottom: 0; } }
