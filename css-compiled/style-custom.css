@@ -1201,12 +1201,7 @@ div.accordion-section-content {
   background-color: #2f63a2; }
 
 .students h2.page-title {
-  color: #fff;
-  padding-top: 55px; }
-
-.students.landing h2.page-title {
-  padding-top: 100px;
-  margin-right: 480px; }
+  color: #fff; }
 
 /*
 .students.landing #page-banner .container.currentstudents	{
@@ -1217,12 +1212,10 @@ div.accordion-section-content {
 .calendar #page-banner {
   background: none;
   background: #c35d29;
-  background: #f58345;
-  height: 100px; }
+  background: #f58345; }
 
 .calendar #page-banner .container {
-  background: none;
-  height: 100px; }
+  background: none; }
 
 .calendar #page-banner h2.page-title {
   color: #fff;
@@ -1354,25 +1347,13 @@ div.accordion-section-content {
 /*   - - - - - - - .admissions program specific - - - - - - -   */
 .admissions #page-banner {
   background: none;
-  background: #933da6;
-  height: 100px; }
-
-.admissions.landing #page-banner {
-  height: 250px; }
+  background: #933da6; }
 
 .admissions #page-banner .container {
-  background: none;
-  height: 100px; }
-
-.landing.admissions #page-banner .container {
-  height: 250px; }
+  background: none; }
 
 .admissions h2.page-title {
   color: #fff; }
-
-.admissions.landing h2.page-title {
-  padding-top: 100px;
-  margin-right: 480px; }
 
 /*
 	.admissions.landing #page-banner .container.admissionsaid	{
@@ -1383,18 +1364,10 @@ div.accordion-section-content {
 /*   - - - - - - - .grad program specific - - - - - - -   */
 .grad #page-banner {
   background: none;
-  background: #ffa609;
-  height: 100px; }
-
-.grad.landing #page-banner {
-  height: 250px; }
+  background: #ffa609; }
 
 .grad #page-banner .container {
-  background: none;
-  height: 100px; }
-
-.grad.landing #page-banner .container {
-  height: 250px; }
+  background: none; }
 
 .grad h2.page-title {
   color: #fff; }
@@ -1513,18 +1486,10 @@ div.accordion-section-content {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
-  height: 100px; }
-
-.pro.landing #page-banner {
-  height: 250px; }
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat; }
 
 .pro #page-banner .container {
-  background: none;
-  height: 100px; }
-
-.pro.landing #page-banner .container {
-  height: 250px; }
+  background: none; }
 
 .pro h2.page-title {
   color: #176eb5; }
@@ -1532,18 +1497,10 @@ div.accordion-section-content {
 /*   - - - - - - - .custom program specific - - - - - - -   */
 .custom #page-banner {
   background: none;
-  background: #c6cf62;
-  height: 100px; }
-
-.custom.landing #page-banner {
-  height: 250px; }
+  background: #c6cf62; }
 
 .custom #page-banner .container {
-  background: none;
-  height: 100px; }
-
-.custom.landing #page-banner .container {
-  height: 250px; }
+  background: none; }
 
 .custom h2.page-title {
   color: #fff; }
