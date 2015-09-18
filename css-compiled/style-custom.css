@@ -1000,26 +1000,31 @@ div.accordion-section-content {
 /*   - - - - - - - .about program specific - - - - - - -   */
 .about #page-banner {
   background: none;
-  background: #597eb2;
-  height: 100px; }
+  background: #597eb2; }
 
+/*
 .about.landing #page-banner {
-  height: 250px; }
+    height: 250px;
+}
 
 .about #page-banner .container {
-  background: none;
-  height: 100px; }
+    background: none;
+    height: 100px;
+}
 
 .landing.about #page-banner .container {
-  height: 250px; }
-
+    height: 250px;
+}
+*/
 .about h2.page-title {
   color: #fff; }
 
+/*
 .about.landing h2.page-title {
-  padding-top: 100px;
-  margin-right: 480px; }
-
+    padding-top: 100px;
+    margin-right: 480px;
+}
+*/
 /*
 	.about.landing #page-banner .container	{
 		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/about-banner.jpg") top right no-repeat;

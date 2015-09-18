@@ -165,24 +165,20 @@
   padding: 0;
   background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
   z-index: 10; }
+  #page-banner img {
+    position: relative !important;
+    float: right !important;
+    z-index: 15; }
 
 #page-banner.img-embed {
   background-image: none; }
 
 .landing #page-banner {
-  background-image: none; }
-
-.custom-programs #page-banner {
-  background-color: rgba(176, 188, 34, 0.7); }
-
-#page-banner .container {
-  /*height: 150px;*/
-  /*background: transparent url(../../images/banner-kata-title.png) right top no-repeat;*/ }
-
-#page-banner img {
-  position: relative !important;
-  float: right !important;
-  z-index: 15; }
+  background-image: none;
+  height: 250px; }
+  .landing #page-banner .container {
+    background: none;
+    height: 100px; }
 
 h2.page-title {
   padding: 20px;

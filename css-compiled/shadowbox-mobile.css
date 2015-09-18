@@ -164,7 +164,7 @@ div.sb-message a:link, div.sb-message a:visited {
     max-width: 530px !important; }
 
   #sb-wrapper-inner {
-    height: 100% !important; }
+    min-height: 550px !important; }
 
   #sb-body-inner {
     /* Needed for touch scrolling on iPhones in Safari*/
