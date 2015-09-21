@@ -80,6 +80,8 @@
     float: none;
     width: 40%;
     margin: 10px 0 10px 30%; }
+  .send-message-form.signup input[name=submit] {
+    right: 0; }
   .send-message-form div.clear {
     height: 1px; }
   .send-message-form footer {
