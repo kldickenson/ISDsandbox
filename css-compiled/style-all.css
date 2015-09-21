@@ -1715,16 +1715,16 @@ div.accordion-section-content {
   text-align: center; }
 
 @media only screen and (max-width: 768px) {
-  .tab-title-item a {
+  .isd-organic-tabs .nav a {
     padding-right: 10px;
     padding-left: 10px; }
-    .tab-title-item a.current {
+    .isd-organic-tabs .nav a.current {
       text-decoration: none; }
-    .tab-title-item a:not(.tab-dropdown) {
+    .isd-organic-tabs .nav a:not(.tab-dropdown) {
       padding-right: 10px;
       padding-left: 10px;
       text-decoration: underline; }
-    .tab-title-item a:hover, .tab-title-item a:focus {
+    .isd-organic-tabs .nav a:hover, .isd-organic-tabs .nav a:focus {
       color: #176eb5; } }
 #footer .social-media {
   list-style: none;
