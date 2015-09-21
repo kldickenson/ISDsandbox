@@ -2,22 +2,14 @@
 
 .pro #page-banner {
     background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
- //   height: 100px;
+	background-color: #a6bee0;
 }
-
-.pro.landing #page-banner {
- //   height: 250px;
-}
-
-.pro #page-banner .container {
-    background: none;
- //   height: 100px;
-}
-
-.pro.landing #page-banner .container {
-//    height: 250px;
-}
-
 .pro h2.page-title {
     color: #176eb5;
+}
+
+@media only screen and (max-width: 768px) {
+	.pro #page-banner {
+		background: none;
+	}
 }

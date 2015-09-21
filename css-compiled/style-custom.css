@@ -1002,29 +1002,12 @@ div.accordion-section-content {
   background: none;
   background: #597eb2; }
 
-/*
-.about.landing #page-banner {
-    height: 250px;
-}
-
-.about #page-banner .container {
-    background: none;
-    height: 100px;
-}
-
-.landing.about #page-banner .container {
-    height: 250px;
-}
-*/
 .about h2.page-title {
   color: #fff; }
 
-/*
-.about.landing h2.page-title {
-    padding-top: 100px;
-    margin-right: 480px;
-}
-*/
+@media only screen and (max-width: 768px) {
+  .about #page-banner {
+    background: none; } }
 /*
 	.about.landing #page-banner .container	{
 		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/about-banner.jpg") top right no-repeat;
@@ -1203,6 +1186,9 @@ div.accordion-section-content {
 .students h2.page-title {
   color: #fff; }
 
+@media only screen and (max-width: 768px) {
+  .students #page-banner {
+    background: none; } }
 /*
 .students.landing #page-banner .container.currentstudents	{
     background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-current-students-title.jpg") top right no-repeat;
@@ -1358,12 +1344,12 @@ div.accordion-section-content {
   background: none;
   background: #933da6; }
 
-.admissions #page-banner .container {
-  background: none; }
-
 .admissions h2.page-title {
   color: #fff; }
 
+@media only screen and (max-width: 768px) {
+  .admissions #page-banner {
+    background: none; } }
 /*
 	.admissions.landing #page-banner .container.admissionsaid	{
 		background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-admissions-aid-title.jpg") top right no-repeat;
@@ -1497,25 +1483,26 @@ div.accordion-section-content {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat; }
-
-.pro #page-banner .container {
-  background: none; }
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
+  background-color: #a6bee0; }
 
 .pro h2.page-title {
   color: #176eb5; }
 
+@media only screen and (max-width: 768px) {
+  .pro #page-banner {
+    background: none; } }
 /*   - - - - - - - .custom program specific - - - - - - -   */
 .custom #page-banner {
   background: none;
   background: #c6cf62; }
 
-.custom #page-banner .container {
-  background: none; }
-
 .custom h2.page-title {
   color: #fff; }
 
+@media only screen and (max-width: 768px) {
+  .custom #page-banner {
+    background: none; } }
 /*   - - - - - - - .people People specific - - - - - - -   */
 .people #page-banner {
   background-image: none;
@@ -1525,6 +1512,9 @@ div.accordion-section-content {
 .people h2.page-title {
   color: #fff; }
 
+@media only screen and (max-width: 768px) {
+  .people #page-banner {
+    background: none; } }
 /*
 .people.landing #page-banner .container.people	{
     background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/banner-people-title.jpg") top right no-repeat;

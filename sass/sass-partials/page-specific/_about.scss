@@ -6,31 +6,15 @@
     //height: 100px;
 }
 
-/*
-.about.landing #page-banner {
-    height: 250px;
-}
-
-.about #page-banner .container {
-    background: none;
-    height: 100px;
-}
-
-.landing.about #page-banner .container {
-    height: 250px;
-}
-*/
-
 .about h2.page-title {
     color: #fff;
 }
 
-/*
-.about.landing h2.page-title {
-    padding-top: 100px;
-    margin-right: 480px;
+@media only screen and (max-width: 768px) {
+	.about #page-banner {
+		background: none;
+	}
 }
-*/
 
 /*
 	.about.landing #page-banner .container	{

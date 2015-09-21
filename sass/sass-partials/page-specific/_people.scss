@@ -8,6 +8,12 @@
     color: #fff;
 }
 
+@media only screen and (max-width: 768px) {
+    .people #page-banner {
+        background: none;
+    }
+}
+
 //.people.landing h2.page-title {
 //    padding-top: 100px;
 //    margin-right: 480px;
