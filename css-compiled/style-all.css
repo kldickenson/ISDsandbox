@@ -418,9 +418,9 @@ h2.page-title span {
     margin: 0;
     width: 100%; }
 
-  .short #page-banner {
+  #page-banner {
     height: inherit;
-    min-height: 87px; }
+    min-height: 67px; }
 
   #page-banner .container {
     margin: 0;

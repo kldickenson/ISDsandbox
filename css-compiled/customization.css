@@ -1,0 +1,267 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #58585a;
+  background: #f3f2f1;
+  font-size: .9em; }
+
+.container {
+  /*border: 1px solid red;*/ }
+
+.left {
+  float: left;
+  margin: 0 10px 10px 0; }
+
+.right {
+  float: right;
+  margin: 0 0 10px 10px; }
+
+.gutter {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.two-col .alpha {
+  margin-right: 20px; }
+
+.two-col .omega {
+  margin-left: 20px; }
+
+.clearfix {
+  margin: 0 !important; }
+
+a.download {
+  display: block;
+  width: 32px;
+  height: 30px;
+  /* TOTAL height: 85px; */
+  padding-top: 55px;
+  background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-download.png) 50% top no-repeat;
+  text-transform: uppercase;
+  font-size: .6em;
+  color: #176eb5; }
+
+p.intro {
+  max-width: 650px;
+  color: #58585a;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-weight: 600; }
+
+.bottom-rule {
+  min-height: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif) left bottom repeat-x; }
+
+p.no-space {
+  margin-bottom: 0; }
+
+p.no-space + ul {
+  margin-bottom: 20px;
+  list-style: disc; }
+
+strong {
+  color: #58585a;
+  font-weight: bold; }
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: .7em;
+  line-heigh: 0; }
+
+sub {
+  top: 0.4em; }
+
+cite {
+  font-style: italic;
+  font-weight: bold; }
+
+acronym, abbr {
+  border-bottom: 1px dotted #58585a; }
+
+pre {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 650px;
+  /* for ie7 */
+  padding-bottom: 20px;
+  /* for ie7 */
+  max-height: 600px; }
+
+blockquote,
+blockquote p {
+  color: #58585A; }
+
+div.captioned {
+  font-size: .7em; }
+
+div.captioned img {
+  border: 5px solid #fff;
+  margin-bottom: 5px; }
+
+div.captioned.thumbnail img {
+  border: 5px solid #fff;
+  margin-bottom: 5px;
+  max-height: 155px;
+  max-width: 225px;
+  margin-right: 10px; }
+
+div.captioned object {
+  border: 5px solid #fff;
+  margin-bottom: 5px; }
+
+div.captioned p {
+  line-height: 1.2em;
+  margin-bottom: 10px; }
+
+ul {
+  list-style: disc;
+  margin-left: 5px;
+  padding-left: 15px; }
+  ul ul {
+    list-style: circle; }
+  ul.no-style {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
+    ul.no-style li {
+      list-style: none; }
+
+ol {
+  margin-bottom: 20px; }
+
+ol.roman {
+  list-style: upper-roman; }
+
+dl {
+  margin-bottom: 10px; }
+
+dt, dd {
+  margin-bottom: 10px;
+  padding-left: 1em;
+  text-indent: -1em; }
+
+dt {
+  margin-bottom: 5px; }
+
+dt,
+dd strong {
+  font-weight: 700; }
+
+dd p,
+dd li {
+  margin-bottom: 0; }
+
+dd div {
+  text-indent: 0; }
+
+hr {
+  clear: both; }
+
+table {
+  color: #176eb5;
+  margin-bottom: 20px;
+  background: #fff;
+  position: relative; }
+
+th, td {
+  border: #ccc 1px solid;
+  padding: 5px 10px;
+  font-size: .95em;
+  position: relative; }
+
+th {
+  font-weight: bold; }
+
+tfoot td {
+  font-size: .85em;
+  color: #58585a; }
+
+/* Generic Utility for jQuery tabs */
+.hide {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+.color-tile {
+  display: block;
+  width: 100px;
+  height: 55px;
+  border: 1px solid #000;
+  text-align: center;
+  padding-top: 40px;
+  color: #000; }
+
+.color-primary {
+  background: #176EB5; }
+
+.color-secondary {
+  background: #f3f2f1; }
+
+.color-pg-bkgd {
+  background: #f3f2f1; }
+
+.color-font {
+  background: #58585a; }
+
+.color-about {
+  background: #597eb2;
+  /*background-color: rgba(19, 71, 145, .7);*/ }
+
+.color-admissions, .purple {
+  background: #933da6;
+  /*background-color: rgba(108, 32, 126, .7);*/ }
+
+.purple {
+  color: #933da6; }
+
+.color-degree {
+  background: #ffa609;
+  /*background-color: rgba(213, 159, 13, .9);*/ }
+
+.color-pro-certs {
+  background: rgba(86, 160, 211, 0.7);
+  /*background-color: rgba(86, 160, 211, .7);*/ }
+
+.color-custom {
+  background-color: rgba(176, 188, 34, 0.7); }
+
+.color-people {
+  background-color: rgba(145, 145, 149, 0.7); }
+
+#content {
+  width: 100%;
+  min-height: 650px;
+  margin-bottom: 20px; }
+
+#page-content.eleven.columns {
+  margin-left: 0;
+  min-height: 500px; }
+
+/*  - - - - - - - -  Edit to accomodate styling for the CMS system - - - - - - - - - -  */
+.inline-edit-box,
+.inline-add-box {
+  list-style: none;
+  margin-left: 0;
+  padding: 0; }
+
+@media only screen and (max-width: 767px) {
+  div.sidebar.preview-editable {
+    margin-bottom: 0 !important; }
+
+  div.spacer, div.cms-history, div.preview-inline-edit-box {
+    display: none !important; }
+
+  .inline-edit-box, .inline-add-box {
+    display: none; }
+
+  .add-submenu {
+    display: none; } }
+
+/*# sourceMappingURL=customization.css.map */
