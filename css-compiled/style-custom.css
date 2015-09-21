@@ -178,13 +178,13 @@
       vertical-align: top;
       margin-right: 0;
       padding: 0 20px 0 0;
-      background: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-white.png) top right no-repeat;
+      background: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-register.png") top right no-repeat;
       text-align: right;
       color: #fff; }
       #upcoming ul.ilr li.item a:hover, #upcoming ul.ilr li.item a:focus {
         text-decoration: none;
         color: yellow;
-        background-image: url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-yellow.png); }
+        background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/icon-register-orange.png"); }
     #upcoming ul.ilr li.item.soldout {
       background-color: #e7e7e7; }
       #upcoming ul.ilr li.item.soldout h5 {
