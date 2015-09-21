@@ -333,7 +333,13 @@
 
 @media only screen and (max-width: 768px) {
     .tab-title-item a {
-        padding-right: 10px; padding-left: 10px;
+        //padding-right: 10px; padding-left: 10px;
+        &:not(.tab-dropdown) {
+            padding-right: 10px; padding-left: 10px;
+        }
+        &:hover, &:focus {
+            color:#176eb5;
+        }
     }
     .tab-title-item a {
         text-decoration: underline;
