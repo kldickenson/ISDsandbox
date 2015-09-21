@@ -262,6 +262,9 @@ tfoot td {
     display: none; }
 
   .add-submenu {
+    display: none; }
+
+  .tab-menu {
     display: none; } }
 
 /*# sourceMappingURL=customization.css.map */

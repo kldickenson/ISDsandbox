@@ -263,6 +263,9 @@ tfoot td {
     display: none; }
 
   .add-submenu {
+    display: none; }
+
+  .tab-menu {
     display: none; } }
 #top_wrapper {
   z-index: 100; }
