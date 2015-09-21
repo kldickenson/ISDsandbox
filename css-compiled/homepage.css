@@ -362,6 +362,25 @@ ul.flex-direction-nav {
   border: 8px solid #fff;
   margin-bottom: 30px; }
 
+/*  KTA's addition */
+.marginTopNeg50 {
+  margin-top: -50px; }
+
+#slider {
+  position: relative; }
+
+ul.slides .container.flex-caption {
+  position: inherit;
+  font-size: .9em;
+  padding: 10px; }
+
+#ribbon {
+  margin-top: 0; }
+
+#ribbon table, #ribbon table tr, #ribbon table tr td {
+  border-style: none;
+  background: inherit; }
+
 #action {
   /*height: 240px;*/
   /* Total height: 280px; */
