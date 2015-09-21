@@ -155,3 +155,21 @@
     width: 70px;
     padding: 0 5px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .calendar {
+        #page-banner {
+                height: inherit;
+                min-height: 67px;
+            }
+        #page-banner .container {
+            margin: 0;
+            width: 100%;
+            img {
+                display: none;
+            }
+        }
+    }
+}
+

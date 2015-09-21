@@ -2889,6 +2889,15 @@ div.boxed {
   width: 70px;
   padding: 0 5px; }
 
+@media only screen and (max-width: 768px) {
+  .calendar #page-banner {
+    height: inherit;
+    min-height: 67px; }
+  .calendar #page-banner .container {
+    margin: 0;
+    width: 100%; }
+    .calendar #page-banner .container img {
+      display: none; } }
 /*   - - - - - - news article archive specific - - - - - - */
 .article-archive .dateBg {
   display: block;
