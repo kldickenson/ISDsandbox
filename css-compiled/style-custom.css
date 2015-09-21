@@ -968,6 +968,10 @@ div.accordion-section-content {
   width: 15%;
   text-align: center; }
 
+@media only screen and (max-width: 768px) {
+  .tab-title-item a {
+    padding-right: 10px;
+    padding-left: 10px; } }
 #grad-menu {
   width: 100%;
   background: transparent url("//confluence.engin.umich.edu/download/attachments/30508410/rule-embossed.gif") left top repeat-x;
