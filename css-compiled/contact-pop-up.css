@@ -26,7 +26,7 @@
     position: relative;
     right: -8px; }
     .signup .send-message-form input[name=submit] {
-      text-align: center; }
+      right: 0; }
   .send-message-form footer {
     clear: both;
     margin-top: 10px;
