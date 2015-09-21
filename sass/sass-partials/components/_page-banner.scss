@@ -23,9 +23,11 @@
         //min-height: 100px;
     }
 }
+/*
 .short #page-banner {
-
+    min-height: 100px;
 }
+*/
 
 h2.page-title {
     padding: 20px;
@@ -53,7 +55,7 @@ h2.page-title span {
         width: 100%;
     }
 
-    #page-banner {
+    #page-banner/*, .short #page-banner*/ {
         height: inherit;
         min-height: 67px;
     }

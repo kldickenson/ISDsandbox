@@ -177,6 +177,11 @@
   .landing #page-banner .container {
     background: none; }
 
+/*
+.short #page-banner {
+    min-height: 100px;
+}
+*/
 h2.page-title {
   padding: 20px;
   padding-left: 0;
