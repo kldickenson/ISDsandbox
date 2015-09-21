@@ -757,7 +757,7 @@ h2.page-title span {
     #upcoming ul.ilr li.item div {
       color: #fff; }
       #upcoming ul.ilr li.item div span {
-        color: yellow !important; }
+        color: #FFFF00 !important; }
       #upcoming ul.ilr li.item div.class-name {
         display: none; }
     #upcoming ul.ilr li.item div.status {
