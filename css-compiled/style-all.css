@@ -265,7 +265,7 @@ tfoot td {
   .add-submenu {
     display: none; }
 
-  .tab-menu {
+  .isd-organic-tabs ul.tab-menu {
     display: none; } }
 #top_wrapper {
   z-index: 100; }
