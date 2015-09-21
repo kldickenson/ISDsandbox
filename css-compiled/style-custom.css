@@ -1392,6 +1392,9 @@ div.accordion-section-content {
 .grad #sidebar {
   margin-top: 0; }
 
+@media only screen and (max-width: 768px) {
+  .grad #page-banner {
+    background: none; } }
 /* - - - - - - - See #grad-menu in _sidebar-submenu.scss - - - - - - - */
 /*LANDING STYLE PAGE BANNERS*/
 /*
