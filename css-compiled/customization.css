@@ -251,6 +251,9 @@ tfoot td {
   margin-left: 0;
   padding: 0; }
 
+isd-organic-tabs div.add-tab-li {
+  display: inline-block; }
+
 @media only screen and (max-width: 767px) {
   div.sidebar.preview-editable {
     margin-bottom: 0 !important; }
@@ -265,7 +268,7 @@ tfoot td {
     display: none; }
 
   .isd-organic-tabs ul.tab-menu,
-  .isd-organic-tabs div.add-tab-li {
+  .isd-organic-tabs .nav div.add-tab-li {
     display: none !important; } }
 
 /*# sourceMappingURL=customization.css.map */
