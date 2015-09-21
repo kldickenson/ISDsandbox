@@ -35,7 +35,13 @@
 		font-weight: bold;
 		position: relative;
 		right: -8px;
+
+		.signup & {
+			text-align: center;
+		}
 	}
+
+
 
 /* For "We want to hear from you!" Footer */
 	footer {
