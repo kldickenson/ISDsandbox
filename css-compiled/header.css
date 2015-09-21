@@ -212,9 +212,13 @@ h2.page-title span {
     width: 100%;
     font-size: 1.6em;
     padding: 20px 11px;
+    margin-bottom: 0;
     background: #0b66bc;
     color: #fff;
-    clear: both; } }
+    clear: both; }
+
+  #content {
+    padding-top: 20px; } }
 @media only screen and (min-width: 767px) {
   #page-banner {
     clear: both;
