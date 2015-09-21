@@ -25,8 +25,8 @@
     font-weight: bold;
     position: relative;
     right: -8px; }
-    .signup .send-message-form input[name=submit] {
-      right: 40%; }
+  .send-message-form.signup input[name=submit] {
+    right: 40%; }
   .send-message-form footer {
     clear: both;
     margin-top: 10px;

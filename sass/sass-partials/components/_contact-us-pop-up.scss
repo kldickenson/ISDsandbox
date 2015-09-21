@@ -36,11 +36,10 @@
 		position: relative;
 		right: -8px;
 
-		.signup & {
-			right: 40%;			
-		}
 	}
-
+	&.signup input[name=submit] {
+		right: 40%;
+	}
 
 
 /* For "We want to hear from you!" Footer */
