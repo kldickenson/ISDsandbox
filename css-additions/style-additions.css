@@ -11,5 +11,14 @@
 
 #upcoming ul.ilr li.item a:hover, 
 #upcoming ul.ilr li.item a:focus {
-    color: #ffcf06;
+    color: #ffcf01;
+}
+
+#main-menu .flexnav > li ul.flexnav-show + span {
+}
+
+.flexnav > li .touch-button.active .navicon {	
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
 }
