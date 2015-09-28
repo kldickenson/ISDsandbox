@@ -16,9 +16,13 @@
 
 #main-menu .flexnav > li ul.flexnav-show + span {
 }
-
-.flexnav > li .touch-button.active .navicon {
+.flexnav > li .touch-button .navicon {
 	display: inline-block;	
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.flexnav > li .touch-button.active .navicon {
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
