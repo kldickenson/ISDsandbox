@@ -1,0 +1,11 @@
+/* - - - - - - Additional CSS post mobile header/footer/menu implementation - - - - - */
+
+.mobile-menu-contact a, 
+#main-menu .menu-button span.touch-button i.navicon {
+	background-image: none;
+}
+
+#upcoming ul.ilr li.item div.status {
+	margin-top:10px;
+}
+
