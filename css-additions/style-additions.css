@@ -59,9 +59,17 @@
 }
 
 /* - - - - - For How To: spacing of text "Current Programs" and "Time Committment" above icons - - - - - - */
+.howto #course-description .nav li.nav-one a {
+    height: 120px;
+    padding-top: 135px;
+}
 .howto #course-description .nav li.nav-one a.current {
 	height: 160px;
     padding-top: 98px;
+}
+.how-to #course-description .nav li.nav-three a {
+    height: 115px;
+    padding-top: 135px;
 }
 .how-to #course-description .nav li.nav-three a.current {
     height: 155px;
