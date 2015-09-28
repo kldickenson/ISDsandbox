@@ -27,6 +27,10 @@
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
 }
+#main-menu .flexnav > li ul.flexnav-show {
+	list-style: none;
+}
+
 /* - - - to hide the shy triangle icon beind the hamburger - - - */
 .menu-button > span.touch-button {
 	display: none;
