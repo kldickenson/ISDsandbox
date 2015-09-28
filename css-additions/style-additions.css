@@ -9,3 +9,7 @@
 	margin-top:10px;
 }
 
+#upcoming ul.ilr li.item a:hover, 
+#upcoming ul.ilr li.item a:focus {
+    color: #ffcf06;
+}
