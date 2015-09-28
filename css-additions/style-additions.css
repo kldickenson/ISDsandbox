@@ -60,6 +60,7 @@
 
 /* - - - - - For How To: improved spacing on "Current Programs" above icon - - - - - - */
 .howto #course-description .nav li.nav-one a.current {
+	height: 160px;
     padding-top: 98px;
 }
 
