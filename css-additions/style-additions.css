@@ -28,14 +28,18 @@
     transform: rotate(0deg);
 }
 /* - - - to hide the shy triangle icon beind the hamburger - - - */
-.menu-button > .touch-button {
+.menu-button > span.touch-button {
 	display: none;
 }
-.menu-button > .hamburger {
+.menu-button > span.hamburger {
 	display: block;
 }
-.menu-button > .touch-button .navicon {
+.menu-button > span.touch-button i.navicon {
 	display: none;
+	color: #61b5da;
+	width:1px;
+	height: 1px;
+	content: " ";
 }
 
 /* - - - - - For iPhone iframe scroll - - - - - - */
