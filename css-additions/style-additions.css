@@ -14,6 +14,7 @@
     color: #ffcf01;
 }
 
+
 /* - - - - - For mobile menu open/close icon rotations - - - - - - */
 .flexnav > li .touch-button .navicon {
 	display: inline-block;	
@@ -26,6 +27,14 @@
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
 }
+/* - - - to hide the shy triangle icon beind the hamburger - - - */
+.menu-button .touch-button {
+	display: none;
+}
+.menu-button .touch-button.hamburger {
+	display: block;
+}
+
 
 /* - - - - - For iPhone iframe scroll - - - - - - */
 #sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
