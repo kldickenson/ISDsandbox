@@ -34,12 +34,13 @@
 .menu-button > span.hamburger {
 	display: block;
 }
-.menu-button > span.touch-button i.navicon {
-	display: none;
-	color: #61b5da;
-	width:1px;
-	height: 1px;
-	content: " ";
+.menu-button > span.touch-button > i.navicon {
+	display: none !important;
+	color: #61b5da !important;
+	width:1px !important;
+	height: 1px !important;
+	font-size: 1px !important;
+	content: " " !important;
 }
 
 /* - - - - - For iPhone iframe scroll - - - - - - */
