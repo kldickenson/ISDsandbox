@@ -14,8 +14,6 @@
     color: #ffcf01;
 }
 
-#main-menu .flexnav > li ul.flexnav-show + span {
-}
 .flexnav > li .touch-button .navicon {
 	display: inline-block;	
     -ms-transform: rotate(-90deg); /* IE 9 */
