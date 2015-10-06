@@ -77,27 +77,33 @@
 .howto #course-description .nav li.nav-two  {
     background-position:  -180px bottom;
 }
-.howto #course-description .nav li.nav-two.current  {
+.howto #course-description .nav li.nav-two.current ,
+.howto #course-description .nav li.nav-two:hover,
+.howto #course-description .nav li.nav-two:focus {
     background-position:  -180px top;
 }
 
 .howto #course-description .nav li.nav-three  {
     background-position:  -360px bottom;
 }
-.howto #course-description .nav li.nav-three.current  {
+.howto #course-description .nav li.nav-three.current,
+.howto #course-description .nav li.nav-three:hover,
+.howto #course-description .nav li.nav-three:focus  {
     background-position:  -360px top;
 }
 
 .howto #course-description .nav li.nav-four  {
     background-position:  -540px bottom;
 }
-.howto #course-description .nav li.nav-four.current  {
+.howto #course-description .nav li.nav-four.current,
+.howto #course-description .nav li.nav-four:hover,
+.howto #course-description .nav li.nav-four:focus  {
     background-position:  -540px top;
 }
 
 
 .howto #course-description .nav li a {
-	heigth: 160px;
+	height: 160px;
 	padding-top: 125px;
 	background: none;
 }
