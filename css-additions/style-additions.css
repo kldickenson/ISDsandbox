@@ -77,7 +77,7 @@
 .howto #course-description .nav li.nav-two  {
     background-position:  -180px bottom;
 }
-.howto #course-description .nav li.nav-two.current ,
+.howto #course-description .nav li.nav-two.current,
 .howto #course-description .nav li.nav-two:hover,
 .howto #course-description .nav li.nav-two:focus {
     background-position:  -180px top;
@@ -119,31 +119,31 @@
 }
 
 .howto #course-description .nav li.nav-two a {
-	padding-top: 127px;
+	padding-top: 135px;
 }
 .howto #course-description .nav li.nav-two a.current,
 .howto #course-description .nav li.nav-two:hover a,
 .howto #course-description .nav li.nav-two:focus a  
 {
-	padding-top: 117px;
+	padding-top: 125px;
 }
 
 .howto #course-description .nav li.nav-three a {
-	padding-top: 115px;
+	padding-top: 123px;
 }
 .howto #course-description .nav li.nav-three a.current,
 .howto #course-description .nav li.nav-three:hover a,
 .howto #course-description .nav li.nav-three:focus a 
 {
-	padding-top: 105px;
+	padding-top: 113px;
 }
 
 .howto #course-description .nav li.nav-four a {
-	padding-top: 110px;
+	padding-top: 115px;
 }
 .howto #course-description .nav li.nav-four a.current,
 .howto #course-description .nav li.nav-four:hover a,
 .howto #course-description .nav li.nav-four:focus a  
 {
-	padding-top: 100px;
+	padding-top: 105px;
 }
