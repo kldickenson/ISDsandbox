@@ -59,19 +59,71 @@
 }
 
 /* - - - - - For How To: spacing of text "Current Programs" and "Time Committment" above icons - - - - - - */
+.howto #course-description .nav li {
+	height: 250px;
+	background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat;
+}
+
+
+.howto #course-description .nav li.nav-one  {
+    background-position:  0 bottom;
+}
+.howto #course-description .nav li.nav-one.current  {
+    background-position:  0 top;
+}
+
+.howto #course-description .nav li.nav-two  {
+    background-position:  -180px bottom;
+}
+.howto #course-description .nav li.nav-two.current  {
+    background-position:  -180px top;
+}
+
+.howto #course-description .nav li.nav-three  {
+    background-position:  -360px bottom;
+}
+.howto #course-description .nav li.nav-three.current  {
+    background-position:  -360px top;
+}
+
+.howto #course-description .nav li.nav-four  {
+    background-position:  -540px bottom;
+}
+.howto #course-description .nav li.nav-four.current  {
+    background-position:  -540px top;
+}
+
+
+.howto #course-description .nav li a {
+	heigth: 160px;
+	padding-top: 125px;
+	background: none;
+}
+
 .howto #course-description .nav li.nav-one a {
-    height: 120px;
-    padding-top: 135px;
+	padding-top: 125px;
 }
 .howto #course-description .nav li.nav-one a.current {
-	height: 160px;
-    padding-top: 98px;
+	padding-top: 125px;
 }
-.how-to #course-description .nav li.nav-three a {
-    height: 115px;
-    padding-top: 135px;
+
+.howto #course-description .nav li.nav-two a {
+	padding-top: 125px;
 }
-.how-to #course-description .nav li.nav-three a.current {
-    height: 155px;
-    padding-top: 106px;
+.howto #course-description .nav li.nav-two a.current {
+	padding-top: 125px;
+}
+
+.howto #course-description .nav li.nav-three a {
+	padding-top: 125px;
+}
+.howto #course-description .nav li.nav-three a.current {
+	padding-top: 125px;
+}
+
+.howto #course-description .nav li.nav-four a {
+	padding-top: 125px;
+}
+.howto #course-description .nav li.nav-four a.current {
+	padding-top: 125px;
 }
