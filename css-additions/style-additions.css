@@ -60,7 +60,7 @@
 
 /* - - - - - For How To: spacing of text "Current Programs" and "Time Committment" above icons - - - - - - */
 .howto #course-description .nav li {
-	height: 250px;
+	height: 240px;
 	background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat;
 }
 
@@ -68,7 +68,9 @@
 .howto #course-description .nav li.nav-one  {
     background-position:  0 bottom;
 }
-.howto #course-description .nav li.nav-one.current  {
+.howto #course-description .nav li.nav-one.current,
+.howto #course-description .nav li.nav-one:hover,
+.howto #course-description .nav li.nav-one:focus  {
     background-position:  0 top;
 }
 
@@ -101,29 +103,41 @@
 }
 
 .howto #course-description .nav li.nav-one a {
-	padding-top: 125px;
+	padding-top: 110px;
 }
-.howto #course-description .nav li.nav-one a.current {
-	padding-top: 125px;
+.howto #course-description .nav li.nav-one a.current,
+.howto #course-description .nav li.nav-one:hover a,
+.howto #course-description .nav li.nav-one:focus a  
+{
+	padding-top: 100px;
 }
 
 .howto #course-description .nav li.nav-two a {
 	padding-top: 125px;
 }
-.howto #course-description .nav li.nav-two a.current {
-	padding-top: 125px;
+.howto #course-description .nav li.nav-two a.current,
+.howto #course-description .nav li.nav-two:hover a,
+.howto #course-description .nav li.nav-two:focus a  
+{
+	padding-top: 115px;
 }
 
 .howto #course-description .nav li.nav-three a {
-	padding-top: 125px;
+	padding-top: 115px;
 }
-.howto #course-description .nav li.nav-three a.current {
-	padding-top: 125px;
+.howto #course-description .nav li.nav-three a.current,
+.howto #course-description .nav li.nav-three:hover a,
+.howto #course-description .nav li.nav-three:focus a 
+{
+	padding-top: 105px;
 }
 
 .howto #course-description .nav li.nav-four a {
-	padding-top: 125px;
+	padding-top: 110px;
 }
-.howto #course-description .nav li.nav-four a.current {
-	padding-top: 125px;
+.howto #course-description .nav li.nav-four a.current,
+.howto #course-description .nav li.nav-four:hover a,
+.howto #course-description .nav li.nav-four:focus a  
+{
+	padding-top: 100px;
 }
