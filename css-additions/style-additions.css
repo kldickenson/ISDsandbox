@@ -10,8 +10,11 @@
 }
 
 #upcoming ul.ilr li.item a:hover, 
-#upcoming ul.ilr li.item a:focus {
+#upcoming ul.ilr li.item a:focus,
+#upcoming ul.ilr li.item a:active,
+#upcoming ul.ilr li.item a:visited {
     color: #ffcf01;
+    background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png");
 }
 
 
