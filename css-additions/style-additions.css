@@ -35,22 +35,6 @@
 	list-style: none;
 }
 
-/* - - - to hide the shy triangle icon beind the hamburger - - - */
-.menu-button > span.touch-button {
-	display: none;
-}
-.menu-button > span.hamburger {
-	display: block;
-}
-.menu-button > span.touch-button > i.navicon {
-	display: none !important;
-	color: #61b5da !important;
-	width:1px !important;
-	height: 1px !important;
-	font-size: 1px !important;
-	content: " " !important;
-}
-
 /* - - - - - For iPhone iframe scroll - - - - - - */
 #sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
 		overflow-y: scroll;
