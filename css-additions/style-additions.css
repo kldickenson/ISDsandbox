@@ -4,6 +4,9 @@
 #main-menu .menu-button span.touch-button i.navicon {
 	background-image: none;
 }
+.mobile-menu-contact {
+	opacity: 1.0;	
+}
 
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
@@ -42,6 +45,12 @@
 #main-menu .flexnav > li ul li {
 	list-style: none;
 }
+
+/* increasing length of flexnav-show to accomodate all menu item open in mobile */
+.flexnav.flexnav-show {
+	max-height: 3000px;
+}
+
 
 /* - - - - - For iPhone iframe scroll - - - - - - */
 #sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
