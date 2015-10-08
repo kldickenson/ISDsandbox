@@ -1,5 +1,22 @@
 /* - - - - - - Additional CSS post mobile header/footer/menu implementation - - - - - */
 
+/* - - - - Logo issues - - - - */
+#isd-logo img {
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+	#isd-logo {
+		width: 100%;
+	}
+	#isd-logo img {
+		width: 90%; /* to force logo to fit on screen and not be cut off on the right side */
+	}
+}
+
+
+
+/* - - - - Mobile menu issues - - - - */
 .mobile-menu-contact a, 
 #main-menu .menu-button span.touch-button i.navicon {
 	background-image: none;
@@ -8,6 +25,7 @@
 	opacity: 1.0;	
 }
 
+/* - - - - Upcoming register button issues - - - - */
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
 }
