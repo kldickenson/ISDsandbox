@@ -29,17 +29,17 @@
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
 }
-#upcoming ul.ilr li.item a:link {
+#upcoming ul.ilr li.item a.register-link:link {
 	color: #fff;
 	background: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-blue.png") top right no-repeat;
 	cursor: pointer;
 }
 
-#upcoming ul.ilr li.item a:visited,
-#upcoming ul.ilr li.item a:hover, 
-#upcoming ul.ilr li.item a:focus,
-#upcoming ul.ilr li.item a:active,
-#upcoming ul.ilr li.item a.touch
+#upcoming ul.ilr li.item a.register-link:visited,
+#upcoming ul.ilr li.item a.register-link:hover, 
+#upcoming ul.ilr li.item a.register-link:focus,
+#upcoming ul.ilr li.item a.register-link:active,
+#upcoming ul.ilr li.item a.register-link.touch
  {
     color: #ffcf01;
     background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png");
