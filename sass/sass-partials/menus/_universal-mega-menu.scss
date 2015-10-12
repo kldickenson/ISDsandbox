@@ -211,7 +211,7 @@ TABLE OF CONTENTS
   float:left;
   zoom:1;
   z-index: 10;
-  margin:0px 0 40px -1px;
+  margin:0 0 40px -1px;
   padding:20px 0 6px 0;
   -webkit-border-radius:0 0 3px 3px;
   -moz-border-radius:0 0 3px 3px;
@@ -1018,10 +1018,10 @@ TABLE OF CONTENTS
   *width:77.9%; /* IE7 bug */
   float: left;
   background-color: #ffffff;
-  -webkit-box-shadow: -1px 0px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: -1px 0px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: -1px 0px 1px rgba(0,0,0,0.05);
-  box-shadow: -1px 0px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: -1px 0 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: -1px 0 1px rgba(0,0,0,0.05);
+  -o-box-shadow: -1px 0 1px rgba(0,0,0,0.05);
+  box-shadow: -1px 0 1px rgba(0,0,0,0.05);
 }
 .mgmenu_tabs .mgmenu_tabs_nav li {
   list-style: none;
@@ -1057,10 +1057,10 @@ TABLE OF CONTENTS
 /* Right Tabs */
 
 .mgmenu_tabs_right .mgmenu_tabs_panels {
-  -webkit-box-shadow: 1px 0px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: 1px 0px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: 1px 0px 1px rgba(0,0,0,0.05);
-  box-shadow: 1px 0px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: 1px 0 1px rgba(0,0,0,0.05);
+  -o-box-shadow: 1px 0 1px rgba(0,0,0,0.05);
+  box-shadow: 1px 0 1px rgba(0,0,0,0.05);
 }
 
 /* Top & Bottom Tabs */
@@ -1091,23 +1091,23 @@ TABLE OF CONTENTS
 .mgmenu_tabs_top li a.current:hover,
 .mgmenu_tabs_bottom li a.current,
 .mgmenu_tabs_bottom li a.current:hover {
-  -webkit-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0px 1px rgba(0,0,0,0.05);
-  box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0 1px rgba(0,0,0,0.05);
+  -o-box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0 1px rgba(0,0,0,0.05);
+  box-shadow: -1px 0 1px rgba(0,0,0,0.05), 1px 0 1px rgba(0,0,0,0.05);
 }
 
 .mgmenu_tabs_top .mgmenu_tabs_panels {
-  -webkit-box-shadow: 0px -1px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0px -1px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: 0px -1px 1px rgba(0,0,0,0.05);
-  box-shadow: 0px -1px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 -1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 -1px 1px rgba(0,0,0,0.05);
+  -o-box-shadow: 0 -1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 -1px 1px rgba(0,0,0,0.05);
 }
 .mgmenu_tabs_bottom .mgmenu_tabs_panels {
-  -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
-  box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  -o-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
 }
 
 

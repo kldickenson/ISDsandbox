@@ -11,7 +11,7 @@
 		a.slider2button.medium.blue {
 			float: right; 
 			background-color: #5082b9; 
-			margin-top: 0px; 
+			margin-top: 0;
 			color: #ffffff;
 		}	
 	}
@@ -25,14 +25,14 @@
 		margin-bottom: 5px;
 	}
 	h6 {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 		font-weight: normal;
 		font-size: 1em;
 		color: #176eb5; 
 	}
 	p {
 		color: #176eb5; 
-		margin-bottom: 0px;
+		margin-bottom: 0;
 
 		&.icon {
 			color: #176eb5; 
