@@ -70,7 +70,7 @@ sup, sub {
   position: relative;
   top: -0.4em;
   font-size: .7em;
-  line-heigh: 0; }
+  line-height: 0; }
 
 sub {
   top: 0.4em; }
@@ -86,13 +86,10 @@ pre {
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   margin-bottom: 10px;
   overflow: auto;
-  width: auto;
-  padding: 5px;
   background-color: #eee;
   width: 650px;
   /* for ie7 */
-  padding-bottom: 20px;
-  /* for ie7 */
+  padding: 5px 5px 20px;
   max-height: 600px; }
 
 blockquote,
@@ -242,8 +239,7 @@ tfoot td {
   margin-bottom: 20px; }
 
 #page-content.eleven.columns {
-  margin-left: 0;
-  min-height: 500px; }
+  margin-left: 0; }
 
 /*  - - - - - - - -  Edit to accomodate styling for the CMS system - - - - - - - - - -  */
 .inline-edit-box,
@@ -252,7 +248,7 @@ tfoot td {
   margin-left: 0;
   padding: 0; }
 
-isd-organic-tabs div.add-tab-li {
+.isd-organic-tabs div.add-tab-li {
   display: inline-block; }
 
 @media only screen and (max-width: 767px) {
@@ -468,7 +464,6 @@ h2.page-title span {
     /* TOTAL height: 250px; */ }
 
   .short #page-banner {
-    height: inherit;
     min-height: 87px;
     height: 100px; }
     .short #page-banner h2.page-title {
@@ -523,7 +518,6 @@ h2.page-title span {
   #footer .siteinfo {
     color: #fff;
     font-size: 70%;
-    text-align: left;
     font-weight: normal;
     text-align: center; }
 
@@ -627,8 +621,6 @@ h2.page-title span {
         #breadcrumbs ul.social-media li a#interC span {
           display: block;
           text-indent: -9999px; }
-      #breadcrumbs ul.social-media li .chicklets {
-        text-indent: 999px; }
       #breadcrumbs ul.social-media li div {
         display: none; }
 
@@ -674,8 +666,8 @@ h2.page-title span {
   line-height: 1em;
   color: #176eb5; }
 
-#sidebar div,
-.sidebar div {
+#sidebar div:not(.clear),
+.sidebar div:not(.clear) {
   margin-bottom: 20px; }
 
 /* - - - - - Sidebar Submenu styling found in menus/_sidebar-submenu.scss - - - - - */
@@ -993,10 +985,8 @@ h2.page-title span {
     .promo.kata-facebook {
       text-align: center; }
     .promo.learning-objectives {
-      margin-top: 30px;
-      padding: 0;
-      padding-bottom: 10px;
-      background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
+      margin-top: 0;
+      padding: 5px 0; }
       .promo.learning-objectives img {
         display: none; }
       .promo.learning-objectives h4 {
@@ -1042,7 +1032,7 @@ h2.page-title span {
       margin-bottom: 0; }
     div.brochure p {
       color: #176EB5; }
-    div.brochure stong {
+    div.brochure strong {
       color: #176EB5; } }
 /*
 NEW:
@@ -1052,7 +1042,7 @@ NEW:
 	</div>
 	<div class="three columns alpha omega">
 		<p>The Lean Leadership workshop facilitated by Drew Locher provides a systematic way to guide Leaders through becoming Lean Thinkers and Lean Leaders. The combination of instruction and practical application help both new and experienced leaders work through Lean tools, like Leader Standard work, in small understandable bites.</p>
-		<p><em>—Danette Conley, Lean Director, Zodiac Aerospace</em></p>
+		<p><em>ΓÇöDanette Conley, Lean Director, Zodiac Aerospace</em></p>
 	</div>
 	<div class="one column omega">
 		<img src="http://confluence.engin.umich.edu/download/attachments/21103180/right-quote-icon.png" alt="right quotation mark" border="0">
@@ -1336,7 +1326,7 @@ div.sb-message a:link, div.sb-message a:visited {
 
 .accordion {
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   background: #f7f7f7; }
 
@@ -1414,8 +1404,8 @@ h3.mobile-title {
 .arrow {
   width: 20px;
   position: absolute;
-  right: 0;
-  top: 3px;
+  right: 10px;
+  top: 8px;
   z-index: 5;
   background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
   .active .arrow {
@@ -1435,8 +1425,9 @@ a.accordion-section-title {
 /*----- Section Content -----*/
 div.accordion-section-content {
   padding: 10px;
-  margin-bottom: 0; }
-  div.accordion-section-content columns {
+  margin-bottom: 0;
+  margin-top: 15px; }
+  div.accordion-section-content .columns {
     width: 100%; }
 
 /*.mobile-title {
@@ -2026,8 +2017,7 @@ div.accordion-section-content {
   float: left;
   margin-top: 0;
   color: #fff;
-  font: 85% "Open Sans", sans-serif;
-  margin-top: 0; }
+  font: 85% "Open Sans", sans-serif; }
 
 .menu-button {
   padding: 10px 11px 5px;
@@ -2214,7 +2204,6 @@ div.accordion-section-content {
     background: transparent; }
 
   .item-with-ul ul div.columns, .item-with-ul ul div.columns p, .item-with-ul ul div.columns a {
-    background-color: inherit;
     border: none;
     background: transparent; }
 
@@ -2425,7 +2414,7 @@ div.accordion-section-content {
           padding: 0;
           line-height: 1.2em;
           font-size: 1em;
-          font-weigth: normal; }
+          font-weight: normal; }
           nav.mainmenu .flexnav > li > ul p a {
             margin: 0;
             padding: 0;
@@ -2629,14 +2618,14 @@ div.boxed {
   height: 245px;
   /* TOTAL height: 245px; */
   padding: 0;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0 bottom no-repeat;
   font-weight: bold;
   font-size: 1.2em;
   color: #cccccc; }
 
 .howto #course-description .nav li.nav-one a {
   /* Compare Programs */
-  background-position: 0px bottom;
+  background-position: 0 bottom;
   height: 105px;
   /* TOTAL height: 245px; */
   padding-top: 140px; }
@@ -2771,9 +2760,8 @@ div.boxed {
 */
 /*   - - - - - - - .calendar specific - - - - - - -   */
 .calendar #page-banner {
-  background: none;
-  background: #c35d29;
-  background: #f58345; }
+  background: #f58345;
+  height: 100px; }
 
 .calendar #page-banner .container {
   background: none; }
@@ -2808,6 +2796,7 @@ div.boxed {
   text-align: center; }
 
 .calendar #page-content a {
+  display: inline-flex;
   color: #da7939; }
 
 .calendar #page-content .monthLinks a {
@@ -2859,7 +2848,7 @@ div.boxed {
 .calendar .overview p {
   font-size: .9em; }
 
-.calendar .event .seven
+.calendar .event .seven,
 .calendar .event .one {
   margin-right: 0; }
 
@@ -3058,8 +3047,7 @@ div.boxed {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
-  background-color: #a6bee0; }
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat; }
 
 .pro h2.page-title {
   color: #176eb5; }
@@ -3183,7 +3171,6 @@ ul.alpha-in-page li a {
   #action .buttons a.actions {
     width: 100%; } }
 #slider {
-  position: relative;
   height: 390px;
   /* header + main-menu + slider = 80+50+260   */
   width: 100%;
@@ -3384,8 +3371,7 @@ ul.alpha-in-page li a {
    left: 200px;*/
   position: relative;
   width: 960px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
   /* change margin-bottom in screen.css line 105 to push the caption away from the bottom.
      using bottom:50px messes things up */ }
 
@@ -3762,7 +3748,7 @@ ul.slides .container.flex-caption {
   #page-banner,
   #page-banner .container,
   .about #page-banner,
-  .about #page-banner .container
+  .about #page-banner .container,
   .about.landing #page-banner,
   .about.landing #page-banner .container,
   .admissions #page-banner,
@@ -3780,7 +3766,7 @@ ul.slides .container.flex-caption {
   #page-banner,
   #page-banner .container,
   .about #page-banner,
-  .about #page-banner .container
+  .about #page-banner .container,
   .about.landing #page-banner,
   .about.landing #page-banner .container,
   .admissions #page-banner,

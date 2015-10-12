@@ -54,7 +54,6 @@
   #action .buttons a.actions {
     width: 100%; } }
 #slider {
-  position: relative;
   height: 390px;
   /* header + main-menu + slider = 80+50+260   */
   width: 100%;
@@ -255,8 +254,7 @@
    left: 200px;*/
   position: relative;
   width: 960px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
   /* change margin-bottom in screen.css line 105 to push the caption away from the bottom.
      using bottom:50px messes things up */ }
 

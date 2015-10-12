@@ -290,8 +290,7 @@
   float: left;
   margin-top: 0;
   color: #fff;
-  font: 85% "Open Sans", sans-serif;
-  margin-top: 0; }
+  font: 85% "Open Sans", sans-serif; }
 
 .menu-button {
   padding: 10px 11px 5px;
@@ -478,7 +477,6 @@
     background: transparent; }
 
   .item-with-ul ul div.columns, .item-with-ul ul div.columns p, .item-with-ul ul div.columns a {
-    background-color: inherit;
     border: none;
     background: transparent; }
 
@@ -689,7 +687,7 @@
           padding: 0;
           line-height: 1.2em;
           font-size: 1em;
-          font-weigth: normal; }
+          font-weight: normal; }
           nav.mainmenu .flexnav > li > ul p a {
             margin: 0;
             padding: 0;

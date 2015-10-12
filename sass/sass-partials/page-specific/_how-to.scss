@@ -18,7 +18,7 @@
     width: 160px;
     height: 245px; /* TOTAL height: 245px; */
     padding: 0;
-    background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat;
+    background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0 bottom no-repeat;
     font-weight: bold;
     font-size: 1.2em;
     color: rgb(204, 204, 204);
@@ -26,7 +26,7 @@
 
 .howto #course-description .nav li.nav-one a {
     /* Compare Programs */
-    background-position: 0px bottom;
+    background-position: 0 bottom;
     height: 105px; /* TOTAL height: 245px; */
     padding-top: 140px;
 }

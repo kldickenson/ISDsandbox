@@ -16,8 +16,8 @@
     color: #176eb5;
 }
 
-#sidebar div,
-.sidebar div {
+#sidebar div:not(.clear),
+.sidebar div:not(.clear) {
     margin-bottom: 20px;
 }
 

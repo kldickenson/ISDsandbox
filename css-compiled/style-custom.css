@@ -35,8 +35,6 @@
         #breadcrumbs ul.social-media li a#interC span {
           display: block;
           text-indent: -9999px; }
-      #breadcrumbs ul.social-media li .chicklets {
-        text-indent: 999px; }
       #breadcrumbs ul.social-media li div {
         display: none; }
 
@@ -82,8 +80,8 @@
   line-height: 1em;
   color: #176eb5; }
 
-#sidebar div,
-.sidebar div {
+#sidebar div:not(.clear),
+.sidebar div:not(.clear) {
   margin-bottom: 20px; }
 
 /* - - - - - Sidebar Submenu styling found in menus/_sidebar-submenu.scss - - - - - */
@@ -401,10 +399,8 @@
     .promo.kata-facebook {
       text-align: center; }
     .promo.learning-objectives {
-      margin-top: 30px;
-      padding: 0;
-      padding-bottom: 10px;
-      background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/portfolio-bg.jpg"); }
+      margin-top: 0;
+      padding: 5px 0; }
       .promo.learning-objectives img {
         display: none; }
       .promo.learning-objectives h4 {
@@ -450,7 +446,7 @@
       margin-bottom: 0; }
     div.brochure p {
       color: #176EB5; }
-    div.brochure stong {
+    div.brochure strong {
       color: #176EB5; } }
 /*
 NEW:
@@ -460,7 +456,7 @@ NEW:
 	</div>
 	<div class="three columns alpha omega">
 		<p>The Lean Leadership workshop facilitated by Drew Locher provides a systematic way to guide Leaders through becoming Lean Thinkers and Lean Leaders. The combination of instruction and practical application help both new and experienced leaders work through Lean tools, like Leader Standard work, in small understandable bites.</p>
-		<p><em>—Danette Conley, Lean Director, Zodiac Aerospace</em></p>
+		<p><em>ΓÇöDanette Conley, Lean Director, Zodiac Aerospace</em></p>
 	</div>
 	<div class="one column omega">
 		<img src="http://confluence.engin.umich.edu/download/attachments/21103180/right-quote-icon.png" alt="right quotation mark" border="0">
@@ -590,7 +586,7 @@ NEW:
 
 .accordion {
   overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   background: #f7f7f7; }
 
@@ -668,8 +664,8 @@ h3.mobile-title {
 .arrow {
   width: 20px;
   position: absolute;
-  right: 0;
-  top: 3px;
+  right: 10px;
+  top: 8px;
   z-index: 5;
   background: transparent url(https://confluence.engin.umich.edu/download/attachments/30508410/icon-arrow-blue.png) right 50% no-repeat; }
   .active .arrow {
@@ -689,8 +685,9 @@ a.accordion-section-title {
 /*----- Section Content -----*/
 div.accordion-section-content {
   padding: 10px;
-  margin-bottom: 0; }
-  div.accordion-section-content columns {
+  margin-bottom: 0;
+  margin-top: 15px; }
+  div.accordion-section-content .columns {
     width: 100%; }
 
 /*.mobile-title {
@@ -1066,14 +1063,14 @@ div.accordion-section-content {
   height: 245px;
   /* TOTAL height: 245px; */
   padding: 0;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0 bottom no-repeat;
   font-weight: bold;
   font-size: 1.2em;
   color: #cccccc; }
 
 .howto #course-description .nav li.nav-one a {
   /* Compare Programs */
-  background-position: 0px bottom;
+  background-position: 0 bottom;
   height: 105px;
   /* TOTAL height: 245px; */
   padding-top: 140px; }
@@ -1208,9 +1205,8 @@ div.accordion-section-content {
 */
 /*   - - - - - - - .calendar specific - - - - - - -   */
 .calendar #page-banner {
-  background: none;
-  background: #c35d29;
-  background: #f58345; }
+  background: #f58345;
+  height: 100px; }
 
 .calendar #page-banner .container {
   background: none; }
@@ -1245,6 +1241,7 @@ div.accordion-section-content {
   text-align: center; }
 
 .calendar #page-content a {
+  display: inline-flex;
   color: #da7939; }
 
 .calendar #page-content .monthLinks a {
@@ -1296,7 +1293,7 @@ div.accordion-section-content {
 .calendar .overview p {
   font-size: .9em; }
 
-.calendar .event .seven
+.calendar .event .seven,
 .calendar .event .one {
   margin-right: 0; }
 
@@ -1495,8 +1492,7 @@ div.accordion-section-content {
 */
 /*   - - - - - - - .pro program specific - - - - - - -   */
 .pro #page-banner {
-  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat;
-  background-color: #a6bee0; }
+  background: #a6bee0 url("//confluence.engin.umich.edu/download/attachments/30508410/title-ribbon-bg.jpg") 50% 50% no-repeat; }
 
 .pro h2.page-title {
   color: #176eb5; }
@@ -1629,7 +1625,7 @@ ul.alpha-in-page li a {
   #page-banner,
   #page-banner .container,
   .about #page-banner,
-  .about #page-banner .container
+  .about #page-banner .container,
   .about.landing #page-banner,
   .about.landing #page-banner .container,
   .admissions #page-banner,
@@ -1647,7 +1643,7 @@ ul.alpha-in-page li a {
   #page-banner,
   #page-banner .container,
   .about #page-banner,
-  .about #page-banner .container
+  .about #page-banner .container,
   .about.landing #page-banner,
   .about.landing #page-banner .container,
   .admissions #page-banner,
