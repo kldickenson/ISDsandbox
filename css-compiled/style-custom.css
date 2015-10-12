@@ -285,12 +285,12 @@
     padding: 0 0 0 10px; }
   .promo a.slider2button.small.blue {
     background-color: #5082b9;
-    margin: 0px 0 20px 10px;
+    margin: 0 0 20px 10px;
     color: #ffffff; }
   .promo div.banner {
     position: relative;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding: 15px 0 5px 0;
     background-color: #176eb5; }
   .promo img {
@@ -341,7 +341,7 @@
       padding-top: 15px;
       padding-bottom: 5px;
       background-color: transparent;
-      margin-bottom: 0px; }
+      margin-bottom: 0; }
     .promo h3, .promo h4 {
       margin-top: 20px;
       margin-bottom: 10px;
@@ -469,7 +469,7 @@ NEW:
 </div>
 */
 .quotes {
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 30px; }
   .quotes p {
     font-size: 14px;
@@ -481,10 +481,10 @@ NEW:
     display: none; } }
 /* - - - For Course Overview / Introduction including embedded video - - - */
 #course-overview {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px; }
+  padding-top: 0;
+  padding-bottom: 0; }
   #course-overview .row {
     background: none; }
   #course-overview h3 {
@@ -512,7 +512,7 @@ NEW:
   #agenda .row a.slider2button.medium.blue {
     float: right;
     background-color: #5082b9;
-    margin-top: 0px;
+    margin-top: 0;
     color: #ffffff; }
   #agenda h3 {
     margin-bottom: 0;
@@ -522,13 +522,13 @@ NEW:
     margin-top: 5px;
     margin-bottom: 5px; }
   #agenda h6 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-weight: normal;
     font-size: 1em;
     color: #176eb5; }
   #agenda p {
     color: #176eb5;
-    margin-bottom: 0px; }
+    margin-bottom: 0; }
     #agenda p.icon {
       color: #176eb5;
       margin-bottom: 5px;
@@ -590,7 +590,7 @@ NEW:
 
 .accordion {
   overflow: hidden;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   background: #f7f7f7; }
 
@@ -650,7 +650,7 @@ h3.mobile-title {
   div.promo h3.mobile-title {
     margin: 0; }
   #pricing h3.mobile-title {
-    background-position: 5px 0px; }
+    background-position: 5px 0; }
   #course-overview h3.mobile-title {
     background-position: 5px -40px; }
   #agenda h3.mobile-title {
@@ -1553,8 +1553,8 @@ div.directory dd {
   font-size: .9em;
   margin-bottom: 1px;
   text-indent: 0;
-  margin-left: 0px;
-  padding-left: 0px;
+  margin-left: 0;
+  padding-left: 0;
   line-height: 1.2em; }
 
 div.directory dd a:link, a:active, a:visited {
