@@ -25,7 +25,17 @@
 	opacity: 1.0;	
 }
 
-/* - - - - Upcoming register button issues - - - - */
+
+/* - - - - Upcoming register button issues -- TO BE ADDED TO _upcoming.scss - - - - */
+
+/* to take care of class name needing indentation in mobile view */
+@media only screen and (max-width: 767px) {
+	#upcoming ul.ilr li.item div.five.columns.omega {
+		padding-left: 10px; 
+	}
+}
+
+/* the rest is for all screen sizes */
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
 }
@@ -34,20 +44,19 @@
 	background: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-blue.png") top right no-repeat;
 	cursor: pointer;
 }
-
 #upcoming ul.ilr li.item a.register-link:visited,
 #upcoming ul.ilr li.item a.register-link:hover, 
 #upcoming ul.ilr li.item a.register-link:focus,
 #upcoming ul.ilr li.item a.register-link:active,
 #upcoming ul.ilr li.item a.register-link.touch
- {
+{
     color: #ffcf01;
     background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png");
 	cursor: pointer;
 }
 
 
-/* - - - - - For mobile menu open/close icon rotations - - - - - - */
+/* - - - - - For mobile menu open/close icon rotations -- TO BE ADDED TO _mega-menu-customization.scss - - - - - - */
 .flexnav > li .touch-button .navicon {
 	display: inline-block;	
     -ms-transform: rotate(-90deg); /* IE 9 */
@@ -69,16 +78,6 @@
 	max-height: 4000px;
 }
 
-
-/* - - - - - For iPhone iframe scroll - - - - - - */
-#sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;	
-}
-#sb-body-inner 	iframe {
-	height: 100%;
-	min-height: 550px;
-}
 
 /* - - - - - For How To: spacing of text "Current Programs" and "Time Committment" above icons - - - - - - */
 .howto #course-description .nav li {
