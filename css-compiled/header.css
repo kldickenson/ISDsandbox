@@ -69,6 +69,8 @@
   height: 20px;
   /* TOTAL height: 40px; */
   padding-top: 20px; }
+  #isd-logo img {
+    margin-left: 12px; }
 
 #adBlock,
 .gsc-adBlock {
