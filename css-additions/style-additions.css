@@ -29,6 +29,9 @@
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
 }
+#upcoming ul.ilr li.item .class-name {
+	padding-left: 10px; 
+}
 #upcoming ul.ilr li.item a.register-link:link {
 	color: #fff;
 	background: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-blue.png") top right no-repeat;
