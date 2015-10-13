@@ -1,9 +1,7 @@
 /*   - - - - - - - .calendar specific - - - - - - -   */
 .calendar #page-banner {
-    background: none;
-    background: rgb(195, 93, 41);
     background: rgb(245, 131, 69);
-//    height: 100px;
+    height: 100px;
 }
 
 .calendar #page-banner .container {
@@ -50,6 +48,7 @@
 }
 
 .calendar #page-content a {
+    display: inline-flex;
     color: rgb(218, 121, 57);
 }
 
@@ -112,7 +111,7 @@
     font-size: .9em;
 }
 
-.calendar .event .seven
+.calendar .event .seven,
 .calendar .event .one {
     margin-right: 0;
 }

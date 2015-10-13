@@ -241,7 +241,6 @@ h2.page-title span {
     /* TOTAL height: 250px; */ }
 
   .short #page-banner {
-    height: inherit;
     min-height: 87px;
     height: 100px; }
     .short #page-banner h2.page-title {

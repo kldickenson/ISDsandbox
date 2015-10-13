@@ -9,7 +9,6 @@
     margin-top: 0;
     color: #fff;
     font: 85% $font-family;
-    margin-top: 0;
   }
 
   .menu-button {
@@ -257,7 +256,6 @@
   }
 
   .item-with-ul ul div.columns, .item-with-ul ul div.columns p, .item-with-ul ul div.columns a {
-    background-color: inherit;
     border: none;
     background: transparent;
   }
@@ -587,7 +585,7 @@
             padding: 0;
             line-height: 1.2em;
             font-size: 1em;
-            font-weigth: normal;
+            font-weight: normal;
 
             a   {
               margin: 0;
