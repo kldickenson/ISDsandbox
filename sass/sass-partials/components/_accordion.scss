@@ -7,7 +7,7 @@
 
 .accordion {
 	overflow:hidden;
-	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	box-shadow:0 1px 3px rgba(0,0,0,0.25);
 	border-radius:3px;
 	background:#f7f7f7;
 }
@@ -50,6 +50,13 @@
 //@media all and (max-width: 765px) {
 
 	/*----- Accordion -----*/
+    #page-content div.mobile-accordion a {
+          color: #176eb5;
+
+        h3 {
+          margin: 0;
+        }
+    }
 	.mobile-accordion, .mobile-accordion * {
 		-webkit-box-sizing:border-box; 
 		-moz-box-sizing:border-box; 
@@ -61,8 +68,9 @@
 		border-radius: 0;
 		border-bottom: 1.5px solid #e7e6e3;
     	box-shadow: inset 0 1px 0 #fcfcfc;
-		background: transparent;
+		background: transparent none;
 		min-height: 40px;
+        height: auto;
 		padding: 5px 0;
 		margin: 0;
 
@@ -70,7 +78,7 @@
 			background: #fff;
 		}
 	}
-	
+
 	div#course-overview, div#agenda, div.instructors {
 		padding: 5px 0;
 		margin: 0;

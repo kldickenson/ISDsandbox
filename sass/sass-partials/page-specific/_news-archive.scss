@@ -1,9 +1,42 @@
 /*   - - - - - - news article archive specific - - - - - - */
 
-.article-archive .dateBg {
+.article-archive {
+  position: relative;
+  margin-top: -25px;
+
+  .dateBg {
     display: block;
     font-size: 2em;
     color: rgb(31, 110, 180);
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+
+  #filter_box {
+    width: 100%;
+    float: left;
+    background-color: inherit;
+
+    input#textFilter {
+      float: right;
+    }
+  }
+}
+
+#rss-feed {
+  position: absolute;
+  right: 5px;
+  top: -50px;
+
+  img {
+    vertical-align: bottom;
+  }
+}
+
+.article-list {
+  position: relative;
+
+  #rss-feed {
+    top: -55px;
+  }
 }

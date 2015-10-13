@@ -2,6 +2,9 @@
   #main-menu  {
     background-color: $color-menu-dark;
     height: 50px !important;
+    .flexnav > li ul li {
+      list-style: none;
+    }
   }
 
   .mainmenu   {
@@ -43,6 +46,8 @@
       height: 25px;
       margin-right: 10px;
       vertical-align: top;
+      background-image: none;
+      opacity: 1.0;
 
       img {
         height: 25px;
@@ -53,6 +58,9 @@
   .flexnav {
     margin: 0;
     padding: 0;
+    &.flexnav-show {
+      max-height: 4000px;
+    }
     /* First level */
     > li {
       margin-bottom: 0;
@@ -72,6 +80,15 @@
           color: #fff;
           top: 1.1em;
           left: -5px;
+          display: inline-block;
+          -ms-transform: rotate(-90deg); /* IE 9 */
+          -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+          transform: rotate(-90deg);
+        }
+        &.active .navicon {
+          -ms-transform: rotate(0deg); /* IE 9 */
+          -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+          transform: rotate(0deg);
         }
       }
       &.about   {
