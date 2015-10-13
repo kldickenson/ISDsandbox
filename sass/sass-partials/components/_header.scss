@@ -31,3 +31,12 @@
 .gsc-adBlock {
     display: none;
 }
+
+@media only screen and (max-width: 400px) {
+	#isd-logo {
+		width: 100%;
+	}
+	#isd-logo img {
+		width: 90%; /* to force logo to fit on screen and not be cut off on the right side */
+	}
+}

@@ -151,8 +151,7 @@
   padding: 0; }
   #upcoming ul.ilr li.item {
     padding: 10px 0;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
     background-color: #0b66bc;
     font-size: .9em;
     line-height: 1.3em;
@@ -169,7 +168,8 @@
     #upcoming ul.ilr li.item div.status {
       float: right;
       color: #fff;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-top: 10px; }
     #upcoming ul.ilr li.item a {
       display: block;
       float: right;
@@ -178,10 +178,14 @@
       padding: 2px 25px 2px 0;
       background: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-blue.png") top right no-repeat;
       text-align: right;
-      color: #fff; }
+      color: #fff;
+      cursor: pointer; }
       #upcoming ul.ilr li.item a:hover, #upcoming ul.ilr li.item a:focus {
         text-decoration: none;
         color: yellow;
+        background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png"); }
+      #upcoming ul.ilr li.item a.register-link:visited, #upcoming ul.ilr li.item a.register-link:hover, #upcoming ul.ilr li.item a.register-link:focus, #upcoming ul.ilr li.item a.register-link:active, #upcoming ul.ilr li.item a.register-link.touch {
+        color: #ffcf01;
         background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png"); }
     #upcoming ul.ilr li.item.soldout {
       background-color: #e7e7e7; }
@@ -204,7 +208,11 @@
     margin-left: 10px; }
   #upcoming li.item div.columns.two {
     width: 35%;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+
+  /* to take care of class name needing indentation in mobile view */
+  #upcoming ul.ilr li.item div.five.columns.omega {
+    padding-left: 10px; } }
 #pricing {
   background: #fff;
   padding: 10px 0;
@@ -609,6 +617,11 @@ NEW:
 /* - - - - - - - - ISD Customization - - - - - - - - */
 /* Cannot remove media queries until accordion.js is fixed */
 /*----- Accordion -----*/
+#page-content div.mobile-accordion a {
+  color: #176eb5; }
+  #page-content div.mobile-accordion a h3 {
+    margin: 0; }
+
 .mobile-accordion, .mobile-accordion * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -619,8 +632,9 @@ div.mobile-accordion {
   border-radius: 0;
   border-bottom: 1.5px solid #e7e6e3;
   box-shadow: inset 0 1px 0 #fcfcfc;
-  background: transparent;
+  background: transparent none;
   min-height: 40px;
+  height: auto;
   padding: 5px 0;
   margin: 0; }
   div.mobile-accordion.active {
@@ -1341,12 +1355,33 @@ div.accordion-section-content {
     .calendar #page-banner .container img {
       display: none; } }
 /*   - - - - - - news article archive specific - - - - - - */
-.article-archive .dateBg {
-  display: block;
-  font-size: 2em;
-  color: #1f6eb4;
-  margin-top: 40px;
-  margin-bottom: 20px; }
+.article-archive {
+  position: relative;
+  margin-top: -25px; }
+  .article-archive .dateBg {
+    display: block;
+    font-size: 2em;
+    color: #1f6eb4;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .article-archive #filter_box {
+    width: 100%;
+    float: left;
+    background-color: inherit; }
+    .article-archive #filter_box input#textFilter {
+      float: right; }
+
+#rss-feed {
+  position: absolute;
+  right: 5px;
+  top: -50px; }
+  #rss-feed img {
+    vertical-align: bottom; }
+
+.article-list {
+  position: relative; }
+  .article-list #rss-feed {
+    top: -55px; }
 
 /*   - - - - - - - .admissions program specific - - - - - - -   */
 .admissions #page-banner {
