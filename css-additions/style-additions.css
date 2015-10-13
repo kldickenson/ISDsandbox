@@ -25,25 +25,31 @@
 	opacity: 1.0;	
 }
 
+
 /* - - - - Upcoming register button issues - - - - */
+
+/* to take care of class name needing indentation in mobile view */
+@media only screen and (max-width: 767px) {
+	#upcoming ul.ilr li.item div.five.columns.omega {
+		padding-left: 10px; 
+	}
+}
+
+/* the rest is for all screen sizes */
 #upcoming ul.ilr li.item div.status {
 	margin-top:10px;
-}
-#upcoming ul.ilr li.item div.five.columns.omega {
-	padding-left: 10px; 
 }
 #upcoming ul.ilr li.item a.register-link:link {
 	color: #fff;
 	background: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-blue.png") top right no-repeat;
 	cursor: pointer;
 }
-
 #upcoming ul.ilr li.item a.register-link:visited,
 #upcoming ul.ilr li.item a.register-link:hover, 
 #upcoming ul.ilr li.item a.register-link:focus,
 #upcoming ul.ilr li.item a.register-link:active,
 #upcoming ul.ilr li.item a.register-link.touch
- {
+{
     color: #ffcf01;
     background-image: url("//confluence.engin.umich.edu/download/attachments/30508410/register-icons-yellow.png");
 	cursor: pointer;
