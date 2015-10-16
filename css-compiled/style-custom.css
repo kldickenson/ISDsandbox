@@ -1107,13 +1107,13 @@ div.accordion-section-content {
   background-position: 0 top;
   height: 140px;
   /* TOTAL height: 255px; */
-  padding-top: 115px;
+  padding-top: 94px;
   color: #1f6eb4; }
 
 .howto #course-description .nav li.nav-one a.current,
 .howto #course-description .nav li.nav-one:hover a,
 .howto #course-description .nav li.nav-one:focus a {
-  padding-top: 100px; }
+  padding-top: 94px; }
 
 /* Delivery */
 .howto #course-description .nav li.nav-two {
@@ -1128,21 +1128,21 @@ div.accordion-section-content {
   background-position: -180px bottom;
   height: 105px;
   /* TOTAL height: 245px; */
-  padding-top: 135px; }
+  padding-top: 125px; }
 
 .howto #course-description .nav li.nav-two a:hover,
 .howto #course-description .nav li.nav-two a.current {
   margin-top: 0;
   height: 140px;
   /* TOTAL height: 255px; */
-  padding-top: 117px;
+  padding-top: 107px;
   background-position: -180px top;
   color: #1f6eb4; }
 
 .howto #course-description .nav li.nav-two a.current,
 .howto #course-description .nav li.nav-two:hover a,
 .howto #course-description .nav li.nav-two:focus a {
-  padding-top: 117px; }
+  padding-top: 107px; }
 
 /* Time Commitment */
 .howto #course-description .nav li.nav-three {
