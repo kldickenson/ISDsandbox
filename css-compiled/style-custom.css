@@ -1068,26 +1068,37 @@ div.accordion-section-content {
   margin-left: 75px; }
 
 .howto #course-description .nav li {
-  margin-left: 30px; }
+  margin-left: 30px;
+  height: 240px;
+  padding: 0;
+  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0px bottom no-repeat; }
 
 .howto #course-description .nav li a {
   text-transform: capitalize;
-  margin-top: 10px;
+  margin: 0;
   width: 160px;
-  height: 245px;
-  /* TOTAL height: 245px; */
-  padding: 0;
-  background: transparent url("//confluence.engin.umich.edu/download/attachments/21103180/icons-howtogetstarted.png") 0 bottom no-repeat;
+  height: inherit;
+  /* TOTAL height: 160px; */
+  padding: 125px 0 0 0;
+  background: none;
   font-weight: bold;
   font-size: 1.2em;
   color: #cccccc; }
 
+/* Compare Programs */
+.howto #course-description .nav li.nav-one {
+  background-position: 0 bottom; }
+
+.howto #course-description .nav li.nav-one.current,
+.howto #course-description .nav li.nav-one:hover,
+.howto #course-description .nav li.nav-one:focus {
+  background-position: 0 top; }
+
 .howto #course-description .nav li.nav-one a {
-  /* Compare Programs */
   background-position: 0 bottom;
-  height: 105px;
+  height: 110px;
   /* TOTAL height: 245px; */
-  padding-top: 140px; }
+  padding-top: 110px; }
 
 .howto #course-description .nav li.nav-one a:hover,
 .howto #course-description .nav li.nav-one a.current {
@@ -1099,29 +1110,49 @@ div.accordion-section-content {
   padding-top: 115px;
   color: #1f6eb4; }
 
+.howto #course-description .nav li.nav-one a.current,
+.howto #course-description .nav li.nav-one:hover a,
+.howto #course-description .nav li.nav-one:focus a {
+  padding-top: 100px; }
+
+/* Delivery */
+.howto #course-description .nav li.nav-two {
+  background-position: -180px bottom; }
+
+.howto #course-description .nav li.nav-two.current,
+.howto #course-description .nav li.nav-two:hover,
+.howto #course-description .nav li.nav-two:focus {
+  background-position: -180px top; }
+
 .howto #course-description .nav li.nav-two a {
-  /* Delivery */
   background-position: -180px bottom;
   height: 105px;
   /* TOTAL height: 245px; */
-  padding-top: 140px; }
+  padding-top: 135px; }
 
 .howto #course-description .nav li.nav-two a:hover,
 .howto #course-description .nav li.nav-two a.current {
-  /* Delivery */
   margin-top: 0;
   height: 140px;
   /* TOTAL height: 255px; */
-  padding-top: 115px;
+  padding-top: 117px;
   background-position: -180px top;
   color: #1f6eb4; }
 
+.howto #course-description .nav li.nav-two a.current,
+.howto #course-description .nav li.nav-two:hover a,
+.howto #course-description .nav li.nav-two:focus a {
+  padding-top: 117px; }
+
+/* Time Commitment */
+.howto #course-description .nav li.nav-three {
+  background-position: -360px bottom; }
+
 .howto #course-description .nav li.nav-three a {
-  /* Time Commitment */
   background-position: -360px bottom;
   height: 105px;
   /* TOTAL height: 245px; */
-  padding-top: 140px; }
+  padding-top: 116px; }
 
 .howto #course-description .nav li.nav-three a:hover,
 .howto #course-description .nav li.nav-three a.current {
@@ -1129,16 +1160,34 @@ div.accordion-section-content {
   margin-top: 0;
   height: 140px;
   /* TOTAL height: 255px; */
-  padding-top: 115px;
+  padding-top: 97px;
   background-position: -360px top;
   color: #1f6eb4; }
 
+.howto #course-description .nav li.nav-three.current,
+.howto #course-description .nav li.nav-three:hover,
+.howto #course-description .nav li.nav-three:focus {
+  background-position: -360px top; }
+
+.howto #course-description .nav li.nav-three a.current,
+.howto #course-description .nav li.nav-three:hover a,
+.howto #course-description .nav li.nav-three:focus a {
+  padding-top: 97px; }
+
+/* Tuition & Financial Aid */
+.howto #course-description .nav li.nav-four {
+  background-position: -540px bottom; }
+
+.howto #course-description .nav li.nav-four.current,
+.howto #course-description .nav li.nav-four:hover,
+.howto #course-description .nav li.nav-four:focus {
+  background-position: -540px top; }
+
 .howto #course-description .nav li.nav-four a {
-  /* Tuition & Financial Aid */
   background-position: -540px bottom;
   height: 120px;
   /* TOTAL height: 245px; */
-  padding-top: 125px; }
+  padding-top: 115px; }
 
 .howto #course-description .nav li.nav-four a:hover,
 .howto #course-description .nav li.nav-four a.current {
@@ -1149,6 +1198,11 @@ div.accordion-section-content {
   padding-top: 95px;
   background-position: -540px top;
   color: #1f6eb4; }
+
+.howto #course-description .nav li.nav-four a.current,
+.howto #course-description .nav li.nav-four:hover a,
+.howto #course-description .nav li.nav-four:focus a {
+  padding-top: 97px; }
 
 .howto #course-description .list-wrap {
   margin-top: 0;
